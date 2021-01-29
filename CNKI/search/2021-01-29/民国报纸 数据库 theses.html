@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><script type="text/javascript" async="" defer="defer" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/piwik.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="always">
+    <title>Search-CNKI</title>
+    <link rel="stylesheet" type="text/css" href="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/kindex.css">
+    <link rel="stylesheet" type="text/css" href="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/public.css">
+    <link rel="stylesheet" type="text/css" href="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/layout.css">
+    <link rel="stylesheet" type="text/css" href="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/layer.css">
+    <script type="text/javascript">
+        var APPPATH = '/kns';
+    </script><style>@media print {#ghostery-tracker-tally {display:none !important}}</style>
+<link href="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/TopLogin.css" rel="stylesheet"></head>
+<body class="rootw">
+    <input id="isoversea" name="isoversea" type="hidden" value="1">
+    <input id="hidVirtualPath" name="hidVirtualPath" type="hidden" value="/kns">
+    <input id="KPCAPIPATH" name="KPCAPIPATH" type="hidden" value="//oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KPCAPI">
+    <input id="OverSeaURL" name="OverSeaURL" type="hidden" value="">
+    <input id="RecommendApi" name="RecommendApi" type="hidden" value="/RecommendApi">
+    <input id="KPCPATH" name="KPCPATH" type="hidden" value="//oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KPC">
+    <input id="RecommAPI" name="RecommAPI" type="hidden" value="//recom-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/api/">
+    <input id="RecSysAPI" name="RecSysAPI" type="hidden" value="//recsys-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/RCDService/">
+    <input id="IsRecSys" name="IsRecSys" type="hidden" value="0">
+    <script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/jQuery-1.js"></script>
+
+<script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/topen.js"></script><script>var lang='en-US'</script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/jquery-1.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/jquery.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/jquery_002.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/json2-min.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/topLogin.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/jquery_003.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/login_002.js"></script><script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/resource.js"></script> <div class="ecp_top-nav">     <div class="ecp_tn-header">         <div class="ecp_tn-nav">             <div class="ecp_tn-title">                                                    <!--<a id='Ecp_header_Map' class='ecp_tn-tab' target='_blank' href=''><i>Site Map</i></a>-->                 <a id="oldversion" class="ecp_tn-tab" target="_blank" href="http://eng-1oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns55/default.aspx"><i>Old Version</i></a><a id="Ecp_header_Help" class="ecp_tn-tab" target="_blank" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/index/en/en-manual.html"><i>Help Center</i></a><div class="ecp_tn-title" id="searchset" style="display: none;">   <a class="ecp_tn-tab" onclick="searchSet()" href="javascript:void(0)"><i>Search Options</i></a>  </div><span class="mycnki topItem" id="spanmycnki"><a id="link_mycnki" class="ecp_tn-tab" href="javascript:void(0);" onclick="setmycnkiclass()">Personal Library<i class="ecp_tn-arrow"></i></a><div id="pop_mycnki" class="topItemPop mycnkipop" style="display:none;"><a class="close" href="javascript:void(0)" onclick="$(this).parent().hide()">x</a><div class="klogin_fr"><ul class="mlist"><li><a href="javascript:void(0)" onclick="openKpc()">Enter <b>Personal Library</b> &gt;&gt;</a></li><li><a href="javascript:void(0)" onclick="openKpc('fav_paper')" target="_parent">My Favorite</a></li><li><a href="javascript:void(0)" onclick="openKpc('history_search')" target="_parent">My History</a></li><li><a href="javascript:void(0)" onclick="openKpc('custom')" target="_parent">My Subscription</a></li><li><a href="javascript:void(0)" onclick="openKpc('citationTracking')" target="_parent">CitationTracking</a></li><li><a href="javascript:void(0)" onclick="openKpc('myAchievement')" target="_parent">My Achievement</a></li></ul></div><div class="klogin_fl"><ul class="mlist"><li class="prompt"><span>Sorry, Please login personal account for more information.</span></li></ul></div></div></span><a id="subscribe" class="ecp_tn-tab" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/rss"><i>Subscribed</i></a>             </div>         </div>         <div class="tn-person-r">             <div id="Ecp_top_login_div2" class="ecp_tn-title ecp_tn-title-login">                 <!--登录-->                 <div id="Ecp_top_login" style="display: none;">                     <a class="ecp_tn-tab" href="javascript:void(0);">                         <i>Login<span class="ecp_tn-arrow"></span></i>                     </a>                 </div>                 <!--弹框-->                 <div id="Ecp_top_login_layer" class="tn-topmenulist tn-topmenulist-b Ecp_top_login_layer-my" style="display: none;">                     <div class="outlogin_layerbox_bylx outlogin_layerbox_bylx_anrrow top_login_layer2-my" node-type="box">                         <div>                             <a id="Ecp_top_login_closeLayer" class="layerbox_close" href="javascript:void(0);">×</a>                         </div>                         <div class="layerbox_left">                             <div class="ecp_titletips"></div>                             <p id="Ecp_errorMsg" class="login_error_tips" style="display:none;"></p>                             <ul class="loginformlist">                                 <li class="ndrelativewrap">                                     <input id="Ecp_TextBoxUserName" class="styles" type="text" name="Ecp_TextBoxUserName" placeholder="Please enter username/email /phone number" tabindex="1" maxlength="64">                                     <a class="register_lnk" href="https://o-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/Register/CommonRegister.aspx?lang=en-US" target="_blank">Register a new account</a>                                 </li>                                 <li>                                     <input id="Ecp_TextBoxPwd" class="styles" type="password" name="Ecp_TextBoxPwd" placeholder="Please enter  password" tabindex="2" maxlength="20" autocomplete="off" autocapitalize="none" onkeydown="return Ecp_EnterSubmit(event,this,Ecp_Button1,true);">                                     <a class="forget_Pwd" href="https://o-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/reset/password_reset.html" target="_blank">Forget the password</a>                                 </li>                                 <!--验证码-->                                 <li id="Ecp_CheckCodeLayer" class="loginform_yzm" style="display:none;">                                     <input id="Ecp_CheckCode" placeholder="Verification Code" class="styles" tabindex="3" maxlength="6" autocomplete="off" autocapitalize="none" type="text" onkeydown="return Ecp_EnterSubmit(event, this, Ecp_Button1);">                                     <img id="Ecp_CheckCodeImg" src="" class="ecp_yzm" alt="Click for another one"><a id="Ecp_CheckLink" href="javascript:;" class="reload-code" title="Click for another one">Click for another one</a>                                 </li>                                 <li class="ecp_btn_wrap">                                     <a id="Ecp_Button1" class="ecp_login_btn" href="javascript:void(0);" tabindex="4">Login</a>                                     <a id="Ecp_Button2" class="ecp_login_btn" href="javascript:void(0);" tabindex="5">IP Login</a>                                     <label class="rmb_login" title="Users will automatically login the system next time. You are recommended to use this function on your PC for the account security..">                                         <input class="auto_checkbox" id="rememberMe" type="checkbox" name="rememberMe" autocomplete="off">                                         <span>Automatic login</span>                                     </label>                                 </li>                             </ul>                          </div>                     </div>                 </div>                 <!--退出-->                 <div id="Ecp_top_logout" class="ecp_tn-title" style="">                     <span class="tn-greeting">Welcome</span>                     <a id="Ecp_top_logout_showLayer" class="ecp_tn-tab ecp_tn-tab-user" href="javascript:void(0);">                         <i><em title="" id="Ecp_loginShowName">德国联盟</em><span class="ecp_tn-arrow"></span></i>                     </a>                     <div id="Ecp_top_logout_layer" class="tn-topmenulist tn-topmenulist-a tn-topmenulist-a-user" style="display:none;">                         <ul class="tn-text-list">                             <li><a id="Ecp_MycnkiLink" href="https://o-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/mycnki/loginid2.aspx?uid=WEEvREcwSlJHSldSdmVqelcxUzhKZjl5OXZHQ3BzQWVJVWVOaUtsZlZCST0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!" title="My CNKI" target="_blank" style="display: none;">My CNKI</a></li>                             <li><a id="Ecp_top_logoutClick" href="javascript:void(0);" title="Logout">Logout</a></li>                         </ul>                     </div>                 </div>             </div>             <!--其他-->             <div class="ecp_tn-title" id="Ecp_header_Register" style="display: none;">                 <a class="ecp_tn-tab" target="_blank" href="https://o-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/Register/CommonRegister.aspx?lang=en-US"><i>Register</i></a>             </div>                                                </div>     </div>     <input type="hidden" id="Ecp_LoginUserName">     <input type="hidden" id="Ecp_LoginUid">     <p style="display:none" id="Ecp_ReturnMsg"></p> </div> <!--海外--> <div id="Ecp_top_login_oversea" class="login-modal" style="display:none;">     <div class="login-l pull-left" style="width:483px;">         <div class="ecpover-mask"></div>         <div class="ecpover-modal">             <div class="ecpover-modal-hd">Reminder<a onclick="Ecp_LoginResult();" class="close"></a></div>             <div id="ecpover_select" class="ecpover-modal-bd">                 <p>Your lP is beyond the licensed area of the mainland China.<br>There are <i id="ecp_over_i">j</i> chances of emergency service available in this year, each will last for <i>7</i> days.<!--您今年还可启用<i id='ecp_over_i'>j</i>次应急服务，每次<i>7</i>天。--><br><i>Are you sure you want to use it?</i></p>                 <div class="btns"><a onclick="Ecp_LoginResult();" class="btn btn-cancel">Cancel</a><a id="ecpover_open" class="btn">Access</a></div>                 <div class="ecpover-tip">Users outside mainland China please visit<a href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/" target="_blank"><i> oversea.cnki.net</i> &gt;</a></div>             </div>             <div id="ecpover_close" class="ecpover-modal-bd" style="display:none;">                 <p id="ecpover_p_close">Your lP is beyond the licensed area of the mainland China.<br>Login failed, your chances of emergency services in this year have run out.</p>                 <div class="btns"><a onclick="Ecp_LoginResult();" class="btn">Close</a></div>                 <div class="ecpover-tip">Users outside mainland China please visit<a href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/" target="_blank"><i> oversea.cnki.net</i> &gt;</a></div>             </div>         </div>     </div> </div> <!--海外--> <script>var Ecp_topLoginUrl = 'https://o-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/TopLoginI18N/'; var Ecp_PageStyle = 'header'; var Ecp_Style = '1'; var Ecp_CookieDomain = 'cnki.net'; var Ecp_isAuotIpLogin = '1'</script>
+<script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/Message.js"></script>
+<script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/login.js"></script>
+
+
+
+
+    
+
+
+
+<div class="search-box">
+    <div class="content">
+        <div class="search-left">
+            <div class="logo">
+                <a href="http://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">
+                    <img src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/logo.png" alt="">
+                </a>
+            </div>
+            <!--data-classify-->
+        </div>
+        <!--search-left-->
+        <div class="search-main">
+            <div class="input-box">
+                <div class="sort reopt">
+                    <div class="sort-default">
+                        <span value="SU$%=|">Subject</span>
+                        <i class="icon-sort"></i>
+                        <input type="hidden" id="postfield" value="">
+                        <input type="hidden" id="selectfield" value="SU$%=|" korder="SU">
+                    </div>
+                    
+                    
+
+    
+
+    
+
+    <div class="sort-list">
+                <ul>
+                                                <li class="cur" name="defult" data-val="SU"><a value="SU$%=|">Subject</a></li>
+                            <li data-val="TKA"><a value="TKA$%=|">Title, Keyword and Abstract</a></li>
+                            <li data-val="KY"><a value="KY$=|">Keyword</a></li>
+                            <li data-val="TI"><a value="TI$%=|">Title</a></li>
+                            <li data-val="FT"><a value="FT$%=|">Full Text</a></li>
+                            <li data-val="AU"><a value="AU$=|">Author</a></li>
+                            <li data-val="AF"><a value="AF$%|">Author Affiliation</a></li>
+                            <li data-val="TU"><a value="TU$=|">Supervisor</a></li>
+                            <li data-val="FTU"><a value="FTU$=|">First Supervisor</a></li>
+                            <li data-val="LY"><a value="LY$%|">Degree-awarding Unit</a></li>
+                            <li data-val="FU"><a value="FU$%|">Fund</a></li>
+                            <li data-val="AB"><a value="AB$%=|">Abstract</a></li>
+                            <li data-val="CO"><a value="CO$%=|">Contents</a></li>
+                            <li data-val="RF"><a value="RF$%=|">Reference</a></li>
+                            <li data-val="CLC"><a value="CLC$=|??">Chinese Library Classification</a></li>
+                            <li data-val="XF"><a value="XF$%|">Discipline</a></li>
+                            <li data-val="DOI"><a value="DOI$=|?">DOI</a></li>
+                </ul>
+        
+    </div>
+
+</div>
+                <!--sort-->
+                <input id="txt_search" class="search-input" type="text" autocomplete="off" placeholder="Chinese literature,Foreign literature" value="民国报纸 数据库" maxlength="100">
+                <a class="btn-cleartext" href="javascript:void(0)"></a>
+
+                <input class="search-btn" type="button" value="">
+                <div class="droplist recommend-info is-hide" style="display: none;">
+                    <ul></ul>
+                    <div class="search-page">
+                        <a class="but-l">&lt;</a>
+                        <b>1</b> / <em>10</em>
+                        <a class="but-r">&gt;</a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn-result-search" href="javascript:void(0)">Search in Result</a>
+            <a class="btn-grade-search" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/AdvSearch?dbcode=CDMD" target="_blank">Advanced Search</a>
+            <div class="readvce">
+                <a href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/index/?lival=ele" target="_blank">Element Search&nbsp;&nbsp;＞</a>
+                <a href="http://ref-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/ref" target="_blank">Citation Search&nbsp;&nbsp;＞</a>
+            </div>
+        </div>
+        <!--search-main-->
+    </div>
+</div>
+
+<script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/recommend.js"></script>
+
+<script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/merge_002.js"></script>
+<input id="krs" name="krs" type="hidden" value="//oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KRS">
+<div class="wrapper">
+    
+
+<div class="top-doctype">
+    <div class="content">
+        <input type="hidden" id="isscdb" value="0">
+        <input type="hidden" id="dbcode" value="CDMD">
+        <input type="hidden" id="curCode">
+        <input type="hidden" id="CheckedDB" value="CJFQ,CJFN,CDMD,CIPD,CCND,CYFD,CCJD" data-htime="">
+        <input type="hidden" id="ilr" value="0">
+
+
+
+<div class="all-box">
+    <a data-id="all" dbcode="SCDB" class="all" name="dbcode" href="javascript:void(0)"><span>ALL</span><em></em></a>
+    <div class="switch-ChEn is-hidden">
+        <a class="ch">Chinese</a>
+        <a class="en">Other Languages</a>
+    </div>
+</div>
+<ul class="doctype-menus keji">
+    <li data-id="xsqk" class=""><a href="javascript:void(0)" name="dbcode" dbcode="CJFQ" data-lang="1"><span>Academic Journal</span><em></em></a></li>
+    <li data-id="xwlw" class="haschild cur">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CDFD" prcode="CDMD"><span>Doctoral Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CMFD" prcode="CDMD"><span>Master's Theses</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="hy" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPFD" prcode="CIPD"><span>China Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="IPFD" prcode="CIPD"><span>International Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPVD" prcode="CIPD"><span>Conference Videos</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="baozhi"><a href="javascript:void(0)" name="dbcode" dbcode="CCND"><span>Newspapers</span><em></em></a></li>
+    <li data-id="nj"><a href="javascript:void(0)" name="dbcode" dbcode="CYFD"><span>Yearbooks</span><em></em></a></li>
+
+    <li data-id="ts">
+        <a href="javascript:void(0)" name="dbcode" dbcode="BDZK"><span>Books</span><em></em></a>
+        
+    </li>
+    <li data-id="zl" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCPD" prcode="SCOD"><span>Chinese Patent</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SOPD" prcode="SCOD"><span>International Patent</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="biaozhun" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCSF" prcode="CISD"><span>National Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCHF" prcode="CISD"><span>Industrial Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SMSD" prcode="CISD"><span>Standard Bibliography</span><em></em></a></li>
+            <li><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de//KNS/brief/result.aspx?dbprefix=scef"><span>Corporate Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CVSD" prcode="CISD"><span>Professional Standard</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="cg" class="is-last"><a href="javascript:void(0)" name="dbcode" dbcode="SNAD"><span>Achievements</span><em></em></a></li>
+    <li data-id="cg" class="is-bottom is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="SNAD"><span>Achievements</span><em></em></a></li>
+
+    <li data-id="xsjk" class="is-bottom"><a href="javascript:void(0)" dbcode="CCJD" name="dbcode"><span>Monographic Serials</span><em></em></a></li>
+    <li data-id="gj" class="is-bottom"><a href="javascript:void(0)" dbcode="GXDB_SECTION" name="dbcode"><span>Ancient Books</span><em></em></a></li>
+    <li data-id="flfg" class="is-bottom"><a target="_blank" href="http://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=CLKD" dbcode="CLKLP"><span>Laws and Regulations</span></a></li>
+    <li data-id="zfwj" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=gwkt" dbcode="ZFWJ"><span>Government Documents</span></a></li>
+    <li data-id="kjbg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=kjbg" dbcode="ZFBG"><span>Technical Reports</span></a></li>
+    <li data-id="zfcg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=cgxx" dbcode="ZFCG"><span>Government Procurements</span></a></li>
+    <li data-id="gjs" class="is-bottom"><a target="_blank" href="http://gongjushu-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/rbook/" dbcode="CRFD"><span>Reference Works</span></a></li>
+    <li data-id="tsqk" class="is-bottom"><a href="javascript:void(0)" dbcode="CJFN" name="dbcode"><span>Magazines</span><em></em></a></li>
+</ul>
+
+<ul class="doctype-menus sheke is-hide">
+    <li data-id="xsqk"><a href="javascript:void(0)" name="dbcode" dbcode="CJFQ" data-lang="1"><span>Academic Journal</span><em></em></a></li>
+    <li data-id="xwlw" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CDFD" prcode="CDMD"><span>Doctoral Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CMFD" prcode="CDMD"><span>Master's Theses</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="hy" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPFD" prcode="CIPD"><span>China Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="IPFD" prcode="CIPD"><span>International Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPVD" prcode="CIPD"><span>Conference Videos</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="baozhi"><a href="javascript:void(0)" name="dbcode" dbcode="CCND"><span>Newspapers</span><em></em></a></li>
+    <li data-id="nj"><a href="javascript:void(0)" name="dbcode" dbcode="CYFD"><span>Yearbooks</span><em></em></a></li>
+    <li data-id="ts">
+        <a href="javascript:void(0)" name="dbcode" dbcode="BDZK"><span>Books</span><em></em></a>
+        
+    </li>
+    <li data-id="flfg"><a target="_blank" href="http://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=CLKD" dbcode="CLKLP"><span>Laws and Regulations</span></a></li>
+    <li data-id="gj"><a href="javascript:void(0)" dbcode="GXDB_SECTION" name="dbcode"><span>Ancient Books</span><em></em></a></li>
+
+    <li data-id="zfwj" class="is-last"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=gwkt" dbcode="ZFWJ"><span>Government Documents</span></a></li>
+    <li data-id="zfwj" class="is-bottom is-hide"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=gwkt" dbcode="ZFWJ"><span>Government Documents</span></a></li>
+
+    <li data-id="zl" class="is-bottom haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCPD" prcode="SCOD"><span>Chinese Patent</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SOPD" prcode="SCOD"><span>International Patent</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="biaozhun" class="is-bottom haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCSF" prcode="CISD"><span>National Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCHF" prcode="CISD"><span>Industrial Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SMSD" prcode="CISD"><span>Standard Bibliography</span><em></em></a></li>
+            <li><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de//KNS/brief/result.aspx?dbprefix=scef"><span>Corporate Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CVSD" prcode="CISD"><span>Professional Standard</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="cg" class="is-bottom"><a href="javascript:void(0)" name="dbcode" dbcode="SNAD"><span>Achievements</span><em></em></a></li>
+
+    <li data-id="xsjk" class="is-bottom"><a href="javascript:void(0)" dbcode="CCJD" name="dbcode"><span>Monographic Serials</span><em></em></a></li>
+
+    <li data-id="kjbg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=kjbg" dbcode="ZFBG"><span>Technical Reports</span></a></li>
+    <li data-id="zfcg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=cgxx" dbcode="ZFCG"><span>Government Procurements</span></a></li>
+    <li data-id="gjs" class="is-bottom"><a target="_blank" href="http://gongjushu-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/rbook/" dbcode="CRFD"><span>Reference Works</span></a></li>
+    <li data-id="tsqk" class="is-bottom"><a href="javascript:void(0)" dbcode="CJFN" name="dbcode"><span>Magazines</span><em></em></a></li>
+</ul>
+<a id="more" class="btn-crossDb-search" href="javascript:void(0);" title="More Resources">
+    <i></i>
+</a>
+    </div>
+
+</div>
+
+
+
+
+    <div class="content is-filter-on">
+        <div class="sidebar-filter js-relative">
+            <a class="icon-arrow-filter" style=""><i></i></a>
+            <div id="divGroup" class="sidebar-filter-sort js-condition js-single">
+    
+
+            <dl class=" exp" groupid="1">
+
+                    <dt class="subtit row-a2 sidedh-bar">
+                                <a class="cur" href="javascript:void(0)">Sci &amp; Tech</a>
+                                <a class="" href="javascript:void(0)">Humanity &amp; Social</a>
+                    </dt>
+
+
+                        <dd tit="Sci &amp; Tech" field="人工标识码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <span>No Data</span>
+
+                            </div>
+                        </dd>
+                        <dd tit="Humanity &amp; Social" field="人工标识码" style="display:none;">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <span>No Data</span>
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class=" " groupid="2">
+
+                    <dt class="tit" groupid="2" groupitem="Main"><b>Subjects</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+                        <dt class="subtit row-a2">
+                                <a class="cur" href="javascript:void(0)">Main</a>
+                                <a class="" href="javascript:void(0)">Secondary</a>
+                        </dt>
+
+
+                        <dd tit="Main" field="主要主题" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <span>No Data</span>
+
+                            </div>
+                        </dd>
+                        <dd tit="Secondary" field="次要主题" style="display:none;">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <span>No Data</span>
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="3">
+
+                    <dt class="tit" groupid="3" groupitem="Degree Year"><b>Degree Year</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Degree Year" field="年" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="4">
+
+                    <dt class="tit" groupid="4" groupitem="Degree-Granting Institutions"><b>Degree-Granting Institutions</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Degree-Granting Institutions" field="出版物代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="5">
+
+                    <dt class="tit" groupid="5" groupitem="Disciplines"><b>Disciplines</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Disciplines" field="专题子栏目代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="6">
+
+                    <dt class="tit" groupid="6" groupitem="Supervisors"><b>Supervisors</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Supervisors" field="导师代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="7">
+
+                    <dt class="tit" groupid="7" groupitem="Funds"><b>Funds</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Funds" field="基金代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="8">
+
+                    <dt class="tit" groupid="8" groupitem="Major"><b>Major</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Major" field="学科代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+        <a href="javascript:void(0)" class="btn-visual" groupid="3" tit="年份" field="年" value="" title="Trend of Degree Year" onclick="Visualization.pop.showGroup(event,null, 1,3,'Degree Year','Degree Year'); window.behaviorlog.YearScreen(this); return false;"><i></i>Trend of Degree Year</a>
+
+        <div class="sidebar-filter-btns fixed disableclick">
+            <a class="btn-submit" href="javascript:void(0)" onclick="mutiSelectedGroup()">Confirm</a>
+            <a class="btn-clearall" href="javascript:void(0)">Clear</a>
+        </div>
+
+
+    <script type="text/javascript">
+        //广告-当前检索词
+        if ($(".search-input").val() != undefined || $("#txt_search").val() != undefined || $("input[data-tipid='gradetxt-1']").val() != undefined) {
+            var searchvalue = $("#txt_search").val() || $(".search-input").val() || $("input[data-tipid='gradetxt-1']").val();
+            if ($.trim(searchvalue) != "") {
+                try {
+                    parent.window.adsContainer.loadAds(searchvalue);
+                    parent.window.adsContainer2.loadAds(searchvalue);
+
+                    //关闭广告时，按钮上移
+                    $("#recommend,#recommend2").on("mousedown", ".close a", function () {
+                        filterFn.prototype.filterBtnsMoveTop($("#divGroup"));
+                    });
+                }
+                catch (e) {
+                    $("#recommend").remove();
+                    $("#recommend2").remove();
+                }
+            }
+            else {
+                $("#recommend").remove();
+                $("#recommend2").remove();
+            }
+        } else {
+            $("#recommend").remove();
+            $("#recommend2").remove();
+        }
+
+        if (!window.behaviorlog) {
+            window.behaviorlog = function () { };
+        }
+        else {
+            if (!window.behaviorlog.YearScreen)
+                window.behaviorlogYearScreen = function () { };
+            if (!window.behaviorlog.Screen)
+                window.behaviorlog.Screen = function () { }
+        }
+
+    </script>
+</div>
+        <div class="divLoading" style="width:230px"></div></div>
+        <div class="main fr js-relative">
+            
+            <div class="result-con-l" style="">
+                <div class="search-his-tip">
+                    <span class="tip-range">Search Range：<b class="range"><b>Theses &amp; Dissertations</b></b></span>
+                    <span class="conditions"><a><i>&gt;</i>Subject：民国报纸 数据库</a></span>
+                    <a class="tiphide" onclick="" style="display: none;">×</a>
+                    <input type="hidden" id="scdbfield" value="">
+                    <input type="hidden" id="blankse" value="">
+                </div>
+                <a class="btn-subscribe js-haslogin" href="javascript:void(0)">Subject Customization</a>
+                <a class="btn-search-his" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/manage/history.html?subject=KNS" target="_blank">Search History</a>
+            </div>
+
+            
+            
+<div id="briefBox" style=""><form method="post" name="gridTableForm">
+    <div id="gridTable" class="search-result">
+<p class="no-content" data-val="TotalCount=0"> Sorry, there is no data temporarily, you can try to change the search term.</p>
+    </div>
+    <input id="errorMsgHid" type="hidden" value="">
+    <input id="HandlerIdHid" type="hidden" value="38">
+    <input id="curPageHid" type="hidden" value="1">
+    <input id="isSortHid" type="hidden" value="false">
+    <input id="sqlVal" type="hidden" value="2827E4B6502D871048A4A95C30875FF84BA5CA4462B822B7E5175C5DD99230689144B0954ED704214AC492538B691A8C335BF08C0956EF7ABB497E8BA626104887BCBBDA81F8C16C8924F01563871A7939FA89C6EC3A6065495FD1CB14553E0EFC9D796C41D9FA018F07519606F931BD9C466C95E554E798620C44723EB797095C965F613AADB7A962785F274F26672F163ED5E059E3EF4216C335BE209C2203D25D80B5F7BF5CBF783F03242AEE9A084CC54FDD10F0C53D24423B7F542D424EC2040DC9DE9F3290B8C9EE282DBB7A34DA5A76501CE0C6659DA20BDBF2993565E24572EE88B7985AEE633290C07BBF22A345CDBB0D9F504C2606F3CD8A0592AC5921E369358925609FDFD1A698ABCFFCB360B8C44F8C8006A6763650699A30CE2FC9E30CCC29A2FF6B0674A4A48E3257790ABE4F58FC13EF5A9790F01E6699C400194AB22EABF1074569F742F0DAC081191A2A6432356F8E427DEC14F6CA8E147DB4E2FC77F36938DBFF7AD8E9521882537D0510332127D247300C1B642B70099AAE034FB55AE450B9CBAF1A7078BCB2A0944111824E62412C7FDAF0355BA4459D72D6EFB02A91DA706B3F0D19F2AFF1A774F049AA4491542BB44E2829EE1E82CBD7422BC5A3BDB114EC8128722BC81BF1208B1EEA580C18F0C87A2E868ACE8F6150A4DC137101A5D7E88D508136A4FAD4986696DBEAA53AF8D1A0CCB8368E2FD7DC2F9D5ED9DFF8C5B2FEA6DFCF96365CCA174720CE158C762B2766C88914966D7DAA1D4BEB16D3A235E8DD4D099F0E52408B0E8DAEFAF41FBC43BD73257222DFA774B7DB32BA59B490B78083BAC16066C3463E2EAD9671FA0DF40DABC15FF0FA7D32EF1648A36D35DBEA4C56DA6E4E1C8F2EB9312DDD2BD35A1FBD9EF83EB22D471BDC9F42DC3AE5E546DD786FA390E744795E96AC619BBE1D9E54882BFDBB4B324AC16E6DBFEB429BBE640907B7D73E9E300B111B17DBE8398185F23076E12C5AFACD2500FC03C2D450C8EC842AA62AA905CC99FE4D459E9AD315385FAA6AF12F6028365738C82EEE9F082D21377FD907E9C7E07C7B481EC752343F0D192013FF6C4BC7A3BF57B2C471E377B4E85408F2D966BD09CF3C995B529F02F19E00B2BEA2183367FA493AAEFB3BE83F7A1948FCB48ED671D58308603118269D1FA340F460E2F0098167F61A2A0026654CF8DA2E7E99EB5C44A6A21745DC95CD8515">
+    <input id="pathAnalysisHid" type="hidden" value="http://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/KVisual/ArticleAnalysis/index?">
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        if ('False'=='False') {
+            $("#batchOpsBox .bulkdownload").css("display","none");
+        }
+    });
+   
+</script>
+</div>
+
+            <div class="relevant">
+                <ul class="bottom-commend-list">
+    <li class="rlv-word"><h5>Related Search：</h5>
+<p>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%8A%A5%E5%88%8A" target="_blank" title="报刊">报刊</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E4%B8%AD%E6%96%87%E8%80%81%E6%8A%A5%E7%BA%B8" target="_blank" title="中文老报纸">中文老报纸</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E3%80%8A%E7%94%B3%E6%8A%A5%E3%80%8B" target="_blank" title="《申报》">《申报》</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%B0%91%E5%9B%BD%E5%AD%A6%E6%9C%AF%E6%9C%9F%E5%88%8A" target="_blank" title="民国学术期刊">民国学术期刊</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E8%BF%BD%E5%B4%87%E4%BB%BF%E6%95%88" target="_blank" title="追崇仿效">追崇仿效</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B" target="_blank" title="文献数字对象模型">文献数字对象模型</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E7%85%A7%E6%8E%92%E6%8A%80%E6%9C%AF" target="_blank" title="照排技术">照排技术</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E8%8B%B1%E6%96%87%E5%AD%A6%E6%9C%AF%E7%A0%94%E7%A9%B6" target="_blank" title="英文学术研究">英文学术研究</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F" target="_blank" title="民国时期">民国时期</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E3%80%8A%E7%94%B3%E6%B1%9F%E6%96%B0%E6%8A%A5%E3%80%8B" target="_blank" title="《申江新报》">《申江新报》</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%8A%A5%E7%BA%B8%E5%87%BA%E7%89%88%E7%89%A9" target="_blank" title="报纸出版物">报纸出版物</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%B5%99%E8%A5%BF%E6%97%A5%E6%8A%A5" target="_blank" title="浙西日报">浙西日报</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%8A%A5%E7%BA%B8%E5%8F%91%E5%B1%95%E5%8E%86%E5%8F%B2" target="_blank" title="报纸发展历史">报纸发展历史</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E9%80%9A%E4%BF%97%E7%A7%91%E6%99%AE%E6%9C%9F%E5%88%8A" target="_blank" title="通俗科普期刊">通俗科普期刊</a></span>
+</p></li>
+    <li class="rlv-expert">
+       
+    </li>
+</ul>
+
+            </div>
+        <div class="divLoading" style="width:940px"></div></div>
+    </div>
+</div>
+
+
+<div id="modalBox" style="display:none;">
+	<div class="mask"></div>
+	<div class="visPop">
+		<a href="javascript:void(0);" class="close">X</a>
+		<div class="vpSide">
+			<div class="vpsHd">
+				<label></label>
+			</div>
+			<div class="vpsBd">
+				<div class="reco">
+					<div class="item">
+						<label>Database:</label><span id="item_database">English Articles</span>
+					</div>
+					<div class="item">
+						<label>Search query:</label><span id="item_query">Title</span>
+					</div>
+					<div class="item">
+						<label>Distributed Term:</label><span id="item_group">Title</span>
+					</div>
+				</div>
+                <div class="vpSideShow">
+					<a href="javascript:void(0);" class="vpsHideBar">&lt;&lt;</a>
+				</div>
+				<div class="filt">
+					<div class="dispNum">Display Amount:<span class="sel_cnt"></span></div>
+					<div class="choose"></div>
+				</div>
+				<div class="cont hidden">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="vpSideHide">
+			<a href="javascript:void(0);" class="vpsHideBar"><label></label><i>&gt;&gt;</i></a>
+		</div>
+        <div class="vpMain">
+            <div id="chartbox" class="vpChart"></div>
+            <p class="disc" style="display:none;"><label>&lt;%=Resources.GlobalResource.说明 %&gt;</label><span class="sp_desc"></span></p>
+            <div class="visual-row">
+                <input type="text" onkeyup="setDateKeyUp(event)"> <label>——</label> <input type="text" onkeyup="setDateKeyUp(event)"> <a href="javascript:void(0)" onclick="setDateItem(this, '发表年度', '年', function () {$('#modalBox').find('.close').click();});">Filter</a>
+            </div>
+
+        </div>
+	</div>
+</div>
+
+<script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/merge.js"></script>
+
+    
+        <div class="footer">
+        <div class="foot-top">
+            <ul class="content">
+                <li>
+                    <b>User Services</b>
+                    <a target="_blank" href="http://vipcard-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/ec/skwd/skwd.htm">Purchase CNKI Card</a>
+                    <a target="_blank" href="http://zhifu-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Recharge Center</a>
+                    <a target="_blank" href="http://my-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">My CNKI</a>
+                    <a target="_blank" href="http://service-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/helpcenter/">Help Center</a>
+                </li>
+                <li>
+                    <b>CNKI Software Download</b>
+                    <a target="_blank" href="http://cajviewer-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">CAJViewer</a>
+                    <a target="_blank" href="http://www-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/software/xzydq.htm#CNKIe-Learning">CNKI Digital Learning Platform</a>
+                    <a target="_blank" href="http://refbook-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/download.html">Desktop Retrieval Software for Reference Works</a>
+                </li>
+                <li>
+                    <b>Featured Services</b>
+                    <a target="_blank" href="http://wap-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Mobile CNKI</a>
+                    <a target="_blank" href="http://wuxizazhi-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Magazine Subscription</a>
+                    <a target="_blank" href="http://mall-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Digital Publications Subscription</a>
+                    <a target="_blank" href="http://a-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Advertising</a>
+                </li>
+                <li>
+                    <b>Customer Service Consultation</b>
+                    <span>Hotline for Purchasing Card: 400-819-9993</span>
+                    <span>Service Hotline: 400-810-9888</span>
+                    <span>Online Consultation: <a target="_blank" href="http://help-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">help-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de</a></span>
+                    <span>Email Consultation: <a target="_blank" href="mailto:help@cnki.net">help@cnki.net</a></span>
+                </li>
+                <li class="weibo">
+                    <a target="_blank" href="http://e.weibo.com/u/3059308095">
+                        <img src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/logo_xl.png" alt="Sina Weibo Customer Service">
+                        <span>Sina Weibo Customer Service</span>
+                    </a>
+                    <a target="_blank" href="http://t.qq.com/CNKI_kefu">
+                        <img src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/logo_tx.png" alt="Tencent Weibo Customer Service">
+                        <span>Tencent Weibo Customer Service</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="foot-bot clearfix">
+            <div class="t">
+                <img src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/foot-logo.png" alt="CNKI">
+                <p class="mid">
+                    <span>
+                        <a target="_blank" href="http://cnki.net/gycnki/gycnki.htm">About Us</a>
+                        <a target="_blank" href="http://www-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/other/gonggao/gongsirongyu.html">CNKI Awards</a>
+                        <a target="_blank" href="http://www-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/other/gonggao/bqsm.htm">Copyright Notice</a>
+                        <a target="_blank" href="http://service-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Customer Service Center</a>
+                        <a target="_blank" href="http://help-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Online Consultation</a>
+                        <a target="_blank" href="http://help-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/Live800_2_2.aspx">User Advice</a>
+                        <a target="_blank" href="http://piccache-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/index/CNKIRecruit/index.html">CNKI Recruitment</a>
+                        <a target="_blank" href="http://a-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/">Advertising</a>
+                    </span>
+                    <span id="copyright">© 1998-2019 CNKI</span>
+                </p>
+                <p class="right">
+                    <!--可信网站图片LOGO安装开始-->
+                    <a id="___szfw_logo___" href="https://ss.knet.cn/verifyseal.dll?sn=e13111111010043364isll000000&amp;a=1&amp;pa=0.08881110103584755" target="_blank"><img alt="可信网站" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/kxwz.jpg" width="86" height="33"></a>
+                    <!--可信网站图片LOGO安装结束-->
+                    <!--诚信网站图片LOGO安装开始-->
+                    
+                    <!--诚信网站图片LOGO安装结束-->
+                </p>
+            </div>
+            <div class="b">
+                <span>
+                    Beijing ICP Licence 040431<a target="_blank" href="http://piccache-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/index/images/gb/271.jpg">Online Publishing Service License (总)网出证(京)字第 271 号</a>
+                    <a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021">ICP licence for commercial websites</a> 京公网安备 11010802020460 号
+                </span>
+                <span>China Academic Journals (CD Edition) Electronic Publishing House Co., Ltd</span>
+                <span>KDN Platform Basic Technology Provided by KBASE 11.0.</span>
+            </div>
+        </div><!--foot-bot-->
+    </div><!--footer-->
+
+
+<a class="back-top" href="javascript:void(0);" target="_self" title="Top" style="display: none;"><i class="icon-backtop"></i></a>
+
+
+<script type="text/javascript">
+    if (typeof FlushLogin == 'function') {
+        FlushLogin();
+    }
+    ModifyEcpHeader(true);
+    backTop();
+
+    /*功能：返回顶部
+       * 说明：页面较长，滚动到大于1000px时，会显示“返回顶部”按钮
+       * */
+    function backTop() {
+        backBtn = $(".back-top");
+        var y = 100;
+        $(window).on("load scroll", function () {//滚动页面时
+            if ($(window).scrollTop() > y) backBtn.show();
+            else backBtn.hide();
+        });
+        backBtn.click(function () {//当点击跳转链接后，回到页面顶部位置
+            $('body,html').animate({ scrollTop: 0 }, 500);
+            return false;
+        });
+    }
+
+
+</script>
+
+    <script src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/piwikCommon80.js"></script>
+
+
+    
+
+<div class="setmodule" id="searchsetdiv">
+    <!-- 检索设置 start -->
+    
+    <dl class="setup">
+        <dt>Search Range<span>（Set cross-database search scope and resource display order）</span></dt>
+        <dd class="setdoctype">
+            <ul class="haschecked-list" data-listidx="0">
+                <li data-id="CJFQ"><div class="item" style="cursor: pointer;">Academic Journal</div><i class="icon-del"></i></li>
+                <li data-id="CDMD">
+                    <div class="item" style="cursor: pointer;">Theses &amp; Dissertations</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CIPD">
+                    <div class="item" style="cursor: pointer;">Conferences</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CCND">
+                    <div class="item" style="cursor: pointer;">Newspapers</div><i class="icon-del"></i>
+                </li>
+                <li data-id="BDZK">
+                    <div class="item" style="cursor: pointer;">Books</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CISD">
+                    <div class="item" style="cursor: pointer;">Standards</div><i class="icon-del"></i>
+                </li>
+                <li data-id="SNAD">
+                    <div class="item" style="cursor: pointer;">Achievements</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CCJD">
+                    <div class="item" style="cursor: pointer;">Monographic Serials</div><i class="icon-del"></i>
+                </li>
+                <li data-id="GXDB_SECTION">
+                    <div class="item" style="cursor: pointer;">Ancient Books</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CJFN">
+                    <div class="item" style="cursor: pointer;">Magazines</div><i class="icon-del"></i>
+                </li>
+            </ul>
+            <a class="add-doctype" href="javascript:void(0)"><i>+</i></a>
+            <ul class="doctype-list" style="display: none;">
+                <li id="CJFQ" class="selected"><span>Academic Journal</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CCND" class="selected"><span>Newspapers</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CIPD" class="selected"><span>Conferences</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CDMD" class="selected"><span>Theses &amp; Dissertations</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CYFD" class=""><span>Yearbooks</span><a href="javascript:void(0)">添加</a></li>
+                <li id="BDZK" class="selected"><span>Books</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="SCOD" class=""><span>Patents</span><a href="javascript:void(0)">添加</a></li>
+                <li id="CISD" class="selected"><span>Standards</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="SNAD" class="selected"><span>Achievements</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CCJD" class="selected"><span>Monographic Serials</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="GXDB_SECTION" class="selected"><span>Ancient Books</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CJFN" class="selected"><span>Magazines</span><a href="javascript:void(0)">Selected</a></li>
+            </ul>
+            <div class="clear"></div>
+        </dd>
+
+
+
+        
+
+        <dt>Search Results</dt>
+        <dd class="dperpage">
+            <b class="tit">Default display number:</b>
+            <label><input type="radio" name="page" value="10">10</label>
+            <label class="on"><input type="radio" checked="checked" name="page" value="20">20</label>
+        </dd>
+        <dd class="dstyle">
+            <b class="tit">Default display mode：</b>
+            <label class="on"><input type="radio" checked="checked" name="styl" value="listmode">list</label>
+            <label><input type="radio" name="styl" value="custommode">detail</label>
+        </dd>
+        <dd class="dsorder">
+            <b class="tit">Default sort：</b>
+            <label class="on"><input type="radio" checked="checked" name="order" value="pubdate">Publication Date</label>
+            <label><input type="radio" name="order" value="relevant">Relevance</label>
+            <label><input type="radio" name="order" value="cite">Cite</label>
+            <label><input type="radio" name="order" value="download">Download</label>
+            <span>（Sorting settings don't work on topics and full-text retrieval）</span>
+        </dd>
+    </dl>
+
+    <script type="text/javascript">
+        $(function () {
+            try {
+                $(".haschecked-list").dragsort({
+                    dragSelector: ".item",
+                    dragBetween: true,
+                    dragEnd: function () {
+                        //console.log('此处可放拖动结束后的方法。')
+                    }
+                });
+            } catch (e) {
+            }
+        });
+    </script>
+
+    <div class="btn-box">
+        <a href="javascript:void(0);" id="ctrl-s">Save Settings</a>
+        <a href="javascript:void(0);" id="ctrl-z">Restore Settings</a>
+    </div>
+    <!-- 检索设置 end-->
+</div><!-- setmodule -->
+<script type="text/javascript" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/merge_003.js"></script>
+
+
+
+
+
+<div id="__droplist" class="dictdiv" style="top: 96px; left: 732.5px; display: none;"><div id="sugtip_list" class="dictlistX"><div id="sugtip_ULlist" class="dictlistCol clearfix"><ul><li id="rw0" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库设计 图书管理系统','数据库设计 图书管理系统',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>设计 图书管理系统</strong></li><li id="rw1" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库设计 系统设计','数据库设计 系统设计',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>设计 系统设计</strong></li><li id="rw2" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库设计 字串拆分','数据库设计 字串拆分',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>设计 字串拆分</strong></li><li id="rw3" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库设计 自动分幅设计数据库设计','数据库设计 自动分幅设计数据库设计',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>设计 自动分幅设计数据库设计</strong></li><li id="rw4" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库系统','数据库系统',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>系统</strong></li><li id="rw5" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库技术','数据库技术',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>技术</strong></li><li id="rw6" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库管理系统','数据库管理系统',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>管理系统</strong></li><li id="rw7" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库建设','数据库建设',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>建设</strong></li><li id="rw8" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库安全','数据库安全',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>安全</strong></li><li id="rw9" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库系统概论','数据库系统概论',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>系统概论</strong></li><li id="rw10" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库应用','数据库应用',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>应用</strong></li><li id="rw11" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,true,'民国报纸 数据库原理#4#','数据库原理#4#',event);" onmouseout="tipDivOnMouseOutEvent(this,true,event);">民国报纸 数据库<strong>原理</strong><i></i></li><li id="rw12" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 数据库管理','数据库管理',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 数据库<strong>管理</strong></li><li id="rw13" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 ||mysql数据库','||mysql数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 ||mysql数据库</li><li id="rw14" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 中国统计年鉴数据库','中国统计年鉴数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 中国统计年鉴数据库</li><li id="rw15" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 分布式数据库','分布式数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 分布式数据库</li><li id="rw16" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 空间数据库','空间数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 空间数据库</li><li id="rw17" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 中国期刊全文数据库','中国期刊全文数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 中国期刊全文数据库</li><li id="rw18" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 图数据库','图数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 图数据库</li><li id="rw19" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 sql数据库','sql数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 sql数据库</li><li id="rw20" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 中国优秀硕士学位论文全文数据库','中国优秀硕士学位论文全文数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 中国优秀硕士学位论文全文数据库</li><li id="rw21" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 geo数据库','geo数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 geo数据库</li><li id="rw22" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'民国报纸 access数据库','access数据库',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">民国报纸 access数据库</li></ul></div></div></div><script type="text/javascript" id="TopWords_Request" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/topk.txt" charset="utf-8"></script><script type="text/javascript" id="sugkewword_JS" src="%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20%E6%95%B0%E6%8D%AE%E5%BA%93%20theses_files/su.txt" charset="utf-8"></script></body></html>
