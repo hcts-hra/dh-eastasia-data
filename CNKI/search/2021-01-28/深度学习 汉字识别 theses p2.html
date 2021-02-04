@@ -1,0 +1,2935 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><script type="text/javascript" async="" defer="defer" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/piwik.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="always">
+    <title>Search-CNKI</title>
+    <link rel="stylesheet" type="text/css" href="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/kindex.css">
+    <link rel="stylesheet" type="text/css" href="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/public.css">
+    <link rel="stylesheet" type="text/css" href="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/layout.css">
+    <link rel="stylesheet" type="text/css" href="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/layer.css">
+    <script type="text/javascript">
+        var APPPATH = '/kns';
+    </script><style>@media print {#ghostery-tracker-tally {display:none !important}}</style>
+<link href="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/TopLogin.css" rel="stylesheet"></head>
+<body class="rootw">
+    <input id="isoversea" name="isoversea" type="hidden" value="1">
+    <input id="hidVirtualPath" name="hidVirtualPath" type="hidden" value="/kns">
+    <input id="KPCAPIPATH" name="KPCAPIPATH" type="hidden" value="//oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KPCAPI">
+    <input id="OverSeaURL" name="OverSeaURL" type="hidden" value="">
+    <input id="RecommendApi" name="RecommendApi" type="hidden" value="/RecommendApi">
+    <input id="KPCPATH" name="KPCPATH" type="hidden" value="//oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KPC">
+    <input id="RecommAPI" name="RecommAPI" type="hidden" value="//recom-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/api/">
+    <input id="RecSysAPI" name="RecSysAPI" type="hidden" value="//recsys-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/RCDService/">
+    <input id="IsRecSys" name="IsRecSys" type="hidden" value="0">
+    <script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/jQuery-1.js"></script>
+
+<script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/topen.js"></script><script>var lang='en-US'</script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/jquery-1.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/jquery.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/jquery_002.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/json2-min.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/topLogin.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/jquery_003.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/login_002.js"></script><script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/resource.js"></script> <div class="ecp_top-nav">     <div class="ecp_tn-header">         <div class="ecp_tn-nav">             <div class="ecp_tn-title">                                                    <!--<a id='Ecp_header_Map' class='ecp_tn-tab' target='_blank' href=''><i>Site Map</i></a>-->                 <a id="oldversion" class="ecp_tn-tab" target="_blank" href="http://eng-1oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns55/default.aspx"><i>Old Version</i></a><a id="Ecp_header_Help" class="ecp_tn-tab" target="_blank" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/index/en/en-manual.html"><i>Help Center</i></a><div class="ecp_tn-title" id="searchset" style="display: none;">   <a class="ecp_tn-tab" onclick="searchSet()" href="javascript:void(0)"><i>Search Options</i></a>  </div><span class="mycnki topItem" id="spanmycnki"><a id="link_mycnki" class="ecp_tn-tab" href="javascript:void(0);" onclick="setmycnkiclass()">Personal Library<i class="ecp_tn-arrow"></i></a><div id="pop_mycnki" class="topItemPop mycnkipop" style="display:none;"><a class="close" href="javascript:void(0)" onclick="$(this).parent().hide()">x</a><div class="klogin_fr"><ul class="mlist"><li><a href="javascript:void(0)" onclick="openKpc()">Enter <b>Personal Library</b> &gt;&gt;</a></li><li><a href="javascript:void(0)" onclick="openKpc('fav_paper')" target="_parent">My Favorite</a></li><li><a href="javascript:void(0)" onclick="openKpc('history_search')" target="_parent">My History</a></li><li><a href="javascript:void(0)" onclick="openKpc('custom')" target="_parent">My Subscription</a></li><li><a href="javascript:void(0)" onclick="openKpc('citationTracking')" target="_parent">CitationTracking</a></li><li><a href="javascript:void(0)" onclick="openKpc('myAchievement')" target="_parent">My Achievement</a></li></ul></div><div class="klogin_fl"><ul class="mlist"><li class="prompt"><span>Sorry, Please login personal account for more information.</span></li></ul></div></div></span>             </div>         </div>         <div class="tn-person-r">             <div id="Ecp_top_login_div2" class="ecp_tn-title ecp_tn-title-login">                 <!--登录-->                 <div id="Ecp_top_login" style="display: none;">                     <a class="ecp_tn-tab" href="javascript:void(0);">                         <i>Login<span class="ecp_tn-arrow"></span></i>                     </a>                 </div>                 <!--弹框-->                 <div id="Ecp_top_login_layer" class="tn-topmenulist tn-topmenulist-b Ecp_top_login_layer-my" style="display: none;">                     <div class="outlogin_layerbox_bylx outlogin_layerbox_bylx_anrrow top_login_layer2-my" node-type="box">                         <div>                             <a id="Ecp_top_login_closeLayer" class="layerbox_close" href="javascript:void(0);">×</a>                         </div>                         <div class="layerbox_left">                             <div class="ecp_titletips"></div>                             <p id="Ecp_errorMsg" class="login_error_tips" style="display:none;"></p>                             <ul class="loginformlist">                                 <li class="ndrelativewrap">                                     <input id="Ecp_TextBoxUserName" class="styles" type="text" name="Ecp_TextBoxUserName" placeholder="Please enter username/email /phone number" tabindex="1" maxlength="64">                                     <a class="register_lnk" href="https://o-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/Register/CommonRegister.aspx?lang=en-US" target="_blank">Register a new account</a>                                 </li>                                 <li>                                     <input id="Ecp_TextBoxPwd" class="styles" type="password" name="Ecp_TextBoxPwd" placeholder="Please enter  password" tabindex="2" maxlength="20" autocomplete="off" autocapitalize="none" onkeydown="return Ecp_EnterSubmit(event,this,Ecp_Button1,true);">                                     <a class="forget_Pwd" href="https://o-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/reset/password_reset.html" target="_blank">Forget the password</a>                                 </li>                                 <!--验证码-->                                 <li id="Ecp_CheckCodeLayer" class="loginform_yzm" style="display:none;">                                     <input id="Ecp_CheckCode" placeholder="Verification Code" class="styles" tabindex="3" maxlength="6" autocomplete="off" autocapitalize="none" type="text" onkeydown="return Ecp_EnterSubmit(event, this, Ecp_Button1);">                                     <img id="Ecp_CheckCodeImg" src="" class="ecp_yzm" alt="Click for another one"><a id="Ecp_CheckLink" href="javascript:;" class="reload-code" title="Click for another one">Click for another one</a>                                 </li>                                 <li class="ecp_btn_wrap">                                     <a id="Ecp_Button1" class="ecp_login_btn" href="javascript:void(0);" tabindex="4">Login</a>                                     <a id="Ecp_Button2" class="ecp_login_btn" href="javascript:void(0);" tabindex="5">IP Login</a>                                     <label class="rmb_login" title="Users will automatically login the system next time. You are recommended to use this function on your PC for the account security..">                                         <input class="auto_checkbox" id="rememberMe" type="checkbox" name="rememberMe" autocomplete="off">                                         <span>Automatic login</span>                                     </label>                                 </li>                             </ul>                          </div>                     </div>                 </div>                 <!--退出-->                 <div id="Ecp_top_logout" class="ecp_tn-title" style="">                     <span class="tn-greeting">Welcome</span>                     <a id="Ecp_top_logout_showLayer" class="ecp_tn-tab ecp_tn-tab-user" href="javascript:void(0);">                         <i><em title="" id="Ecp_loginShowName">德国联盟</em><span class="ecp_tn-arrow"></span></i>                     </a>                     <div id="Ecp_top_logout_layer" class="tn-topmenulist tn-topmenulist-a tn-topmenulist-a-user" style="display:none;">                         <ul class="tn-text-list">                             <li><a id="Ecp_MycnkiLink" href="https://o-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/mycnki/loginid2.aspx?uid=WEEvREcwSlJHSldSdmVqM1BLVW9RTDR0TzdHTGdDYWgrQk91RzlhR0xITT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!" title="My CNKI" target="_blank">My CNKI</a></li>                             <li><a id="Ecp_top_logoutClick" href="javascript:void(0);" title="Logout">Logout</a></li>                         </ul>                     </div>                 </div>             </div>             <!--其他-->             <div class="ecp_tn-title" id="Ecp_header_Register" style="display: none;">                 <a class="ecp_tn-tab" target="_blank" href="https://o-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/Register/CommonRegister.aspx?lang=en-US"><i>Register</i></a>             </div>                                                </div>     </div>     <input type="hidden" id="Ecp_LoginUserName">     <input type="hidden" id="Ecp_LoginUid">     <p style="display:none" id="Ecp_ReturnMsg"></p> </div> <!--海外--> <div id="Ecp_top_login_oversea" class="login-modal" style="display:none;">     <div class="login-l pull-left" style="width:483px;">         <div class="ecpover-mask"></div>         <div class="ecpover-modal">             <div class="ecpover-modal-hd">Reminder<a onclick="Ecp_LoginResult();" class="close"></a></div>             <div id="ecpover_select" class="ecpover-modal-bd">                 <p>Your lP is beyond the licensed area of the mainland China.<br>There are <i id="ecp_over_i">j</i> chances of emergency service available in this year, each will last for <i>7</i> days.<!--您今年还可启用<i id='ecp_over_i'>j</i>次应急服务，每次<i>7</i>天。--><br><i>Are you sure you want to use it?</i></p>                 <div class="btns"><a onclick="Ecp_LoginResult();" class="btn btn-cancel">Cancel</a><a id="ecpover_open" class="btn">Access</a></div>                 <div class="ecpover-tip">Users outside mainland China please visit<a href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/" target="_blank"><i> oversea.cnki.net</i> &gt;</a></div>             </div>             <div id="ecpover_close" class="ecpover-modal-bd" style="display:none;">                 <p id="ecpover_p_close">Your lP is beyond the licensed area of the mainland China.<br>Login failed, your chances of emergency services in this year have run out.</p>                 <div class="btns"><a onclick="Ecp_LoginResult();" class="btn">Close</a></div>                 <div class="ecpover-tip">Users outside mainland China please visit<a href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/" target="_blank"><i> oversea.cnki.net</i> &gt;</a></div>             </div>         </div>     </div> </div> <!--海外--> <script>var Ecp_topLoginUrl = 'https://o-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/TopLoginI18N/'; var Ecp_PageStyle = 'header'; var Ecp_Style = '1'; var Ecp_CookieDomain = 'cnki.net'; var Ecp_isAuotIpLogin = '1'</script>
+<script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/Message.js"></script>
+<script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/login.js"></script>
+
+
+
+
+    
+
+
+
+<div class="search-box">
+    <div class="content">
+        <div class="search-left">
+            <div class="logo">
+                <a href="http://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">
+                    <img src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/logo.png" alt="">
+                </a>
+            </div>
+            <!--data-classify-->
+        </div>
+        <!--search-left-->
+        <div class="search-main">
+            <div class="input-box">
+                <div class="sort reopt">
+                    <div class="sort-default">
+                        <span value="SU$%=|">Subject</span>
+                        <i class="icon-sort"></i>
+                        <input type="hidden" id="postfield" value="">
+                        <input type="hidden" id="selectfield" value="SU$%=|" korder="SU">
+                    </div>
+                    
+                    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <div class="sort-list">
+                <ul>
+                                                <li class="cur" name="defult" data-val="SU"><a value="SU$%=|">Subject</a></li>
+                            <li data-val="TKA"><a value="TKA$%=|">Title, Keyword and Abstract</a></li>
+                            <li data-val="KY"><a value="KY$=|">Keyword</a></li>
+                            <li data-val="TI"><a value="TI$%=|">Title</a></li>
+                            <li data-val="FT"><a value="FT$%=|">Full Text</a></li>
+                            <li data-val="AU"><a value="AU$=|">Author</a></li>
+                            <li data-val="AF"><a value="AF$%|">Author Affiliation</a></li>
+                            <li data-val="TU"><a value="TU$=|">Supervisor</a></li>
+                            <li data-val="FTU"><a value="FTU$=|">First Supervisor</a></li>
+                            <li data-val="LY"><a value="LY$%|">Degree-awarding Unit</a></li>
+                            <li data-val="FU"><a value="FU$%|">Fund</a></li>
+                            <li data-val="AB"><a value="AB$%=|">Abstract</a></li>
+                            <li data-val="CO"><a value="CO$%=|">Contents</a></li>
+                            <li data-val="RF"><a value="RF$%=|">Reference</a></li>
+                            <li data-val="CLC"><a value="CLC$=|??">Chinese Library Classification</a></li>
+                            <li data-val="XF"><a value="XF$%|">Discipline</a></li>
+                            <li data-val="DOI"><a value="DOI$=|?">DOI</a></li>
+                </ul>
+        
+    </div>
+
+</div>
+                <!--sort-->
+                <input id="txt_search" class="search-input" type="text" autocomplete="off" placeholder="Chinese literature,Foreign literature" value="深度学习 汉字识别" maxlength="100">
+                <a class="btn-cleartext" href="javascript:void(0)"></a>
+
+                <input class="search-btn" type="button" value="">
+                <div class="droplist recommend-info is-hide" style="display: none;">
+                    <ul></ul>
+                    <div class="search-page">
+                        <a class="but-l">&lt;</a>
+                        <b>1</b> / <em>10</em>
+                        <a class="but-r">&gt;</a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn-result-search" href="javascript:void(0)">Search in Result</a>
+            <a class="btn-grade-search" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/AdvSearch?dbcode=CDMD" target="_blank">Advanced Search</a>
+            <div class="readvce">
+                <a href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/index/?lival=ele" target="_blank">Element Search&nbsp;&nbsp;＞</a>
+                <a href="http://ref-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/ref" target="_blank">Citation Search&nbsp;&nbsp;＞</a>
+            </div>
+        </div>
+        <!--search-main-->
+    </div>
+</div>
+
+<script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/recommend.js"></script>
+
+<script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/merge_002.js"></script>
+<input id="krs" name="krs" type="hidden" value="//oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KRS">
+<div class="wrapper">
+    
+
+<div class="top-doctype">
+    <div class="content">
+        <input type="hidden" id="isscdb" value="0">
+        <input type="hidden" id="dbcode" value="CDMD">
+        <input type="hidden" id="curCode">
+        <input type="hidden" id="CheckedDB" value="CJFQ,CJFN,CDMD,CIPD,CCND,CYFD,CCJD" data-htime="">
+        <input type="hidden" id="ilr" value="0">
+
+
+
+<div class="all-box">
+    <a data-id="all" dbcode="SCDB" class="all" name="dbcode" href="javascript:void(0)"><span>ALL</span><em></em></a>
+    <div class="switch-ChEn is-hidden">
+        <a class="ch">Chinese</a>
+        <a class="en">Other Languages</a>
+    </div>
+</div>
+<ul class="doctype-menus keji">
+    <li data-id="xsqk" class=""><a href="javascript:void(0)" name="dbcode" dbcode="CJFQ" data-lang="1"><span>Academic Journal</span><em></em></a></li>
+    <li data-id="xwlw" class="haschild cur">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CDFD" prcode="CDMD"><span>Doctoral Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CMFD" prcode="CDMD"><span>Master's Theses</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="hy" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPFD" prcode="CIPD"><span>China Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="IPFD" prcode="CIPD"><span>International Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPVD" prcode="CIPD"><span>Conference Videos</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="baozhi"><a href="javascript:void(0)" name="dbcode" dbcode="CCND"><span>Newspapers</span><em></em></a></li>
+    <li data-id="nj"><a href="javascript:void(0)" name="dbcode" dbcode="CYFD"><span>Yearbooks</span><em></em></a></li>
+
+    <li data-id="ts">
+        <a href="javascript:void(0)" name="dbcode" dbcode="BDZK"><span>Books</span><em></em></a>
+        
+    </li>
+    <li data-id="zl" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCPD" prcode="SCOD"><span>Chinese Patent</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SOPD" prcode="SCOD"><span>International Patent</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="biaozhun" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCSF" prcode="CISD"><span>National Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCHF" prcode="CISD"><span>Industrial Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SMSD" prcode="CISD"><span>Standard Bibliography</span><em></em></a></li>
+            <li><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de//KNS/brief/result.aspx?dbprefix=scef"><span>Corporate Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CVSD" prcode="CISD"><span>Professional Standard</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="cg" class="is-last"><a href="javascript:void(0)" name="dbcode" dbcode="SNAD"><span>Achievements</span><em></em></a></li>
+    <li data-id="cg" class="is-bottom is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="SNAD"><span>Achievements</span><em></em></a></li>
+
+    <li data-id="xsjk" class="is-bottom"><a href="javascript:void(0)" dbcode="CCJD" name="dbcode"><span>Monographic Serials</span><em></em></a></li>
+    <li data-id="gj" class="is-bottom"><a href="javascript:void(0)" dbcode="GXDB_SECTION" name="dbcode"><span>Ancient Books</span><em></em></a></li>
+    <li data-id="flfg" class="is-bottom"><a target="_blank" href="http://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=CLKD" dbcode="CLKLP"><span>Laws and Regulations</span></a></li>
+    <li data-id="zfwj" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=gwkt" dbcode="ZFWJ"><span>Government Documents</span></a></li>
+    <li data-id="kjbg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=kjbg" dbcode="ZFBG"><span>Technical Reports</span></a></li>
+    <li data-id="zfcg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=cgxx" dbcode="ZFCG"><span>Government Procurements</span></a></li>
+    <li data-id="gjs" class="is-bottom"><a target="_blank" href="http://gongjushu-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/rbook/" dbcode="CRFD"><span>Reference Works</span></a></li>
+    <li data-id="tsqk" class="is-bottom"><a href="javascript:void(0)" dbcode="CJFN" name="dbcode"><span>Magazines</span><em></em></a></li>
+</ul>
+
+<ul class="doctype-menus sheke is-hide">
+    <li data-id="xsqk"><a href="javascript:void(0)" name="dbcode" dbcode="CJFQ" data-lang="1"><span>Academic Journal</span><em></em></a></li>
+    <li data-id="xwlw" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CDMD"><span>Theses &amp; Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CDFD" prcode="CDMD"><span>Doctoral Dissertations</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CMFD" prcode="CDMD"><span>Master's Theses</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="hy" class="haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CIPD" data-lang="1"><span>Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPFD" prcode="CIPD"><span>China Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="IPFD" prcode="CIPD"><span>International Conferences</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CPVD" prcode="CIPD"><span>Conference Videos</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="baozhi"><a href="javascript:void(0)" name="dbcode" dbcode="CCND"><span>Newspapers</span><em></em></a></li>
+    <li data-id="nj"><a href="javascript:void(0)" name="dbcode" dbcode="CYFD"><span>Yearbooks</span><em></em></a></li>
+    <li data-id="ts">
+        <a href="javascript:void(0)" name="dbcode" dbcode="BDZK"><span>Books</span><em></em></a>
+        
+    </li>
+    <li data-id="flfg"><a target="_blank" href="http://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=CLKD" dbcode="CLKLP"><span>Laws and Regulations</span></a></li>
+    <li data-id="gj"><a href="javascript:void(0)" dbcode="GXDB_SECTION" name="dbcode"><span>Ancient Books</span><em></em></a></li>
+
+    <li data-id="zfwj" class="is-last"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=gwkt" dbcode="ZFWJ"><span>Government Documents</span></a></li>
+    <li data-id="zfwj" class="is-bottom is-hide"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/brief/result.aspx?dbprefix=gwkt" dbcode="ZFWJ"><span>Government Documents</span></a></li>
+
+    <li data-id="zl" class="is-bottom haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="SCOD"><span>Patents</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCPD" prcode="SCOD"><span>Chinese Patent</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SOPD" prcode="SCOD"><span>International Patent</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="biaozhun" class="is-bottom haschild">
+        <a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a>
+        <ul>
+            <li class="is-hide"><a href="javascript:void(0)" name="dbcode" dbcode="CISD"><span>Standards</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCSF" prcode="CISD"><span>National Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SCHF" prcode="CISD"><span>Industrial Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="SMSD" prcode="CISD"><span>Standard Bibliography</span><em></em></a></li>
+            <li><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de//KNS/brief/result.aspx?dbprefix=scef"><span>Corporate Standard</span><em></em></a></li>
+            <li><a href="javascript:void(0)" name="dbcode" dbcode="CVSD" prcode="CISD"><span>Professional Standard</span><em></em></a></li>
+        </ul>
+    </li>
+    <li data-id="cg" class="is-bottom"><a href="javascript:void(0)" name="dbcode" dbcode="SNAD"><span>Achievements</span><em></em></a></li>
+
+    <li data-id="xsjk" class="is-bottom"><a href="javascript:void(0)" dbcode="CCJD" name="dbcode"><span>Monographic Serials</span><em></em></a></li>
+
+    <li data-id="kjbg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=kjbg" dbcode="ZFBG"><span>Technical Reports</span></a></li>
+    <li data-id="zfcg" class="is-bottom"><a target="_blank" href="http://r-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KNS/brief/result.aspx?dbPrefix=cgxx" dbcode="ZFCG"><span>Government Procurements</span></a></li>
+    <li data-id="gjs" class="is-bottom"><a target="_blank" href="http://gongjushu-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/rbook/" dbcode="CRFD"><span>Reference Works</span></a></li>
+    <li data-id="tsqk" class="is-bottom"><a href="javascript:void(0)" dbcode="CJFN" name="dbcode"><span>Magazines</span><em></em></a></li>
+</ul>
+<a id="more" class="btn-crossDb-search" href="javascript:void(0);" title="More Resources">
+    <i></i>
+</a>
+    </div>
+
+</div>
+
+
+
+
+    <div class="content is-filter-on">
+        <div class="sidebar-filter">
+            <a class="icon-arrow-filter" style=""><i></i></a>
+            <div id="divGroup" class="sidebar-filter-sort js-condition js-single">
+    
+
+            <dl class=" exp" groupid="1">
+
+                    <dt class="subtit row-a2 sidedh-bar">
+                                <a class="cur" href="javascript:void(0)">Sci &amp; Tech</a>
+                                <a class="" href="javascript:void(0)">Humanity &amp; Social</a>
+                    </dt>
+
+
+                        <dd tit="Sci &amp; Tech" field="人工标识码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <ul><li><input type="checkbox" text="Technical Research（TR）" value="13"><a href="javascript:void(0)" title="Technical Research（TR）">Technical Research（TR）</a><span>(91)</span></li><li><input type="checkbox" text="TR-Clinical Research" value="132"><a href="javascript:void(0)" title="TR-Clinical Research">TR-Clinical Research</a><span>(1)</span></li><li><input type="checkbox" text="Technology Development" value="16"><a href="javascript:void(0)" title="Technology Development">Technology Development</a><span>(3)</span></li></ul>
+
+                                    <a class="btn" onmouseover="resultHide($(this).parent())" href="javascript:void(0);"></a>
+                            </div>
+                        </dd>
+                        <dd tit="Humanity &amp; Social" field="人工标识码" style="display:none;">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <ul><li><input type="checkbox" text="Applied Fundamental Research" value="22"><a href="javascript:void(0)" title="Applied Fundamental Research">Applied Fundamental Research</a><span>(1)</span></li><li><input type="checkbox" text="Applied Research（AR）" value="23"><a href="javascript:void(0)" title="Applied Research（AR）">Applied Research（AR）</a><span>(2)</span></li><li><input type="checkbox" text="AR- Business Research" value="234"><a href="javascript:void(0)" title="AR- Business Research">AR- Business Research</a><span>(1)</span></li></ul>
+
+                                    <a class="btn" onmouseover="resultHide($(this).parent())" href="javascript:void(0);"></a>
+                            </div>
+                        </dd>
+            </dl>
+            <dl class=" " groupid="2">
+
+                    <dt class="tit" groupid="2" groupitem="Main"><b>Subjects</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+                        <dt class="subtit row-a2">
+                                <a class="cur" href="javascript:void(0)">Main</a>
+                                <a class="" href="javascript:void(0)">Secondary</a>
+                        </dt>
+
+
+                        <dd tit="Main" field="主要主题" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <ul><li><input type="checkbox" text="中文词" value="中文词"><a href="javascript:void(0)" title="中文词">中文词</a><span>(25)</span></li><li><input type="checkbox" text="深度学习" value="深度学习"><a href="javascript:void(0)" title="深度学习">深度学习</a><span>(13)</span></li><li><input type="checkbox" text="字轮式水表" value="字轮式水表"><a href="javascript:void(0)" title="字轮式水表">字轮式水表</a><span>(7)</span></li><li><input type="checkbox" text="手写汉字识别" value="手写汉字识别"><a href="javascript:void(0)" title="手写汉字识别">手写汉字识别</a><span>(5)</span></li><li><input type="checkbox" text="汉字样本库" value="汉字样本库"><a href="javascript:void(0)" title="汉字样本库">汉字样本库</a><span>(4)</span></li><li><input type="checkbox" text="卷积神经网络" value="卷积神经网络"><a href="javascript:void(0)" title="卷积神经网络">卷积神经网络</a><span>(4)</span></li><li><input type="checkbox" text="汉字识别" value="汉字识别"><a href="javascript:void(0)" title="汉字识别">汉字识别</a><span>(4)</span></li></ul><ul><li><input type="checkbox" text="脱机手写汉字识别" value="脱机手写汉字识别"><a href="javascript:void(0)" title="脱机手写汉字识别">脱机手写汉字识别</a><span>(4)</span></li><li><input type="checkbox" text="算法研究" value="算法研究"><a href="javascript:void(0)" title="算法研究">算法研究</a><span>(4)</span></li><li><input type="checkbox" text="文字识别" value="文字识别"><a href="javascript:void(0)" title="文字识别">文字识别</a><span>(3)</span></li><li><input type="checkbox" text="手写体汉字识别" value="手写体汉字识别"><a href="javascript:void(0)" title="手写体汉字识别">手写体汉字识别</a><span>(3)</span></li><li><input type="checkbox" text="研究与实现" value="研究与实现"><a href="javascript:void(0)" title="研究与实现">研究与实现</a><span>(3)</span></li><li><input type="checkbox" text="脱机手写体汉字识别" value="脱机手写体汉字识别"><a href="javascript:void(0)" title="脱机手写体汉字识别">脱机手写体汉字识别</a><span>(3)</span></li><li><input type="checkbox" text="手写汉字" value="手写汉字"><a href="javascript:void(0)" title="手写汉字">手写汉字</a><span>(3)</span></li></ul><ul><li><input type="checkbox" text="识别研究" value="识别研究"><a href="javascript:void(0)" title="识别研究">识别研究</a><span>(3)</span></li><li><input type="checkbox" text="字符识别" value="字符识别"><a href="javascript:void(0)" title="字符识别">字符识别</a><span>(3)</span></li><li><input type="checkbox" text="证件识别" value="证件识别"><a href="javascript:void(0)" title="证件识别">证件识别</a><span>(2)</span></li><li><input type="checkbox" text="目标检测" value="目标检测"><a href="javascript:void(0)" title="目标检测">目标检测</a><span>(2)</span></li><li><input type="checkbox" text="深度模型" value="深度模型"><a href="javascript:void(0)" title="深度模型">深度模型</a><span>(2)</span></li><li><input type="checkbox" text="神经网络" value="神经网络"><a href="javascript:void(0)" title="神经网络">神经网络</a><span>(2)</span></li><li><input type="checkbox" text="检测与识别" value="检测与识别"><a href="javascript:void(0)" title="检测与识别">检测与识别</a><span>(2)</span></li></ul><ul><li><input type="checkbox" text="深度学习算法" value="深度学习算法"><a href="javascript:void(0)" title="深度学习算法">深度学习算法</a><span>(2)</span></li><li><input type="checkbox" text="文本识别" value="文本识别"><a href="javascript:void(0)" title="文本识别">文本识别</a><span>(2)</span></li><li><input type="checkbox" text="笔记本" value="笔记本"><a href="javascript:void(0)" title="笔记本">笔记本</a><span>(1)</span></li><li><input type="checkbox" text="书法字生成" value="书法字生成"><a href="javascript:void(0)" title="书法字生成">书法字生成</a><span>(1)</span></li><li><input type="checkbox" text="手写体字符识别" value="手写体字符识别"><a href="javascript:void(0)" title="手写体字符识别">手写体字符识别</a><span>(1)</span></li><li><input type="checkbox" text="字形字义" value="字形字义"><a href="javascript:void(0)" title="字形字义">字形字义</a><span>(1)</span></li><li><input type="checkbox" text="大词汇量" value="大词汇量"><a href="javascript:void(0)" title="大词汇量">大词汇量</a><span>(1)</span></li></ul><ul><li><input type="checkbox" text="脱机手写汉字" value="脱机手写汉字"><a href="javascript:void(0)" title="脱机手写汉字">脱机手写汉字</a><span>(1)</span></li><li><input type="checkbox" text="书卷字定音" value="书卷字定音"><a href="javascript:void(0)" title="书卷字定音">书卷字定音</a><span>(1)</span></li><li><input type="checkbox" text="签名笔迹识别" value="签名笔迹识别"><a href="javascript:void(0)" title="签名笔迹识别">签名笔迹识别</a><span>(1)</span></li></ul>
+
+                                    <a class="btn" onmouseover="resultHide($(this).parent())" href="javascript:void(0);"></a>
+                            </div>
+                        </dd>
+                        <dd tit="Secondary" field="次要主题" style="display:none;">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                <ul><li><input type="checkbox" text="残差网络" value="残差网络"><a href="javascript:void(0)" title="残差网络">残差网络</a><span>(25)</span></li><li><input type="checkbox" text="卷积神经网络" value="卷积神经网络"><a href="javascript:void(0)" title="卷积神经网络">卷积神经网络</a><span>(19)</span></li><li><input type="checkbox" text="单层网络" value="单层网络"><a href="javascript:void(0)" title="单层网络">单层网络</a><span>(13)</span></li><li><input type="checkbox" text="人体骨架" value="人体骨架"><a href="javascript:void(0)" title="人体骨架">人体骨架</a><span>(11)</span></li><li><input type="checkbox" text="深度学习" value="深度学习"><a href="javascript:void(0)" title="深度学习">深度学习</a><span>(10)</span></li><li><input type="checkbox" text="预处理" value="预处理"><a href="javascript:void(0)" title="预处理">预处理</a><span>(6)</span></li></ul><ul><li><input type="checkbox" text="多维度" value="多维度"><a href="javascript:void(0)" title="多维度">多维度</a><span>(6)</span></li><li><input type="checkbox" text="卷积核" value="卷积核"><a href="javascript:void(0)" title="卷积核">卷积核</a><span>(6)</span></li><li><input type="checkbox" text="手写汉字识别" value="手写汉字识别"><a href="javascript:void(0)" title="手写汉字识别">手写汉字识别</a><span>(6)</span></li><li><input type="checkbox" text="数据集" value="数据集"><a href="javascript:void(0)" title="数据集">数据集</a><span>(5)</span></li><li><input type="checkbox" text="OCR引擎" value="OCR引擎"><a href="javascript:void(0)" title="OCR引擎">OCR引擎</a><span>(5)</span></li><li><input type="checkbox" text="字符识别" value="字符识别"><a href="javascript:void(0)" title="字符识别">字符识别</a><span>(4)</span></li></ul><ul><li><input type="checkbox" text="图像处理" value="图像处理"><a href="javascript:void(0)" title="图像处理">图像处理</a><span>(4)</span></li><li><input type="checkbox" text="印刷体汉字识别" value="印刷体汉字识别"><a href="javascript:void(0)" title="印刷体汉字识别">印刷体汉字识别</a><span>(4)</span></li><li><input type="checkbox" text="神经网络" value="神经网络"><a href="javascript:void(0)" title="神经网络">神经网络</a><span>(4)</span></li><li><input type="checkbox" text="OCR" value="OCR"><a href="javascript:void(0)" title="OCR">OCR</a><span>(4)</span></li><li><input type="checkbox" text="文本检测" value="文本检测"><a href="javascript:void(0)" title="文本检测">文本检测</a><span>(3)</span></li><li><input type="checkbox" text="特征提取" value="特征提取"><a href="javascript:void(0)" title="特征提取">特征提取</a><span>(3)</span></li></ul><ul><li><input type="checkbox" text="字符分割" value="字符分割"><a href="javascript:void(0)" title="字符分割">字符分割</a><span>(3)</span></li><li><input type="checkbox" text="手写汉字生成" value="手写汉字生成"><a href="javascript:void(0)" title="手写汉字生成">手写汉字生成</a><span>(3)</span></li><li><input type="checkbox" text="嵌入式平台" value="嵌入式平台"><a href="javascript:void(0)" title="嵌入式平台">嵌入式平台</a><span>(3)</span></li><li><input type="checkbox" text="特征提取与分类" value="特征提取与分类"><a href="javascript:void(0)" title="特征提取与分类">特征提取与分类</a><span>(3)</span></li><li><input type="checkbox" text="汉字识别" value="汉字识别"><a href="javascript:void(0)" title="汉字识别">汉字识别</a><span>(3)</span></li><li><input type="checkbox" text="孪生网络" value="孪生网络"><a href="javascript:void(0)" title="孪生网络">孪生网络</a><span>(3)</span></li></ul><ul><li><input type="checkbox" text="文字识别" value="文字识别"><a href="javascript:void(0)" title="文字识别">文字识别</a><span>(3)</span></li><li><input type="checkbox" text="DBN" value="DBN"><a href="javascript:void(0)" title="DBN">DBN</a><span>(3)</span></li></ul>
+
+                                    <a class="btn" onmouseover="resultHide($(this).parent())" href="javascript:void(0);"></a>
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="3">
+
+                    <dt class="tit" groupid="3" groupitem="Degree Year"><b>Degree Year</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Degree Year" field="年" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="4">
+
+                    <dt class="tit" groupid="4" groupitem="Degree-Granting Institutions"><b>Degree-Granting Institutions</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Degree-Granting Institutions" field="出版物代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="5">
+
+                    <dt class="tit" groupid="5" groupitem="Disciplines"><b>Disciplines</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Disciplines" field="专题子栏目代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="6">
+
+                    <dt class="tit" groupid="6" groupitem="Supervisors"><b>Supervisors</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Supervisors" field="导师代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="7">
+
+                    <dt class="tit" groupid="7" groupitem="Funds"><b>Funds</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Funds" field="基金代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+            <dl class="is-up-fold off" groupid="8">
+
+                    <dt class="tit" groupid="8" groupitem="Major"><b>Major</b><i class="icon icon-arrow"></i><i class="icon icon-visual" title="Visual" onclick="Visualization.pop.showGroup(event, this, 1); window.behaviorlog.Screen(this); return false;"></i></dt>
+
+
+                        <dd tit="Major" field="学科代码" style="">
+                            <div class="resultlist" onmouseout="mouseout(this)" onmouseenter="resultHide($(this))">
+
+                                
+
+                            </div>
+                        </dd>
+            </dl>
+        <a href="javascript:void(0)" class="btn-visual" groupid="3" tit="年份" field="年" value="" title="Trend of Degree Year" onclick="Visualization.pop.showGroup(event,null, 1,3,'Degree Year','Degree Year'); window.behaviorlog.YearScreen(this); return false;" style=""><i></i>Trend of Degree Year</a>
+
+        <div class="sidebar-filter-btns fixed disableclick" style="top: 534px;">
+            <a class="btn-submit" href="javascript:void(0)" onclick="mutiSelectedGroup()">Confirm</a>
+            <a class="btn-clearall" href="javascript:void(0)">Clear</a>
+        </div>
+
+
+    <script type="text/javascript">
+        //广告-当前检索词
+        if ($(".search-input").val() != undefined || $("#txt_search").val() != undefined || $("input[data-tipid='gradetxt-1']").val() != undefined) {
+            var searchvalue = $("#txt_search").val() || $(".search-input").val() || $("input[data-tipid='gradetxt-1']").val();
+            if ($.trim(searchvalue) != "") {
+                try {
+                    parent.window.adsContainer.loadAds(searchvalue);
+                    parent.window.adsContainer2.loadAds(searchvalue);
+
+                    //关闭广告时，按钮上移
+                    $("#recommend,#recommend2").on("mousedown", ".close a", function () {
+                        filterFn.prototype.filterBtnsMoveTop($("#divGroup"));
+                    });
+                }
+                catch (e) {
+                    $("#recommend").remove();
+                    $("#recommend2").remove();
+                }
+            }
+            else {
+                $("#recommend").remove();
+                $("#recommend2").remove();
+            }
+        } else {
+            $("#recommend").remove();
+            $("#recommend2").remove();
+        }
+
+        if (!window.behaviorlog) {
+            window.behaviorlog = function () { };
+        }
+        else {
+            if (!window.behaviorlog.YearScreen)
+                window.behaviorlogYearScreen = function () { };
+            if (!window.behaviorlog.Screen)
+                window.behaviorlog.Screen = function () { }
+        }
+
+    </script>
+</div>
+        </div>
+        <div class="main fr">
+            
+            <div class="result-con-l" style="">
+                <div class="search-his-tip">
+                    <span class="tip-range">Search Range：<b class="range"><b>Theses &amp; Dissertations</b></b></span>
+                    <span class="conditions"><a><i>&gt;</i>Subject：深度学习 汉字识别</a></span>
+                    <a class="tiphide" onclick="" style="display: none;">×</a>
+                    <input type="hidden" id="scdbfield" value="">
+                    <input type="hidden" id="blankse" value="">
+                </div>
+                <a class="btn-subscribe js-haslogin" href="javascript:void(0)">Subject Customization</a>
+                <a class="btn-search-his" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/manage/history.html?subject=KNS" target="_blank">Search History</a>
+            </div>
+
+            
+            
+<div id="briefBox" style=""><form method="post" name="gridTableForm">
+    <div id="gridTable" class="search-result">
+<div class="toolbar"><div id="countPageDiv" class="result-con-r"><span class="pagerTitleCell">Total:<em>99</em>  articles</span><span class="countPageMark">2/2</span><span class="topTurnSpan"><a id="Page_Prev_top" title="“← →” Turn Page" data-curpage="1">&lt;&lt;</a></span></div><div class="toolbar-col toolbar-oth">
+        <div class="checkcount">
+            <label class="checkAll"><input type="checkbox" name="selectCheckbox" id="selectCheckAll1" onclick="$(this).filenameClick()">All</label>
+            <span>Selected:</span>
+            <em title="Click to check selected literature" id="selectCount" name="selectCount" onclick='window.open(APPPATH + "/manage.html?subject="+GetQueryStringByName("subject"))'>0</em>
+            <a href="javascript:$.filenameClear();">Clear</a>
+          </div> 
+          <div class="toolbar-mod">
+            <ul class="dropdown-analysis-btns" id="batchOpsBox">
+              <li class="bulkdownload export" style="display: none;"><a href="javascript:void(0)">Batch Download</a></li>
+              <li>
+                  <a href="javascript:void(0)">Export and Analysis</a><i class="icon-d"></i>
+                  <ul>
+                    <li class="export">
+                      <a href="javascript:void(0)">Export Reference</a>
+                      <i class="icon-r"></i>
+                      <ul class="secondUl">
+                        <li><a href="javascript:void(0)" exporttype="GBTREFER">GB/T 7714-2015 Citation</a></li>
+                        <li><a href="javascript:void(0)" exporttype="elearning">CNKI E-Study</a></li>
+                        <li><a href="javascript:void(0)" exporttype="REFER">CAJ-CD Citation</a></li>
+                        <li><a href="javascript:void(0)" exporttype="MLA">MLA</a></li>
+                        <li><a href="javascript:void(0)" exporttype="APA">APA</a></li>
+                        <li><a href="javascript:void(0)" exporttype="NEW">Novelty Search(citation format)</a></li>
+                        <li><a href="javascript:void(0)" exporttype="newdefine">Novelty Search(self-defined)</a></li>
+                        <li><a href="javascript:void(0)" exporttype="Refworks">Refworks</a></li>
+                        <li><a href="javascript:void(0)" exporttype="EndNote">EndNote</a></li>
+                        <li><a href="javascript:void(0)" exporttype="NoteExpress">NoteExpress</a></li>
+                        <li><a href="javascript:void(0)" exporttype="NodeFirst">NoteFirst</a></li>
+                        <li><a href="javascript:void(0)" exporttype="selfDefine">Self-defined</a></li>
+                      </ul>
+                    </li>
+                    <li id="analysisLi">
+                      <a href="javascript:void(0)">Visual Analysis</a><i class="icon-r"></i>
+                      <ul class="secondUl">
+                        <li id="anisys_select"><a href="javascript:void(0)">Analysis of Selected Results(<span>0</span>)</a></li>
+                        <li id="anisys_all"><a href="javascript:void(0)">Analysis of All Search Results</a></li>
+                      </ul>
+                    </li>
+                   
+                  </ul>
+                </li>
+              </ul>
+          <ul class="change-list" id="DivDisplayMode"><li title="detail" data-obj="result-piclist" data-mode="custommode"><i class="icon-detail"></i></li><li class="active" title="list" data-obj="result-table-list" data-mode="listmode"><i class="icon-table"></i></li></ul><div class="statistic"><div id="id_grid_display_num" class="page-show-count">Records/Page<div class="sort" id="perPageDiv"><div class="sort-default"><span>50</span><i class="icon icon-sort"></i></div><ul class="sort-list"><li data-val="10"><a href="javascript:void(0);">10</a></li><li data-val="20"><a href="javascript:void(0);">20</a></li> <li class="cur" data-val="50"><a href="javascript:void(0);">50</a></li></ul></div></div></div><div class="order-group" id="sortList"><span> Sort:</span><ul class="order" id="orderList"><li data-sorttype="(ffd%2c%27rank%27)" data-sort="Subject%2f(ffd%2c%27rank%27)" data-onlydesc="true">Subject</li><li class="descend cur" title="Only valid within 8 million records" data-sorttype="(%e5%8f%91%e8%a1%a8%e6%97%b6%e9%97%b4%2c%27DATE%27)" data-sort="Publication+Date%2f(%e5%8f%91%e8%a1%a8%e6%97%b6%e9%97%b4%2c%27DATE%27)" data-onlydesc="false">Publication Date</li><li data-sorttype="(%e8%a2%ab%e5%bc%95%e9%a2%91%e6%ac%a1%2c%27integer%27)" data-sort="Cites%2f(%e8%a2%ab%e5%bc%95%e9%a2%91%e6%ac%a1%2c%27integer%27)" data-onlydesc="false">Cites</li><li data-sorttype="(%e4%b8%8b%e8%bd%bd%e9%a2%91%e6%ac%a1%2c%27integer%27)" data-sort="Downloads%2f(%e4%b8%8b%e8%bd%bd%e9%a2%91%e6%ac%a1%2c%27integer%27)" data-onlydesc="false">Downloads</li><li data-sorttype="(%e5%ad%a6%e4%bd%8d%e5%b9%b4%e5%ba%a6%2c%27DATE%27)" data-sort="Degree-awarding+Year%2f(%e5%ad%a6%e4%bd%8d%e5%b9%b4%e5%ba%a6%2c%27DATE%27)" data-onlydesc="false">Degree-awarding Year</li></ul></div></div></div></div><table class="result-table-list"> <thead><tr><th></th><th>Chinese title</th><th>Author</th><th>Degree-Granting Institution</th><th>Database</th><th>Degree-Granting Year</th><th>Cites</th><th>Downloads</th><th>Options</th></tr></thead><tbody><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="51" name="CookieName" value="CMFD202001!1020727520.nh!51!30" onclick="$(this).filenameClick()">51</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=51&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1020727520.nh" target="_blank">Multi-scene Text Detection and Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%88%b4%e9%9b%a8%e8%be%b0&amp;scode=44841783" target="knet">戴雨辰</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSJTU" target="knet">上海交通大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2019 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">32</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202001%26filename%3d1020727520.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1020727520.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="52" name="CookieName" value="CMFD201902!1019827449.nh!52!30" onclick="$(this).filenameClick()">52</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=52&amp;DbCode=CMFD&amp;dbname=CMFD201902&amp;filename=1019827449.nh" target="_blank">Algorithm Research of Extended Chinese Character Sample Library Based on Style Transfer and Thin Plate Spline </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%8e%8b%e4%ba%9a%e8%92%99&amp;scode=40122991" target="knet">王亚蒙</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZGYU" target="knet">浙江工业大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2019 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">80</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201902%26filename%3d1019827449.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019827449.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="53" name="CookieName" value="CMFD202001!1019026128.nh!53!30" onclick="$(this).filenameClick()">53</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=53&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1019026128.nh" target="_blank">Research on Handwriting NewTaiLue Character Recognition Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%8e%8b%e9%87%91%e4%b8%80&amp;scode=41367184" target="knet">王金一</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GYNDU" target="knet">云南大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">27</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202001%26filename%3d1019026128.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019026128.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="54" name="CookieName" value="CMFD201902!1019027258.nh!54!30" onclick="$(this).filenameClick()">54</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=54&amp;DbCode=CMFD&amp;dbname=CMFD201902&amp;filename=1019027258.nh" target="_blank">Research and Implementation of Form Recognition System Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%86%8a%e9%9b%a8%e7%82%b9&amp;scode=42198669" target="knet">熊雨点</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GWHXC" target="knet">武汉工程大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">85</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201902%26filename%3d1019027258.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019027258.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="55" name="CookieName" value="CDFDLAST2019!1018313797.nh!55!30" onclick="$(this).filenameClick()">55</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=55&amp;DbCode=CDFD&amp;dbname=CDFDLAST2019&amp;filename=1018313797.nh" target="_blank">Research on Chinese Word Representation Learning Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%ba%84%e8%88%aa&amp;scode=36220559" target="knet">庄航</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZKJU" target="knet">中国科学技术大学</a>
+        
+      </td>
+       <td class="data">
+        Doctoral Dissertations
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDFD&amp;sfield=cite&amp;skey=Research+on+Chinese+Word+Representation+Learning+Based+on+Deep+Learning&amp;scode=1018313797.nh" target="_blank">6</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">685</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCDFDLAST2019%26filename%3d1018313797.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018313797.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="56" name="CookieName" value="CDFDLAST2019!1019823988.nh!56!30" onclick="$(this).filenameClick()">56</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=56&amp;DbCode=CDFD&amp;dbname=CDFDLAST2019&amp;filename=1019823988.nh" target="_blank">The Representation and Recognition of Trajectory Data Based on Path Signature Feature and Deep Learning Methods </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9d%a8%e7%bb%b4%e4%bf%a1&amp;scode=30484426" target="knet">杨维信</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+        
+      </td>
+       <td class="data">
+        Doctoral Dissertations
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">261</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCDFDLAST2019%26filename%3d1019823988.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019823988.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="57" name="CookieName" value="CMFD201901!1018848432.nh!57!30" onclick="$(this).filenameClick()">57</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=57&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018848432.nh" target="_blank">基于<font class="Mark">深度学习</font>的<font class="Mark">汉字识别</font>技术研究 </a>         
+       
+       
+    
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%ad%a6%e5%ad%90%e6%af%85&amp;scode=39959448" target="knet">武子毅</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHDCC" target="knet">江苏科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=%e5%9f%ba%e4%ba%8e%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e7%9a%84%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab%e6%8a%80%e6%9c%af%e7%a0%94%e7%a9%b6&amp;scode=1018848432.nh" target="_blank">3</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">356</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1018848432.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018848432.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="58" name="CookieName" value="CMFD202001!1019631366.nh!58!30" onclick="$(this).filenameClick()">58</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=58&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1019631366.nh" target="_blank">Off-line Handwriting Chinese Character Recognition Framework Design Based on Convolutional Neural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%8e%8b%e8%89%b3%e7%be%8e&amp;scode=37263434" target="knet">王艳美</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GCYDX" target="knet">重庆邮电大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">85</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202001%26filename%3d1019631366.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019631366.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="59" name="CookieName" value="CMFD202001!1018320214.nh!59!30" onclick="$(this).filenameClick()">59</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=59&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1018320214.nh" target="_blank">Research of Express Sorting Robot System Based on Machine Vision </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e4%bb%bb%e7%a3%8a&amp;scode=41234607" target="knet">任磊</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZGJL" target="knet">中国计量大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+of+Express+Sorting+Robot+System+Based+on+Machine+Vision&amp;scode=1018320214.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">334</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202001%26filename%3d1018320214.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018320214.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="60" name="CookieName" value="CMFD202001!1019687361.nh!60!30" onclick="$(this).filenameClick()">60</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=60&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1019687361.nh" target="_blank">Research and Implementation of Automatic Identification of Id Card on the Android Platform Based on C/S Mode </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9d%8e%e5%bf%97%e6%9d%b0&amp;scode=45705640" target="knet">李志杰</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNHHU" target="knet">南京航空航天大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+and+Implementation+of+Automatic+Identification+of+Id+Card+on+the+Android+Platform+Based+on+C%2fS+Mode&amp;scode=1019687361.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">57</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202001%26filename%3d1019687361.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019687361.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="61" name="CookieName" value="CMFD201802!1018191954.nh!61!30" onclick="$(this).filenameClick()">61</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=61&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018191954.nh" target="_blank">Research on Text Detection and Recognition for Screen-rendered Image </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%91%a8%e5%86%9b&amp;scode=39842234" target="knet">周军</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GWKJU" target="knet">武汉科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+on+Text+Detection+and+Recognition+for+Screen-rendered+Image&amp;scode=1018191954.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">164</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018191954.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018191954.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="62" name="CookieName" value="CMFD201802!1018148725.nh!62!30" onclick="$(this).filenameClick()">62</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=62&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018148725.nh" target="_blank">Research on Ofline Handwritten Chinese Character Recognition Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%99%88%e9%b9%8f%e9%a3%9e&amp;scode=38812900" target="knet">陈鹏飞</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GWYDU" target="knet">五邑大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+on+Ofline+Handwritten+Chinese+Character+Recognition+Based+on+Deep+Learning&amp;scode=1018148725.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">294</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018148725.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018148725.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="63" name="CookieName" value="CMFD201802!1018226349.nh!63!30" onclick="$(this).filenameClick()">63</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=63&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018226349.nh" target="_blank">General Document Identification System Based on OCR Technology </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%b8%b8%e5%8f%82%e5%8f%82&amp;scode=38211859" target="knet">常参参</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNCHU" target="knet">南昌大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=General+Document+Identification+System+Based+on+OCR+Technology&amp;scode=1018226349.nh" target="_blank">11</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">714</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018226349.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018226349.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="64" name="CookieName" value="CMFD202002!1020737532.nh!64!30" onclick="$(this).filenameClick()">64</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=64&amp;DbCode=CMFD&amp;dbname=CMFD202002&amp;filename=1020737532.nh" target="_blank">Covered Off-line Handwritten Chinese Character Recognition Based on Convolutional Neural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9d%a8%e6%b4%aa%e7%a3%8a&amp;scode=45144724" target="knet">杨洪磊</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHBGU" target="knet">河北工业大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">13</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202002%26filename%3d1020737532.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1020737532.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="65" name="CookieName" value="CMFD202001!1018246697.nh!65!30" onclick="$(this).filenameClick()">65</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=65&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1018246697.nh" target="_blank">A Comparative Study of Handwritten Character Recognition Algorithms in New Tai Lue </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%bc%a0%e7%ab%8b%e6%ac%a3&amp;scode=41220250" target="knet">张立欣</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GYNDU" target="knet">云南大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=A+Comparative+Study+of+Handwritten+Character+Recognition+Algorithms+in+New+Tai+Lue&amp;scode=1018246697.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">34</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD202001%26filename%3d1018246697.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018246697.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="66" name="CookieName" value="CMFD201901!1018247240.nh!66!30" onclick="$(this).filenameClick()">66</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=66&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018247240.nh" target="_blank">基于<font class="Mark">深度学习</font>的印刷体<font class="Mark">汉字识别</font> </a>         
+       
+       
+    
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%88%98%e5%86%ac%e6%b0%91&amp;scode=35654925" target="knet">刘冬民</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GGZDU" target="knet">广州大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=%e5%9f%ba%e4%ba%8e%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e7%9a%84%e5%8d%b0%e5%88%b7%e4%bd%93%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab&amp;scode=1018247240.nh" target="_blank">5</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">578</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1018247240.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018247240.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="67" name="CookieName" value="CMFD201901!1018821316.nh!67!30" onclick="$(this).filenameClick()">67</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=67&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018821316.nh" target="_blank">Combination of Convolutional Neural Network and Metric Learning for Offline Handwritten Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%bc%a0%e8%8c%b9%e7%8e%89&amp;scode=39819160" target="knet">张茹玉</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHDSU" target="knet">华东师范大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Combination+of+Convolutional+Neural+Network+and+Metric+Learning+for+Offline+Handwritten+Chinese+Character+Recognition&amp;scode=1018821316.nh" target="_blank">3</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">337</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1018821316.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018821316.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="68" name="CookieName" value="CMFD201802!1018959498.nh!68!30" onclick="$(this).filenameClick()">68</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=68&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018959498.nh" target="_blank">Improvement and Analysis of Online Handwritten Chinese Character Recognition Based on Deep Convolutional Neural Networks </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%94%b0%e5%8f%8b%e7%90%b3&amp;scode=39684408" target="knet">田友琳</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GYLGU" target="knet">太原理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Improvement+and+Analysis+of+Online+Handwritten+Chinese+Character+Recognition+Based+on+Deep+Convolutional+Neural+Networks&amp;scode=1018959498.nh" target="_blank">2</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">191</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018959498.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018959498.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="69" name="CookieName" value="CMFD201802!1018131566.nh!69!30" onclick="$(this).filenameClick()">69</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=69&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018131566.nh" target="_blank">Vehicle Intelligent Wireless Localization Algorithm Based on Conventional Neural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%bc%a0%e6%99%ba%e7%90%a6&amp;scode=35275767" target="knet">张智琦</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GBFJU" target="knet">北京交通大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Vehicle+Intelligent+Wireless+Localization+Algorithm+Based+on+Conventional+Neural+Network&amp;scode=1018131566.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">336</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018131566.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018131566.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="70" name="CookieName" value="CMFD201802!1018872083.nh!70!30" onclick="$(this).filenameClick()">70</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=70&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018872083.nh" target="_blank">On-line Handwritten Chinese Characters Analysis and Recognition Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%88%98%e6%9b%bc%e9%a3%9e&amp;scode=35711091" target="knet">刘曼飞</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">250</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018872083.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018872083.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="71" name="CookieName" value="CMFD201901!1018089028.nh!71!30" onclick="$(this).filenameClick()">71</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=71&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018089028.nh" target="_blank">Deep Learning Classification Network Research and Its Application in Computer Vision </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%91%a8%e6%99%93%e4%b8%9c&amp;scode=09434563" target="knet">周晓东</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZZDU" target="knet">郑州大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Deep+Learning+Classification+Network+Research+and+Its+Application+in+Computer+Vision&amp;scode=1018089028.nh" target="_blank">8</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">260</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1018089028.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018089028.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="72" name="CookieName" value="CMFD201802!1018153352.nh!72!30" onclick="$(this).filenameClick()">72</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=72&amp;DbCode=CMFD&amp;dbname=CMFD201802&amp;filename=1018153352.nh" target="_blank">Application of the Deep Learning Algorithm in Plate Number Detection </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%bc%a0%e5%ae%87%e6%be%84&amp;scode=32616288" target="knet">张宇澄</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJIU" target="knet">南京大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2018 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Application+of+the+Deep+Learning+Algorithm+in+Plate+Number+Detection&amp;scode=1018153352.nh" target="_blank">8</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">878</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201802%26filename%3d1018153352.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018153352.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="73" name="CookieName" value="CMFD201901!1019038794.nh!73!30" onclick="$(this).filenameClick()">73</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=73&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1019038794.nh" target="_blank">Research and Application of Information Extraction Technology for Reuseable Notebook </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%bf%81%e5%be%ae%e5%86%9b&amp;scode=41488554" target="knet">翁微军</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZJDX" target="knet">浙江大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2019 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">55</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1019038794.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1019038794.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="74" name="CookieName" value="CMFD201702!1017187103.nh!74!30" onclick="$(this).filenameClick()">74</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=74&amp;DbCode=CMFD&amp;dbname=CMFD201702&amp;filename=1017187103.nh" target="_blank">Research of Off-Line Handwritten Chinese Character Recognition System Based on Convolution Neural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%ab%98%e7%81%bf&amp;scode=36508328" target="knet">高灿</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNGC" target="knet">安徽理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+of+Off-Line+Handwritten+Chinese+Character+Recognition+System+Based+on+Convolution+Neural+Network&amp;scode=1017187103.nh" target="_blank">10</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">1201</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201702%26filename%3d1017187103.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017187103.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="75" name="CookieName" value="CMFD201801!1017289802.nh!75!30" onclick="$(this).filenameClick()">75</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=75&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017289802.nh" target="_blank">Technical Study of Text Detection and Recognition in Natural Scene </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9d%8e%e8%8d%a3%e9%be%99&amp;scode=38465633" target="knet">李荣龙</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GBHGU" target="knet">北京化工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Technical+Study+of+Text+Detection+and+Recognition+in+Natural+Scene&amp;scode=1017289802.nh" target="_blank">3</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">253</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201801%26filename%3d1017289802.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017289802.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="76" name="CookieName" value="CMFD201801!1017301913.nh!76!30" onclick="$(this).filenameClick()">76</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=76&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017301913.nh" target="_blank">Recognition of Handwritten Tibetan Syllable Words </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e8%a2%81%e9%81%93%e6%98%b1&amp;scode=37514852" target="knet">袁道昱</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GXADU" target="knet">西安电子科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Recognition+of+Handwritten+Tibetan+Syllable+Words&amp;scode=1017301913.nh" target="_blank">8</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">271</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201801%26filename%3d1017301913.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017301913.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="77" name="CookieName" value="CMFD201901!1018950402.nh!77!30" onclick="$(this).filenameClick()">77</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=77&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018950402.nh" target="_blank">The Research of Low Quality Text Recognition Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e8%b5%b5%e8%88%aa&amp;scode=07611282" target="knet">赵航</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHZKU" target="knet">华中科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">116</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1018950402.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018950402.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="78" name="CookieName" value="CMFD201901!1018970588.nh!78!30" onclick="$(this).filenameClick()">78</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=78&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018970588.nh" target="_blank">Application of Convolution Neural Network in Reproduced Laser Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e4%b8%81%e7%90%aa&amp;scode=41150681" target="knet">丁琪</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHZKU" target="knet">华中科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Application+of+Convolution+Neural+Network+in+Reproduced+Laser+Character+Recognition&amp;scode=1018970588.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">37</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201901%26filename%3d1018970588.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1018970588.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="79" name="CookieName" value="CMFD201801!1017815848.nh!79!30" onclick="$(this).filenameClick()">79</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=79&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017815848.nh" target="_blank">License Plate Recognition Based on Deep Learning and Visual Attention </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%ae%b7%e6%b5%a9&amp;scode=34983403" target="knet">殷浩</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHUGC" target="knet">湖北工业大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=License+Plate+Recognition+Based+on+Deep+Learning+and+Visual+Attention&amp;scode=1017815848.nh" target="_blank">6</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">558</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201801%26filename%3d1017815848.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017815848.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="80" name="CookieName" value="CMFD201801!1017103503.nh!80!30" onclick="$(this).filenameClick()">80</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=80&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017103503.nh" target="_blank">Research and Implementation of Documents Recognition Technology in Complex Background </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%bc%a0%e7%bf%ae&amp;scode=36214597" target="knet">张翮</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GDZKU" target="knet">电子科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+and+Implementation+of+Documents+Recognition+Technology+in+Complex+Background&amp;scode=1017103503.nh" target="_blank">11</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">552</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201801%26filename%3d1017103503.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017103503.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="81" name="CookieName" value="CMFD201702!1017170556.nh!81!30" onclick="$(this).filenameClick()">81</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=81&amp;DbCode=CMFD&amp;dbname=CMFD201702&amp;filename=1017170556.nh" target="_blank">Verification of Off-line Handwritten Signature Based on the Improvedneural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%a2%81%e6%9b%a6%e7%92%90&amp;scode=37546874" target="knet">梁曦璐</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZGZU" target="knet">中国政法大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Verification+of+Off-line+Handwritten+Signature+Based+on+the+Improvedneural+Network&amp;scode=1017170556.nh" target="_blank">13</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">960</a></span>
+      </td> 
+      <td class="operat">
+              <a href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/download?filename=2NnSuRUR4VVeIBjNsdjYzg2ZWFEd25kY2kVNzB3b0Z0ZFRTdxwkW1AnMRBHcVR1ZhFFNDB3YjxUdXlXbx5UN0R1K2Mjcv4EMxUlRzZlR4JDb4cjUHVjbHdkW5tWOwh0MQVGcm9kNOdkYpZkTIhVQlZzSSpXZGFUR&amp;tablename=CMFD201702" title="Download" target="_blank" class="downloadlink icon-download"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201702%26filename%3d1017170556.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017170556.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="82" name="CookieName" value="CMFD201701!1017046917.nh!82!30" onclick="$(this).filenameClick()">82</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=82&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1017046917.nh" target="_blank">The Research on Handwritten Chinese Characters Recognition Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%ad%99%e5%b7%8d%e5%b7%8d&amp;scode=36867173" target="knet">孙巍巍</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHLGU" target="knet">哈尔滨理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=The+Research+on+Handwritten+Chinese+Characters+Recognition+Based+on+Deep+Learning&amp;scode=1017046917.nh" target="_blank">20</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">1543</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1017046917.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017046917.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="83" name="CookieName" value="CMFD201801!1017066884.nh!83!30" onclick="$(this).filenameClick()">83</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=83&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017066884.nh" target="_blank">Research and Application on Key Algorithms of Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%a1%be%e5%88%9a&amp;scode=37582162" target="knet">顾刚</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZJDX" target="knet">浙江大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2017 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+and+Application+on+Key+Algorithms+of+Chinese+Character+Recognition&amp;scode=1017066884.nh" target="_blank">7</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">579</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201801%26filename%3d1017066884.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1017066884.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="84" name="CookieName" value="CMFD201701!1016269698.nh!84!30" onclick="$(this).filenameClick()">84</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=84&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016269698.nh" target="_blank">A
+ Preliminary Study on Diagnosis of Benign and Malignant Calcification 
+Lesions of Mammography and Evaluation of BI-RADS Categories Based on 
+Deep Convolutional Feature </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9b%be%e8%be%89&amp;scode=35919705" target="knet">曾辉</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GOJYU" target="knet">南方医科大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=A+Preliminary+Study+on+Diagnosis+of+Benign+and+Malignant+Calcification+Lesions+of+Mammography+and+Evaluation+of+BI-RADS+Categories+Based+on+Deep+Convolutional+Feature&amp;scode=1016269698.nh" target="_blank">4</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">591</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016269698.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016269698.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="85" name="CookieName" value="CMFD201701!1016096021.nh!85!30" onclick="$(this).filenameClick()">85</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=85&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016096021.nh" target="_blank">Deep Convolutional Neural Network and Its Application in Handwritten Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%83%ad%e9%b9%8f&amp;scode=35978935" target="knet">郭鹏</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSSDU" target="knet">四川师范大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Deep+Convolutional+Neural+Network+and+Its+Application+in+Handwritten+Chinese+Character+Recognition&amp;scode=1016096021.nh" target="_blank">21</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">1045</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016096021.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016096021.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="86" name="CookieName" value="CMFD201701!1016770549.nh!86!30" onclick="$(this).filenameClick()">86</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=86&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016770549.nh" target="_blank">Research on Deep Learning And Its Application in The Off-line Handwritten Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%88%98%e5%85%a8%e5%8d%87&amp;scode=35798765" target="knet">刘全升</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+on+Deep+Learning+And+Its+Application+in+The+Off-line+Handwritten+Chinese+Character+Recognition&amp;scode=1016770549.nh" target="_blank">11</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">483</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016770549.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016770549.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="87" name="CookieName" value="CDFDLAST2017!1016770438.nh!87!30" onclick="$(this).filenameClick()">87</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=87&amp;DbCode=CDFD&amp;dbname=CDFDLAST2017&amp;filename=1016770438.nh" target="_blank">Deep Model and Its Application to Visual Text Analysis </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%bc%a0%e6%a0%91%e4%b8%9a&amp;scode=31707684" target="knet">张树业</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+        
+      </td>
+       <td class="data">
+        Doctoral Dissertations
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDFD&amp;sfield=cite&amp;skey=Deep+Model+and+Its+Application+to+Visual+Text+Analysis&amp;scode=1016770438.nh" target="_blank">11</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">1545</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCDFDLAST2017%26filename%3d1016770438.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016770438.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="88" name="CookieName" value="CMFD201602!1016145079.nh!88!30" onclick="$(this).filenameClick()">88</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=88&amp;DbCode=CMFD&amp;dbname=CMFD201602&amp;filename=1016145079.nh" target="_blank">Design and Implementation of Digit Recognition System Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9d%8e%e5%8d%93&amp;scode=06350075" target="knet">李卓</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GBLYU" target="knet">北京林业大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Design+and+Implementation+of+Digit+Recognition+System+Based+on+Deep+Learning&amp;scode=1016145079.nh" target="_blank">12</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">976</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201602%26filename%3d1016145079.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016145079.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="89" name="CookieName" value="CMFD201701!1016168976.nh!89!30" onclick="$(this).filenameClick()">89</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=89&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016168976.nh" target="_blank">Application of Deep Learning Algorithm in License Plate Recognition System </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%88%98%e5%b3%a5%e5%bc%ba&amp;scode=35933002" target="knet">刘峥强</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GDZKU" target="knet">电子科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Application+of+Deep+Learning+Algorithm+in+License+Plate+Recognition+System&amp;scode=1016168976.nh" target="_blank">32</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">2345</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016168976.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016168976.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="90" name="CookieName" value="CMFD201701!1016169880.nh!90!30" onclick="$(this).filenameClick()">90</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=90&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016169880.nh" target="_blank">Research And Implementation of Vehicle Feature Recognition System Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%8e%8b%e6%a2%a6%e4%bc%9f&amp;scode=32481805" target="knet">王梦伟</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GDZKU" target="knet">电子科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+And+Implementation+of+Vehicle+Feature+Recognition+System+Based+on+Deep+Learning&amp;scode=1016169880.nh" target="_blank">4</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">840</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016169880.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016169880.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="91" name="CookieName" value="CMFD201701!1016176439.nh!91!30" onclick="$(this).filenameClick()">91</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=91&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016176439.nh" target="_blank">Research of Character Recognition Algorithms on Convolution Neural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%90%b4%e9%a6%99%e8%8e%b2&amp;scode=35933154" target="knet">吴香莲</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GDZKU" target="knet">电子科技大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+of+Character+Recognition+Algorithms+on+Convolution+Neural+Network&amp;scode=1016176439.nh" target="_blank">21</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">723</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016176439.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016176439.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="92" name="CookieName" value="CMFD201701!1016072784.nh!92!30" onclick="$(this).filenameClick()">92</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=92&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016072784.nh" target="_blank">Video Text Location And Recognition Based on Deep Learning Algorithm </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%83%91%e4%ba%91%e9%9d%9e&amp;scode=32936673" target="knet">郑云非</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHLGU" target="knet">哈尔滨理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Video+Text+Location+And+Recognition+Based+on+Deep+Learning+Algorithm&amp;scode=1016072784.nh" target="_blank">5</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">313</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016072784.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016072784.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="93" name="CookieName" value="CMFD201602!1016063610.nh!93!30" onclick="$(this).filenameClick()">93</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=93&amp;DbCode=CMFD&amp;dbname=CMFD201602&amp;filename=1016063610.nh" target="_blank">Deep Model Based Offline Handwritten Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%91%a8%e6%98%9f%e8%be%b0&amp;scode=31344637" target="knet">周星辰</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZJDX" target="knet">浙江大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Deep+Model+Based+Offline+Handwritten+Chinese+Character+Recognition&amp;scode=1016063610.nh" target="_blank">16</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">1182</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201602%26filename%3d1016063610.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016063610.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="94" name="CookieName" value="CMFD201701!1016773784.nh!94!30" onclick="$(this).filenameClick()">94</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=94&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016773784.nh" target="_blank">Robust Handwriting Post Processing Method Based on Integration of Multi Language Model </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%bb%84%e5%93%b2%e6%95%8f&amp;scode=35843154" target="knet">黄哲敏</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHGDU" target="knet">哈尔滨工业大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2016 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Robust+Handwriting+Post+Processing+Method+Based+on+Integration+of+Multi+Language+Model&amp;scode=1016773784.nh" target="_blank">1</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">81</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016773784.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1016773784.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="95" name="CookieName" value="CMFD201601!1015983059.nh!95!30" onclick="$(this).filenameClick()">95</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=95&amp;DbCode=CMFD&amp;dbname=CMFD201601&amp;filename=1015983059.nh" target="_blank">Online Chinese Handwriting Character Recognition System Based on Convolutional Neural Network </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%88%98%e6%ac%a3&amp;scode=10644670" target="knet">刘欣</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHGDU" target="knet">哈尔滨工业大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2015 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Online+Chinese+Handwriting+Character+Recognition+System+Based+on+Convolutional+Neural+Network&amp;scode=1015983059.nh" target="_blank">25</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">2782</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201601%26filename%3d1015983059.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1015983059.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="96" name="CookieName" value="CMFD201602!1015964244.nh!96!30" onclick="$(this).filenameClick()">96</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=96&amp;DbCode=CMFD&amp;dbname=CMFD201602&amp;filename=1015964244.nh" target="_blank">The Recognition And Implementation of Handwritten Character Based on Deep Learning </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e4%bd%95%e8%a5%bf%e9%ba%9f&amp;scode=35109970" target="knet">何西麟</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZSDU" target="knet">中山大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2015 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=The+Recognition+And+Implementation+of+Handwritten+Character+Based+on+Deep+Learning&amp;scode=1015964244.nh" target="_blank">28</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">2477</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201602%26filename%3d1015964244.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1015964244.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="97" name="CookieName" value="CMFD201502!1015383231.nh!97!30" onclick="$(this).filenameClick()">97</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=97&amp;DbCode=CMFD&amp;dbname=CMFD201502&amp;filename=1015383231.nh" target="_blank">The Research on Convolutional Neural Networks Based Isolated Handwritten Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%b8%b8%e6%ac%a2&amp;scode=31044519" target="knet">常欢</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GANHU" target="knet">安徽大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2015 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=The+Research+on+Convolutional+Neural+Networks+Based+Isolated+Handwritten+Chinese+Character+Recognition&amp;scode=1015383231.nh" target="_blank">15</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">1008</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201502%26filename%3d1015383231.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1015383231.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr>
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="98" name="CookieName" value="CMFD201501!1014063919.nh!98!30" onclick="$(this).filenameClick()">98</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=98&amp;DbCode=CMFD&amp;dbname=CMFD201501&amp;filename=1014063919.nh" target="_blank">Research on Deep Learning and Its Application in the Handwritten Chinese Character Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e7%8e%8b%e6%9c%89%e6%97%ba&amp;scode=30799345" target="knet">王有旺</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+        
+      </td>
+       <td class="data">
+        Master's Theses
+      </td>
+      <td class="date">      
+        2014 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CMFD&amp;sfield=cite&amp;skey=Research+on+Deep+Learning+and+Its+Application+in+the+Handwritten+Chinese+Character+Recognition&amp;scode=1014063919.nh" target="_blank">27</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">3005</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201501%26filename%3d1014063919.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1014063919.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr><tr class="odd">
+<td class="seq"><input class="cbItem" type="checkbox" data-cur="99" name="CookieName" value="CDFD1214!1014063261.nh!99!30" onclick="$(this).filenameClick()">99</td>
+       <td class="name">     
+         
+           <a class="fz14" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=30&amp;CurRec=99&amp;DbCode=CDFD&amp;dbname=CDFD1214&amp;filename=1014063261.nh" target="_blank">Research on Computer Vision Feature Representation and Learning for Image Classification and Recognition </a>               
+        
+       
+      <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span> 
+    
+	  
+      </td>
+      <td class="author"><a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDMD&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9d%a8%e9%92%8a&amp;scode=31707683" target="knet">杨钊</a></td>       
+     <td class="unit">
+         <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+        
+      </td>
+       <td class="data">
+        Doctoral Dissertations
+      </td>
+      <td class="date">      
+        2014 
+      </td>        
+      <td class="quote">
+        
+        <a class="KnowledgeNetLink" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CDFD&amp;sfield=cite&amp;skey=Research+on+Computer+Vision+Feature+Representation+and+Learning+for+Image+Classification+and+Recognition&amp;scode=1014063261.nh" target="_blank">69</a>
+       
+      </td> 
+      <td class="download">
+       <span><a class="downloadCnt" href="javascript:void(0);">6179</a></span>
+      </td> 
+      <td class="operat">
+              <a href="javascript:void(0);" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！" target="_blank" class="downloadlink icon-nodownperm"><i></i>download</a>    
+          
+
+         
+         <a class="icon-read" target="online_open" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCDFD1214%26filename%3d1014063261.nh%26dbCode%3dCDMD" title="Read online"><i></i></a>
+         
+       
+         <a class="icon-collect" title=" Favorite" data-dbname="CDMD" data-filename="1014063261.nh"><i></i></a>
+         
+          <a class="icon-quote" title="Citation" href="javascript:void(0)"><i></i></a> 
+      </td>             
+
+      </tr></tbody></table><div class="pages"> <span class="total">Total 2 Page</span><a href="javascript:void(0);" data-curpage="1" title="“← →” Turn Page" id="total">First </a><a href="javascript:void(0);" data-curpage="1" title="“← →” Turn Page" id="PagePrev"> Prev </a><a href="javascript:void(0);" data-curpage="1" title="“← →” Turn Page" id="page1">1</a><span class="cur">2</span></div></div>
+    
+    <input id="errorMsgHid" type="hidden" value="">
+    <input id="HandlerIdHid" type="hidden" value="30">
+    <input id="curPageHid" type="hidden" value="2">
+    <input id="isSortHid" type="hidden" value="false">
+    <input id="sqlVal" type="hidden" value="2827E4B6502D871048A4A95C30875FF84BA5CA4462B822B7E5175C5DD99230689144B0954ED704214AC492538B691A8C335BF08C0956EF7ABB497E8BA626104887BCBBDA81F8C16C8924F01563871A7939FA89C6EC3A6065495FD1CB14553E0EFC9D796C41D9FA018F07519606F931BD9C466C95E554E798620C44723EB797095C965F613AADB7A962785F274F26672F163ED5E059E3EF4216C335BE209C2203D25D80B5F7BF5CBF783F03242AEE9A084CC54FDD10F0C53D24423B7F542D424EC2040DC9DE9F3290B8C9EE282DBB7A34DA5A76501CE0C6659DA20BDBF2993565E24572EE88B7985AEE633290C07BBF22A345CDBB0D9F504C2606F3CD8A0592AC5921E369358925609FDFD1A698ABCFFCB360B8C44F8C8006A6763650699A30CE2FC9E30CCC29A2FF6B0674A4A48E3257790ABE4F58FC13EF5A9790F01E6699C400194AB22EABF1074569F742F0DAC081191A2A6432356F8E427DEC14F6CA8E147DB4E2FC77F36938DBFF7AD8E9521882537D0510332127D247300C1B642B70099AAE034FB55AE450B9CBAF1A7078BCB2A0944111824E62412C7FDAF0355BA4459D72D6EFB02A91DA706B3F0D19F2AFF1A774F049AA4491542BB44E2829EE1E82CBD7422BC5A3BDB114EC8128722BC81BF1208B1EEA580C18F0C87A2E868ACE8F6150A4DC137101A5D7E88D508136A4FAD4986696DBEAA53AF8D1A0CCB8368E2FD7DC2F9D5ED9DFF8C5B2FEA6DFCF96365CCA174720CE158C762B2766C88914966D7DAA1D4BEB16D3A235E8DD4D099F0E52408B0E8DAEFAF41FBC43BD73257222DFA774B7DB32BA59B490B78083BAC16066C3463E2EAD9671FA0DF40DABC15FF0FA7D32EF1648A36D35DBEA4C56DA6E4E1C8F2EB9312DDD2BD35A1FBD9EF83EB22D471BDC9F42DC3AE5E546DD786FA390E744795E96AC619BBE1D9E54882BFDBB4B324AC16E6DBFEB429BBE640907B7D758B3703386FD44271A75BD5B205D73D5A445610E8276BA48C009CA64A97B2673456B0F8F5C977049991370EC295DBE8C61F9A56D712AE73EAC67BC5FB9781B60872ABA408203957B431C6F238DA3D180A60DFB3A5FF3FCAB681333557561AF4F5B3F554B1DA95F57AAC2959221A726CE47DB861F544231F99E154A03A1F3230FE2D163CF12EB736A44B871944B792D4618EF5465E1B294258CAFD62496BF4BB1D5FF59271B291DCDFF8E528BF8A83827E9E97F9A124C0FBDF6E3EC0FFD01D46F">
+    <input id="pathAnalysisHid" type="hidden" value="http://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/KVisual/ArticleAnalysis/index?">
+</form>
+
+<script type="text/javascript">
+    $(function () {
+        if ('False'=='False') {
+            $("#batchOpsBox .bulkdownload").css("display","none");
+        }
+    });
+   
+</script>
+</div>
+
+            <div class="relevant">
+                <ul class="bottom-commend-list">
+    <li class="rlv-word"><h5>Related Search：</h5>
+<p>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C" target="_blank" title="卷积神经网络">卷积神经网络</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%B3%A8%E6%84%8F%E5%8A%9B%E5%B1%82" target="_blank" title="注意力层">注意力层</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%B5%85%E5%B1%82%E5%AD%A6%E4%B9%A0" target="_blank" title="浅层学习">浅层学习</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=LENET-5%E6%A8%A1%E5%9E%8B" target="_blank" title="LENET-5模型">LENET-5模型</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB" target="_blank" title="文字识别">文字识别</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E5%A4%9A%E6%A0%87%E5%8F%B7%E5%AD%A6%E4%B9%A0" target="_blank" title="多标号学习">多标号学习</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E5%8E%9F%E5%A7%8B%E5%8C%BA%E5%9F%9F" target="_blank" title="原始区域">原始区域</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E8%A7%92%E5%BA%A6%E6%8D%9F%E5%A4%B1%E5%87%BD%E6%95%B0" target="_blank" title="角度损失函数">角度损失函数</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%89%8B%E5%86%99%E4%B8%AD%E6%96%87%E8%AF%86%E5%88%AB" target="_blank" title="手写中文识别">手写中文识别</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%96%87%E5%AD%97%E8%AF%86%E5%88%AB%E6%89%8B%E5%86%99" target="_blank" title="文字识别手写">文字识别手写</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E5%A4%9A%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB" target="_blank" title="多数字识别">多数字识别</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E6%89%8B%E5%86%99%E8%AF%86%E5%88%AB%E7%AE%97%E6%B3%95" target="_blank" title="手写识别算法">手写识别算法</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E7%9B%B8%E4%BC%BC%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB" target="_blank" title="相似手写汉字识别">相似手写汉字识别</a></span>
+<span><a class="tit" href="https://oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/DefaultResult/Index?dbcode=CDMD&amp;kw=%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB" target="_blank" title="图像识别">图像识别</a></span>
+</p></li>
+    <li class="rlv-expert">
+       
+    </li>
+</ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="modalBox" style="display:none;">
+	<div class="mask"></div>
+	<div class="visPop">
+		<a href="javascript:void(0);" class="close">X</a>
+		<div class="vpSide">
+			<div class="vpsHd">
+				<label></label>
+			</div>
+			<div class="vpsBd">
+				<div class="reco">
+					<div class="item">
+						<label>Database:</label><span id="item_database">English Articles</span>
+					</div>
+					<div class="item">
+						<label>Search query:</label><span id="item_query">Title</span>
+					</div>
+					<div class="item">
+						<label>Distributed Term:</label><span id="item_group">Title</span>
+					</div>
+				</div>
+                <div class="vpSideShow">
+					<a href="javascript:void(0);" class="vpsHideBar">&lt;&lt;</a>
+				</div>
+				<div class="filt">
+					<div class="dispNum">Display Amount:<span class="sel_cnt"></span></div>
+					<div class="choose"></div>
+				</div>
+				<div class="cont hidden">
+					<ul>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="vpSideHide">
+			<a href="javascript:void(0);" class="vpsHideBar"><label></label><i>&gt;&gt;</i></a>
+		</div>
+        <div class="vpMain">
+            <div id="chartbox" class="vpChart"></div>
+            <p class="disc" style="display:none;"><label>&lt;%=Resources.GlobalResource.说明 %&gt;</label><span class="sp_desc"></span></p>
+            <div class="visual-row">
+                <input type="text" onkeyup="setDateKeyUp(event)"> <label>——</label> <input type="text" onkeyup="setDateKeyUp(event)"> <a href="javascript:void(0)" onclick="setDateItem(this, '发表年度', '年', function () {$('#modalBox').find('.close').click();});">Filter</a>
+            </div>
+
+        </div>
+	</div>
+</div>
+
+<script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/merge_003.js"></script>
+
+    
+        <div class="footer">
+        <div class="foot-top">
+            <ul class="content">
+                <li>
+                    <b>User Services</b>
+                    <a target="_blank" href="http://vipcard-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/ec/skwd/skwd.htm">Purchase CNKI Card</a>
+                    <a target="_blank" href="http://zhifu-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Recharge Center</a>
+                    <a target="_blank" href="http://my-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">My CNKI</a>
+                    <a target="_blank" href="http://service-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/helpcenter/">Help Center</a>
+                </li>
+                <li>
+                    <b>CNKI Software Download</b>
+                    <a target="_blank" href="http://cajviewer-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">CAJViewer</a>
+                    <a target="_blank" href="http://www-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/software/xzydq.htm#CNKIe-Learning">CNKI Digital Learning Platform</a>
+                    <a target="_blank" href="http://refbook-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/download.html">Desktop Retrieval Software for Reference Works</a>
+                </li>
+                <li>
+                    <b>Featured Services</b>
+                    <a target="_blank" href="http://wap-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Mobile CNKI</a>
+                    <a target="_blank" href="http://wuxizazhi-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Magazine Subscription</a>
+                    <a target="_blank" href="http://mall-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Digital Publications Subscription</a>
+                    <a target="_blank" href="http://a-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Advertising</a>
+                </li>
+                <li>
+                    <b>Customer Service Consultation</b>
+                    <span>Hotline for Purchasing Card: 400-819-9993</span>
+                    <span>Service Hotline: 400-810-9888</span>
+                    <span>Online Consultation: <a target="_blank" href="http://help-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">help-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de</a></span>
+                    <span>Email Consultation: <a target="_blank" href="mailto:help@cnki.net">help@cnki.net</a></span>
+                </li>
+                <li class="weibo">
+                    <a target="_blank" href="http://e.weibo.com/u/3059308095">
+                        <img src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/logo_xl.png" alt="Sina Weibo Customer Service">
+                        <span>Sina Weibo Customer Service</span>
+                    </a>
+                    <a target="_blank" href="http://t.qq.com/CNKI_kefu">
+                        <img src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/logo_tx.png" alt="Tencent Weibo Customer Service">
+                        <span>Tencent Weibo Customer Service</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="foot-bot clearfix">
+            <div class="t">
+                <img src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/foot-logo.png" alt="CNKI">
+                <p class="mid">
+                    <span>
+                        <a target="_blank" href="http://cnki.net/gycnki/gycnki.htm">About Us</a>
+                        <a target="_blank" href="http://www-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/other/gonggao/gongsirongyu.html">CNKI Awards</a>
+                        <a target="_blank" href="http://www-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/other/gonggao/bqsm.htm">Copyright Notice</a>
+                        <a target="_blank" href="http://service-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Customer Service Center</a>
+                        <a target="_blank" href="http://help-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Online Consultation</a>
+                        <a target="_blank" href="http://help-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/Live800_2_2.aspx">User Advice</a>
+                        <a target="_blank" href="http://piccache-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/index/CNKIRecruit/index.html">CNKI Recruitment</a>
+                        <a target="_blank" href="http://a-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/">Advertising</a>
+                    </span>
+                    <span id="copyright">© 1998-2019 CNKI</span>
+                </p>
+                <p class="right">
+                    <!--可信网站图片LOGO安装开始-->
+                    <a id="___szfw_logo___" href="https://ss.knet.cn/verifyseal.dll?sn=e13111111010043364isll000000&amp;a=1&amp;pa=0.08881110103584755" target="_blank"><img alt="可信网站" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/kxwz.jpg" width="86" height="33"></a>
+                    <!--可信网站图片LOGO安装结束-->
+                    <!--诚信网站图片LOGO安装开始-->
+                    
+                    <!--诚信网站图片LOGO安装结束-->
+                </p>
+            </div>
+            <div class="b">
+                <span>
+                    Beijing ICP Licence 040431<a target="_blank" href="http://piccache-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/index/images/gb/271.jpg">Online Publishing Service License (总)网出证(京)字第 271 号</a>
+                    <a target="_blank" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202005012100021">ICP licence for commercial websites</a> 京公网安备 11010802020460 号
+                </span>
+                <span>China Academic Journals (CD Edition) Electronic Publishing House Co., Ltd</span>
+                <span>KDN Platform Basic Technology Provided by KBASE 11.0.</span>
+            </div>
+        </div><!--foot-bot-->
+    </div><!--footer-->
+
+
+<a class="back-top" href="javascript:void(0);" target="_self" title="Top" style="display: block;"><i class="icon-backtop"></i></a>
+
+
+<script type="text/javascript">
+    if (typeof FlushLogin == 'function') {
+        FlushLogin();
+    }
+    ModifyEcpHeader(true);
+    backTop();
+
+    /*功能：返回顶部
+       * 说明：页面较长，滚动到大于1000px时，会显示“返回顶部”按钮
+       * */
+    function backTop() {
+        backBtn = $(".back-top");
+        var y = 100;
+        $(window).on("load scroll", function () {//滚动页面时
+            if ($(window).scrollTop() > y) backBtn.show();
+            else backBtn.hide();
+        });
+        backBtn.click(function () {//当点击跳转链接后，回到页面顶部位置
+            $('body,html').animate({ scrollTop: 0 }, 500);
+            return false;
+        });
+    }
+
+
+</script>
+
+    <script src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/piwikCommon80.js"></script>
+
+
+    
+
+<div class="setmodule" id="searchsetdiv">
+    <!-- 检索设置 start -->
+    
+    <dl class="setup">
+        <dt>Search Range<span>（Set cross-database search scope and resource display order）</span></dt>
+        <dd class="setdoctype">
+            <ul class="haschecked-list" data-listidx="0">
+                <li data-id="CJFQ"><div class="item" style="cursor: pointer;">Academic Journal</div><i class="icon-del"></i></li>
+                <li data-id="CDMD">
+                    <div class="item" style="cursor: pointer;">Theses &amp; Dissertations</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CIPD">
+                    <div class="item" style="cursor: pointer;">Conferences</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CCND">
+                    <div class="item" style="cursor: pointer;">Newspapers</div><i class="icon-del"></i>
+                </li>
+                <li data-id="BDZK">
+                    <div class="item" style="cursor: pointer;">Books</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CISD">
+                    <div class="item" style="cursor: pointer;">Standards</div><i class="icon-del"></i>
+                </li>
+                <li data-id="SNAD">
+                    <div class="item" style="cursor: pointer;">Achievements</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CCJD">
+                    <div class="item" style="cursor: pointer;">Monographic Serials</div><i class="icon-del"></i>
+                </li>
+                <li data-id="GXDB_SECTION">
+                    <div class="item" style="cursor: pointer;">Ancient Books</div><i class="icon-del"></i>
+                </li>
+                <li data-id="CJFN">
+                    <div class="item" style="cursor: pointer;">Magazines</div><i class="icon-del"></i>
+                </li>
+            </ul>
+            <a class="add-doctype" href="javascript:void(0)"><i>+</i></a>
+            <ul class="doctype-list" style="display: none;">
+                <li id="CJFQ" class="selected"><span>Academic Journal</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CCND" class="selected"><span>Newspapers</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CIPD" class="selected"><span>Conferences</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CDMD" class="selected"><span>Theses &amp; Dissertations</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CYFD" class=""><span>Yearbooks</span><a href="javascript:void(0)">添加</a></li>
+                <li id="BDZK" class="selected"><span>Books</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="SCOD" class=""><span>Patents</span><a href="javascript:void(0)">添加</a></li>
+                <li id="CISD" class="selected"><span>Standards</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="SNAD" class="selected"><span>Achievements</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CCJD" class="selected"><span>Monographic Serials</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="GXDB_SECTION" class="selected"><span>Ancient Books</span><a href="javascript:void(0)">Selected</a></li>
+                <li id="CJFN" class="selected"><span>Magazines</span><a href="javascript:void(0)">Selected</a></li>
+            </ul>
+            <div class="clear"></div>
+        </dd>
+
+
+
+        
+
+        <dt>Search Results</dt>
+        <dd class="dperpage">
+            <b class="tit">Default display number:</b>
+            <label><input type="radio" name="page" value="10">10</label>
+            <label class="on"><input type="radio" checked="checked" name="page" value="20">20</label>
+        </dd>
+        <dd class="dstyle">
+            <b class="tit">Default display mode：</b>
+            <label class="on"><input type="radio" checked="checked" name="styl" value="listmode">list</label>
+            <label><input type="radio" name="styl" value="custommode">detail</label>
+        </dd>
+        <dd class="dsorder">
+            <b class="tit">Default sort：</b>
+            <label class="on"><input type="radio" checked="checked" name="order" value="pubdate">Publication Date</label>
+            <label><input type="radio" name="order" value="relevant">Relevance</label>
+            <label><input type="radio" name="order" value="cite">Cite</label>
+            <label><input type="radio" name="order" value="download">Download</label>
+            <span>（Sorting settings don't work on topics and full-text retrieval）</span>
+        </dd>
+    </dl>
+
+    <script type="text/javascript">
+        $(function () {
+            try {
+                $(".haschecked-list").dragsort({
+                    dragSelector: ".item",
+                    dragBetween: true,
+                    dragEnd: function () {
+                        //console.log('此处可放拖动结束后的方法。')
+                    }
+                });
+            } catch (e) {
+            }
+        });
+    </script>
+
+    <div class="btn-box">
+        <a href="javascript:void(0);" id="ctrl-s">Save Settings</a>
+        <a href="javascript:void(0);" id="ctrl-z">Restore Settings</a>
+    </div>
+    <!-- 检索设置 end-->
+</div><!-- setmodule -->
+<script type="text/javascript" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/merge.js"></script>
+
+
+
+
+
+<div id="__droplist" class="dictdiv" style="top: 96px; left: 732.5px; display: none;"><div id="sugtip_list" class="dictlistX" style="width: 500px;"><div id="sugtip_ULlist" class="dictlistCol clearfix"><ul><li id="rw0" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别技术','汉字识别技术',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>技术</strong></li><li id="rw1" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别系统','汉字识别系统',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>系统</strong></li><li id="rw2" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别方法综述','汉字识别方法综述',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>方法综述</strong></li><li id="rw3" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别算法','汉字识别算法',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>算法</strong></li><li id="rw4" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别综述','汉字识别综述',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>综述</strong></li><li id="rw5" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别研究的回顾','汉字识别研究的回顾',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>研究的回顾</strong></li><li id="rw6" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别的研究综述','汉字识别的研究综述',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>的研究综述</strong></li><li id="rw7" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别模型','汉字识别模型',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>模型</strong></li><li id="rw8" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别性','汉字识别性',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>性</strong></li><li id="rw9" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 汉字识别的加工模型','汉字识别的加工模型',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 汉字识别<strong>的加工模型</strong></li><li id="rw10" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 ||手写汉字识别','||手写汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 ||手写汉字识别</li><li id="rw11" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 印刷体汉字识别','印刷体汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 印刷体汉字识别</li><li id="rw12" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 脱机手写汉字识别','脱机手写汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 脱机手写汉字识别</li><li id="rw13" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 深度学习在手写汉字识别中的应用综述','深度学习在手写汉字识别中的应用综述',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 深度学习在手写汉字识别中的应用综述</li><li id="rw14" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 联机手写汉字识别','联机手写汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 联机手写汉字识别</li><li id="rw15" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 古汉字识别','古汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 古汉字识别</li><li id="rw16" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 印刷汉字识别','印刷汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 印刷汉字识别</li><li id="rw17" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 深度学习汉字识别','深度学习汉字识别',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 深度学习汉字识别</li><li id="rw18" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 印刷体汉字识别研究','印刷体汉字识别研究',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 印刷体汉字识别研究</li><li id="rw19" class="rw" onmouseover="return tipDivOnMouseOverEvent(this,false,'机器学习 手写汉字识别系统','手写汉字识别系统',event);" onmouseout="tipDivOnMouseOutEvent(this,false,event);">机器学习 手写汉字识别系统</li></ul></div></div></div><script type="text/javascript" id="TopWords_Request" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/topk.txt" charset="utf-8"></script><script type="text/javascript" id="sugkewword_JS" src="%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20theses%20p2_files/su.txt" charset="utf-8"></script></body></html>
