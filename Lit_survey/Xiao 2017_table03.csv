@@ -1,0 +1,11 @@
+Label name,Label meaning
+Record identification number,"A unique identification number of a newspaper, taken from the first 9 digits of the MARC record 097 $ a field"
+Title,"The name of the newspaper, 200 $ a in the MARC record"
+publication date,"8 digits, 4 digits year + 2 digits month + 2 digits day, such as published on February 12, 1936 becomes  19360212 "
+Volume,"The volume or issue number of each issue of the newspaper, such as the 72nd, becomes 72"
+Edition,The corresponding edition of the XML file
+Title coordinates,"The position information of the title of the article, recorded in the form of pixels"
+Article coordinates,"The overall location information of the article, recorded in the form of pixels"
+Transition information,"The content of the article on this edition is not finished, the content on the subsequent edition"
+Author,Article author
+Attached picture group,attached picture included in the title
