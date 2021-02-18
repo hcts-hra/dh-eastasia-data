@@ -1,9 +1,3 @@
-
-<<<<<<< Updated upstream
-~$*.*
-*.tmp
-=======
 *.tmp
 ~$*.*
->>>>>>> Stashed changes
 *.csv#
