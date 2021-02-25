@@ -31,3 +31,11 @@ Shaoxing Opera analysis, semantic data, but manually created, no reuse (data gon
 (Stewart et al. 2020)
 Stewart, Spencer, Zhu Yinqing [朱吟清], Wu Peizhen [吴佩臻], Zhao Wei [赵薇], Clovis Gladstone, Hoyt Long, Anatoly Detwyler, and So Richard Jean. 2020. ‘Comparative Literature Research and Digital Infrastructure: Taking the “Republic of China Periodical Corpus (1918-1949), Based on PhiloLogic 4” as an Example’ [比较文学研究与数字基础设施建设：以“民国时期期刊语料库(1918-1949),基于PhiloLogic4”为例的探索]. Digital Humanities [数字人文], no. 00: 175–82.
 
+
+(Li and Fang 2019)
+Li Minghua, 李明华 and Fang Conghui, 方丛蕙. 2019. “Research on the Prospects and Strategies of Document Sorting and Publishing in the Republic of China Driven by the Construction of Characteristic Collections”, 特色馆藏建设驱动下民国文献整理出版前景与策略研究. Publishing Research, 出版发行研究, no. 4: 90–94. https://doi.org/10.19393/j.cnki.cn11-1537/g2.2019.04.031.
+
+publishing by libraries (National Lib, Nanjing, Shanghai, advantage Taiwan) and pub houses (fokus on large size)
+still too little was published (0,4%), all institutions operate individually, no systematical planning, scholars not involved, too many pub-houses involved, foreign materials not republished
+interest and demand by researchers is high, growth of publications about 民国 has risen, publishing not according to requirements: "Protection Plan for Republican China Documents民国时期文献保护计划" with too little participation, low quality >7% with TOC/"full text"), catalogs not freely accessible, electronic databases only for local staff, metadata retrievaly system not unified, poor services (e.g. printing or text delivery), institutions mostly in large cities (access problems for others)
+publishers should closely collaborate with academic institutions (major institutions who dominate academic papers are large universities, cf. figure 2), should anlyse leading scholars and research hotspots, build strategic partnerships, should involve library distrubutors (pub-house + libr-distrib + library + big data), strengthen exchange with overseas libraries
