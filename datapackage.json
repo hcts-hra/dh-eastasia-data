@@ -1,0 +1,51 @@
+{
+  "profile": "data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "OCR",
+    "China",
+    "Internet research",
+    "Chinese newspapers--History"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "name": "ijdh_eastasia_proc-chal",
+  "title": "Procedural Challenges",
+  "description": "Data package for Procedural Challenges: Machine Learning tasks for OCR of historical CJK newspapers",
+  "homepage": "https://github.com/exc-asia-and-europe/dh-eastasia-data",
+  "version": "1.0.0",
+  "contributors": [
+    {
+      "title": "Matthias Arnold",
+      "role": "author"
+    },
+    {
+      "title": "Duncan Paterson",
+      "role": "author"
+    },
+    {
+      "title": "Xie Jia",
+      "role": "author"
+    }
+  ],
+  "created": "2021-05-26"
+}
