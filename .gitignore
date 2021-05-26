@@ -4,6 +4,7 @@
 .~lock*#
 .vscode/
 .notes
+.svgsus
 
 # Ignore frontend scripts
 **_files

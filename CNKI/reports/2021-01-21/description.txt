@@ -1,0 +1,4 @@
+Data Sources:
+    Total Literature No.：103 Piece；
+    Search query: ( 主题%='卷积神经网络 汉字识别' or  主题%='卷積神經網絡 漢字識別'   or  题名%='卷积神经网络 汉字识别' or  题名%='卷積神經網絡 漢字識別' )；
+    Search Range：学位论文。
