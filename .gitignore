@@ -2,3 +2,8 @@
 ~$*.*
 *.csv#
 .~lock*#
+.vscode/
+.notes
+
+# Ignore frontend scripts
+**_files
