@@ -1,1 +1,0 @@
-function NoResultsPage_Initialization(n){n=="SummaryListAndPublicationsResult"&&($(".errorPage").css("margin-left","15px"),$(".errorPage1").css("margin-left","-35px"))}
