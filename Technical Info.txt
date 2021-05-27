@@ -1,0 +1,16 @@
+Technical Information
+
+System:
+Windows 10 Enterprise
+
+Browser 1:
+Firefox Browser 88.0.1 (32-bit)
+
+Browser 2:
+Google Chrome 90.0.4430.212 (64-bit)
+
+Browser 3:
+Microsoft Edge 90.0.818.62
+
+all browsers use normal mode.
+Juris-M add-on is installed in Firefox and Chrome. 
