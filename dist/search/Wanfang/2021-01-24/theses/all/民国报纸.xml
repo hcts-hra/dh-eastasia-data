@@ -1,0 +1,625 @@
+<div id="content_div">
+    <div>
+        <div>
+            <div id="narrowContainer">
+                <div>
+                    <input id="textTitle" class="input_title6 watermark" name="narrow_" value="标题" />
+                    <input id="textCreator" class="input_title6 watermark" name="narrow_" value="作者" />
+                    <input id="textKeyWords" class="input_title6 watermark" name="narrow_" value="关键词" />
+                    <input id="textAuthorSubject" class="input_title6 watermark" name="narrow_" value="专业">
+                    <input id="textSchool" class="input_title6 watermark" name="narrow_" value="学校">
+                    <input id="textTeacherName" class="input_title6 watermark" name="narrow_" value="导师">
+                    <input id="textDateStart" maxlength="4" name="narrow_" class="watermark" value="起始年" />-<input
+                        id="textDateEnd" maxlength="4" name="narrow_" class="watermark" value="结束年" />
+                    <t><input type="button" value="在结果中检索" id="narrowButton" /></t>
+                </div>
+                <input type="hidden" id="narrowQuery" value="民国报纸 DBID:WF_XW">
+            </div>
+            <script>
+                function narrowSearch() {
+                    var anyQuery = $("#narrowQuery").val();
+                    anyQuery += narrowQuery(["标题", "textTitle",
+                        "作者", "textCreator", "关键词", "textKeyWords", "会议名称", "conferencename",
+                        "专业", "textAuthorSubject", "学校", "textSchool",
+                        "导师", "textTeacherName", "刊名", "textMagazine"]);
+                    var date = datePairQuery("日期", "textDateStart", "textDateEnd");
+                    if (date == null)
+                        return;
+                    anyQuery += date;
+                    anyQuery = $.trim(anyQuery);
+                    if (anyQuery == "") {
+                        alert('请输入检索词！');
+                        return false;
+                    }
+                    window.location.href = "?f=narrow&n=10&q=" + encodeURIComponent(anyQuery) + "&userid=" + userid;
+                }
+                $(function () {
+                    addWaterMark(["textTitle", "标题", "textCreator", "作者",
+                        "conferencename", "会议名称", "textAuthorSubject", "专业",
+                        "textSchool", "学校", "textTeacherName", "导师",
+                        "textKeyWords", "关键词", "textMagazine", "刊名", "textDateStart", "起始年", "textDateEnd", "结束年"]);
+                    $("#narrowButton").click(function () {
+                        narrowSearch();
+                    });
+                    //keypress
+                    $("#narrowContainer").keypress(function (e) {
+                        if (e.which == 13)
+                            narrowSearch();
+                    });
+                });
+            </script>
+            <div class="sortby_div">
+                <div id="sortContainer" style="position:relative;">
+                    <span class="black_font">
+                        <t>排序</t>：
+                    </span>
+                    <span class="current_sort" title="相关度优先=论文关键词价值+其他相关因素
+适用于高效查询所关注的领域">
+                        <t>相关度优先</t>
+                    </span>
+                    <span class="common_all">
+                        <a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
+                            title="新论文优先=论文出版时间+其他相关因素
+适用于追踪最新研究进展">
+                            <t>新论文优先</t>
+                        </a></span>
+                    <span class="common_all">
+                        <a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
+                            title="经典论文优先=论文质量+其他相关因素
+适用于快速查找并获取研究与主题相关的高质量成果">
+                            <t>经典论文优先</t>
+                        </a></span>
+                    <a href="javascript:;" class="sortexpand common_all">
+                        <t>其他</t><small>▼</small>
+                    </a>
+                    <ul id="otherlinklist" style="display: none;">
+                        <li><a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+relevance"
+                                title="仅以论文关键词价值作为排序依据">仅相关度</a></li>
+                        <li><a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+date"
+                                title="仅以出版时间作为排序依据">仅出版时间</a></li>
+                        <li><a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount"
+                                title="仅以被引次数作为排序依据">仅被引次数</a></li>
+                    </ul>
+                </div>
+                <script>
+                    $(function () {
+                        $(".sortexpand").click(function () {
+                            $("#otherlinklist").toggle();
+                        });
+                        //注意sortexpand这个className 页面上不能再其他地方出现
+                        $(document).click(function (event) {
+                            if (event.target && ($(event.target).hasClass("sortexpand") || $(event.target).parent().hasClass("sortexpand")))
+                                return;
+                            $("#otherlinklist").hide();
+                        });
+                    })
+                </script>
+                <span>
+                    <a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_XW&amp;f=all"
+                        class="highlight_all">
+                        <t>全部</t>
+                    </a>
+                    <a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_XW&amp;f=onlyFull"
+                        n="" class="common_all">
+                        <t>仅全文</t>
+                    </a>
+                    <a href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_XW&amp;f=ordered"
+                        class="group_all" title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu
+                        Berlin<t>已购全文</t></a>
+                </span>
+            </div>
+            <div class="clear-float"></div>
+            <ul class="list_ul">
+                <li class="title_li">1
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y9018634.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y9018634.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y9018634.aspx"
+                        target="_blank">全面抗战爆发前的<font color="red">民国报纸</font>商业广告策略研究</a>
+                    <span></span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y9018634&amp;Name=%e5%bc%a0%e8%88%92%e5%ae%81">张舒宁</a>，
+                    2008 - 北京工商大学：专门史</li>
+                <li class="zi">
+                    我国著名的经济史学家吴承明先生曾明确指出:“经济史应当是研究各时期社会生产、交换、分配、消费的历史”,显然,在经济史的研究视野中,应研究商品(服务)交换或流通的规律。但十分遗憾的是,在建国以来中国经济史的研究中,存在...<br/>
+                    <p class="greencolor" style="display:none">
+                        <t>关键词</t>：
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%85%A8%E9%9D%A2%E6%8A%97%E6%88%98%E7%88%86%E5%8F%91%E5%89%8D%E7%9A%84%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E5%95%86%E4%B8%9A%E5%B9%BF%E5%91%8A%E7%AD%96%E7%95%A5%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y9018634"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y9018634.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y9018634" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y9018634"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">2
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y901768.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y901768.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y901768.aspx"
+                        target="_blank">陪都时期的电影宣传研究</a>
+                    <span>(<t>被引用</t>&nbsp;11&nbsp;<t>次</t>)</span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y901768&amp;Name=%e7%86%8a%e5%ad%a6%e8%8e%89">熊学莉</a>，
+                    2006 - 西南大学：电影学</li>
+                <li class="zi">
+                    <font color="red">民国</font>时期的各大<font color="red">报纸</font>
+                    上充满着大大小小、为数众多的电影广告，它们成为我们今天了解当时电影生存状况的珍贵历史资料。本文利用身居重庆、<font color="red">民国报纸</font>
+                    资料丰富的独特资源，选取至今还鲜有人涉及过的电影宣传这一领域，通过对陪都时...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：电影宣传&nbsp;&nbsp;&nbsp;报刊&nbsp;&nbsp;&nbsp;陪都时期&nbsp;&nbsp;&nbsp;电影广告<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E9%99%AA%E9%83%BD%E6%97%B6%E6%9C%9F%E7%9A%84%E7%94%B5%E5%BD%B1%E5%AE%A3%E4%BC%A0%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y901768"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y901768.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y901768" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y901768"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">3
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3214054.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3214054.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3214054.aspx"
+                        target="_blank">《申报》对两大军事同盟呈现及其分化报道研究(1944-1949)</a>
+                    <span></span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3214054&amp;Name=%e5%91%a8%e6%98%9f%e5%91%88">周星呈</a>，
+                    2017 - 安徽大学：新闻与传播</li>
+                <li class="zi">
+                    <font color="red">报纸</font>
+                    是研究新闻传播历史轨迹的重要文献。《申报》作为一份商业大报，在旧中国有着极大的影响力，它历经了77年的沧桑巨变，已经潜移默化的渗进中国现代化的进程中。<font color="red">民国
+                    </font>阶段《申报》作为新闻的载体，进行着信息的传递与交换，通上...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：中国报刊史&nbsp;&nbsp;&nbsp;民国报纸&nbsp;&nbsp;&nbsp;新闻传播&nbsp;&nbsp;&nbsp;《申报》<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E3%80%8A%E7%94%B3%E6%8A%A5%E3%80%8B%E5%AF%B9%E4%B8%A4%E5%A4%A7%E5%86%9B%E4%BA%8B%E5%90%8C%E7%9B%9F%E5%91%88%E7%8E%B0%E5%8F%8A%E5%85%B6%E5%88%86%E5%8C%96%E6%8A%A5%E9%81%93%E7%A0%94%E7%A9%B6(1944-1949).aspx?ID=Thesis_Y3214054"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3214054.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y3214054" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y3214054"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">4
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D385984.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D385984.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D385984.aspx"
+                        target="_blank">《晨报》与北京早期电影业(1916-1928)</a>
+                    <span></span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D385984&amp;Name=%e5%91%a8%e5%ad%90%e4%b9%90">周子乐</a>，
+                    2013 - 南京艺术学院：电影学</li>
+                <li class="zi">
+                    <font color="red">民国</font>时期的各大<font color="red">报纸</font>
+                    上充满着大大小小、为数众多的电影广告,它们成为我们今天了解当时电影生存状况的珍贵历史资料。本文利用<font color="red">民国报纸</font>
+                    资料丰富的独特资源,选取至今还鲜有人涉及过的《晨报》电影宣传这一领域,通过对1916-192...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：民国时期&nbsp;&nbsp;&nbsp;报纸资料&nbsp;&nbsp;&nbsp;电影广告&nbsp;&nbsp;&nbsp;宣传策略<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E3%80%8A%E6%99%A8%E6%8A%A5%E3%80%8B%E4%B8%8E%E5%8C%97%E4%BA%AC%E6%97%A9%E6%9C%9F%E7%94%B5%E5%BD%B1%E4%B8%9A(1916-1928).aspx?ID=Thesis_D385984"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D385984.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_D385984" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_D385984"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">5
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2227867.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2227867.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2227867.aspx"
+                        target="_blank">《<font color="red">民国</font>日报》文艺副刊研究(1916-1924)</a>
+                    <span>(<t>被引用</t>&nbsp;5&nbsp;<t>次</t>)</span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2227867&amp;Name=%e6%9d%9c%e7%ab%b9%e6%95%8f">杜竹敏</a>，
+                    2010 - 复旦大学：中国文学批评史</li>
+                <li class="zi">创办于1916年的上海《<font color="red">民国</font>日报》，是在当时及后世都具有一定影响的一张近现代<font color="red">报纸
+                    </font>。<font color="red">报纸</font>
+                    的副刊，先后汇聚了诸如叶楚伧、邵力子、柳亚子、姚鸩雏、成舍我、戴季陶、沈玄庐等一批具有代表性的文人。从早期《<font color="red">民国</font>
+                    日报》的副刊到1919年创...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：《民国日报》&nbsp;&nbsp;&nbsp;文艺副刊&nbsp;&nbsp;&nbsp;办报思想&nbsp;&nbsp;&nbsp;编辑理念<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E3%80%8A%E6%B0%91%E5%9B%BD%E6%97%A5%E6%8A%A5%E3%80%8B%E6%96%87%E8%89%BA%E5%89%AF%E5%88%8A%E7%A0%94%E7%A9%B6(1916-1924).aspx?ID=Thesis_Y2227867"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2227867.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y2227867" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y2227867"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">6
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2871712.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2871712.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2871712.aspx"
+                        target="_blank">
+                        <font color="red">民国</font>时期湘鄂赣皖地区疫灾流行与公共卫生意识的变迁研究
+                    </a>
+                    <span></span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2871712&amp;Name=%e8%91%a3%e5%8b%a4%e5%8b%a4">董勤勤</a>，
+                    2015 - 华中师范大学：人文地理学</li>
+                <li class="zi">
+                    <font color="red">民国</font>时期，湘鄂赣皖地区传染病流行猖獗，是民众生命健康的重大威胁之一。深入分析<font color="red">民国
+                    </font>时期湘鄂赣皖地区疫灾的地理规律、公共卫生体系与疫灾的互动及公共卫生意识的变迁能够为现代传染病的研究提供历史背景和经验教训。本文...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：传染病&nbsp;&nbsp;&nbsp;时空分布&nbsp;&nbsp;&nbsp;公共卫生&nbsp;&nbsp;&nbsp;民国时期<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E6%B9%98%E9%84%82%E8%B5%A3%E7%9A%96%E5%9C%B0%E5%8C%BA%E7%96%AB%E7%81%BE%E6%B5%81%E8%A1%8C%E4%B8%8E%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E6%84%8F%E8%AF%86%E7%9A%84%E5%8F%98%E8%BF%81%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y2871712"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2871712.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y2871712" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y2871712"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">7
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1335889.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1335889.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1335889.aspx"
+                        target="_blank">
+                        <font color="red">民国</font>早期青岛<font color="red">报纸</font>广告研究（1922-1938）
+                    </a>
+                    <span>(<t>被引用</t>&nbsp;5&nbsp;<t>次</t>)</span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1335889&amp;Name=%e5%8f%b2%e4%bc%9f%e5%8d%8e">史伟华</a>，
+                    2008 - 青岛大学：中国现当代文学</li>
+                <li class="zi">
+                    广告是一定社会的政治、经济和文化的产物，它反映的是一定社会的政治、经济和文化的现实，任何一则广告无不带有该社会的种种痕迹。同时，广告作为一种文化存在，也在潜移默化地影响着人们的价值取向，引导着人们的行为方式与生...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：青岛报纸&nbsp;&nbsp;&nbsp;报纸广告&nbsp;&nbsp;&nbsp;社会习俗&nbsp;&nbsp;&nbsp;社会观念&nbsp;&nbsp;&nbsp;民族认同<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%97%A9%E6%9C%9F%E9%9D%92%E5%B2%9B%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E7%A0%94%E7%A9%B6%EF%BC%881922-1938%EF%BC%89.aspx?ID=Thesis_Y1335889"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1335889.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y1335889" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y1335889"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">8
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2407301.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2407301.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2407301.aspx"
+                        target="_blank">从《南宁<font color="red">民国</font>日报》(1931-1937)广告看广西“模范省”社会状况</a>
+                    <span></span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2407301&amp;Name=%e5%bc%a0%e9%94%a6%e7%a8%8b">张锦程</a>，
+                    2013 - 广西大学：新闻学</li>
+                <li class="zi">
+                    二十世纪二三十年代的广西，正值“新桂系”掌权的时代，在“新桂系”创造性地推行“三自三寓”政策和展开新广西建设的背景下，广西在数年内取得了政治、经济、军事、文化等方面的大发展和大繁荣并成为名盛一时的“模范省”。&lt;br&gt;　　
+                    ...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：报纸广告&nbsp;&nbsp;&nbsp;《南宁民国日报》&nbsp;&nbsp;&nbsp;信息传播&nbsp;&nbsp;&nbsp;社会变迁<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E4%BB%8E%E3%80%8A%E5%8D%97%E5%AE%81%E6%B0%91%E5%9B%BD%E6%97%A5%E6%8A%A5%E3%80%8B(1931-1937)%E5%B9%BF%E5%91%8A%E7%9C%8B%E5%B9%BF%E8%A5%BF%E2%80%9C%E6%A8%A1%E8%8C%83%E7%9C%81%E2%80%9D%E7%A4%BE%E4%BC%9A%E7%8A%B6%E5%86%B5.aspx?ID=Thesis_Y2407301"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2407301.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y2407301" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y2407301"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">9
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D701342.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D701342.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D701342.aspx"
+                        target="_blank">《广州<font color="red">民国</font>日报》香烟广告研究</a>
+                    <span>(<t>被引用</t>&nbsp;2&nbsp;<t>次</t>)</span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D701342&amp;Name=%e8%82%96%e4%b9%90">肖乐</a>，
+                    2015 - 暨南大学：新闻与传播</li>
+                <li class="zi">创刊于1923年的《广州<font color="red">民国</font>
+                    日报》是研究20世纪二三十年代广州地区市民生活和社会文化重要的参考资料，<font color="red">报纸</font>
+                    上的众多广告在其经营发展中扮演着重要的角色，同时也反映出特殊的时代背景和消费文化。现有关于《广州<font color="red">民国</font>
+                    日报》内容...<br/>
+                    <p class="greencolor" style="">
+                        <t>关键词</t>
+                        ：香烟广告&nbsp;&nbsp;&nbsp;国货运动&nbsp;&nbsp;&nbsp;消费文化&nbsp;&nbsp;&nbsp;民国时期&nbsp;&nbsp;&nbsp;报纸媒体<br/>
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E3%80%8A%E5%B9%BF%E5%B7%9E%E6%B0%91%E5%9B%BD%E6%97%A5%E6%8A%A5%E3%80%8B%E9%A6%99%E7%83%9F%E5%B9%BF%E5%91%8A%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_D701342"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D701342.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_D701342" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_D701342"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">10
+                    <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y9028422.aspx"
+                        style="" title="全文" target="_blank" class="pdf_img" <="" a="">
+                    </a><a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y9028422.aspx"
+                        style="display:none" title="文摘" target="_blank" class="abs_img"></a>
+                    <a href="http://d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y9028422.aspx"
+                        target="_blank">从《申报》看<font color="red">民国</font>时期律师形象之塑造(1927-1937)</a>
+                    <span></span>
+                </li>
+                <li class="greencolor">[<t>学位论文</t>]&nbsp;&nbsp;<a target="_blank"
+                        href="http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y9028422&amp;Name=%e6%b1%aa%e6%96%87%e7%8f%8a">汪文珊</a>，
+                    2010 - 中山大学：法学理论</li>
+                <li class="zi">清末民初,随着律师制度被引进中国,律师就开始通过<font color="red">报纸</font>宣传自身形象,而这一时期蓬勃发展的<font color="red">
+                        民国报纸</font>业也对律师群体给予了高度的关注。律师广告、律师公会会纪、律师运动的追踪报道及评论密集地出现在这一时期的<font color="red">报纸</font>
+                    上,在勾...<br/>
+                    <p class="greencolor" style="display:none">
+                        <t>关键词</t>：
+                    </p>
+                    <span>
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E4%BB%8E%E3%80%8A%E7%94%B3%E6%8A%A5%E3%80%8B%E7%9C%8B%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E5%BE%8B%E5%B8%88%E5%BD%A2%E8%B1%A1%E4%B9%8B%E5%A1%91%E9%80%A0(1927-1937).aspx?ID=Thesis_Y9028422"
+                            target="_blank">
+                            <t>查看全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                        <a href="http://f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y9028422.aspx"
+                            target="_blank" title="下载全文">
+                            <t>下载全文</t>
+                        </a>&nbsp;&nbsp;-&nbsp;&nbsp;
+                    </span>
+                    <a class="exportLink" id="Thesis_Y9028422" href="#">
+                        <t>导出</t>
+                    </a>
+                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+                    <a class="citenoticeLink" id="cite_Thesis_Y9028422"
+                        href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" target="_blank">
+                        <t>引用通知</t>
+                    </a>
+                </li>
+            </ul>
+            <p class="pager_space">
+                <span id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1" class="page_link">
+                    <t>共</t>&nbsp;31&nbsp;<t>页</t>
+                </span>&nbsp;&nbsp;<strong class="page-selected">1</strong><a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=2"
+                    class="page">2</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=3"
+                    class="page">3</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=4"
+                    class="page">4</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=5"
+                    class="page">5</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=6"
+                    class="page">6</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=7"
+                    class="page">7</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=8"
+                    class="page">8</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=9"
+                    class="page">9</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=10"
+                    class="page">10</a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=2"
+                    class="page">
+                    <t>下一页</t>
+                </a>&nbsp;&nbsp;<a
+                    href="http://s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p=31"
+                    class="page">
+                    <t>末页</t>
+                </a>&nbsp;&nbsp;<input id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" value="1"
+                    type="text" class="jump-text" />
+                <t><input type="button" class="jump-button" value="跳到"
+                        onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var patrn=/^[0-9]{1,9}$/;if(!patrn.exec(pageindex) || pageindex == '0'){alert('请输入大于0的整数！');}else if(pageindex > 31){alert('不能大于总页数！');}else {document.location.href = '?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW&amp;f=c.Thesis&amp;p={0}'.replace('{0}',pageindex);}" />
+                </t>
+            </p>
+            <script>
+                var exportLinkdomain = '.wanfangdata.com.hk';
+                $(function () {
+                    $(".exportLink").click(function () {
+                        return exportClick(this, exportLinkdomain);
+                    });
+                });
+            </script>
+        </div>
+    </div>
+    <script>
+        function extraQueryForBottom() {
+            if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW"
+                || currentDatabase == "WF_HY" || currentDatabase == "NSTL") {
+                if (currentDatabase == "NSTL")
+                    currentDatabase = "(NSTL_QK OR NSTL_HY)";
+                return " DBID:" + currentDatabase;
+            }
+            return "";
+        }
+        var userid = '';
+        $(function () {
+            var loginUrl = "http://login.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_XW%26f%3dc.Thesis&needLoginAccountType=Person";
+            var citeUrl = "http://citenotice.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?";
+            $(".citenoticeLink").click(function () {
+                return citeClick(this, loginUrl, citeUrl);
+            });
+            var clickId = Cookie.getCookie("add2Cite");
+            if (clickId != "undefined" && clickId != "" && checkLogin()) {
+                addNotice(loginUrl, citeUrl);
+                document.getElementById("citeForm").submit();
+            }
+            showRelatedVeinChart('http://trend.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/', ["民国", "报纸"]);
+            showRelatedResearchers('relatedResearchers', 'http://social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/', ["民国", "报纸"], false);
+        })
+    </script>
+    <div class="search_cloud">
+        <script language="javascript" type="text/javascript"
+            src="Wanfang%20theses%20%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20all_files/bottomSearch-1.js"></script>
+        <p><input id="queryBox2" class="searchbox3" value="民国报纸" type="search" results="s" />
+            <t><input id="searchButton2" type="button" value="检 索" class="bottom_btn" /></t>
+        </p>
+        <script>
+            $(function () {
+                $("#searchButton2").click(function (e) {
+                    bottomSearch(e, "bottom");
+                    return false;
+                });
+                $("#queryBox2").keypress(function (e) {
+                    if (e.which == 13)
+                        return $("#searchButton2").click();
+                });
+            })
+        </script>
+        <div id="relatedword"></div>
+    </div>
+    <div class="clear-float"></div>
+    <div id="hudongwords"></div>
+    <script>
+        $.ajax({
+            url: 'HuDongRelatedWord.aspx',
+            type: 'POST',
+            data: { word: '民国；报纸' },
+            success: function (data) {
+                $('#hudongwords').html(data);
+            },
+            error: function (stat) {
+                if (window.console != undefined) {
+                    console.log(stat);
+                }
+            }
+        });
+    </script>
+</div>
