@@ -1,0 +1,220 @@
+<svg class="highcharts-root" xmlns="http://www.w3.org/2000/svg" width="910" height="384" viewBox="0 0 910 384" font-family="&quot;Lucida Grande&quot;,&quot;Lucida Sans Unicode&quot;,Arial,Helvetica,sans-serif" font-size="12">
+    <rect fill="#fff" class="highcharts-background" width="910" height="384" rx="0" ry="0"/>
+    <path fill="none" class="highcharts-plot-background" d="M62 10h838v271H62z"/>
+    <g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1">
+        <path fill="none" stroke="#e6e6e6" data-z-index="1" class="highcharts-grid-line" d="M91.5 10v271M121.5 10v271M151.5 10v271M181.5 10v271M211.5 10v271M241.5 10v271M271.5 10v271M300.5 10v271M330.5 10v271M360.5 10v271M390.5 10v271M420.5 10v271M450.5 10v271M480.5 10v271M510.5 10v271M540.5 10v271M570.5 10v271M600.5 10v271M630.5 10v271M660.5 10v271M689.5 10v271M719.5 10v271M749.5 10v271M779.5 10v271M809.5 10v271M839.5 10v271M869.5 10v271M900.5 10v271M61.5 10v271"/>
+    </g>
+    <g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1">
+        <path fill="none" stroke="#f2f2f2" class="highcharts-minor-grid-line" d="M62 281.5h838M62 270.5h838M62 259.5h838M62 248.5h838M62 238.5h838M62 227.5h838M62 216.5h838M62 205.5h838M62 194.5h838M62 183.5h838M62 173.5h838M62 162.5h838M62 151.5h838M62 140.5h838M62 129.5h838M62 118.5h838M62 108.5h838M62 97.5h838M62 86.5h838M62 75.5h838M62 64.5h838M62 53.5h838M62 43.5h838M62 32.5h838M62 21.5h838M62 9.5h838"/>
+        <path fill="none" stroke="#e6e6e6" data-z-index="1" class="highcharts-grid-line" d="M62 281.5h838M62 227.5h838M62 173.5h838M62 118.5h838M62 64.5h838M62 9.5h838"/>
+    </g>
+    <path fill="none" class="highcharts-plot-border" data-z-index="1" d="M62 10h838v271H62z"/>
+    <g class="highcharts-axis highcharts-xaxis" data-z-index="2">
+        <path fill="none" class="highcharts-tick" stroke="#000" d="M91.5 281v10M121.5 281v10M151.5 281v10M181.5 281v10M211.5 281v10M241.5 281v10M271.5 281v10M300.5 281v10M330.5 281v10M360.5 281v10M390.5 281v10M420.5 281v10M450.5 281v10M480.5 281v10M510.5 281v10M540.5 281v10M570.5 281v10M600.5 281v10M630.5 281v10M660.5 281v10M690.5 281v10M719.5 281v10M749.5 281v10M779.5 281v10M809.5 281v10M839.5 281v10M869.5 281v10M900.5 281v10M61.5 281v10"/>
+        <path fill="none" class="highcharts-axis-line" stroke="#000" data-z-index="7" d="M62 281.5h838"/>
+    </g>
+    <g class="highcharts-axis highcharts-yaxis" data-z-index="2">
+        <path fill="none" class="highcharts-tick" stroke="#000" d="M62 281.5H52M62 227.5H52M62 173.5H52M62 118.5H52M62 64.5H52M62 9.5H52"/>
+        <text x="24.828" data-z-index="7" text-anchor="middle" transform="rotate(-90 24.828 145.5)" class="highcharts-axis-title" y="145.5" color="#333" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" fill="#333">
+            <tspan>Article Number ( Articles)</tspan>
+        </text>
+        <path fill="none" class="highcharts-axis-line" stroke="#000" data-z-index="7" d="M61.5 10v271"/>
+    </g>
+    <g class="highcharts-series-group" data-z-index="3">
+        <g data-z-index=".1" class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-0 highcharts-tracker" transform="translate(62 10)" clip-path="url(#a)" cursor="pointer">
+            <path fill="#4572A7" stroke="#fff" class="highcharts-point highcharts-color-0" d="M7.5 43.5h15v228h-15zM37.5 76.5h15v195h-15zM67.5 141.5h15v130h-15zM97.5 228.5h15v43h-15zM126.5 228.5h15v43h-15zM156.5 228.5h15v43h-15zM186.5 238.5h15v33h-15zM216.5 238.5h15v33h-15zM246.5 238.5h15v33h-15zM276.5 238.5h15v33h-15zM306.5 249.5h15v22h-15zM336.5 249.5h15v22h-15zM366.5 249.5h15v22h-15zM396.5 249.5h15v22h-15zM426.5 249.5h15v22h-15zM456.5 249.5h15v22h-15zM486.5 249.5h15v22h-15zM516.5 260.5h15v11h-15zM545.5 260.5h15v11h-15zM575.5 260.5h15v11h-15zM605.5 260.5h15v11h-15zM635.5 260.5h15v11h-15zM665.5 260.5h15v11h-15zM695.5 260.5h15v11h-15zM725.5 260.5h15v11h-15zM755.5 260.5h15v11h-15zM785.5 260.5h15v11h-15zM815.5 260.5h15v11h-15z"/>
+        </g>
+    </g>
+    <g data-z-index="6" class="highcharts-data-labels highcharts-series-0 highcharts-column-series highcharts-color-0 highcharts-tracker" cursor="pointer">
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(65 30)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">21</tspan> <tspan x="5" y="17">21</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(95 63)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">18 </tspan> <tspan x="5" y="17">18</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(125 128)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">12 </tspan> <tspan x="5" y="17">12</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(158 215)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">4</tspan> <tspan x="5" y="17">4</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(187 215)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">4 </tspan> <tspan x="5" y="17">4</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(217 215)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">4 </tspan> <tspan x="5" y="17">4</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(247 225)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">3 </tspan> <tspan x="5" y="17">3</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(277 225)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">3 </tspan> <tspan x="5" y="17">3</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(307 225)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">3 </tspan> <tspan x="5" y="17">3</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(337 225)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">3 </tspan> <tspan x="5" y="17">3</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(367 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(397 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(427 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(457 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(487 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(517 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(547 236)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">2 </tspan> <tspan x="5" y="17">2</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(577 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(606 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(636 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(666 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(696 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(726 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(756 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(786 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(816 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(846 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+        <text x="5" data-z-index="1" y="17" font-weight="700" font-family="Trebuchet MS,Verdana,sans-serif" color="#333" fill="#333" transform="translate(876 247)" class="highcharts-label highcharts-data-label highcharts-data-label-color-0">
+            <tspan x="5" y="17" class="highcharts-text-outline" fill="#FFF" stroke="#FFF" stroke-width="2" stroke-linejoin="round">1 </tspan> <tspan x="5" y="17">1</tspan>
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7">
+        <text x="74.372" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 74.372 297)" y="297" color="#000" cursor="default">
+            深度学习
+        </text>
+        <text x="104.3" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 104.3 297)" y="297" color="#000" cursor="default">
+            字轮式水表
+        </text>
+        <text x="134.229" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 134.229 297)" y="297" color="#000" cursor="default">
+            卷积神经网络
+        </text>
+        <text x="164.157" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 164.157 297)" y="297" color="#000" cursor="default">
+            文字识别
+        </text>
+        <text x="194.086" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 194.086 297)" y="297" color="#000" cursor="default">
+            脱机手写汉字识别
+        </text>
+        <text x="224.014" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 224.014 297)" y="297" color="#000" cursor="default">
+            手写汉字识别
+        </text>
+        <text x="253.943" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 253.943 297)" y="297" color="#000" cursor="default">
+            字符识别
+        </text>
+        <text x="283.872" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 283.872 297)" y="297" color="#000" cursor="default">
+            手写体汉字识别
+        </text>
+        <text x="313.8" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 313.8 297)" y="297" color="#000" cursor="default">
+            脱机手写体汉字识别
+        </text>
+        <text x="343.729" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 343.729 297)" y="297" color="#000" cursor="default">
+            算法研究
+        </text>
+        <text x="373.657" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 373.657 297)" y="297" color="#000" cursor="default">
+            图像分类
+        </text>
+        <text x="403.586" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 403.586 297)" y="297" color="#000" cursor="default">
+            检测与识别
+        </text>
+        <text x="433.514" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 433.514 297)" y="297" color="#000" cursor="default">
+            文档图像
+        </text>
+        <text x="463.443" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 463.443 297)" y="297" color="#000" cursor="default">
+            目标检测
+        </text>
+        <text x="493.372" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 493.372 297)" y="297" color="#000" cursor="default">
+            图像识别
+        </text>
+        <text x="523.3" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 523.3 297)" y="297" color="#000" cursor="default">
+            识别方法
+        </text>
+        <text x="553.229" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 553.229 297)" y="297" color="#000" cursor="default">
+            汉字识别
+        </text>
+        <text x="583.157" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 583.157 297)" y="297" color="#000" cursor="default">
+            乳腺X线摄影
+        </text>
+        <text x="613.086" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 613.086 297)" y="297" color="#000" cursor="default">
+            甲骨文
+        </text>
+        <text x="643.014" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 643.014 297)" y="297" color="#000" cursor="default">
+            分拣系统
+        </text>
+        <text x="672.943" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 672.943 297)" y="297" color="#000" cursor="default">
+            甲骨文字
+        </text>
+        <text x="702.872" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 702.872 297)" y="297" color="#000" cursor="default">
+            监督模型
+        </text>
+        <text x="732.8" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 732.8 297)" y="297" color="#000" cursor="default">
+            比较研究
+        </text>
+        <text x="762.729" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 762.729 297)" y="297" color="#000" cursor="default">
+            数据增强
+        </text>
+        <text x="792.657" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 792.657 297)" y="297" color="#000" cursor="default">
+            手写体汉字
+        </text>
+        <text x="822.586" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 822.586 297)" y="297" color="#000" cursor="default">
+            低秩分解
+        </text>
+        <text x="852.514" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 852.514 297)" y="297" color="#000" cursor="default">
+            识别算法
+        </text>
+        <text x="882.443" style="font:11px Trebuchet MS,Verdana,sans-serif" transform="rotate(45 882.443 297)" y="297" color="#000" cursor="default">
+            研究与应用
+        </text>
+    </g>
+    <g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7">
+        <text x="47" style="font:11px Trebuchet MS,Verdana,sans-serif" text-anchor="end" y="286" color="#000" cursor="default">
+            0
+        </text>
+        <text x="47" style="font:11px Trebuchet MS,Verdana,sans-serif" text-anchor="end" y="231" color="#000" cursor="default">
+            5
+        </text>
+        <text x="47" style="font:11px Trebuchet MS,Verdana,sans-serif" text-anchor="end" y="177" color="#000" cursor="default">
+            10
+        </text>
+        <text x="47" style="font:11px Trebuchet MS,Verdana,sans-serif" text-anchor="end" y="123" color="#000" cursor="default">
+            15
+        </text>
+        <text x="47" style="font:11px Trebuchet MS,Verdana,sans-serif" text-anchor="end" y="69" color="#000" cursor="default">
+            20
+        </text>
+        <text x="47" style="font:11px Trebuchet MS,Verdana,sans-serif" text-anchor="end" y="15" color="#000" cursor="default">
+            25
+        </text>
+    </g>
+</svg>
