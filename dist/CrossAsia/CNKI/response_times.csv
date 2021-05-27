@@ -1,0 +1,16 @@
+,,searching from home page,,,searching at result page,,
+"Day, Time",,民国资料,民国报刊,Browser,民国资料,民国报刊,Browser
+Test on Sunday 14. 1,Test on Sunday 1,14.02s,9.6s,Firefox,4.46s,6.27s,Firefox
+Test on Sunday 14. 2,Test on Sunday 2,12.8s,9.13s,Firefox,5.04s,4.87s,Firefox
+Test on Sunday 14. 3,Test on Sunday 3,10.46s,8.78s,Firefox,4.1s,4.57s,Firefox
+Test on Sunday 14. 4,Test on Sunday 4,9.58s,9.25s,,,,
+Test on Sunday 14. 5,Test on Sunday 5,9.18s,9.47s,,,,
+Test On Monday 15. 1,Test on Weekday 1,17.19s,over 60s,Chrome,5.23s,over 60s,Chrome
+Test On Monday 15. 2,Test on Weekday 2,15.29s,over 60s,Chrome,4.9s,11.19s,Chrome
+Test On Monday 15. 3,Test on Weekday 3,over 60s,over 60s,Chrome,4.9s,4.9s,Chrome
+Test On Friday 15. 1,Test on Weekday 4,over 60s,10.48s,Chrome,5.12s,3.85s,Chrome
+Test On Friday 15. 2,Test on Weekday 5,17.79s,12.69s,Chrome,5.31s,5.3s,Chrome
+Test On Friday 15. 3,Test on Weekday 6,13.39s,9.3s,Chrome,4.83s,3.94s,Chrome
+Test on Wednesday 19. 1,Test on Weekday 7,over 60s,over 60s,Firefox,9.01s,3.41s,Firefox
+Test on Wednesday 19. 2,Test on Weekday 8,over 60s,over 60s,Firefox,3.98s,4.08s,Firefox
+Test on Wednesday 19. 3,Test on Weekday 9,over 60s,over 60s,Firefox,3.39s,3.51s,Firefox
