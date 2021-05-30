@@ -1,0 +1,11 @@
+Label name,Label meaning,,标签名称,标签含义
+Record identification number,"A unique identification number of a newspaper, taken from the first 9 digits of the MARC record 097 $ a field",,记录标识号,一种报纸的唯一标识号，取自MAＲC 记录097 $ a 字段前9 位
+Title,"The name of the newspaper, 200 $ a in the MARC record",,题名,报纸名称，MAＲC 记录中的200 $ a
+publication date,"8 digits, 4 digits year + 2 digits month + 2 digits day, such as published on February 12, 1936 becomes  19360212 ",,出版日期,8 位，4 位年+ 2 位月+ 2 位日，如1936 年2 月12 日出版为19360212
+Volume,"The volume or issue number of each issue of the newspaper, such as the 72nd, becomes 72",,卷期,每期报纸的卷号或期号，如第七十二号，则为72
+Edition,The corresponding edition of the XML file,,版次,该版XML 文件对应的版次
+Title coordinates,"The position information of the title of the article, recorded in the form of pixels",,标题坐标,篇目标题的位置信息，以像素点的形式记录
+Article coordinates,"The overall location information of the article, recorded in the form of pixels",,篇目坐标,篇目整体的位置信息，以像素点的形式记录
+Transition information,"The content of the article on this edition is not finished, the content on the subsequent edition",,转版信息,篇目在本版上的内容未完，在后接版上的内容
+Author,Article author,,作者,篇目的作者
+Attached picture group,attached picture included in the title,,附图组,篇目中含有的附属图片

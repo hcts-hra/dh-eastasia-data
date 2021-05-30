@@ -1,0 +1,375 @@
+<div id="content_div">
+    <div>
+        <div>
+            <div id="narrowContainer">
+                <div>     
+                     - <t></t> </div>
+                
+            </div>
+
+            <div class="sortby_div">
+                <div id="sortContainer" style="position:relative;">
+                    <span class="black_font"> <t>排序</t>： </span>
+                    <span class="current_sort" title="相关度优先=论文关键词价值+其他相关因素 适用于高效查询所关注的领域">
+                        <t>相关度优先</t>
+                    </span>
+                    <span class="common_all">
+                        <a
+                            href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
+                            title="新论文优先=论文出版时间+其他相关因素 适用于追踪最新研究进展">
+                            <t>新论文优先</t>
+                        </a>
+                    </span>
+                    <span class="common_all">
+                        <a
+                            href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
+                            title="经典论文优先=论文质量+其他相关因素 适用于快速查找并获取研究与主题相关的高质量成果">
+                            <t>经典论文优先</t>
+                        </a>
+                    </span>
+                    <a class="sortexpand common_all" >
+                        <t>其他</t>
+                        <small>▼</small>
+                    </a>
+                    <ul id="otherlinklist" style="display: none;">
+                        <li>
+                            <a
+                                href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+relevance"
+                                title="仅以论文关键词价值作为排序依据">仅相关度</a>
+                        </li>
+                        <li>
+                            <a
+                                href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+date"
+                                title="仅以出版时间作为排序依据">仅出版时间</a>
+                        </li>
+                        <li>
+                            <a
+                                href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount"
+                                title="仅以被引次数作为排序依据">仅被引次数</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <span>
+                    <a class="common_all"
+                        href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E6%8D%AE%E5%BA%93%20DBID%3AWF_XW&amp;f=all">
+                        <t>全部</t>
+                    </a>
+                    <a class="common_all"
+                        href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E6%8D%AE%E5%BA%93%20DBID%3AWF_XW&amp;f=onlyFull"
+                        n="">
+                        <t>仅全文</t>
+                    </a>
+                    <a class="grouplight_all"
+                        href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E6%8D%AE%E5%BA%93%20DBID%3AWF_XW&amp;f=ordered"
+                        title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu
+                        Berlin<t>已购全文</t></a>
+                </span>
+            </div>
+            <div class="clear-float"/>
+            <ul class="list_ul">
+                <li class="title_li">1 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2858688.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2858688.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2858688.aspx"
+                    target="_blank"> <font color="red">民国</font>中医药期刊的文献计量分析 </a> <span>(<t>被引用</t>
+                    3 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2858688&amp;Name=%e4%bb%98%e4%b9%a6%e6%96%87"
+                    target="_blank">付书文</a>， 2015 - 中国中医科学院：情报学</li>
+                <li class="zi"> <font color="red"
+                    >民国</font>时期的中医药期刊，不仅具有丰富的医学价值与文献价值，更承载了当时中医药的发展历史。目前，已有许多学者对<font color="red"
+                    >民国 </font>中医药期刊做了较为完整地搜集与整理，并建立了相应的<font color="red">数据库</font>，对 <font
+                    color="red">民国</font>中医药期刊进行了相关的研究。然而，关...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：中医药期刊 民国时期 文献计量学<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E4%B8%AD%E5%8C%BB%E8%8D%AF%E6%9C%9F%E5%88%8A%E7%9A%84%E6%96%87%E7%8C%AE%E8%AE%A1%E9%87%8F%E5%88%86%E6%9E%90.aspx?ID=Thesis_Y2858688"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2858688.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y2858688"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y2858688" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">2 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1215960.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1215960.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1215960.aspx"
+                    target="_blank"> <font color="red">民国</font>农业文献数字化整理及信息组织研究——兼论<font
+                    color="red">民国</font>索引史 </a> <span>(<t>被引用</t> 5 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1215960&amp;Name=%e7%8e%8b%e9%9b%85%e6%88%88"
+                    target="_blank">王雅戈</a>， 2007 - 南京农业大学：科学技术史</li>
+                <li class="zi"> <font color="red">民国</font>农业文献，通常是指中华<font color="red">民国</font>
+                    时期产生的与农村社会、农业经济、农业科技等内容相关的各类文献的总称，有时也泛指二十世纪上半叶的农业文献。狭义地说，<font color="red"
+                    >民国</font> 农业文献仅指1912年至1949年期间国内的农业文献，且不包括翻印或...<br/> <p class="greencolor"
+                    style=""> <t>关键词</t> ：民国农业文献 索引 电子图书 数据库 主题网关<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%86%9C%E4%B8%9A%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E6%95%B4%E7%90%86%E5%8F%8A%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87%E7%A0%94%E7%A9%B6%E2%80%94%E2%80%94%E5%85%BC%E8%AE%BA%E6%B0%91%E5%9B%BD%E7%B4%A2%E5%BC%95%E5%8F%B2.aspx?ID=Thesis_Y1215960"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1215960.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1215960"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1215960" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">3 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3066011.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3066011.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3066011.aspx"
+                    target="_blank">清朝、<font color="red">民国</font>时期《黄帝内经》古籍传本整理及<font color="red">
+                    数据库</font>建设研究</a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3066011&amp;Name=%e5%88%98%e8%a1%a1"
+                    target="_blank">刘衡</a>， 2015 - 贵阳中医学院：中医基础理论</li>
+                <li class="zi">目的:系统整理清朝、<font color="red"
+                    >民国</font>时期的《黄帝内经》传本及相关著作，把收集到的著作通过数字化，建立清朝、 <font color="red"
+                    >民国</font>时期《黄帝内经》古籍<font color="red">数据库</font>
+                    。&lt;br&gt;　　方法:本研究通过史志考证、丛书类书考证、相关医学文献考证和国外典藏文献考证等研究方...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t> ：《黄帝内经》 整理工作 数据库建设 清朝 民国时期<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B8%85%E6%9C%9D%E3%80%81%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E3%80%8A%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E3%80%8B%E5%8F%A4%E7%B1%8D%E4%BC%A0%E6%9C%AC%E6%95%B4%E7%90%86%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%BB%BA%E8%AE%BE%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y3066011"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3066011.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y3066011"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y3066011" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">4 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2136757.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2136757.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2136757.aspx"
+                    target="_blank"> <font color="red">民国</font>旗袍 </a> <span>(<t>被引用</t> 8
+                    <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2136757&amp;Name=%e4%ba%8e%e6%8c%af%e5%8d%8e"
+                    target="_blank">于振华</a>， 2009 - 东华大学：设计艺术学</li>
+                <li class="zi">
+                    旗袍在中国服装历史上具有举足轻重的地位，虽然至今也才不过短短的百年时间，但是其短暂而辉煌的发展历程却是让许多热爱旗袍的人为之赞叹。而这段历史中尤为重要和光辉灿烂的就是20世纪初到20世纪中叶的
+                    <font color="red">民国</font>时期，这是旗袍...<br/> <p class="greencolor" style="">
+                    <t>关键词</t> ：民国旗袍 款式流行 结构裁剪 装饰特征<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%97%97%E8%A2%8D.aspx?ID=Thesis_Y2136757"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2136757.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y2136757"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y2136757" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">5 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D01228721.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D01228721.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D01228721.aspx"
+                    target="_blank"> <font color="red">民国</font>期刊的版式设计研究 </a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D01228721&amp;Name=%e9%9b%b7%e6%8c%af"
+                    target="_blank">雷振</a>， 2017 - 太原理工大学：设计艺术学</li>
+                <li class="zi">
+                    书籍是人类记载历史、传播文明的载体之一，也是组成文化的要素之一。书籍发展的历史是人类文明自身进步的阶梯，我国书籍的演变历史承载了中国古代文化的艺术特色，<font
+                    color="red">民国 </font>时期的书籍设计同样具有历史、艺术和文化价值。因此，版式...<br/> <p class="greencolor"
+                    style=""> <t>关键词</t> ：中国出版史 民国期刊 期刊编辑 版式设计<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%9C%9F%E5%88%8A%E7%9A%84%E7%89%88%E5%BC%8F%E8%AE%BE%E8%AE%A1%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_D01228721"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D01228721.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_D01228721"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_D01228721" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">6 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1388346.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1388346.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1388346.aspx"
+                    target="_blank">地方志知识组织及内容挖掘研究——以《方志物产·广东》为例</a> <span>(<t>被引用</t> 13
+                    <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1388346&amp;Name=%e8%a1%a1%e4%b8%ad%e9%9d%92"
+                    target="_blank">衡中青</a>， 2007 - 南京农业大学：科学技术史</li>
+                <li class="zi">
+                    20世纪50年代,在著名农史专家万国鼎先生主持下,历时6年多,中国农业遗产研究室从全国各地收藏的6000多种地方志中摘抄并整理出“物产”资料,汇编成431册的《方志物产》,约3000万字,它基本上完整地保存了明、清和
+                    <font color="red">民国</font>期间全国...<br/> <p class="greencolor" style="">
+                    <t>关键词</t> ：《方志物产》 地方志 知识组织 物产索引子系统 物产信息系统<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9C%B0%E6%96%B9%E5%BF%97%E7%9F%A5%E8%AF%86%E7%BB%84%E7%BB%87%E5%8F%8A%E5%86%85%E5%AE%B9%E6%8C%96%E6%8E%98%E7%A0%94%E7%A9%B6%E2%80%94%E2%80%94%E4%BB%A5%E3%80%8A%E6%96%B9%E5%BF%97%E7%89%A9%E4%BA%A7%C2%B7%E5%B9%BF%E4%B8%9C%E3%80%8B%E4%B8%BA%E4%BE%8B.aspx?ID=Thesis_Y1388346"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1388346.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1388346"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1388346" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">7 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3144132.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3144132.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3144132.aspx"
+                    target="_blank"> <font color="red">民国</font>以前岭南痹病证治文献疏理 </a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3144132&amp;Name=%e9%bb%84%e6%b7%a6%e6%b3%a2"
+                    target="_blank">黄淦波</a>， 2016 - 广州中医药大学：中医临床基础</li>
+                <li class="zi">
+                    目的:&lt;br&gt;　　痹有闭阻不通之意，痹为病名，始见于汉代帛书《足臂十一脉灸经》。溯源灵素《异法方宜论篇·第十二》，谓南方民众受天时水土与嗜食酸肘的影响，多病挛痹，治宜用微针。五岭以南，古为百越之地，所管辖范围约今日之广东、广...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：痹病 发病机制 气候环境 中医理论<br/> </p> <span>
+                    <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E4%BB%A5%E5%89%8D%E5%B2%AD%E5%8D%97%E7%97%B9%E7%97%85%E8%AF%81%E6%B2%BB%E6%96%87%E7%8C%AE%E7%96%8F%E7%90%86.aspx?ID=Thesis_Y3144132"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3144132.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y3144132"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y3144132" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">8 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2826145.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2826145.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2826145.aspx"
+                    target="_blank">晚清<font color="red">民国</font>时期和1978年后文献关于鼓胀（肝硬化腹水）的诊治规律研究</a>
+                    <span>(<t>被引用</t> 1 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2826145&amp;Name=%e5%bc%a0%e7%88%b1%e5%a8%9f"
+                    target="_blank">张爱娟</a>， 2015 - 广州中医药大学：中医内科学</li>
+                <li class="zi">目的：从晚清<font color="red">民国</font>
+                    与1978年后的鼓胀（西医诊断为:肝硬化腹水，下文中均简称为:鼓胀）文献入手来探讨西医介入后，两个时期医家在诊治鼓胀时的中医证治规律特点及治疗方法特色。一方面，以数理分析的方法通过医案研究来挖掘隐藏...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：肝硬化腹水 中医治疗 辨证施治 晚清医案<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%99%9A%E6%B8%85%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E5%92%8C1978%E5%B9%B4%E5%90%8E%E6%96%87%E7%8C%AE%E5%85%B3%E4%BA%8E%E9%BC%93%E8%83%80%EF%BC%88%E8%82%9D%E7%A1%AC%E5%8C%96%E8%85%B9%E6%B0%B4%EF%BC%89%E7%9A%84%E8%AF%8A%E6%B2%BB%E8%A7%84%E5%BE%8B%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y2826145"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2826145.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y2826145"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y2826145" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">9 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2502380.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2502380.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2502380.aspx"
+                    target="_blank"> <font color="red">民国</font>时期传统旗袍造型结构研究 </a> <span>(<t>被引用</t>
+                    6 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2502380&amp;Name=%e4%bf%9e%e8%b7%83"
+                    target="_blank">俞跃</a>， 2014 - 北京服装学院：设计艺术学</li>
+                <li class="zi"> <font color="red">民国</font>
+                    时期传统旗袍在中国服装史上有着举足轻重的地位，它反映了中国传统服装造型结构中传统向现代的演变，是中国女性传统服饰的典型代表。通过对其进行研究，发掘出传统服装的本质特征，在造型结构和工艺上对传统服装文化的...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：传统旗袍 造型手法 民国时期 裁剪结构<br/> </p> <span>
+                    <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E4%BC%A0%E7%BB%9F%E6%97%97%E8%A2%8D%E9%80%A0%E5%9E%8B%E7%BB%93%E6%9E%84%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y2502380"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2502380.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y2502380"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y2502380" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">10 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2692195.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2692195.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y2692195.aspx"
+                    target="_blank"> <font color="red">民国</font>时期(1912-1949)中药文献及其学术考察与研究 </a>
+                    <span>(<t>被引用</t> 3 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y2692195&amp;Name=%e6%9d%8e%e6%a5%a0"
+                    target="_blank">李楠</a>， 2014 - 中国中医科学院：中医文献学</li>
+                <li class="zi"> <font color="red"
+                    >民国</font>时期（1912-1949）是传统本草向现代中药学过渡的关键时期，在中药学术发展过程中起到承上启下的作用。<font color="red"
+                    >民国 </font> 学者“发皇古义，融会新知”，在继承传统本草学术基础上，融汇吸纳现代科学知识、技术与方法，并开展中药科学研究，推...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t> ：民国时期 中药著作 中药期刊 中医文献学 学术发展<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F(1912-1949)%E4%B8%AD%E8%8D%AF%E6%96%87%E7%8C%AE%E5%8F%8A%E5%85%B6%E5%AD%A6%E6%9C%AF%E8%80%83%E5%AF%9F%E4%B8%8E%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y2692195"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y2692195.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y2692195"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y2692195" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <p class="pager_space">
+                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1"> <t>共</t>
+                    7 <t>页</t> </span>
+                <strong class="page-selected">1</strong>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=2"
+                    >2</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=3"
+                    >3</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=4"
+                    >4</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=5"
+                    >5</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=6"
+                    >6</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=7"
+                    >7</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=2">
+                    <t>下一页</t>
+                </a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e6%8d%ae%e5%ba%93+DBID%3aWF_XW&amp;f=ordered&amp;p=7">
+                    <t>末页</t>
+                </a>
+                
+                <t>
+                    
+                </t>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="search_cloud">
+
+        <p>
+            
+            <t>
+                
+            </t>
+        </p>
+
+        <div id="relatedword"/>
+    </div>
+    <div class="clear-float"/>
+    <div id="hudongwords"/>
+
+</div>

@@ -1,0 +1,380 @@
+<div id="content_div">
+    <div>
+        <div>
+            <div id="narrowContainer">
+                <div>     
+                     - <t></t> </div>
+                
+            </div>
+
+            <div class="sortby_div">
+                <div id="sortContainer" style="position:relative;">
+                    <span class="black_font"> <t>排序</t>： </span>
+                    <span class="current_sort" title="相关度优先=论文关键词价值+其他相关因素 适用于高效查询所关注的领域">
+                        <t>相关度优先</t>
+                    </span>
+                    <span class="common_all">
+                        <a
+                            href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
+                            title="新论文优先=论文出版时间+其他相关因素 适用于追踪最新研究进展">
+                            <t>新论文优先</t>
+                        </a>
+                    </span>
+                    <span class="common_all">
+                        <a
+                            href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
+                            title="经典论文优先=论文质量+其他相关因素 适用于快速查找并获取研究与主题相关的高质量成果">
+                            <t>经典论文优先</t>
+                        </a>
+                    </span>
+                    <a class="sortexpand common_all" >
+                        <t>其他</t>
+                        <small>▼</small>
+                    </a>
+                    <ul id="otherlinklist" style="display: none;">
+                        <li>
+                            <a
+                                href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+relevance"
+                                title="仅以论文关键词价值作为排序依据">仅相关度</a>
+                        </li>
+                        <li>
+                            <a
+                                href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+date"
+                                title="仅以出版时间作为排序依据">仅出版时间</a>
+                        </li>
+                        <li>
+                            <a
+                                href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=sort&amp;o=sortby+CitedCount"
+                                title="仅以被引次数作为排序依据">仅被引次数</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <span>
+                    <a class="common_all"
+                        href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20DBID%3AWF_XW&amp;f=all">
+                        <t>全部</t>
+                    </a>
+                    <a class="common_all"
+                        href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20DBID%3AWF_XW&amp;f=onlyFull"
+                        n="">
+                        <t>仅全文</t>
+                    </a>
+                    <a class="grouplight_all"
+                        href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20DBID%3AWF_XW&amp;f=ordered"
+                        title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu
+                        Berlin<t>已购全文</t></a>
+                </span>
+            </div>
+            <div class="clear-float"/>
+            <ul class="list_ul">
+                <li class="title_li">1 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1506672.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1506672.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1506672.aspx"
+                    target="_blank">基于BP<font color="red">神经网络</font>的脱机手写<font color="red">汉字识别
+                    </font>研究</a> <span>(<t>被引用</t> 5 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1506672&amp;Name=%e7%8e%8b%e8%b5%93"
+                    target="_blank">王赓</a>， 2009 - 天津师范大学：计算机应用技术</li>
+                <li class="zi">脱机手写<font color="red">汉字识别</font>
+                    是图像模式识别领域的研究热点之一，也是计算机字符识别中较为困难的一个课题。在分析当前手写<font color="red">汉字识别</font>
+                    技术的基础上，本文重点讨论了小字符集<font color="red">汉字识别</font>的方法，继而以提高<font color="red">汉字识别
+                    </font>正确率和识别速度为目标，...<br/> <p class="greencolor" style=""> <t>关键词</t>：BP神经网络
+                    脱机手写汉字识别 汉字图像<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8EBP%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1506672"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1506672.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1506672"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1506672" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">2 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1635139.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1635139.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1635139.aspx"
+                    target="_blank">基于动态粗外围方向线素特征的脱机手写<font color="red">汉字识别</font></a>
+                    <span>(<t>被引用</t> 5 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1635139&amp;Name=%e6%9d%8e%e7%ba%a2%e7%9d%bf"
+                    target="_blank">李红睿</a>， 2009 - 河北大学：计算机应用技术</li>
+                <li class="zi">汉字数目庞大、结构复杂，手写汉字的形状千差万别、风格各异，这使得手写<font color="red">汉字识别</font>
+                    成为当前一个研究难点。目前，脱机手写<font color="red">汉字识别</font>还处于发展阶段，现有的OCR（Optical character
+                    recognition，光学字符识别）技术对其进行处理的可...<br/> <p class="greencolor" style=""> <t>关键词</t>
+                    ：脱机手写汉字识别 动态划分 粗外围 方向线素 神经网络<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%8A%A8%E6%80%81%E7%B2%97%E5%A4%96%E5%9B%B4%E6%96%B9%E5%90%91%E7%BA%BF%E7%B4%A0%E7%89%B9%E5%BE%81%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Thesis_Y1635139"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1635139.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1635139"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1635139" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">3 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3236380.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3236380.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3236380.aspx"
+                    target="_blank">基于卷积<font color="red">神经网络</font>的脱机手写<font color="red">汉字识别
+                    </font>系统研究</a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3236380&amp;Name=%e9%ab%98%e7%81%bf"
+                    target="_blank">高灿</a>， 2017 - 安徽理工大学：电路与系统</li>
+                <li class="zi">脱机手写体<font color="red">汉字识别</font>
+                    在模式识别的应用领域内是非常重要的分支，同时其也是计算机智能接口实现过程中的关键性技术。由于脱机手写体汉字类别庞大、字体结构复杂、相似汉字多、书写随意性大以及书写风格差异强等特点，其在模式识...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：汉字识别系统 卷积神经网络 脱机手写 GPU架构 功能模块<br/>
+                    </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y3236380"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3236380.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y3236380"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y3236380" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">4 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y698239.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y698239.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y698239.aspx"
+                    target="_blank">基于<font color="red">神经网络</font>分类器的<font color="red">汉字识别</font>
+                    系统研究</a> <span>(<t>被引用</t> 3 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y698239&amp;Name=%e6%9d%8e%e9%91%ab"
+                    target="_blank">李鑫</a>， 2004 - 辽宁工程技术大学：通信与信息系统</li>
+                <li class="zi">脱机<font color="red">汉字识别</font>
+                    是一个典型的大类别模式识别问题,在这种大类别识别的研究中,大多采用匹配的方法来解决问题,该方法的实现比较简单.但是,基于匹配的方法分类精度较低.近年来,人工<font
+                    color="red">神经网络 </font>作为一种认知模型已在模式识别中得...<br/> <p class="greencolor" style="">
+                    <t>关键词</t> ：汉字识别 预处理 特征提取 BP神经网络 分类器<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%88%86%E7%B1%BB%E5%99%A8%E7%9A%84%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y698239"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y698239.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y698239"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y698239" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">5 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y718282.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y718282.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y718282.aspx"
+                    target="_blank">脱机手写体<font color="red">汉字识别</font>研究</a> <span>(<t>被引用</t> 23
+                    <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y718282&amp;Name=%e4%b8%81%e6%85%a7%e4%b8%9c"
+                    target="_blank">丁慧东</a>， 2005 - 东北师范大学：计算机软件与理论</li>
+                <li class="zi">本文的主要研究内容为:脱机手写体<font color="red"
+                    >汉字识别</font>的原理与方法,汉字图像预处理,手写体汉字的分类识别, <font color="red">神经网络</font>在<font
+                    color="red">汉字识别</font>中的应用,常用脱机手写体<font color="red">汉字识别</font>
+                    系统方案设计.文字识别的原理和方法介绍了文字识别领域采用的一般方法...<br/> <p class="greencolor" style="">
+                    <t>关键词</t> ：手写体汉字识别 模式识别 统计决策法 结构分析法 神经网络<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y718282"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y718282.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y718282"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y718282" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">6 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3246736.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3246736.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3246736.aspx"
+                    target="_blank"> <font color="red">汉字识别</font>关键算法研究与应用 </a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3246736&amp;Name=%e9%a1%be%e5%88%9a"
+                    target="_blank">顾刚</a>， 2017 - 浙江大学：计算机科学与技术</li>
+                <li class="zi">
+                    汉字和书法是中国传统文化重要组成部分，构成丰富多彩的中国历史与文化。用户在浏览欣赏汉字书籍时，特别是在浏览欣赏有诸多繁体字的古代书籍的时候，会遇到很多生疏不认识的汉字，给用户欣赏作品带来了障碍。如果有工具能够...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：汉字识别 中国书法 特征提取 神经网络 移动平台<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E5%85%B3%E9%94%AE%E7%AE%97%E6%B3%95%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%BA%94%E7%94%A8.aspx?ID=Thesis_Y3246736"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3246736.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y3246736"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y3246736" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">7 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1013846.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1013846.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1013846.aspx"
+                    target="_blank">车牌<font color="red">汉字识别</font>技术的研究与实现</a> <span>(<t>被引用</t> 9
+                    <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1013846&amp;Name=%e6%9c%b1%e5%b3%b0"
+                    target="_blank">朱峰</a>， 2006 - 江苏大学：计算机应用技术</li>
+                <li class="zi">
+                    车牌识别系统(LPR)是智能交通系统的核心组成部分，广泛应用于交通部门的违章检测(电子警察)、高速公路自动收费和智能停车场管理等方面。车牌识别系统主要包含车牌定位、字符分割、车牌字符识别三个主要部分，综合了模式识别...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：模式识别 车牌检测 Gabor滤波器 BP神经网络 汉字识别
+                    智能交通系统<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E8%BD%A6%E7%89%8C%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E6%8A%80%E6%9C%AF%E7%9A%84%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%AE%9E%E7%8E%B0.aspx?ID=Thesis_Y1013846"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1013846.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1013846"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1013846" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">8 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y765526.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y765526.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y765526.aspx"
+                    target="_blank">联机手写<font color="red">汉字识别</font>系统的研究与实现</a> <span>(<t>被引用</t>
+                    13 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y765526&amp;Name=%e4%bf%9e%e5%ba%86%e8%8b%b1"
+                    target="_blank">俞庆英</a>， 2005 - 安徽大学：计算机应用技术</li>
+                <li class="zi">
+                    　　汉字属于二维平面的方块字，不像英文那样能直接键入计算机，而需要熟记编码、击键输入，这曾一度成为汉字输入的唯一模式，目前也仍是计算机汉字输入的主要方法，但是键盘输入学习起来比较困难，而且需要记忆大量编码，对于很...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：联机手写汉字识别 整字识别 笔画识别 文法学习
+                    神经网络学习方法<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E8%81%94%E6%9C%BA%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%A0%94%E7%A9%B6%E4%B8%8E%E5%AE%9E%E7%8E%B0.aspx?ID=Thesis_Y765526"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y765526.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y765526"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y765526" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">9 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D674876.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D674876.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D674876.aspx"
+                    target="_blank">基于多种特征提取组合的BP<font color="red">神经网络</font>车牌<font color="red">
+                    汉字识别</font></a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D674876&amp;Name=%e6%9d%8e%e6%8c%af%e5%ae%87"
+                    target="_blank">李振宇</a>， 2015 - 贵州师范大学：计算机科学与技术</li>
+                <li class="zi">
+                    我国在2009年成为世界第一大汽车产销国，伴随着国内经济的高速发展，国内车辆保有量直线上升，截止至2014年低，我国汽车保有量已经达到1.54亿辆，小型载客汽车达到了1.17亿辆，这使得交通问题日益严重，发展智能交通系统成为...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：汉字识别 神经网络 车牌图像 抗干扰能力<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E7%A7%8D%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96%E7%BB%84%E5%90%88%E7%9A%84BP%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E8%BD%A6%E7%89%8C%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Thesis_D674876"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D674876.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_D674876"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_D674876" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">10 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y437276.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y437276.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y437276.aspx"
+                    target="_blank">基于<font color="red">神经网络</font>的实时车牌定位与识别系统研究</a>
+                    <span>(<t>被引用</t> 13 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y437276&amp;Name=%e9%bb%84%e5%9b%bd%e8%83%9c"
+                    target="_blank">黄国胜</a>， 2002 - 武汉理工大学：通信与信息系统</li>
+                <li class="zi">
+                    该论文的目的是研究设计一种能在固定场景下对行驶车辆完成车牌自动定位和实时识别的系统.我们对彩色车牌图像进行了车牌定位、字符分割和字符识别等方面的研究,并在车牌自动定位和车牌字符分割方面提出了一种新的系统的...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：智能运输系统 车牌 图像分割 神经网络 汉字识别<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%AE%9E%E6%97%B6%E8%BD%A6%E7%89%8C%E5%AE%9A%E4%BD%8D%E4%B8%8E%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y437276"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y437276.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y437276"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y437276" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <p class="pager_space">
+                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1"> <t>共</t>
+                    9 <t>页</t> </span>
+                <strong class="page-selected">1</strong>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=2"
+                    >2</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=3"
+                    >3</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=4"
+                    >4</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=5"
+                    >5</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=6"
+                    >6</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=7"
+                    >7</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=8"
+                    >8</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=9"
+                    >9</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=2">
+                    <t>下一页</t>
+                </a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_XW&amp;f=ordered&amp;p=9">
+                    <t>末页</t>
+                </a>
+                
+                <t>
+                    
+                </t>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="search_cloud">
+
+        <p>
+            
+            <t>
+                
+            </t>
+        </p>
+
+        <div id="relatedword"/>
+    </div>
+    <div class="clear-float"/>
+    <div id="hudongwords"/>
+
+</div>
