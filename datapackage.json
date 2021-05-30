@@ -2,7 +2,7 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "resource1",
+      "name": "C-W-A_comparison",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
