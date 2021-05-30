@@ -13,21 +13,26 @@
     </thead>
     <tbody>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="1" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!XDDJ202023017!1!18"/>1</td>
+            <td class="seq">1</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=1&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=XDDJ202023017&amp;urlid=&amp;yx="
-                    target="_blank">Research on printed document character recognition based on deep learning</a>
+                    target="_blank">Research on printed document character recognition based on deep
+                    learning</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">XU Changying;LAI Weicai;CHEN Ying;Engineering Training Centre,Nanchang Hangkong University;School of Software,Nanchang Hangkong University</td>
+            <td class="author">XU Changying;LAI Weicai;CHEN Ying;Engineering Training
+                Centre,Nanchang Hangkong University;School of Software,Nanchang Hangkong
+                University</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=XDDJ" target="_blank">Modern Electronics Technique</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=XDDJ"
+                    target="_blank">Modern Electronics Technique</a>
             </td>
             <td class="date"> 2020-12-01 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">71</a>
+                <a class="downloadCnt" >71</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -38,30 +43,35 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="XDDJ202023017" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="XDDJ202023017"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="2" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!FJDN202011035!2!18"/>2</td>
+            <td class="seq">2</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=2&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=FJDN202011035&amp;urlid=&amp;yx="
-                    target="_blank">Application of Chinese Medical Information Processing Method in Artificial Intelligence</a>
+                    target="_blank">Application of Chinese Medical Information Processing Method in
+                    Artificial Intelligence</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">MA Hongyan;PENG Renjie;Information Engineering College, Longdong University</td>
+            <td class="author">MA Hongyan;PENG Renjie;Information Engineering College, Longdong
+                University</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=FJDN" target="_blank">Journal of Fujian Computer</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=FJDN"
+                    target="_blank">Journal of Fujian Computer</a>
             </td>
             <td class="date"> 2020-11-25 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">82</a>
+                <a class="downloadCnt" >82</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -72,32 +82,37 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="FJDN202011035" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="FJDN202011035"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="3" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDAUTO!WNDZ202003012!3!18"/>3</td>
+            <td class="seq">3</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=3&amp;DbCode=CJFD&amp;dbname=CJFDAUTO&amp;filename=WNDZ202003012&amp;urlid=&amp;yx="
-                    target="_blank">Survey of Chinese character recognition methods based on deep learning</a>
+                    target="_blank">Survey of Chinese character recognition methods based on deep
+                    learning</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">DENG Jierong;LIANG Sen;CAO Xinyan;YANG Xiaohui;CAO Xixin<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;School of
-                    Software &amp; Microelectronics, Peking University;Tsinghua University</span></td>
+            <td class="author">DENG Jierong;LIANG Sen;CAO Xinyan;YANG Xiaohui;CAO Xixin<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;School
+                of Software &amp; Microelectronics, Peking University;Tsinghua
+                University</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WNDZ" target="_blank">Micro/nano Electronics and Intelligent
-                    Manufacturing</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WNDZ"
+                    target="_blank">Micro/nano Electronics and Intelligent Manufacturing</a>
             </td>
             <td class="date"> 2020-09-15 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">111</a>
+                <a class="downloadCnt" >111</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -108,31 +123,37 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="WNDZ202003012" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="WNDZ202003012"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="4" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!JSJY202008046!4!18"/>4</td>
+            <td class="seq">4</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=4&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=JSJY202008046&amp;urlid=&amp;yx="
-                    target="_blank">Handwritten Chinese character recognition based on two dimensional principal component analysis and convolutional neural network</a>
+                    target="_blank">Handwritten Chinese character recognition based on two
+                    dimensional principal component analysis and convolutional neural network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">ZHENG Yanbin;HAN Mengyun;FAN Wenxin;College of Computer and Information Engineering, Henan Normal University;Henan Engineering Laboratory of
-                Intellectual Business and Internet of Things Technologies (Henan Normal University)</td>
+            <td class="author">ZHENG Yanbin;HAN Mengyun;FAN Wenxin;College of Computer and
+                Information Engineering, Henan Normal University;Henan Engineering Laboratory of
+                Intellectual Business and Internet of Things Technologies (Henan Normal
+                University)</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSJY" target="_blank">Journal of Computer Applications</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSJY"
+                    target="_blank">Journal of Computer Applications</a>
             </td>
             <td class="date"> 2020-08-10 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">249</a>
+                <a class="downloadCnt" >249</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -143,31 +164,35 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSJY202008046" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSJY202008046"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="5" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!LZGD202003016!5!18"/>5</td>
+            <td class="seq">5</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=5&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=LZGD202003016&amp;urlid=&amp;yx="
-                    target="_blank">Offline Handwritten Similar Chinese Character Recognition Based on Convolutional Neural Network and Random Elastic Transform</a>
+                    target="_blank">Offline Handwritten Similar Chinese Character Recognition Based
+                    on Convolutional Neural Network and Random Elastic Transform</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">LIN Heng-qing;ZHENG Xiao-bing;WANG Lin-zhu;DAI Li-qing;Department of Mechanical Engineering, Fujian Chuanzheng Communications College</td>
+            <td class="author">LIN Heng-qing;ZHENG Xiao-bing;WANG Lin-zhu;DAI Li-qing;Department of
+                Mechanical Engineering, Fujian Chuanzheng Communications College</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=LZGD" target="_blank">Journal of Lanzhou Institute of
-                    Technology</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=LZGD"
+                    target="_blank">Journal of Lanzhou Institute of Technology</a>
             </td>
             <td class="date"> 2020-06-15 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">80</a>
+                <a class="downloadCnt" >80</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -178,31 +203,35 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="LZGD202003016" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="LZGD202003016"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="6" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CAPJLAST!JSJY20200429006!6!18"/>6</td>
+            <td class="seq">6</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=6&amp;DbCode=CAPJ&amp;dbname=CAPJLAST&amp;filename=JSJY20200429006&amp;urlid=51.1307.TP.20200429.1626.006&amp;yx=Y"
-                    target="_blank">Handwritten Chinese character recognition based on 2DPCA and CNN</a>
+                    target="_blank">Handwritten Chinese character recognition based on 2DPCA and
+                    CNN</a>
                 <b class="marktip">Online First</b>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">ZHENG Yanbin;HAN Mengyun;FAN Wenxin</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSJY" target="_blank">Journal of Computer Applications</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSJY"
+                    target="_blank">Journal of Computer Applications</a>
             </td>
             <td class="date"> 2020-04-29 16:39 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">429</a>
+                <a class="downloadCnt" >429</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -213,27 +242,32 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSJY20200429006" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSJY20200429006"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="7" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!WNDZ202001016!7!18"/>7</td>
+            <td class="seq">7</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=7&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=WNDZ202001016&amp;urlid=&amp;yx="
-                    target="_blank">Research and verification of large seal style font recognition system based on artificial intelligence</a>
+                    target="_blank">Research and verification of large seal style font recognition
+                    system based on artificial intelligence</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">LI Kai;DENG Jierong;ZHANG Xin;LI Yongbo;XI Yuxuan<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;LI Zibo;CAO
-                    Xixin;School of Software &amp; Microelectronics, Peking University</span></td>
+            <td class="author">LI Kai;DENG Jierong;ZHANG Xin;LI Yongbo;XI Yuxuan<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;LI
+                Zibo;CAO Xixin;School of Software &amp; Microelectronics, Peking
+                University</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WNDZ" target="_blank">Micro/nano Electronics and Intelligent
-                    Manufacturing</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WNDZ"
+                    target="_blank">Micro/nano Electronics and Intelligent Manufacturing</a>
             </td>
             <td class="date"> 2020-03-15 </td>
             <td class="quote">
@@ -242,7 +276,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">75</a>
+                <a class="downloadCnt" >75</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -253,32 +287,34 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="WNDZ202001016" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="WNDZ202001016"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="8" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!WLAQ202002025!8!18"/>8</td>
+            <td class="seq">8</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=8&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=WLAQ202002025&amp;urlid=&amp;yx="
                     target="_blank">利用卷积生成式对抗网络生成中文<font class="Mark">汉字</font></a>
             </td>
             <td class="author">
-                <a href="javascript:void(0);" style="cursor:default;color:#778192;">刘琦</a>
+                <a  style="cursor:default;color:#778192;">刘琦</a>
             </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WLAQ" target="_blank">Network Security Technology &amp;
-                    Application</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WLAQ"
+                    target="_blank">Network Security Technology &amp; Application</a>
             </td>
             <td class="date"> 2020-02-15 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">196</a>
+                <a class="downloadCnt" >196</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -289,27 +325,35 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="WLAQ202002025" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="WLAQ202002025"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="9" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!DZIY202002019!9!18"/>9</td>
+            <td class="seq">9</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=9&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=DZIY202002019&amp;urlid=&amp;yx="
-                    target="_blank">Chinese character recognition based on convolutionalneural network and character encoding</a>
+                    target="_blank">Chinese character recognition based on convolutionalneural
+                    network and character encoding</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">Liu Zhengqiong;Ding Li;Ling lin;Li Xuefei;Zhou Wenxia<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;School of
-                    Computer Science and Information Engineering, Hefei University of Technology;School of Mechanical Engineering, Hefei University of Technology</span></td>
+            <td class="author">Liu Zhengqiong;Ding Li;Ling lin;Li Xuefei;Zhou Wenxia<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;School
+                of Computer Science and Information Engineering, Hefei University of
+                Technology;School of Mechanical Engineering, Hefei University of
+                Technology</span></td>
             <td class="source">
-                <a class="SinglePubMark" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CJFD&amp;BaseID=DZIY" target="_blank" title="Title in
-                    purple is CNKI Exclusive Publication">Journal of Electronic Measurement and Instrumentation</a>
+                <a class="SinglePubMark"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CJFD&amp;BaseID=DZIY"
+                    target="_blank" title="Title in
+                    purple is CNKI Exclusive Publication">Journal of Electronic
+                    Measurement and Instrumentation</a>
             </td>
             <td class="date"> 2020-02-15 </td>
             <td class="quote">
@@ -318,7 +362,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">119</a>
+                <a class="downloadCnt" >119</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -329,33 +373,36 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="DZIY202002019" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="DZIY202002019"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="10" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!ZJGD202001006!10!18"
-                />10</td>
+            <td class="seq">10</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=10&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=ZJGD202001006&amp;urlid=&amp;yx="
-                    target="_blank">Extended Chinese character sample method based on style transfer and thin plate spline</a>
+                    target="_blank">Extended Chinese character sample method based on style transfer
+                    and thin plate spline</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">PAN Jinyi;WANG Yameng;WANG Wei;LIU Jianfeng;XING Yuquan<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;College of
-                    Information Engineering, Zhejiang University of Technology</span></td>
+            <td class="author">PAN Jinyi;WANG Yameng;WANG Wei;LIU Jianfeng;XING Yuquan<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;College
+                of Information Engineering, Zhejiang University of Technology</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZJGD" target="_blank">Journal of Zhejiang University of
-                    Technology</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZJGD"
+                    target="_blank">Journal of Zhejiang University of Technology</a>
             </td>
             <td class="date"> 2020-01-22 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">79</a>
+                <a class="downloadCnt" >79</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -366,33 +413,39 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZJGD202001006" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZJGD202001006"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="11" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2020!QHSD201904007!11!18"
-                />11</td>
+            <td class="seq">11</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=11&amp;DbCode=CJFD&amp;dbname=CJFDLAST2020&amp;filename=QHSD201904007&amp;urlid=&amp;yx="
-                    target="_blank">Research on Tibetan handwritten numbers and letter recognition based on convolutional neural network</a>
+                    target="_blank">Research on Tibetan handwritten numbers and letter recognition
+                    based on convolutional neural network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">ZHOU Mao-ke;CAI Rang-xianmu;LONG Cong-jun;YAN Xiao-dong;University of Chinese Academy of Social Sciences<a class="showAllAuthors" title="Show All
-                    Authors"/><span style="display:none">;Minzu University of China;Institute of Ethnology and Anthropology,Chinese Academy of Social Sciences</span></td>
+            <td class="author">ZHOU Mao-ke;CAI Rang-xianmu;LONG Cong-jun;YAN Xiao-dong;University of
+                Chinese Academy of Social Sciences<a class="showAllAuthors" title="Show All
+                    Authors"/><span style="display:none">;Minzu University of
+                China;Institute of Ethnology and Anthropology,Chinese Academy of Social
+                Sciences</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=QHSD" target="_blank">Journal of Qinghai Normal
-                    University(Natural Science Edition)</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=QHSD"
+                    target="_blank">Journal of Qinghai Normal University(Natural Science
+                    Edition)</a>
             </td>
             <td class="date"> 2019-12-15 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">288</a>
+                <a class="downloadCnt" >288</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -403,29 +456,33 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="QHSD201904007" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="QHSD201904007"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="12" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!XXWX201910039!12!18"
-                />12</td>
+            <td class="seq">12</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=12&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=XXWX201910039&amp;urlid=&amp;yx="
-                    target="_blank">Multi-channel Cross Fusion Deep Resnet for Offline Handwritten Chinese Character Recognition</a>
+                    target="_blank">Multi-channel Cross Fusion Deep Resnet for Offline Handwritten
+                    Chinese Character Recognition</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">ZHANG Xiu-ling;ZHOU Kai-xuan;WEI Qi-jun;DONG Xiao-peng;Key Laboratory of Industrial Computer Control Engineering of Hebei Province,Yanshan
-                    University<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;National Engineering Research Center for Equipment and Technology of
-                    Cold Strip Rolling,Yanshan University</span></td>
+            <td class="author">ZHANG Xiu-ling;ZHOU Kai-xuan;WEI Qi-jun;DONG Xiao-peng;Key Laboratory
+                of Industrial Computer Control Engineering of Hebei Province,Yanshan University<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none"
+                >;National Engineering Research Center for Equipment and Technology of Cold Strip
+                Rolling,Yanshan University</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=XXWX" target="_blank">Journal of Chinese Computer
-                    Systems</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=XXWX"
+                    target="_blank">Journal of Chinese Computer Systems</a>
             </td>
             <td class="date"> 2019-10-15 </td>
             <td class="quote">
@@ -434,7 +491,7 @@
                     target="_blank">3</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">248</a>
+                <a class="downloadCnt" >248</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -445,26 +502,29 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="XXWX201910039" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="XXWX201910039"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="13" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!WDZC201913001!13!18"
-                />13</td>
+            <td class="seq">13</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=13&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=WDZC201913001&amp;urlid=&amp;yx="
-                    target="_blank">The review of technology evolution in handwritten document recognition and analysis</a>
+                    target="_blank">The review of technology evolution in handwritten document
+                    recognition and analysis</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">Zhu Bo;Wu Jiajia;He Chunjiang;Hu Jinshui;IFLYTEK Co.Ltd.</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WDZC" target="_blank">Electronic Test</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WDZC"
+                    target="_blank">Electronic Test</a>
             </td>
             <td class="date"> 2019-07-05 </td>
             <td class="quote">
@@ -473,7 +533,7 @@
                     target="_blank">2</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">298</a>
+                <a class="downloadCnt" >298</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -484,26 +544,30 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="WDZC201913001" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="WDZC201913001"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="14" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!JSSG201906041!14!18"
-                />14</td>
+            <td class="seq">14</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=14&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=JSSG201906041&amp;urlid=&amp;yx="
-                    target="_blank">Research on Text Recognition Algorithm Based on Depth Residual Network</a>
+                    target="_blank">Research on Text Recognition Algorithm Based on Depth Residual
+                    Network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">MENG Caixia;WANG Tengfei;WANG Xin;Xi'an University of Posts and Telecommunications</td>
+            <td class="author">MENG Caixia;WANG Tengfei;WANG Xin;Xi'an University of Posts and
+                Telecommunications</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSSG" target="_blank">Computer &amp; Digital Engineering</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSSG"
+                    target="_blank">Computer &amp; Digital Engineering</a>
             </td>
             <td class="date"> 2019-06-20 </td>
             <td class="quote">
@@ -512,7 +576,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">298</a>
+                <a class="downloadCnt" >298</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -523,26 +587,30 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSSG201906041" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSSG201906041"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="15" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!RJDK201905005!15!18"
-                />15</td>
+            <td class="seq">15</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=15&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=RJDK201905005&amp;urlid=&amp;yx="
-                    target="_blank">Research and Implementation of Handwritten Form Recognition Entry System Based on Deep Learning</a>
+                    target="_blank">Research and Implementation of Handwritten Form Recognition
+                    Entry System Based on Deep Learning</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">LI Ruo-yue;QIAN Qiang;ZHANG Han-wen;FANG Li-kun;School of Information Science and Technology,Southwest Jiaotong University</td>
+            <td class="author">LI Ruo-yue;QIAN Qiang;ZHANG Han-wen;FANG Li-kun;School of Information
+                Science and Technology,Southwest Jiaotong University</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=RJDK" target="_blank">Software Guide</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=RJDK"
+                    target="_blank">Software Guide</a>
             </td>
             <td class="date"> 2019-05-15 </td>
             <td class="quote">
@@ -551,7 +619,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">236</a>
+                <a class="downloadCnt" >236</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -562,27 +630,30 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="RJDK201905005" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="RJDK201905005"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="16" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!HSGD201902006!16!18"
-                />16</td>
+            <td class="seq">16</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=16&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=HSGD201902006&amp;urlid=42.1832.Z.20190425.1437.012&amp;yx=Y"
-                    target="_blank">Offline Handwritten Chinese Character Recognition Based on Convolutional Neural Network</a>
+                    target="_blank">Offline Handwritten Chinese Character Recognition Based on
+                    Convolutional Neural Network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">LIN Hengqing;Department of Mechanical Engineering,Fujian Chuanzheng Communications College</td>
+            <td class="author">LIN Hengqing;Department of Mechanical Engineering,Fujian Chuanzheng
+                Communications College</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HSGD" target="_blank">Journal of Hubei Polytechnic
-                    University</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HSGD"
+                    target="_blank">Journal of Hubei Polytechnic University</a>
             </td>
             <td class="date"> 2019-04-25 14:38 </td>
             <td class="quote">
@@ -591,7 +662,7 @@
                     target="_blank">5</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">682</a>
+                <a class="downloadCnt" >682</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -602,31 +673,35 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="HSGD201902006" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="HSGD201902006"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="17" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!HBYD201904002!17!18"
-                />17</td>
+            <td class="seq">17</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=17&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=HBYD201904002&amp;urlid=&amp;yx="
-                    target="_blank">Recognition of Similar Handwritten Chinese Characters Based on Eight-Direction Gradient Features and CNN</a>
+                    target="_blank">Recognition of Similar Handwritten Chinese Characters Based on
+                    Eight-Direction Gradient Features and CNN</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">Huang Yang;Tan Qinhong;Shi Xinlan;School of Communication and Information Engineering,Chongqing University of Posts and Telecommunications</td>
+            <td class="author">Huang Yang;Tan Qinhong;Shi Xinlan;School of Communication and
+                Information Engineering,Chongqing University of Posts and Telecommunications</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HBYD" target="_blank">Information &amp; Communications</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HBYD"
+                    target="_blank">Information &amp; Communications</a>
             </td>
             <td class="date"> 2019-04-15 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">113</a>
+                <a class="downloadCnt" >113</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -637,17 +712,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="HBYD201904002" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="HBYD201904002"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="18" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!TSGL201910016!18!18"
-                />18</td>
+            <td class="seq">18</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=18&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=TSGL201910016&amp;urlid=44.1306.G2.20190320.1426.002&amp;yx=Y"
@@ -655,14 +730,16 @@
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author"><a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=GUO+Limin&amp;scode=38445499&amp;acode=38445499"
-                    target="knet">GUO Limin</a>; <a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=GE+Liang&amp;scode=46969345&amp;acode=46969345"
-                    target="knet">GE Liang</a>; <a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=LIU+Yueru&amp;scode=17458346&amp;acode=17458346"
-                    target="knet">LIU Yueru</a></td>
+                href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=GUO+Limin&amp;scode=38445499&amp;acode=38445499"
+                target="knet">GUO Limin</a>; <a class="KnowledgeNetLink"
+                href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=GE+Liang&amp;scode=46969345&amp;acode=46969345"
+                target="knet">GE Liang</a>; <a class="KnowledgeNetLink"
+                href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=LIU+Yueru&amp;scode=17458346&amp;acode=17458346"
+                target="knet">LIU Yueru</a></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TSGL" target="_blank">Library Tribune</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TSGL"
+                    target="_blank">Library Tribune</a>
             </td>
             <td class="date"> 2019-03-20 17:40 </td>
             <td class="quote">
@@ -671,7 +748,7 @@
                     target="_blank">8</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">630</a>
+                <a class="downloadCnt" >630</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -682,27 +759,32 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="TSGL201910016" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="TSGL201910016"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="19" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!JSYJ201912079!19!18"
-                />19</td>
+            <td class="seq">19</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=19&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=JSYJ201912079&amp;urlid=51.1196.TP.20190128.1156.005&amp;yx=A"
-                    target="_blank">Research on handwritten Chinese character recognition based on deep learning with different noise</a>
+                    target="_blank">Research on handwritten Chinese character recognition based on
+                    deep learning with different noise</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">Ren Xiaowen;Wang Tao;Li Jianyu;Zhao Xiangning;Guo Yina<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;Dept.of
-                    Electronics &amp; Information Engineering,Taiyuan University of Science &amp; Technology</span></td>
+            <td class="author">Ren Xiaowen;Wang Tao;Li Jianyu;Zhao Xiangning;Guo Yina<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;Dept.of
+                Electronics &amp; Information Engineering,Taiyuan University of Science &amp;
+                Technology</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSYJ" target="_blank">Application Research of Computers</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JSYJ"
+                    target="_blank">Application Research of Computers</a>
             </td>
             <td class="date"> 2019-01-29 08:30 </td>
             <td class="quote">
@@ -711,7 +793,7 @@
                     target="_blank">3</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">309</a>
+                <a class="downloadCnt" >309</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -722,22 +804,21 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSYJ201912079" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="JSYJ201912079"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="20" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!DNZS201822077!20!18"
-                />20</td>
+            <td class="seq">20</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=20&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=DNZS201822077&amp;urlid=&amp;yx="
-                    target="_blank">
-                    <font class="Mark">深度学习</font>在智慧司法中的应用研究 </a>
+                    target="_blank"> <font class="Mark">深度学习</font>在智慧司法中的应用研究 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -745,7 +826,9 @@
                     target="knet">徐雪珂</a>
             </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=DNZS" target="_blank">Computer Knowledge and Technology</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=DNZS"
+                    target="_blank">Computer Knowledge and Technology</a>
             </td>
             <td class="date"> 2018-08-05 </td>
             <td class="quote">
@@ -754,7 +837,7 @@
                     target="_blank">2</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">322</a>
+                <a class="downloadCnt" >322</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -765,28 +848,31 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="DNZS201822077" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="DNZS201822077"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="21" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!ZZDZ201803013!21!18"
-                />21</td>
+            <td class="seq">21</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=21&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=ZZDZ201803013&amp;urlid=&amp;yx="
-                    target="_blank">Offline Handwritten Chinese Character Recognition Based on Concatenated Feature Maps</a>
+                    target="_blank">Offline Handwritten Chinese Character Recognition Based on
+                    Concatenated Feature Maps</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">MAO Xiaobo;CHENG Zhiyuan;ZHOU Xiaodong;School of Electrical Engineering,Zhengzhou University;Industrial Technology Research Institute,Zhengzhou
+            <td class="author">MAO Xiaobo;CHENG Zhiyuan;ZHOU Xiaodong;School of Electrical
+                Engineering,Zhengzhou University;Industrial Technology Research Institute,Zhengzhou
                 University</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZZDZ" target="_blank">Journal of Zhengzhou
-                    University(Natural Science Edition)</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZZDZ"
+                    target="_blank">Journal of Zhengzhou University(Natural Science Edition)</a>
             </td>
             <td class="date"> 2018-08-02 </td>
             <td class="quote">
@@ -795,7 +881,7 @@
                     target="_blank">8</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">287</a>
+                <a class="downloadCnt" >287</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -806,29 +892,32 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZZDZ201803013" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZZDZ201803013"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="22" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!WZFX201803006!22!18"
-                />22</td>
+            <td class="seq">22</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=22&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=WZFX201803006&amp;urlid=&amp;yx="
-                    target="_blank">基于粗细粒度<font class="Mark">深度学习</font>的脱机手写<font class="Mark">汉字识别</font></a>
+                    target="_blank">基于粗细粒度<font class="Mark">深度学习</font>的脱机手写<font class="Mark"
+                    >汉字识别</font></a>
             </td>
             <td class="author"><a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%99%88%e6%82%a6&amp;scode=39644210&amp;acode=39644210"
-                    target="knet">陈悦</a>; <a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%bb%84%e5%af%84%e6%b4%aa&amp;scode=28495271&amp;acode=28495271"
-                    target="knet">黄寄洪</a></td>
+                href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%99%88%e6%82%a6&amp;scode=39644210&amp;acode=39644210"
+                target="knet">陈悦</a>; <a class="KnowledgeNetLink"
+                href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e9%bb%84%e5%af%84%e6%b4%aa&amp;scode=28495271&amp;acode=28495271"
+                target="knet">黄寄洪</a></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WZFX" target="_blank">Journal of Wuzhou University</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=WZFX"
+                    target="_blank">Journal of Wuzhou University</a>
             </td>
             <td class="date"> 2018-06-15 </td>
             <td class="quote">
@@ -837,7 +926,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">148</a>
+                <a class="downloadCnt" >148</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -848,27 +937,30 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="WZFX201803006" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="WZFX201803006"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="23" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!DLXZ201802021!23!18"
-                />23</td>
+            <td class="seq">23</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=23&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=DLXZ201802021&amp;urlid=&amp;yx="
-                    target="_blank">Offline single handwritten Chinese character recognition based on Convolutional Neural Network</a>
+                    target="_blank">Offline single handwritten Chinese character recognition based
+                    on Convolutional Neural Network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">LI Junyang;LEI Xin;SONG Yu;SAI Linwei;Department of Mathematics and Physics,Hohai University Changzhou Campus</td>
+            <td class="author">LI Junyang;LEI Xin;SONG Yu;SAI Linwei;Department of Mathematics and
+                Physics,Hohai University Changzhou Campus</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=DLXZ" target="_blank">Intelligent Computer and
-                    Applications</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=DLXZ"
+                    target="_blank">Intelligent Computer and Applications</a>
             </td>
             <td class="date"> 2018-04-28 </td>
             <td class="quote">
@@ -877,7 +969,7 @@
                     target="_blank">3</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">378</a>
+                <a class="downloadCnt" >378</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -888,26 +980,30 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="DLXZ201802021" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="DLXZ201802021"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="24" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!ZGTB201803009!24!18"
-                />24</td>
+            <td class="seq">24</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=24&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=ZGTB201803009&amp;urlid=&amp;yx="
-                    target="_blank">Recognition of Chinese characters using deep convolutional neural network</a>
+                    target="_blank">Recognition of Chinese characters using deep convolutional
+                    neural network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">Chai Weijia;Wang Lianming;School of Physics,Northeast Normal University</td>
+            <td class="author">Chai Weijia;Wang Lianming;School of Physics,Northeast Normal
+                University</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZGTB" target="_blank">Journal of Image and Graphics</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZGTB"
+                    target="_blank">Journal of Image and Graphics</a>
             </td>
             <td class="date"> 2018-03-16 </td>
             <td class="quote">
@@ -916,7 +1012,7 @@
                     target="_blank">27</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">687</a>
+                <a class="downloadCnt" >687</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -927,27 +1023,32 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZGTB201803009" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZGTB201803009"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="25" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!JZCK201712067!25!18"
-                />25</td>
+            <td class="seq">25</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=25&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=JZCK201712067&amp;urlid=&amp;yx="
-                    target="_blank">Recognition of Off-line Handwritten Chinese Character Based on Deep Residual Network</a>
+                    target="_blank">Recognition of Off-line Handwritten Chinese Character Based on
+                    Deep Residual Network</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">Zhang Fan;Zhang Liang;Liu Xing;Zhang Yu;Faculty of Resources and Environmental Science,Hubei University<a class="showAllAuthors" title="Show All
-                    Authors"/><span style="display:none">;Faculty of Construction Management and Real Estate,Chongqing University</span></td>
+            <td class="author">Zhang Fan;Zhang Liang;Liu Xing;Zhang Yu;Faculty of Resources and
+                Environmental Science,Hubei University<a class="showAllAuthors" title="Show All
+                    Authors"/><span style="display:none">;Faculty of Construction
+                Management and Real Estate,Chongqing University</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JZCK" target="_blank">Computer Measurement &amp; Control</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=JZCK"
+                    target="_blank">Computer Measurement &amp; Control</a>
             </td>
             <td class="date"> 2017-12-25 </td>
             <td class="quote">
@@ -956,7 +1057,7 @@
                     target="_blank">18</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">571</a>
+                <a class="downloadCnt" >571</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -967,17 +1068,17 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="JZCK201712067" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="JZCK201712067"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="26" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2018!ZNDS201724211!26!18"
-                />26</td>
+            <td class="seq">26</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=26&amp;DbCode=CJFD&amp;dbname=CJFDLAST2018&amp;filename=ZNDS201724211&amp;urlid=&amp;yx="
@@ -989,12 +1090,14 @@
                     target="knet">胡晓芳</a>
             </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZNDS" target="_blank">TV Guide China</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=ZNDS"
+                    target="_blank">TV Guide China</a>
             </td>
             <td class="date"> 2017-12-23 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">337</a>
+                <a class="downloadCnt" >337</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -1005,28 +1108,34 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZNDS201724211" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="ZNDS201724211"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="27" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2016!MOTO201608001!27!18"
-                />27</td>
+            <td class="seq">27</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=27&amp;DbCode=CJFD&amp;dbname=CJFDLAST2016&amp;filename=MOTO201608001&amp;urlid=11.2109.tp.20160722.1449.006&amp;yx=Y"
-                    target="_blank">Applications of Deep Learning for Handwritten Chinese Character Recognition:A Review</a>
+                    target="_blank">Applications of Deep Learning for Handwritten Chinese Character
+                    Recognition:A Review</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">JIN Lian-Wen;ZHONG Zhuo-Yao;YANG Zhao;YANG Wei-Xin;XIE Ze-Cheng<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;SUN
-                    Jun;School of Electronic and Information Engineering, South China University of Technology;School of Mechanical and Electric Engineering, Guangzhou
-                    University;Information Technology Laboratory, Fujitsu Research &amp; Development Center Co., Ltd</span></td>
+            <td class="author">JIN Lian-Wen;ZHONG Zhuo-Yao;YANG Zhao;YANG Wei-Xin;XIE Ze-Cheng<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;SUN
+                Jun;School of Electronic and Information Engineering, South China University of
+                Technology;School of Mechanical and Electric Engineering, Guangzhou
+                University;Information Technology Laboratory, Fujitsu Research &amp; Development
+                Center Co., Ltd</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=MOTO" target="_blank">Acta Automatica Sinica</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=MOTO"
+                    target="_blank">Acta Automatica Sinica</a>
             </td>
             <td class="date"> 2016-07-22 14:49 </td>
             <td class="quote">
@@ -1035,7 +1144,7 @@
                     target="_blank">170</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">8101</a>
+                <a class="downloadCnt" >8101</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -1046,28 +1155,31 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="MOTO201608001" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="MOTO201608001"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="28" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2016!SDXZ201601010!28!18"
-                />28</td>
+            <td class="seq">28</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=28&amp;DbCode=CJFD&amp;dbname=CJFDLAST2016&amp;filename=SDXZ201601010&amp;urlid=31.1718.n.20160226.1034.016&amp;yx=Y"
-                    target="_blank">Recognition of Chinese characters on license plates based on big data</a>
+                    target="_blank">Recognition of Chinese characters on license plates based on big
+                    data</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">SHEN Wenfeng;ZHANG Jianlei;ZHOU Dingqian;CHEN Shengbo;QIU Feng<a class="showAllAuthors" title="Show All Authors"/><span style="display:none">;School
-                    of Computer Engineering and Science, Shanghai University</span></td>
+            <td class="author">SHEN Wenfeng;ZHANG Jianlei;ZHOU Dingqian;CHEN Shengbo;QIU Feng<a
+                class="showAllAuthors" title="Show All Authors"/><span style="display:none">;School
+                of Computer Engineering and Science, Shanghai University</span></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=SDXZ" target="_blank">Journal of Shanghai University(Natural
-                    Science Edition)</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=SDXZ"
+                    target="_blank">Journal of Shanghai University(Natural Science Edition)</a>
             </td>
             <td class="date"> 2016-02-26 10:34 </td>
             <td class="quote">
@@ -1076,7 +1188,7 @@
                     target="_blank">7</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">459</a>
+                <a class="downloadCnt" >459</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -1087,25 +1199,30 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="SDXZ201601010" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="SDXZ201601010"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="29" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFD2014!TXXB201409019!29!18"/>29</td>
+            <td class="seq">29</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=29&amp;DbCode=CJFD&amp;dbname=CJFD2014&amp;filename=TXXB201409019&amp;urlid=&amp;yx="
-                    target="_blank">Similar handwritten Chinese character recognition based on deep neural networks with big data</a>
+                    target="_blank">Similar handwritten Chinese character recognition based on deep
+                    neural networks with big data</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">YANG Zhao;TAO Da-peng;ZHANG Shu-ye;JIN Lian-wen;School of Electronic and Information Engineering,South China University of Technology</td>
+            <td class="author">YANG Zhao;TAO Da-peng;ZHANG Shu-ye;JIN Lian-wen;School of Electronic
+                and Information Engineering,South China University of Technology</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TXXB" target="_blank">Journal on Communications</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TXXB"
+                    target="_blank">Journal on Communications</a>
             </td>
             <td class="date"> 2014-09-25 </td>
             <td class="quote">
@@ -1114,7 +1231,7 @@
                     target="_blank">60</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">1749</a>
+                <a class="downloadCnt" >1749</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -1125,26 +1242,31 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="TXXB201409019" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="TXXB201409019"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="30" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFD2014!HNLG201401016!30!18"/>30</td>
+            <td class="seq">30</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=18&amp;CurRec=30&amp;DbCode=CJFD&amp;dbname=CJFD2014&amp;filename=HNLG201401016&amp;urlid=&amp;yx="
-                    target="_blank">Recognition of Similar Handwritten Chinese Characters Based on CNN and Random Elastic Deformation</a>
+                    target="_blank">Recognition of Similar Handwritten Chinese Characters Based on
+                    CNN and Random Elastic Deformation</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
-            <td class="author">Gao Xue;Wang You-wang;School of Electronic and Information Engineering,South China University of Technology</td>
+            <td class="author">Gao Xue;Wang You-wang;School of Electronic and Information
+                Engineering,South China University of Technology</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HNLG" target="_blank">Journal of South China University of
-                    Technology(Natural Science Edition)</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HNLG"
+                    target="_blank">Journal of South China University of Technology(Natural Science
+                    Edition)</a>
             </td>
             <td class="date"> 2014-01-15 </td>
             <td class="quote">
@@ -1153,7 +1275,7 @@
                     target="_blank">70</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">1789</a>
+                <a class="downloadCnt" >1789</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -1164,10 +1286,11 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="HNLG201401016" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="HNLG201401016"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>

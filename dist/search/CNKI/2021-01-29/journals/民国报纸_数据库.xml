@@ -13,27 +13,30 @@
     </thead>
     <tbody>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="1" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CAPJLAST!TNGZ20200628009!1!29"/>1</td>
+            <td class="seq">1</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=1&amp;DbCode=CAPJ&amp;dbname=CAPJLAST&amp;filename=TNGZ20200628009&amp;urlid=31.1108.G2.20200628.1837.013&amp;yx=Y"
-                    target="_blank">Semantic Labeling of Advertising Images in Newspapers of the Republic of China Period: Illustrated by Shaoxing Opera Advertisement Published in
-                    Xinwen Bao</a>
+                    target="_blank">Semantic Labeling of Advertising Images in Newspapers of the
+                    Republic of China Period: Illustrated by Shaoxing Opera Advertisement Published
+                    in Xinwen Bao</a>
                 <b class="marktip">Online First</b>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author"><a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=Yang+Jiaying&amp;scode=40706893&amp;acode=40706893"
-                    target="knet">Yang Jiaying</a>; <a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=Xu+Xin&amp;scode=14281145&amp;acode=14281145"
-                    target="knet">Xu Xin</a></td>
+                href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=Yang+Jiaying&amp;scode=40706893&amp;acode=40706893"
+                target="knet">Yang Jiaying</a>; <a class="KnowledgeNetLink"
+                href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=Xu+Xin&amp;scode=14281145&amp;acode=14281145"
+                target="knet">Xu Xin</a></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TNGZ" target="_blank">Library Journal</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TNGZ"
+                    target="_blank">Library Journal</a>
             </td>
             <td class="date"> 2020-06-30 11:02 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">172</a>
+                <a class="downloadCnt" >172</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -44,26 +47,30 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="TNGZ20200628009" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="TNGZ20200628009"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="2" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!PTSQ201903011!2!29"/>2</td>
+            <td class="seq">2</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=2&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=PTSQ201903011&amp;urlid=&amp;yx="
-                    target="_blank">Research on the Common Problems in Digital Acceptance of Newspapers in the Period of Republic of China:A Case Study of National Library of
-                    China</a>
+                    target="_blank">Research on the Common Problems in Digital Acceptance of
+                    Newspapers in the Period of Republic of China:A Case Study of National Library
+                    of China</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">Zhang Wei;National Library of China</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=PTSQ" target="_blank">Library and Information Studies</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=PTSQ"
+                    target="_blank">Library and Information Studies</a>
             </td>
             <td class="date"> 2019-09-18 </td>
             <td class="quote">
@@ -72,7 +79,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">71</a>
+                <a class="downloadCnt" >71</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -83,21 +90,21 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="PTSQ201903011" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="PTSQ201903011"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="3" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2019!CBCK201906012!3!29"/>3</td>
+            <td class="seq">3</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=3&amp;DbCode=CJFD&amp;dbname=CJFDLAST2019&amp;filename=CBCK201906012&amp;urlid=&amp;yx="
-                    target="_blank">
-                    <font class="Mark">民国报纸</font>影印出版的现状、问题与建议 </a>
+                    target="_blank"> <font class="Mark">民国报纸</font>影印出版的现状、问题与建议 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -105,7 +112,9 @@
                     target="knet">方自金</a>
             </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=CBCK" target="_blank">Publishing Reference</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=CBCK"
+                    target="_blank">Publishing Reference</a>
             </td>
             <td class="date"> 2019-06-05 </td>
             <td class="quote">
@@ -114,7 +123,7 @@
                     target="_blank">1</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">109</a>
+                <a class="downloadCnt" >109</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -125,26 +134,30 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="CBCK201906012" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="CBCK201906012"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="4" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2017!SSFS201704012!4!29"/>4</td>
+            <td class="seq">4</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=4&amp;DbCode=CJFD&amp;dbname=CJFDLAST2017&amp;filename=SSFS201704012&amp;urlid=&amp;yx="
-                    target="_blank">Public Library Databases about Literature of the Republic of China</a>
+                    target="_blank">Public Library Databases about Literature of the Republic of
+                    China</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">MU Weiguo;DUAN Xiaolin;Library,Shanghai Normal University </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=SSFS" target="_blank">Journal of Shanghai Normal
-                    University(Philosophy &amp; Social Sciences Edition)</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=SSFS"
+                    target="_blank">Journal of Shanghai Normal University(Philosophy &amp; Social
+                    Sciences Edition)</a>
             </td>
             <td class="date"> 2017-07-25 </td>
             <td class="quote">
@@ -153,7 +166,7 @@
                     target="_blank">5</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">389</a>
+                <a class="downloadCnt" >389</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -164,26 +177,29 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="SSFS201704012" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="SSFS201704012"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="5" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2017!DXTQ201704010!5!29"/>5</td>
+            <td class="seq">5</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=5&amp;DbCode=CJFD&amp;dbname=CJFDLAST2017&amp;filename=DXTQ201704010&amp;urlid=&amp;yx="
-                    target="_blank">Research on the Collection Construction for Chinese Newspapers and Periodicals in the Period of Republic of China in University Libraries</a>
+                    target="_blank">Research on the Collection Construction for Chinese Newspapers
+                    and Periodicals in the Period of Republic of China in University Libraries</a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">LU Yi-jun;Shanghai Library</td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=DXTQ" target="_blank">Journal of Academic Library and
-                    Information Science</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=DXTQ"
+                    target="_blank">Journal of Academic Library and Information Science</a>
             </td>
             <td class="date"> 2017-07-10 </td>
             <td class="quote">
@@ -192,7 +208,7 @@
                     target="_blank">2</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">163</a>
+                <a class="downloadCnt" >163</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -203,21 +219,22 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="DXTQ201704010" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="DXTQ201704010"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="6" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2017!HNTX201612038!6!29"/>6</td>
+            <td class="seq">6</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=6&amp;DbCode=CJFD&amp;dbname=CJFDLAST2017&amp;filename=HNTX201612038&amp;urlid=&amp;yx="
-                    target="_blank">
-                    <font class="Mark">民国</font>地方文献<font class="Mark">报纸</font> 数字化探索与实践——以首都图书馆地方文献<font class="Mark">民国</font>报刊数字化为例 </a>
+                    target="_blank"> <font class="Mark">民国</font>地方文献<font class="Mark">报纸</font>
+                    数字化探索与实践——以首都图书馆地方文献<font class="Mark">民国</font>报刊数字化为例 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -225,7 +242,9 @@
                     target="knet">丁小蕾</a>
             </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HNTX" target="_blank">The Library Journal of Henan</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HNTX"
+                    target="_blank">The Library Journal of Henan</a>
             </td>
             <td class="date"> 2016-12-15 </td>
             <td class="quote">
@@ -234,7 +253,7 @@
                     target="_blank">3</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">207</a>
+                <a class="downloadCnt" >207</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -245,31 +264,33 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="HNTX201612038" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="HNTX201612038"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="7" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2015!TSGX201510026!7!29"/>7</td>
+            <td class="seq">7</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=7&amp;DbCode=CJFD&amp;dbname=CJFDLAST2015&amp;filename=TSGX201510026&amp;urlid=21.1003.g2.20151106.1627.052&amp;yx=Y"
-                    target="_blank">
-                    <font class="Mark">民国报纸</font>缩微胶片数字化及服务探析——以国家图书馆为例 </a>
+                    target="_blank"> <font class="Mark">民国报纸</font>缩微胶片数字化及服务探析——以国家图书馆为例 </a>
             </td>
             <td class="author"><a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e8%82%96%e7%ba%a2&amp;scode=24262233&amp;acode=24262233"
-                    target="knet">肖红</a>; <a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%90%b4%e8%8c%97&amp;scode=27160720&amp;acode=27160720"
-                    target="knet">吴茗</a>; <a class="KnowledgeNetLink"
-                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9b%be%e7%87%95&amp;scode=25278634&amp;acode=25278634"
-                    target="knet">曾燕</a></td>
+                href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e8%82%96%e7%ba%a2&amp;scode=24262233&amp;acode=24262233"
+                target="knet">肖红</a>; <a class="KnowledgeNetLink"
+                href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e5%90%b4%e8%8c%97&amp;scode=27160720&amp;acode=27160720"
+                target="knet">吴茗</a>; <a class="KnowledgeNetLink"
+                href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sdb=CJFQ&amp;sfield=%e4%bd%9c%e8%80%85&amp;skey=%e6%9b%be%e7%87%95&amp;scode=25278634&amp;acode=25278634"
+                target="knet">曾燕</a></td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TSGX" target="_blank">Journal of Library Science</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=TSGX"
+                    target="_blank">Journal of Library Science</a>
             </td>
             <td class="date"> 2015-11-06 16:27 </td>
             <td class="quote">
@@ -278,7 +299,7 @@
                     target="_blank">5</a>
             </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">254</a>
+                <a class="downloadCnt" >254</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -289,16 +310,17 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="TSGX201510026" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="TSGX201510026"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="8" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CJFDLAST2015!HNTX201502026!8!29"/>8</td>
+            <td class="seq">8</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=29&amp;CurRec=8&amp;DbCode=CJFD&amp;dbname=CJFDLAST2015&amp;filename=HNTX201502026&amp;urlid=&amp;yx="
@@ -310,12 +332,14 @@
                     target="knet">杨效军</a>
             </td>
             <td class="source">
-                <a href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HNTX" target="_blank">The Library Journal of Henan</a>
+                <a
+                    href="https:/oversea-1cnki-1net-10097d65n0090.erf.sbb.spk-berlin.de/kns/Navi?DBCode=cjfq&amp;BaseID=HNTX"
+                    target="_blank">The Library Journal of Henan</a>
             </td>
             <td class="date"> 2015-02-15 </td>
             <td class="quote"> </td>
             <td class="download">
-                <a class="downloadCnt" href="javascript:void(0);">124</a>
+                <a class="downloadCnt" >124</a>
             </td>
             <td class="operat">
                 <a class="downloadlink icon-download"
@@ -326,10 +350,11 @@
                     target="online_open" title="HTML Reading">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CJFQ" data-filename="HNTX201502026" title="Favorite">
+                <a class="icon-collect" data-dbname="CJFQ" data-filename="HNTX201502026"
+                    title="Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>

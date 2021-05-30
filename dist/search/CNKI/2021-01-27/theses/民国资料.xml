@@ -14,11 +14,12 @@
     </thead>
     <tbody>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="1" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD202001!1019078437.nh!1!20"/>1</td>
+            <td class="seq">1</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=1&amp;DbCode=CMFD&amp;dbname=CMFD202001&amp;filename=1019078437.nh"
-                    target="_blank">Analysis and Exploration of Dance Data in Shun Pao during the Period of the Republic of China </a>
+                    target="_blank">Analysis and Exploration of Dance Data in Shun Pao during the
+                    Period of the Republic of China </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -27,14 +28,16 @@
                     target="knet">袁霄</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZYSY" target="knet">中国艺术研究院</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GZYSY"
+                    target="knet">中国艺术研究院</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2019 </td>
             <td class="quote"> </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">119</a>
+                    <a class="downloadCnt" >119</a>
                 </span>
             </td>
             <td class="operat">
@@ -46,16 +49,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1019078437.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1019078437.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="2" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CDFDLAST2019!1019823937.nh!2!20"/>2</td>
+            <td class="seq">2</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=2&amp;DbCode=CDFD&amp;dbname=CDFDLAST2019&amp;filename=1019823937.nh"
@@ -68,7 +72,9 @@
                     target="knet">郑莉</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU" target="knet">华南理工大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNLU"
+                    target="knet">华南理工大学</a>
             </td>
             <td class="data"> Doctoral Dissertations </td>
             <td class="date"> 2018 </td>
@@ -79,30 +85,33 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">864</a>
+                    <a class="downloadCnt" >864</a>
                 </span>
             </td>
             <td class="operat">
-                <a class="downloadlink icon-nodownperm" href="javascript:void(0);" target="_blank" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！"><i/>download</a>
+                <a class="downloadlink icon-nodownperm"  target="_blank"
+                    title="贵单位没有订购该产品，请您与贵单位管理员联系订购！"><i/>download</a>
                 <a class="icon-read"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCDFDLAST2019%26filename%3d1019823937.nh%26dbCode%3dCDMD"
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1019823937.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1019823937.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="3" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201901!1018261041.nh!3!20"/>3</td>
+            <td class="seq">3</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=3&amp;DbCode=CMFD&amp;dbname=CMFD201901&amp;filename=1018261041.nh"
-                    target="_blank">清至<font class="Mark">民國</font>山東方志所錄方言<font class="Mark">資料</font>的方音研究 </a>
+                    target="_blank">清至<font class="Mark">民國</font>山東方志所錄方言<font class="Mark"
+                    >資料</font>的方音研究 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -110,14 +119,16 @@
                     target="knet">張續龍</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU" target="knet">南京师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU"
+                    target="knet">南京师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2018 </td>
             <td class="quote"> </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">168</a>
+                    <a class="downloadCnt" >168</a>
                 </span>
             </td>
             <td class="operat">
@@ -129,20 +140,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1018261041.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1018261041.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="4" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201801!1017258998.nh!4!20"/>4</td>
+            <td class="seq">4</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=4&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017258998.nh"
-                    target="_blank">Study on the Organizational Initiatives and Differentiation of the Rad Spears in Southern Region of Hebei in the 1920s and 1930s </a>
+                    target="_blank">Study on the Organizational Initiatives and Differentiation of
+                    the Rad Spears in Southern Region of Hebei in the 1920s and 1930s </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -151,7 +164,9 @@
                     target="knet">高志勇</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNXHC" target="knet">宁夏大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNXHC"
+                    target="knet">宁夏大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2017 </td>
@@ -162,7 +177,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">155</a>
+                    <a class="downloadCnt" >155</a>
                 </span>
             </td>
             <td class="operat">
@@ -174,21 +189,21 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1017258998.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1017258998.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="5" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201801!1018059513.nh!5!20"/>5</td>
+            <td class="seq">5</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=5&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1018059513.nh"
-                    target="_blank">
-                    <font class="Mark">民国</font>西安会馆研究 </a>
+                    target="_blank"> <font class="Mark">民国</font>西安会馆研究 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -196,7 +211,9 @@
                     target="knet">张换晓</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSXFU" target="knet">陕西师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSXFU"
+                    target="knet">陕西师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2017 </td>
@@ -207,7 +224,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">181</a>
+                    <a class="downloadCnt" >181</a>
                 </span>
             </td>
             <td class="operat">
@@ -219,16 +236,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1018059513.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1018059513.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="6" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201801!1017281720.nh!6!20"/>6</td>
+            <td class="seq">6</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=6&amp;DbCode=CMFD&amp;dbname=CMFD201801&amp;filename=1017281720.nh"
@@ -240,7 +258,9 @@
                     target="knet">张东亚</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU" target="knet">南京师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU"
+                    target="knet">南京师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2017 </td>
@@ -251,7 +271,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">254</a>
+                    <a class="downloadCnt" >254</a>
                 </span>
             </td>
             <td class="operat">
@@ -263,16 +283,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1017281720.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1017281720.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="7" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CDFDLAST2017!1017015255.nh!7!20"/>7</td>
+            <td class="seq">7</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=7&amp;DbCode=CDFD&amp;dbname=CDFDLAST2017&amp;filename=1017015255.nh"
@@ -285,7 +306,9 @@
                     target="knet">马婧</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHDSU" target="knet">华东师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHDSU"
+                    target="knet">华东师范大学</a>
             </td>
             <td class="data"> Doctoral Dissertations </td>
             <td class="date"> 2016 </td>
@@ -296,7 +319,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">1044</a>
+                    <a class="downloadCnt" >1044</a>
                 </span>
             </td>
             <td class="operat">
@@ -308,20 +331,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1017015255.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1017015255.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="8" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201701!1016233488.nh!8!20"/>8</td>
+            <td class="seq">8</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=8&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016233488.nh"
-                    target="_blank">The Introduction of Yunnan Segment of Chinese Mainland Land Issues Information of the 1930s </a>
+                    target="_blank">The Introduction of Yunnan Segment of Chinese Mainland Land
+                    Issues Information of the 1930s </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -330,14 +355,16 @@
                     target="knet">谢珊妮</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GYNDU" target="knet">云南大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GYNDU"
+                    target="knet">云南大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2016 </td>
             <td class="quote"> </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">182</a>
+                    <a class="downloadCnt" >182</a>
                 </span>
             </td>
             <td class="operat">
@@ -349,20 +376,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1016233488.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1016233488.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="9" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201602!1016134680.nh!9!20"/>9</td>
+            <td class="seq">9</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=9&amp;DbCode=CMFD&amp;dbname=CMFD201602&amp;filename=1016134680.nh"
-                    target="_blank">Preliminary Study on Mineral Geography of Anhui in Modern Times (1840-1945) </a>
+                    target="_blank">Preliminary Study on Mineral Geography of Anhui in Modern Times
+                    (1840-1945) </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -371,7 +400,9 @@
                     target="knet">孔军</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GANHU" target="knet">安徽大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GANHU"
+                    target="knet">安徽大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2016 </td>
@@ -382,7 +413,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">249</a>
+                    <a class="downloadCnt" >249</a>
                 </span>
             </td>
             <td class="operat">
@@ -394,20 +425,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1016134680.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1016134680.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="10" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201701!1016312463.nh!10!20"/>10</td>
+            <td class="seq">10</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=10&amp;DbCode=CMFD&amp;dbname=CMFD201701&amp;filename=1016312463.nh"
-                    target="_blank">Ye Shengtao's Concept of Editing and Publication——Study of Yeshengtao's Editing Practical Writing during the Period ofthe Republic of China </a>
+                    target="_blank">Ye Shengtao's Concept of Editing and Publication——Study of
+                    Yeshengtao's Editing Practical Writing during the Period ofthe Republic of China </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -416,7 +449,9 @@
                     target="knet">吴梅云</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU" target="knet">南京师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU"
+                    target="knet">南京师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2016 </td>
@@ -427,26 +462,28 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">250</a>
+                    <a class="downloadCnt" >250</a>
                 </span>
             </td>
             <td class="operat">
-                <a class="downloadlink icon-nodownperm" href="javascript:void(0);" target="_blank" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！"><i/>download</a>
+                <a class="downloadlink icon-nodownperm"  target="_blank"
+                    title="贵单位没有订购该产品，请您与贵单位管理员联系订购！"><i/>download</a>
                 <a class="icon-read"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD201701%26filename%3d1016312463.nh%26dbCode%3dCDMD"
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1016312463.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1016312463.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="11" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201602!1015644973.nh!11!20"/>11</td>
+            <td class="seq">11</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=11&amp;DbCode=CMFD&amp;dbname=CMFD201602&amp;filename=1015644973.nh"
@@ -458,7 +495,9 @@
                     target="knet">柳鹏</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GLNSU" target="knet">辽宁师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GLNSU"
+                    target="knet">辽宁师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2015 </td>
@@ -469,7 +508,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">156</a>
+                    <a class="downloadCnt" >156</a>
                 </span>
             </td>
             <td class="operat">
@@ -481,20 +520,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1015644973.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1015644973.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="12" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201402!1013031920.nh!12!20"/>12</td>
+            <td class="seq">12</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=12&amp;DbCode=CMFD&amp;dbname=CMFD201402&amp;filename=1013031920.nh"
-                    target="_blank">Astudy on the Language of "Diplomatic History of Data Compilation of Zhonghuaminguo" </a>
+                    target="_blank">Astudy on the Language of "Diplomatic History of Data
+                    Compilation of Zhonghuaminguo" </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -503,7 +544,9 @@
                     target="knet">陈洁波</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHEBU" target="knet">河北大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHEBU"
+                    target="knet">河北大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2013 </td>
@@ -514,7 +557,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">185</a>
+                    <a class="downloadCnt" >185</a>
                 </span>
             </td>
             <td class="operat">
@@ -526,21 +569,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1013031920.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1013031920.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="13" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CDFDLAST2017!1015718540.nh!13!20"
-                />13</td>
+            <td class="seq">13</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=13&amp;DbCode=CDFD&amp;dbname=CDFDLAST2017&amp;filename=1015718540.nh"
-                    target="_blank">Transformation, Game and the Requirement of Political Space:Study on the Feng Local Regime from 1928 to 1933 </a>
+                    target="_blank">Transformation, Game and the Requirement of Political
+                    Space:Study on the Feng Local Regime from 1928 to 1933 </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -549,7 +593,9 @@
                     target="knet">佟德元</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJIU" target="knet">南京大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJIU"
+                    target="knet">南京大学</a>
             </td>
             <td class="data"> Doctoral Dissertations </td>
             <td class="date"> 2012 </td>
@@ -560,7 +606,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">931</a>
+                    <a class="downloadCnt" >931</a>
                 </span>
             </td>
             <td class="operat">
@@ -572,21 +618,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1015718540.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1015718540.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="14" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD201301!1013107201.nh!14!20"/>14</td>
+            <td class="seq">14</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=14&amp;DbCode=CMFD&amp;dbname=CMFD201301&amp;filename=1013107201.nh"
-                    target="_blank">
-                    <font class="Mark">民国</font>时期华北农家农业生产<font class="Mark">资料</font> 与生活消费研究 </a>
+                    target="_blank"> <font class="Mark">民国</font>时期华北农家农业生产<font class="Mark"
+                    >资料</font> 与生活消费研究 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -594,7 +641,9 @@
                     target="knet">张希涛</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU" target="knet">南京师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU"
+                    target="knet">南京师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2012 </td>
@@ -605,7 +654,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">226</a>
+                    <a class="downloadCnt" >226</a>
                 </span>
             </td>
             <td class="operat">
@@ -617,21 +666,21 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1013107201.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1013107201.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="15" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2011!1011156805.nh!15!20"/>15</td>
+            <td class="seq">15</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=15&amp;DbCode=CMFD&amp;dbname=CMFD2011&amp;filename=1011156805.nh"
-                    target="_blank">
-                    <font class="Mark">民国</font>时期杭州近代旅游业研究 </a>
+                    target="_blank"> <font class="Mark">民国</font>时期杭州近代旅游业研究 </a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -639,7 +688,9 @@
                     target="knet">雷利娟</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHZSC" target="knet">杭州师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHZSC"
+                    target="knet">杭州师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2011 </td>
@@ -650,7 +701,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">727</a>
+                    <a class="downloadCnt" >727</a>
                 </span>
             </td>
             <td class="operat">
@@ -662,16 +713,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1011156805.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1011156805.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="16" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2012!1011249847.nh!16!20"/>16</td>
+            <td class="seq">16</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=16&amp;DbCode=CMFD&amp;dbname=CMFD2012&amp;filename=1011249847.nh"
@@ -683,7 +735,9 @@
                     target="knet">张洪华</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU" target="knet">南京师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GNJSU"
+                    target="knet">南京师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2011 </td>
@@ -694,7 +748,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">196</a>
+                    <a class="downloadCnt" >196</a>
                 </span>
             </td>
             <td class="operat">
@@ -706,20 +760,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="1011249847.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="1011249847.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="17" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2011!2010196829.nh!17!20"/>17</td>
+            <td class="seq">17</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=17&amp;DbCode=CMFD&amp;dbname=CMFD2011&amp;filename=2010196829.nh"
-                    target="_blank">江南的城镇化水平与城市土地利用——基于<font class="Mark">民国</font>调查<font class="Mark">资料</font> 、地籍图的句容个案考察</a>
+                    target="_blank">江南的城镇化水平与城市土地利用——基于<font class="Mark">民国</font>调查<font
+                    class="Mark">资料</font> 、地籍图的句容个案考察</a>
             </td>
             <td class="author">
                 <a class="KnowledgeNetLink"
@@ -727,14 +783,16 @@
                     target="knet">江伟涛</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GFUDU" target="knet">复旦大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GFUDU"
+                    target="knet">复旦大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2010 </td>
             <td class="quote"> </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">423</a>
+                    <a class="downloadCnt" >423</a>
                 </span>
             </td>
             <td class="operat">
@@ -746,16 +804,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2010196829.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2010196829.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="18" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2009!2009178464.nh!18!20"/>18</td>
+            <td class="seq">18</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=18&amp;DbCode=CMFD&amp;dbname=CMFD2009&amp;filename=2009178464.nh"
@@ -768,7 +827,9 @@
                     target="knet">张峰</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GDBSU" target="knet">东北师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GDBSU"
+                    target="knet">东北师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2009 </td>
@@ -779,30 +840,33 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">1202</a>
+                    <a class="downloadCnt" >1202</a>
                 </span>
             </td>
             <td class="operat">
-                <a class="downloadlink icon-nodownperm" href="javascript:void(0);" target="_blank" title="贵单位没有订购该产品，请您与贵单位管理员联系订购！"><i/>download</a>
+                <a class="downloadlink icon-nodownperm"  target="_blank"
+                    title="贵单位没有订购该产品，请您与贵单位管理员联系订购！"><i/>download</a>
                 <a class="icon-read"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail/Read?domain=tablename%3dCMFD2009%26filename%3d2009178464.nh%26dbCode%3dCDMD"
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2009178464.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2009178464.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="19" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2007!2007185184.nh!19!20"/>19</td>
+            <td class="seq">19</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=19&amp;DbCode=CMFD&amp;dbname=CMFD2007&amp;filename=2007185184.nh"
-                    target="_blank">The Indigenization of Christianity in ChaoShan Area from 1911 to 1949——A Case Study of the Yujiao Church and Bethel Church </a>
+                    target="_blank">The Indigenization of Christianity in ChaoShan Area from 1911 to
+                    1949——A Case Study of the Yujiao Church and Bethel Church </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -811,7 +875,9 @@
                     target="knet">陆燕花</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNSU" target="knet">华南师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GHNSU"
+                    target="knet">华南师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2007 </td>
@@ -822,7 +888,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">557</a>
+                    <a class="downloadCnt" >557</a>
                 </span>
             </td>
             <td class="operat">
@@ -834,16 +900,17 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2007185184.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2007185184.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="20" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2007!2007193839.nh!20!20"/>20</td>
+            <td class="seq">20</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=20&amp;DbCode=CMFD&amp;dbname=CMFD2007&amp;filename=2007193839.nh"
@@ -856,7 +923,9 @@
                     target="knet">蓝奕</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GGZDU" target="knet">广州大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GGZDU"
+                    target="knet">广州大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2007 </td>
@@ -867,7 +936,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">554</a>
+                    <a class="downloadCnt" >554</a>
                 </span>
             </td>
             <td class="operat">
@@ -879,20 +948,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2007193839.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2007193839.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="21" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD2008!2007199052.nh!21!20"/>21</td>
+            <td class="seq">21</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=21&amp;DbCode=CMFD&amp;dbname=CMFD2008&amp;filename=2007199052.nh"
-                    target="_blank">Borderland-development Was Implemented and Impanct on the Land-use and Environmental of the Kang District during the 1903-1949 </a>
+                    target="_blank">Borderland-development Was Implemented and Impanct on the
+                    Land-use and Environmental of the Kang District during the 1903-1949 </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -901,7 +972,9 @@
                     target="knet">刘祥秀</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSXFU" target="knet">陕西师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSXFU"
+                    target="knet">陕西师范大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2007 </td>
@@ -912,7 +985,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">391</a>
+                    <a class="downloadCnt" >391</a>
                 </span>
             </td>
             <td class="operat">
@@ -924,20 +997,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2007199052.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2007199052.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="22" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CDFD9908!2006117504.nh!22!20"/>22</td>
+            <td class="seq">22</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=22&amp;DbCode=CDFD&amp;dbname=CDFD9908&amp;filename=2006117504.nh"
-                    target="_blank">Evolution of the Spatial Structure of Xi'an City from 1840 to 1949 </a>
+                    target="_blank">Evolution of the Spatial Structure of Xi'an City from 1840 to
+                    1949 </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -946,7 +1021,9 @@
                     target="knet">任云英</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSXFU" target="knet">陕西师范大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSXFU"
+                    target="knet">陕西师范大学</a>
             </td>
             <td class="data"> Doctoral Dissertations </td>
             <td class="date"> 2005 </td>
@@ -957,7 +1034,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">8640</a>
+                    <a class="downloadCnt" >8640</a>
                 </span>
             </td>
             <td class="operat">
@@ -969,20 +1046,22 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2006117504.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2006117504.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr class="odd">
-            <td class="seq"><input class="cbItem" data-cur="23" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD0506!2004125212.nh!23!20"/>23</td>
+            <td class="seq">23</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=23&amp;DbCode=CMFD&amp;dbname=CMFD0506&amp;filename=2004125212.nh"
-                    target="_blank">Entertainment and Partisanship: Shantou Zhongshan Park (1921-1936) </a>
+                    target="_blank">Entertainment and Partisanship: Shantou Zhongshan Park
+                    (1921-1936) </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -991,7 +1070,9 @@
                     target="knet">陈海忠</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSTOU" target="knet">汕头大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSTOU"
+                    target="knet">汕头大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2004 </td>
@@ -1002,7 +1083,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">492</a>
+                    <a class="downloadCnt" >492</a>
                 </span>
             </td>
             <td class="operat">
@@ -1014,21 +1095,23 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2004125212.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2004125212.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>
         </tr>
         <tr>
-            <td class="seq"><input class="cbItem" data-cur="24" name="CookieName" onclick="$(this).filenameClick()" type="checkbox" value="CMFD9904!2002073023.nh!24!20"/>24</td>
+            <td class="seq">24</td>
             <td class="name">
                 <a class="fz14"
                     href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Detail?sfield=fn&amp;QueryID=20&amp;CurRec=24&amp;DbCode=CMFD&amp;dbname=CMFD9904&amp;filename=2002073023.nh"
-                    target="_blank">Government, Chamber of Commerce, Financial Guild and the Power of Control of Local Currencies——Takes Shantou Around It "Abolishing the System of
-                    Tael and Changing to That of Silver Dollar" in 1925 as a Case </a>
+                    target="_blank">Government, Chamber of Commerce, Financial Guild and the Power
+                    of Control of Local Currencies——Takes Shantou Around It "Abolishing the System
+                    of Tael and Changing to That of Silver Dollar" in 1925 as a Case </a>
                 <span class="markOricon" title="Full-text in Chinese">Full-text in Chinese</span>
             </td>
             <td class="author">
@@ -1037,7 +1120,9 @@
                     target="knet">陈景熙</a>
             </td>
             <td class="unit">
-                <a class="KnowledgeNetLink" href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSTOU" target="knet">汕头大学</a>
+                <a class="KnowledgeNetLink"
+                    href="https:/oversea-1cnki-1net-10097d65e06d7.erf.sbb.spk-berlin.de/kns/Navi?DBCode=CDMD&amp;BaseID=GSTOU"
+                    target="knet">汕头大学</a>
             </td>
             <td class="data"> Master's Theses </td>
             <td class="date"> 2002 </td>
@@ -1048,7 +1133,7 @@
             </td>
             <td class="download">
                 <span>
-                    <a class="downloadCnt" href="javascript:void(0);">673</a>
+                    <a class="downloadCnt" >673</a>
                 </span>
             </td>
             <td class="operat">
@@ -1060,10 +1145,11 @@
                     target="online_open" title="Read online">
                     <i/>
                 </a>
-                <a class="icon-collect" data-dbname="CDMD" data-filename="2002073023.nh" title=" Favorite">
+                <a class="icon-collect" data-dbname="CDMD" data-filename="2002073023.nh"
+                    title=" Favorite">
                     <i/>
                 </a>
-                <a class="icon-quote" href="javascript:void(0)" title="Citation">
+                <a class="icon-quote"  title="Citation">
                     <i/>
                 </a>
             </td>

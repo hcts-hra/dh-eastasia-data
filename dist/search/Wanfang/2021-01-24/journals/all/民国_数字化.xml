@@ -2,25 +2,11 @@
     <div>
         <div>
             <div id="narrowContainer">
-                <div> <input class="input_title watermark" id="textTitle" name="narrow_" value="标题"
-                    /> <input class="input_title4 watermark" id="textCreator" name="narrow_"
-                    value="作者"/> <input class="input_title4 watermark" id="textKeyWords"
-                    name="narrow_" value="关键词"/> <input class="input_title4 watermark"
-                    id="textMagazine" name="narrow_" value="刊名"/> <input class="watermark"
-                    id="textDateStart" maxlength="4" name="narrow_" value="起始年"/>-<input
-                    class="watermark" id="textDateEnd" maxlength="4" name="narrow_" value="结束年"/>
-                    <t><input id="narrowButton" type="button" value="在结果中检索"/></t> </div>
-                <input id="narrowQuery" type="hidden" value="民国 数字化 DBID:WF_QK"/>
+                <div>     -
+                    <t></t> </div>
+                
             </div>
-            <script>
-                <![CDATA[ function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
-                "会议名称", "conferencename", "专业", "textAuthorSubject", "学校", "textSchool", "导师", "textTeacherName", "刊名", "textMagazine"]); var date = datePairQuery("日期",
-                "textDateStart", "textDateEnd"); if (date == null) return; anyQuery += date; anyQuery = $.trim(anyQuery); if (anyQuery == "") { alert('请输入检索词！'); return false; }
-                window.location.href = "?f=narrow&n=10&q=" + encodeURIComponent(anyQuery) + "&userid=" + userid; } $(function () { addWaterMark(["textTitle", "标题", "textCreator",
-                "作者", "conferencename", "会议名称", "textAuthorSubject", "专业", "textSchool", "学校", "textTeacherName", "导师", "textKeyWords", "关键词", "textMagazine", "刊名",
-                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); /keypress $("#narrowContainer").keypress(function (e) {
-                if (e.which == 13) narrowSearch(); }); }); ]]>
-            </script>
+
             <div class="sortby_div">
                 <div id="sortContainer" style="position:relative;">
                     <span class="black_font"> <t>排序</t>： </span>
@@ -41,7 +27,7 @@
                             <t>经典论文优先</t>
                         </a>
                     </span>
-                    <a class="sortexpand common_all" href="javascript:;">
+                    <a class="sortexpand common_all" >
                         <t>其他</t>
                         <small>▼</small>
                     </a>
@@ -63,11 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <script>
-                    <![CDATA[ $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); /注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
-                    (event) { if (event.target && ($(event.target).hasClass("sortexpand") || $(event.target).parent().hasClass("sortexpand"))) return; $("#otherlinklist").hide();
-                    }); }) ]]>
-                </script>
+
                 <span>
                     <a class="highlight_all"
                         href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=all">
@@ -420,52 +402,27 @@
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=20">
                     <t>末页</t>
                 </a>
-                <input class="jump-text"
-                    id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text"
-                    value="1"/>
+                
                 <t>
-                    <input class="jump-button"
-                        onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var
-                        patrn=/^[0-9]{1,9}$/;if(!patrn.exec(pageindex) || pageindex == '0'){alert('请输入大于0的整数！');}else if(pageindex > 20){alert('不能大于总页数！');}else
-                        {document.location.href = '?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p={0}'.replace('{0}',pageindex);}"
-                        type="button" value="跳到"/>
+                    
                 </t>
             </p>
-            <script>
-                <![CDATA[ var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
-            ]]>
-            </script>
+
         </div>
     </div>
-    <script>
-        <![CDATA[ function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
-        (currentDatabase == "NSTL") currentDatabase = "(NSTL_QK OR NSTL_HY)"; return " DBID:" + currentDatabase; } return ""; } var userid = ''; $(function () { var loginUrl =
-        "http:/login.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK%26f%3dtop&needLoginAccountType=Person";
-        var citeUrl = "http:/citenotice.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
-        citeClick(this, loginUrl, citeUrl); }); var clickId = Cookie.getCookie("add2Cite"); if (clickId != "undefined" && clickId != "" && checkLogin()) { addNotice(loginUrl,
-        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http:/trend.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "数字化"]);
-        showRelatedResearchers('relatedResearchers', 'http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "数字化"], false); }) ]]>
-    </script>
+
     <div class="search_cloud">
-        <script language="javascript"
-            src="Wanfang%20journals%20%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20all_files/bottomSearch-1.js"
-            type="text/javascript"/>
+
         <p>
-            <input class="searchbox3" id="queryBox2" results="s" type="search" value="民国 数字化"/>
+            
             <t>
-                <input class="bottom_btn" id="searchButton2" type="button" value="检 索"/>
+                
             </t>
         </p>
-        <script>
-            <![CDATA[ $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
-            return $("#searchButton2").click(); }); }) ]]>
-        </script>
+
         <div id="relatedword"/>
     </div>
     <div class="clear-float"/>
     <div id="hudongwords"/>
-    <script>
-        <![CDATA[ $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '民国；数字化' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) { if
-        (window.console != undefined) { console.log(stat); } } }); ]]>
-    </script>
+
 </div>

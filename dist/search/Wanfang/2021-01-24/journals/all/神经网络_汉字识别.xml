@@ -2,28 +2,14 @@
     <div>
         <div>
             <div id="narrowContainer">
-                <div>
-                    <input class="input_title watermark" id="textTitle" name="narrow_" value="标题"/>
-                    <input class="input_title4 watermark" id="textCreator" name="narrow_" value="作者"/>
-                    <input class="input_title4 watermark" id="textKeyWords" name="narrow_" value="关键词"/>
-                    <input class="input_title4 watermark" id="textMagazine" name="narrow_" value="刊名"/>
-                    <input class="watermark" id="textDateStart" maxlength="4" name="narrow_" value="起始年"/>-<input class="watermark" id="textDateEnd" maxlength="4" name="narrow_"
-                        value="结束年"/>
-                    <t><input id="narrowButton" type="button" value="在结果中检索"/></t>
-                </div>
-                <input id="narrowQuery" type="hidden" value="神经网络 汉字识别 DBID:WF_QK"/>
+                <div>     -
+                    <t></t> </div>
+                
             </div>
-            <script> <![CDATA[ function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
-                "会议名称", "conferencename", "专业", "textAuthorSubject", "学校", "textSchool", "导师", "textTeacherName", "刊名", "textMagazine"]); var date = datePairQuery("日期",
-                "textDateStart", "textDateEnd"); if (date == null) return; anyQuery += date; anyQuery = $.trim(anyQuery); if (anyQuery == "") { alert('请输入检索词！'); return false; }
-                window.location.href = "?f=narrow&n=10&q=" + encodeURIComponent(anyQuery) + "&userid=" + userid; } $(function () { addWaterMark(["textTitle", "标题", "textCreator",
-                "作者", "conferencename", "会议名称", "textAuthorSubject", "专业", "textSchool", "学校", "textTeacherName", "导师", "textKeyWords", "关键词", "textMagazine", "刊名",
-                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); /keypress $("#narrowContainer").keypress(function (e) {
-                if (e.which == 13) narrowSearch(); }); }); ]]> </script>
+
             <div class="sortby_div">
                 <div id="sortContainer" style="position:relative;">
-                    <span class="black_font">
-                        <t>排序</t>： </span>
+                    <span class="black_font"> <t>排序</t>： </span>
                     <span class="current_sort" title="相关度优先=论文关键词价值+其他相关因素     适用于高效查询所关注的领域">
                         <t>相关度优先</t>
                     </span>
@@ -41,7 +27,7 @@
                             <t>经典论文优先</t>
                         </a>
                     </span>
-                    <a class="sortexpand common_all" href="javascript:;">
+                    <a class="sortexpand common_all" >
                         <t>其他</t>
                         <small>▼</small>
                     </a>
@@ -63,9 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <script> <![CDATA[ $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); /注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
-                    (event) { if (event.target && ($(event.target).hasClass("sortexpand") || $(event.target).parent().hasClass("sortexpand"))) return; $("#otherlinklist").hide();
-                    }); }) ]]> </script>
+
                 <span>
                     <a class="highlight_all"
                         href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20DBID%3AWF_QK&amp;f=all">
@@ -84,539 +68,450 @@
             </div>
             <div class="clear-float"/>
             <ul class="list_ul">
-                <li class="title_li">1 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zdhxb201608001.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zdhxb201608001.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zdhxb201608001.aspx" target="_blank">深度学习在手写<font color="red"
-                        >汉字识别</font>中的应用综述</a>
-                    <span>(<t>被引用</t> 2 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zdhxb.aspx">《自动化学报》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被EI收录">EI</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zdhxb/2016-8.aspx">2016年8期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e9%87%91%e8%bf%9e%e6%96%87"
-                        target="_blank">金连文</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e9%92%9f%e5%8d%93%e8%80%80"
-                        target="_blank">钟卓耀</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e6%9d%a8%e9%92%8a"
-                        target="_blank">杨钊</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e6%9d%a8%e7%bb%b4%e4%bf%a1"
-                        target="_blank">杨维信</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e8%b0%a2%e6%b3%bd%e6%be%84"
-                        target="_blank">谢泽澄</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e5%ad%99%e4%bf%8a"
-                        target="_blank">孙俊</a><span class="space_1">JIN Lian-Wen</span><span class="space_1">ZHONG Zhuo-Yao</span><span class="space_1">YANG Zhao</span><span
-                        class="space_1">YANG Wei-Xin</span><span class="space_1">XIE Ze-Cheng</span><span class="space_1">SUN Jun</span>
-                </li>
-                <li class="zi"> 手写<font color="red">汉字识别</font>(Handwritten Chinese character recognition, HCCR)是模式识别的一个重要研究领域,最近几十年来得到了广泛的研究与关注,随着深度学习新技术的出现,近年来基于深度学习的手写<font
-                        color="red">汉字识别</font> 在方法和性能上得到了...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：深度学习    手写汉字识别   卷积神经网络   回归神经网络   
-                        长短时记忆模型   层叠自动编码机   Deep learning   handwritten Chinese character recognition
-                        (HCCR)   convolutional neural network   recurrent neural network   long-short term memory
-                        (LSTM)   stacked auto-encoder<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9C%A8%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E7%BB%BC%E8%BF%B0.aspx?ID=Periodical_zdhxb201608001"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zdhxb201608001.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_zdhxb201608001">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_zdhxb201608001" target="_blank">
-                        <t>引用通知</t>
-                    </a>
+                <li class="title_li">1 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zdhxb201608001.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zdhxb201608001.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zdhxb201608001.aspx"
+                    target="_blank">深度学习在手写<font color="red">汉字识别</font>中的应用综述</a> <span>(<t>被引用</t>
+                    2 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zdhxb.aspx"
+                    >《自动化学报》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被EI收录">EI</span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zdhxb/2016-8.aspx"
+                    >2016年8期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e9%87%91%e8%bf%9e%e6%96%87"
+                    target="_blank">金连文</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e9%92%9f%e5%8d%93%e8%80%80"
+                    target="_blank">钟卓耀</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e6%9d%a8%e9%92%8a"
+                    target="_blank">杨钊</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e6%9d%a8%e7%bb%b4%e4%bf%a1"
+                    target="_blank">杨维信</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e8%b0%a2%e6%b3%bd%e6%be%84"
+                    target="_blank">谢泽澄</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zdhxb201608001&amp;Name=%e5%ad%99%e4%bf%8a"
+                    target="_blank">孙俊</a><span class="space_1">JIN Lian-Wen</span><span
+                    class="space_1">ZHONG Zhuo-Yao</span><span class="space_1">YANG Zhao</span><span
+                    class="space_1">YANG Wei-Xin</span><span class="space_1">XIE
+                    Ze-Cheng</span><span class="space_1">SUN Jun</span> </li>
+                <li class="zi"> 手写<font color="red">汉字识别</font>(Handwritten Chinese character
+                    recognition,
+                    HCCR)是模式识别的一个重要研究领域,最近几十年来得到了广泛的研究与关注,随着深度学习新技术的出现,近年来基于深度学习的手写<font color="red"
+                    >汉字识别</font> 在方法和性能上得到了...<br/> <p class="greencolor" style=""> <t>关键词</t>：深度学习
+                    手写汉字识别 卷积神经网络 回归神经网络 长短时记忆模型 层叠自动编码机 Deep learning handwritten Chinese character
+                    recognition (HCCR) convolutional neural network recurrent neural network
+                    long-short term memory (LSTM) stacked auto-encoder<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%9C%A8%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E7%BB%BC%E8%BF%B0.aspx?ID=Periodical_zdhxb201608001"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zdhxb201608001.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_zdhxb201608001"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_zdhxb201608001" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">2 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_bjhkhtdxxb201504028.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_bjhkhtdxxb201504028.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_bjhkhtdxxb201504028.aspx"
+                    target="_blank">基于多尺度梯度及深度<font color="red">神经网络</font>的<font color="red"
+                    >汉字识别</font></a> <span>(<t>被引用</t> 10 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-bjhkhtdxxb.aspx"
+                    >《北京航空航天大学学报》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被EI收录">EI</span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/bjhkhtdxxb/2015-4.aspx"
+                    >2015年4期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=bjhkhtdxxb201504028&amp;Name=%e6%bd%98%e7%82%9c%e6%b7%b1"
+                    target="_blank">潘炜深</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=bjhkhtdxxb201504028&amp;Name=%e9%87%91%e8%bf%9e%e6%96%87"
+                    target="_blank">金连文</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=bjhkhtdxxb201504028&amp;Name=%e5%86%af%e5%ad%90%e5%8b%87"
+                    target="_blank">冯子勇</a><span class="space_1">PAN Weishen</span><span
+                    class="space_1">JIN Lianwen</span><span class="space_1">FENG Ziyong</span> </li>
+                <li class="zi"> 介绍了一种基于多尺度滑动窗的方法提取文字的梯度直方图特征,并结合深度<font color="red">神经网络</font>
+                    对印刷体汉字进行识别.针对梯度直方图的空间关系,使用可伸缩的滑动窗对图像进行分割,在不同尺度上获取文字的特征信息,有效融合汉字的全...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t>：多尺度滑动 窗 梯度直方图 深度神经网络 泛化能 力 汉字识别
+                    multi-scale sliding window gradient histogram deep neural network generalization
+                    ability recognition of Chinese characters<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E5%B0%BA%E5%BA%A6%E6%A2%AF%E5%BA%A6%E5%8F%8A%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_bjhkhtdxxb201504028"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_bjhkhtdxxb201504028.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_bjhkhtdxxb201504028"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_bjhkhtdxxb201504028" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">3 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_hnlgdxxb201401015.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_hnlgdxxb201401015.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_hnlgdxxb201401015.aspx"
+                    target="_blank">基于CNN和随机弹性形变的相似手写<font color="red">汉字识别</font></a>
+                    <span>(<t>被引用</t> 19 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-hnlgdxxb.aspx"
+                    >《华南理工大学学报（自然科学版）》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
+                    <span title="被EI收录">EI</span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
+                    </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/hnlgdxxb/2014-1.aspx"
+                    >2014年1期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=hnlgdxxb201401015&amp;Name=%e9%ab%98%e5%ad%a6"
+                    target="_blank">高学</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=hnlgdxxb201401015&amp;Name=%e7%8e%8b%e6%9c%89%e6%97%ba"
+                    target="_blank">王有旺</a><span class="space_1">Gao Xue</span><span class="space_1"
+                    >Wang You-wang</span> </li>
+                <li class="zi"> 针对手写汉字中相似汉字的识别问题，构建了一种卷积<font color="red">神经网络</font>
+                    （CNN）模型，并给出了其网络拓扑结构，通过随机弹性形变对样本集进行扩展，以提高模型的泛化性能．相似手写汉字的识别实验结果表明：相对于常规的CNN模型，文中CNN模...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t>：字符识别 深度学习 卷积神经网络 弹性形 变 character
+                    recognition deep learning convolutional neural network elastic deformation<br/>
+                    </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8ECNN%E5%92%8C%E9%9A%8F%E6%9C%BA%E5%BC%B9%E6%80%A7%E5%BD%A2%E5%8F%98%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_hnlgdxxb201401015"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_hnlgdxxb201401015.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_hnlgdxxb201401015"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_hnlgdxxb201401015" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">4 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsglt201910016.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsglt201910016.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsglt201910016.aspx"
+                    target="_blank">卷积<font color="red">神经网络</font>在古籍<font color="red"
+                    >汉字识别</font>中的应用实践</a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-tsglt.aspx"
+                    >《图书馆论坛》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被北京大学《中文核心期刊要目总览》收录">PKU</span> <span title="被南京大学《核心期刊目录》收录"
+                    >CSSCI</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/tsglt/2019-10.aspx"
+                    >2019年10期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsglt201910016&amp;Name=%e9%83%ad%e5%88%a9%e6%95%8f"
+                    target="_blank">郭利敏</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsglt201910016&amp;Name=%e8%91%9b%e4%ba%ae"
+                    target="_blank">葛亮</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsglt201910016&amp;Name=%e5%88%98%e6%82%a6%e5%a6%82"
+                    target="_blank">刘悦如</a><span class="space_1">GUO Limin</span><span
+                    class="space_1">GE Liang</span><span class="space_1">LIU Yueru</span> </li>
+                <li class="zi"> 文章尝试将卷积<font color="red">神经网络</font>用于数字人文古籍汉字的元数据加工,将古籍<font
+                    color="red">汉字识别</font>问题转换为卷积<font color="red"
+                    >神经网络</font>的分类问题,在缺乏训练集的情况下通过数据生成技术构建训练集进行模型训练,并用于古籍汉字的识别.通过TensorFlow平台,...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t>：智慧图书 馆 人工智能 卷积神经网络 数字人 文 古籍汉字识别 smart
+                    library artificial intelligence convolution neural network digital humanities
+                    recognition of Chinese characters in ancient books<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9C%A8%E5%8F%A4%E7%B1%8D%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5.aspx?ID=Periodical_tsglt201910016"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsglt201910016.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_tsglt201910016"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_tsglt201910016" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">5 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xbgydxxb201004019.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xbgydxxb201004019.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xbgydxxb201004019.aspx"
+                    target="_blank">基于双<font color="red">神经网络</font>分类器的脱机手写体<font color="red"
+                    >汉字识别</font></a> <span>(<t>被引用</t> 6 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-xbgydxxb.aspx"
+                    >《西北工业大学学报》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被EI收录">EI</span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/xbgydxxb/2010-4.aspx"
+                    >2010年4期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xbgydxxb201004019&amp;Name=%e7%8e%8b%e6%ad%8c"
+                    target="_blank">王歌</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xbgydxxb201004019&amp;Name=%e8%b0%a2%e6%9d%be%e4%ba%91"
+                    target="_blank">谢松云</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xbgydxxb201004019&amp;Name=%e5%85%9a%e6%ad%a3"
+                    target="_blank">党正</a><span class="space_1">Wang Ge</span><span class="space_1"
+                    >Xie Songyun</span><span class="space_1">Dang Zheng</span> </li>
+                <li class="zi"> 脱机手写体<font color="red"
+                    >汉字识别</font>因其自身的复杂性,系统的实现具有很大的困难.现有的方法,多针对小字符集.为了能在更大的字符集内实现脱机手写体<font
+                    color="red">汉字识别</font>,文章结合双重特征提取方法,提出了将双<font color="red"
+                    >神经网络</font>分类器引入脱机手写体<font color="red">汉字识别</font>...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t>：神经网络 分类器 脱机手写体 汉字识别<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%8F%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%88%86%E7%B1%BB%E5%99%A8%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_xbgydxxb201004019"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xbgydxxb201004019.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_xbgydxxb201004019"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_xbgydxxb201004019" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">6 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgtxtxxb-a201803009.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgtxtxxb-a201803009.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgtxtxxb-a201803009.aspx"
+                    target="_blank">卷积<font color="red">神经网络</font>的多字体<font color="red"
+                    >汉字识别</font></a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zgtxtxxb-a.aspx"
+                    >《中国图象图形学报》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zgtxtxxb-a/2018-3.aspx"
+                    >2018年3期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgtxtxxb-a201803009&amp;Name=%e6%9f%b4%e4%bc%9f%e4%bd%b3"
+                    target="_blank">柴伟佳</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgtxtxxb-a201803009&amp;Name=%e7%8e%8b%e8%bf%9e%e6%98%8e"
+                    target="_blank">王连明</a><span class="space_1">Chai Weijia</span><span
+                    class="space_1">Wang Lianming</span> </li>
+                <li class="zi"> 目的 多字体的<font color="red"
+                    >汉字识别</font>在中文自动处理及智能输入等方面具有广阔的应用前景,是模式识别领域的一个重要课题.近年来,随着深度学习新技术的出现,基于深度卷积
+                    <font color="red">神经网络</font>的<font color="red"
+                    >汉字识别</font>在方法和性能上得到了突破性的进展.然而现有...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：汉字识别 卷积神经网络 深度学习 数据扩增 批标准 化 recognition of Chinese characters
+                    convolutional neural network deep learning data augmentation batch
+                    normalization<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%A4%9A%E5%AD%97%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_zgtxtxxb-a201803009"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgtxtxxb-a201803009.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_zgtxtxxb-a201803009"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_zgtxtxxb-a201803009" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">7 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-gckx200102027.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-gckx200102027.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-gckx200102027.aspx"
+                    target="_blank">智能<font color="red">神经网络</font>系统原理在印刷体<font color="red"
+                    >汉字识别</font>中的应用</a> <span>(<t>被引用</t> 10 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-scdxxb-gckx.aspx"
+                    >《四川大学学报(工程科学版)》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被EI收录">EI</span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/scdxxb-gckx/2001-2.aspx"
+                    >2001年2期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e7%8e%8b%e5%85%88%e6%97%ba"
+                    target="_blank">王先旺</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e6%9d%8e%e6%b6%9b"
+                    target="_blank">李涛</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e5%86%b7%e4%b8%bd%e7%90%b4"
+                    target="_blank">冷丽琴</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e7%8e%8b%e6%b5%b7%e5%85%b5"
+                    target="_blank">王海兵</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e5%bc%a0%e7%82%9c"
+                    target="_blank">张炜</a><span class="space_1">WANG Xian-wang</span><span
+                    class="space_1">LI Tao</span><span class="space_1">LENG Li-qin</span><span
+                    class="space_1">WANG Hai-bin</span><span class="space_1">ZHANG-Wei</span> </li>
+                <li class="zi"> 在印刷体<font color="red"
+                    >汉字识别</font>中的实验中,提出了一种解决在网络学习时,随样本数的增加,学习时间会按指数级增加的方案:应用智能<font color="red">
+                    神经网络</font>系统原理，先训练好各个功能专一、结构简单的小智能<font color="red">神经网络</font>，然后联合小智能<font
+                    color="red">神经网络 </font>构成功能复...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：智能神经网络系统(INNS) 印刷体汉字识别 BP网络<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%99%BA%E8%83%BD%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E5%9C%A8%E5%8D%B0%E5%88%B7%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.aspx?ID=Periodical_scdxxb-gckx200102027"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-gckx200102027.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_scdxxb-gckx200102027"> <t>导出</t> </a> <span> - </span>
+                    <a class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_scdxxb-gckx200102027" target="_blank"> <t>引用通知</t> </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">2 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_bjhkhtdxxb201504028.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_bjhkhtdxxb201504028.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_bjhkhtdxxb201504028.aspx" target="_blank">基于多尺度梯度及深度<font color="red"
-                            >神经网络</font>的<font color="red">汉字识别</font></a>
-                    <span>(<t>被引用</t> 10 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-bjhkhtdxxb.aspx">《北京航空航天大学学报》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被EI收录">EI</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/bjhkhtdxxb/2015-4.aspx">2015年4期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=bjhkhtdxxb201504028&amp;Name=%e6%bd%98%e7%82%9c%e6%b7%b1"
-                        target="_blank">潘炜深</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=bjhkhtdxxb201504028&amp;Name=%e9%87%91%e8%bf%9e%e6%96%87"
-                        target="_blank">金连文</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=bjhkhtdxxb201504028&amp;Name=%e5%86%af%e5%ad%90%e5%8b%87"
-                        target="_blank">冯子勇</a><span class="space_1">PAN Weishen</span><span class="space_1">JIN Lianwen</span><span class="space_1">FENG Ziyong</span>
-                </li>
-                <li class="zi"> 介绍了一种基于多尺度滑动窗的方法提取文字的梯度直方图特征,并结合深度<font color="red">神经网络</font> 对印刷体汉字进行识别.针对梯度直方图的空间关系,使用可伸缩的滑动窗对图像进行分割,在不同尺度上获取文字的特征信息,有效融合汉字的全...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：多尺度滑动 窗   梯度直方图   深度神经网络   泛化能 力   汉字识别   multi-scale sliding
-                        window   gradient histogram   deep neural network   generalization ability   recognition of
-                        Chinese characters<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%A4%9A%E5%B0%BA%E5%BA%A6%E6%A2%AF%E5%BA%A6%E5%8F%8A%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_bjhkhtdxxb201504028"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_bjhkhtdxxb201504028.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_bjhkhtdxxb201504028">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_bjhkhtdxxb201504028" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">8 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjzdclykz201712067.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjzdclykz201712067.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjzdclykz201712067.aspx"
+                    target="_blank">基于深度残差网络的脱机手写<font color="red">汉字识别</font>研究</a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jsjzdclykz.aspx"
+                    >《计算机测量与控制》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jsjzdclykz/2017-12.aspx"
+                    >2017年12期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%bc%a0%e5%b8%86"
+                    target="_blank">张帆</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%bc%a0%e8%89%af"
+                    target="_blank">张良</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%88%98%e6%98%9f"
+                    target="_blank">刘星</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%bc%a0%e5%ae%87"
+                    target="_blank">张宇</a><span class="space_1">Zhang Fan</span><span
+                    class="space_1">Zhang Liang</span><span class="space_1">Liu Xing</span><span
+                    class="space_1">Zhang Yu</span> </li>
+                <li class="zi"> 手写<font color="red"
+                    >汉字识别</font>是模式识别与机器学习的重要研究方向和应用领域;近年来,随着深度学习理论方法的完善、新技术的层出不穷,深度<font
+                    color="red">神经网络</font>在图像识别分类、图像生成等典型应用中取得了突破性的进展,其中,深度残差网络作为最新的...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t>：手写汉字识 别 深度学习 深度残差网络 End-to- End 卷积神经网络
+                    handwritten Chinese character recognition deep learning deep residual networks
+                    end-to-end convolutional neural network<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E6%AE%8B%E5%B7%AE%E7%BD%91%E7%BB%9C%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_jsjzdclykz201712067"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjzdclykz201712067.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_jsjzdclykz201712067"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_jsjzdclykz201712067" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">3 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_hnlgdxxb201401015.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_hnlgdxxb201401015.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_hnlgdxxb201401015.aspx" target="_blank">基于CNN和随机弹性形变的相似手写<font color="red"
-                            >汉字识别</font></a>
-                    <span>(<t>被引用</t> 19 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-hnlgdxxb.aspx">《华南理工大学学报（自然科学版）》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被EI收录">EI</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/hnlgdxxb/2014-1.aspx">2014年1期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=hnlgdxxb201401015&amp;Name=%e9%ab%98%e5%ad%a6"
-                        target="_blank">高学</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=hnlgdxxb201401015&amp;Name=%e7%8e%8b%e6%9c%89%e6%97%ba"
-                        target="_blank">王有旺</a><span class="space_1">Gao Xue</span><span class="space_1">Wang You-wang</span>
-                </li>
-                <li class="zi"> 针对手写汉字中相似汉字的识别问题，构建了一种卷积<font color="red">神经网络</font> （CNN）模型，并给出了其网络拓扑结构，通过随机弹性形变对样本集进行扩展，以提高模型的泛化性能．相似手写汉字的识别实验结果表明：相对于常规的CNN模型，文中CNN模...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：字符识别    深度学习   卷积神经网络   弹性形 变   character recognition   deep
-                        learning   convolutional neural network   elastic deformation<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8ECNN%E5%92%8C%E9%9A%8F%E6%9C%BA%E5%BC%B9%E6%80%A7%E5%BD%A2%E5%8F%98%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_hnlgdxxb201401015"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_hnlgdxxb201401015.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_hnlgdxxb201401015">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_hnlgdxxb201401015" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">9 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjgcyyy202012024.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjgcyyy202012024.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjgcyyy202012024.aspx"
+                    target="_blank">特征分组提取融合深度网络手写<font color="red">汉字识别</font></a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jsjgcyyy.aspx"
+                    >《计算机工程与应用》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jsjgcyyy/2020-12.aspx"
+                    >2020年12期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e6%9d%8e%e5%9b%bd%e5%bc%ba"
+                    target="_blank">李国强</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e5%91%a8%e8%b4%ba"
+                    target="_blank">周贺</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e9%a9%ac%e9%94%b4"
+                    target="_blank">马锴</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e5%bc%a0%e9%9c%b2"
+                    target="_blank">张露</a><span class="space_1">LI Guoqiang</span><span
+                    class="space_1">ZHOU He</span><span class="space_1">MA Kai</span><span
+                    class="space_1">ZHANG Lu</span> </li>
+                <li class="zi"> 针对传统脱机手写<font color="red">汉字识别</font>的过程复杂、精度低,而常用卷积<font
+                    color="red">神经网络</font> 的特征信息提取不充分,同时存在相同特征信息的重叠和冗余问题.设计了一个特征分组提取融合的深度卷积<font
+                    color="red">神经网络</font> 模型.通过多级堆叠的特征分组提取模块,提取...<br/> <p class="greencolor"
+                    style=""> <t>关键词</t>：手写汉字识别 卷积神经网络 特征分组 信息精炼和浓缩<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E7%89%B9%E5%BE%81%E5%88%86%E7%BB%84%E6%8F%90%E5%8F%96%E8%9E%8D%E5%90%88%E6%B7%B1%E5%BA%A6%E7%BD%91%E7%BB%9C%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_jsjgcyyy202012024"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjgcyyy202012024.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_jsjgcyyy202012024"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_jsjgcyyy202012024" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">4 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsglt201910016.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsglt201910016.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsglt201910016.aspx" target="_blank">卷积<font color="red"
-                            >神经网络</font>在古籍<font color="red">汉字识别</font>中的应用实践</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-tsglt.aspx">《图书馆论坛》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                        <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/tsglt/2019-10.aspx">2019年10期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsglt201910016&amp;Name=%e9%83%ad%e5%88%a9%e6%95%8f"
-                        target="_blank">郭利敏</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsglt201910016&amp;Name=%e8%91%9b%e4%ba%ae"
-                        target="_blank">葛亮</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsglt201910016&amp;Name=%e5%88%98%e6%82%a6%e5%a6%82"
-                        target="_blank">刘悦如</a><span class="space_1">GUO Limin</span><span class="space_1">GE Liang</span><span class="space_1">LIU Yueru</span>
-                </li>
-                <li class="zi"> 文章尝试将卷积<font color="red">神经网络</font>用于数字人文古籍汉字的元数据加工,将古籍<font color="red">汉字识别</font>问题转换为卷积<font color="red">神经网络</font>的分类问题,在缺乏训练集的情况下通过数据生成技术构建训练集进行模型训练,并用于古籍汉字的识别.通过TensorFlow平台,...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：智慧图书 馆   人工智能   卷积神经网络   数字人 文   古籍汉字识别   smart
-                        library   artificial intelligence   convolution neural network   digital
-                        humanities   recognition of Chinese characters in ancient books<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9C%A8%E5%8F%A4%E7%B1%8D%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5.aspx?ID=Periodical_tsglt201910016"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsglt201910016.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_tsglt201910016">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_tsglt201910016" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">5 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xbgydxxb201004019.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xbgydxxb201004019.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xbgydxxb201004019.aspx" target="_blank">基于双<font color="red"
-                            >神经网络</font>分类器的脱机手写体<font color="red">汉字识别</font></a>
-                    <span>(<t>被引用</t> 6 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-xbgydxxb.aspx">《西北工业大学学报》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被EI收录">EI</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/xbgydxxb/2010-4.aspx">2010年4期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xbgydxxb201004019&amp;Name=%e7%8e%8b%e6%ad%8c"
-                        target="_blank">王歌</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xbgydxxb201004019&amp;Name=%e8%b0%a2%e6%9d%be%e4%ba%91"
-                        target="_blank">谢松云</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xbgydxxb201004019&amp;Name=%e5%85%9a%e6%ad%a3"
-                        target="_blank">党正</a><span class="space_1">Wang Ge</span><span class="space_1">Xie Songyun</span><span class="space_1">Dang Zheng</span>
-                </li>
-                <li class="zi"> 脱机手写体<font color="red">汉字识别</font>因其自身的复杂性,系统的实现具有很大的困难.现有的方法,多针对小字符集.为了能在更大的字符集内实现脱机手写体<font color="red">汉字识别</font>,文章结合双重特征提取方法,提出了将双<font
-                        color="red">神经网络</font>分类器引入脱机手写体<font color="red">汉字识别</font>...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：神经网络   分类器   脱机手写体   汉字识别<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E5%8F%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%88%86%E7%B1%BB%E5%99%A8%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_xbgydxxb201004019"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xbgydxxb201004019.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_xbgydxxb201004019">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_xbgydxxb201004019" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">6 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgtxtxxb-a201803009.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgtxtxxb-a201803009.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgtxtxxb-a201803009.aspx" target="_blank">卷积<font color="red"
-                            >神经网络</font>的多字体<font color="red">汉字识别</font></a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zgtxtxxb-a.aspx">《中国图象图形学报》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zgtxtxxb-a/2018-3.aspx">2018年3期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgtxtxxb-a201803009&amp;Name=%e6%9f%b4%e4%bc%9f%e4%bd%b3"
-                        target="_blank">柴伟佳</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgtxtxxb-a201803009&amp;Name=%e7%8e%8b%e8%bf%9e%e6%98%8e"
-                        target="_blank">王连明</a><span class="space_1">Chai Weijia</span><span class="space_1">Wang Lianming</span>
-                </li>
-                <li class="zi"> 目的 多字体的<font color="red">汉字识别</font>在中文自动处理及智能输入等方面具有广阔的应用前景,是模式识别领域的一个重要课题.近年来,随着深度学习新技术的出现,基于深度卷积 <font color="red">神经网络</font>的<font color="red"
-                        >汉字识别</font>在方法和性能上得到了突破性的进展.然而现有...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：汉字识别    卷积神经网络   深度学习   数据扩增   批标准 化   recognition of Chinese
-                        characters   convolutional neural network   deep learning   data augmentation   batch
-                        normalization<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%8D%B7%E7%A7%AF%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%9A%84%E5%A4%9A%E5%AD%97%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_zgtxtxxb-a201803009"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgtxtxxb-a201803009.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_zgtxtxxb-a201803009">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_zgtxtxxb-a201803009" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">7 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-gckx200102027.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-gckx200102027.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-gckx200102027.aspx" target="_blank">智能<font color="red"
-                            >神经网络</font>系统原理在印刷体<font color="red">汉字识别</font>中的应用</a>
-                    <span>(<t>被引用</t> 10 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-scdxxb-gckx.aspx">《四川大学学报(工程科学版)》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被EI收录">EI</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/scdxxb-gckx/2001-2.aspx">2001年2期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e7%8e%8b%e5%85%88%e6%97%ba"
-                        target="_blank">王先旺</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e6%9d%8e%e6%b6%9b"
-                        target="_blank">李涛</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e5%86%b7%e4%b8%bd%e7%90%b4"
-                        target="_blank">冷丽琴</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e7%8e%8b%e6%b5%b7%e5%85%b5"
-                        target="_blank">王海兵</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-gckx200102027&amp;Name=%e5%bc%a0%e7%82%9c"
-                        target="_blank">张炜</a><span class="space_1">WANG Xian-wang</span><span class="space_1">LI Tao</span><span class="space_1">LENG Li-qin</span><span
-                        class="space_1">WANG Hai-bin</span><span class="space_1">ZHANG-Wei</span>
-                </li>
-                <li class="zi"> 在印刷体<font color="red">汉字识别</font>中的实验中,提出了一种解决在网络学习时,随样本数的增加,学习时间会按指数级增加的方案:应用智能<font color="red"> 神经网络</font>系统原理，先训练好各个功能专一、结构简单的小智能<font
-                        color="red">神经网络</font>，然后联合小智能<font color="red">神经网络 </font>构成功能复...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：智能神经网络系统(INNS)   印刷体汉字识别   BP网络<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%99%BA%E8%83%BD%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E7%B3%BB%E7%BB%9F%E5%8E%9F%E7%90%86%E5%9C%A8%E5%8D%B0%E5%88%B7%E4%BD%93%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8.aspx?ID=Periodical_scdxxb-gckx200102027"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-gckx200102027.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_scdxxb-gckx200102027">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_scdxxb-gckx200102027" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">8 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjzdclykz201712067.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjzdclykz201712067.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjzdclykz201712067.aspx" target="_blank">基于深度残差网络的脱机手写<font color="red"
-                            >汉字识别</font>研究</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jsjzdclykz.aspx">《计算机测量与控制》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jsjzdclykz/2017-12.aspx">2017年12期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%bc%a0%e5%b8%86"
-                        target="_blank">张帆</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%bc%a0%e8%89%af"
-                        target="_blank">张良</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%88%98%e6%98%9f"
-                        target="_blank">刘星</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjzdclykz201712067&amp;Name=%e5%bc%a0%e5%ae%87"
-                        target="_blank">张宇</a><span class="space_1">Zhang Fan</span><span class="space_1">Zhang Liang</span><span class="space_1">Liu Xing</span><span
-                        class="space_1">Zhang Yu</span>
-                </li>
-                <li class="zi"> 手写<font color="red">汉字识别</font>是模式识别与机器学习的重要研究方向和应用领域;近年来,随着深度学习理论方法的完善、新技术的层出不穷,深度<font color="red">神经网络</font>在图像识别分类、图像生成等典型应用中取得了突破性的进展,其中,深度残差网络作为最新的...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：手写汉字识 别   深度学习   深度残差网络   End-to- End   卷积神经网络   handwritten Chinese
-                        character recognition   deep learning   deep residual networks   end-to-end   convolutional
-                        neural network<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E6%AE%8B%E5%B7%AE%E7%BD%91%E7%BB%9C%E7%9A%84%E8%84%B1%E6%9C%BA%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_jsjzdclykz201712067"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjzdclykz201712067.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_jsjzdclykz201712067">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_jsjzdclykz201712067" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">9 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjgcyyy202012024.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjgcyyy202012024.aspx" style="display:none"
-                        target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jsjgcyyy202012024.aspx" target="_blank">特征分组提取融合深度网络手写<font color="red"
-                            >汉字识别</font></a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jsjgcyyy.aspx">《计算机工程与应用》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jsjgcyyy/2020-12.aspx">2020年12期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e6%9d%8e%e5%9b%bd%e5%bc%ba"
-                        target="_blank">李国强</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e5%91%a8%e8%b4%ba"
-                        target="_blank">周贺</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e9%a9%ac%e9%94%b4"
-                        target="_blank">马锴</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jsjgcyyy202012024&amp;Name=%e5%bc%a0%e9%9c%b2"
-                        target="_blank">张露</a><span class="space_1">LI Guoqiang</span><span class="space_1">ZHOU He</span><span class="space_1">MA Kai</span><span class="space_1"
-                        >ZHANG Lu</span>
-                </li>
-                <li class="zi"> 针对传统脱机手写<font color="red">汉字识别</font>的过程复杂、精度低,而常用卷积<font color="red">神经网络</font> 的特征信息提取不充分,同时存在相同特征信息的重叠和冗余问题.设计了一个特征分组提取融合的深度卷积<font color="red"
-                        >神经网络</font> 模型.通过多级堆叠的特征分组提取模块,提取...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：手写汉字识别   卷积神经网络   特征分组   信息精炼和浓缩<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E7%89%B9%E5%BE%81%E5%88%86%E7%BB%84%E6%8F%90%E5%8F%96%E8%9E%8D%E5%90%88%E6%B7%B1%E5%BA%A6%E7%BD%91%E7%BB%9C%E6%89%8B%E5%86%99%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_jsjgcyyy202012024"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jsjgcyyy202012024.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_jsjgcyyy202012024">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_jsjgcyyy202012024" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">10 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_txxb201409019.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_txxb201409019.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_txxb201409019.aspx" target="_blank">大数据下的基于深度神经网的相似<font color="red"
-                            >汉字识别</font></a>
-                    <span>(<t>被引用</t> 14 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-txxb.aspx">《通信学报》</a>
-                    <span>
-                        <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
-                        <span title="被EI收录">EI</span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/txxb/2014-9.aspx">2014年9期</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e6%9d%a8%e9%92%8a"
-                        target="_blank">杨钊</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e9%99%b6%e5%a4%a7%e9%b9%8f"
-                        target="_blank">陶大鹏</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e5%bc%a0%e6%a0%91%e4%b8%9a"
-                        target="_blank">张树业</a><a
-                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e9%87%91%e8%bf%9e%e6%96%87"
-                        target="_blank">金连文</a><span class="space_1">YANG Zhao</span><span class="space_1">TAO Da-peng</span><span class="space_1">ZHANG Shu-ye</span><span
-                        class="space_1">JIN Lian-wen</span>
-                </li>
-                <li class="zi"> 针对传统相似手写<font color="red">汉字识别</font> 系统(SHCCR)受特征提取方法的限制,提出采用深度神经网(DNN)对相似汉字自动学习有效特征并进行识别,介绍相似字符集生成方法和针对相似<font color="red">汉字识别</font> 的深度<font
-                        color="red">神经网络</font>的具体结构,研究对比不同的训练数...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：大数据   深 度神经网   深度学习   相似手写汉字识 别   big data   deep neural
-                        networks   deep learning   similar handwritten Chinese characters recognition<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8B%E7%9A%84%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_txxb201409019"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_txxb201409019.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a>   -   </span>
-                    <a class="exportLink" href="#" id="Periodical_txxb201409019">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_txxb201409019" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">10 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_txxb201409019.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_txxb201409019.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_txxb201409019.aspx"
+                    target="_blank">大数据下的基于深度神经网的相似<font color="red">汉字识别</font></a>
+                    <span>(<t>被引用</t> 14 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-txxb.aspx"
+                    >《通信学报》</a> <span> <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span> <span
+                    title="被EI收录">EI</span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/txxb/2014-9.aspx"
+                    >2014年9期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e6%9d%a8%e9%92%8a"
+                    target="_blank">杨钊</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e9%99%b6%e5%a4%a7%e9%b9%8f"
+                    target="_blank">陶大鹏</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e5%bc%a0%e6%a0%91%e4%b8%9a"
+                    target="_blank">张树业</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=txxb201409019&amp;Name=%e9%87%91%e8%bf%9e%e6%96%87"
+                    target="_blank">金连文</a><span class="space_1">YANG Zhao</span><span
+                    class="space_1">TAO Da-peng</span><span class="space_1">ZHANG Shu-ye</span><span
+                    class="space_1">JIN Lian-wen</span> </li>
+                <li class="zi"> 针对传统相似手写<font color="red">汉字识别</font>
+                    系统(SHCCR)受特征提取方法的限制,提出采用深度神经网(DNN)对相似汉字自动学习有效特征并进行识别,介绍相似字符集生成方法和针对相似<font
+                    color="red">汉字识别</font> 的深度<font color="red">神经网络</font>的具体结构,研究对比不同的训练数...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t>：大数据 深 度神经网 深度学习 相似手写汉字识 别 big data
+                    deep neural networks deep learning similar handwritten Chinese characters
+                    recognition<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8B%E7%9A%84%E5%9F%BA%E4%BA%8E%E6%B7%B1%E5%BA%A6%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB.aspx?ID=Periodical_txxb201409019"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_txxb201409019.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_txxb201409019"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_txxb201409019" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <p class="pager_space">
-                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1">
-                    <t>共</t> 12 <t>页</t>
-                </span>  <strong class="page-selected">1</strong><a class="page"
+                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1"> <t>共</t>
+                    12 <t>页</t> </span>
+                <strong class="page-selected">1</strong>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=2"
-                    >2</a>  <a class="page"
+                    >2</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=3"
-                    >3</a>  <a class="page"
+                    >3</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=4"
-                    >4</a>  <a class="page"
+                    >4</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=5"
-                    >5</a>  <a class="page"
+                    >5</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=6"
-                    >6</a>  <a class="page"
+                    >6</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=7"
-                    >7</a>  <a class="page"
+                    >7</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=8"
-                    >8</a>  <a class="page"
+                    >8</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=9"
-                    >9</a>  <a class="page"
+                    >9</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=10"
-                    >10</a>  <a class="page"
+                    >10</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=2">
                     <t>下一页</t>
-                </a>  <a class="page"
+                </a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p=12">
                     <t>末页</t>
-                </a>  <input class="jump-text" id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text" value="1"/>
-                <t><input class="jump-button" onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var
-                        patrn=/^[0-9]{1,9}$/;if(!patrn.exec(pageindex) || pageindex == '0'){alert('请输入大于0的整数！');}else if(pageindex > 12){alert('不能大于总页数！');}else
-                        {document.location.href =
-                        '?q=%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK&amp;f=top&amp;p={0}'.replace('{0}',pageindex);}" type="button"
-                        value="跳到"/>
+                </a>
+                
+                <t>
+                    
                 </t>
             </p>
-            <script> <![CDATA[ var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
-            ]]> </script>
+
         </div>
     </div>
-    <script> <![CDATA[ function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
-        (currentDatabase == "NSTL") currentDatabase = "(NSTL_QK OR NSTL_HY)"; return " DBID:" + currentDatabase; } return ""; } var userid = ''; $(function () { var loginUrl =
-        "http:/login.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c+%e6%b1%89%e5%ad%97%e8%af%86%e5%88%ab+DBID%3aWF_QK%26f%3dtop&needLoginAccountType=Person";
-        var citeUrl = "http:/citenotice.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
-        citeClick(this, loginUrl, citeUrl); }); var clickId = Cookie.getCookie("add2Cite"); if (clickId != "undefined" && clickId != "" && checkLogin()) { addNotice(loginUrl,
-        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http:/trend.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["神经网络", "汉字识别"]);
-        showRelatedResearchers('relatedResearchers', 'http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["神经网络", "汉字识别"], false); }) ]]> </script>
+
     <div class="search_cloud">
-        <script language="javascript" src="Wanfang%20journals%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%20%E6%B1%89%E5%AD%97%E8%AF%86%E5%88%AB%20all_files/bottomSearch-1.js"
-            type="text/javascript"/>
+
         <p>
-            <input class="searchbox3" id="queryBox2" results="s" type="search" value="神经网络 汉字识别"/>
+            
             <t>
-                <input class="bottom_btn" id="searchButton2" type="button" value="检 索"/>
+                
             </t>
         </p>
-        <script> <![CDATA[ $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
-            return $("#searchButton2").click(); }); }) ]]> </script>
+
         <div id="relatedword"/>
     </div>
     <div class="clear-float"/>
     <div id="hudongwords"/>
-    <script> <![CDATA[ $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '神经网络；汉字识别' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) {
-        if (window.console != undefined) { console.log(stat); } } }); ]]> </script>
+
 </div>

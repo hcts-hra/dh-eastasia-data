@@ -2,30 +2,14 @@
     <div>
         <div>
             <div id="narrowContainer">
-                <div>
-                    <input class="input_title6 watermark" id="textTitle" name="narrow_" value="标题"/>
-                    <input class="input_title6 watermark" id="textCreator" name="narrow_" value="作者"/>
-                    <input class="input_title6 watermark" id="textKeyWords" name="narrow_" value="关键词"/>
-                    <input class="input_title6 watermark" id="textAuthorSubject" name="narrow_" value="专业" />
-                    <input class="input_title6 watermark" id="textSchool" name="narrow_" value="学校" />
-                    <input class="input_title6 watermark" id="textTeacherName" name="narrow_" value="导师" />
-                    <input class="watermark" id="textDateStart" maxlength="4" name="narrow_" value="起始年"/>-<input class="watermark" id="textDateEnd" maxlength="4" name="narrow_"
-                        value="结束年"/>
-                    <t><input id="narrowButton" type="button" value="在结果中检索"/></t>
-                </div>
-                <input id="narrowQuery" type="hidden" value="民国 数字化 DBID:WF_XW" />
+                <div>     
+                     - <t></t> </div>
+                
             </div>
-            <script> <![CDATA[ function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
-                "会议名称", "conferencename", "专业", "textAuthorSubject", "学校", "textSchool", "导师", "textTeacherName", "刊名", "textMagazine"]); var date = datePairQuery("日期",
-                "textDateStart", "textDateEnd"); if (date == null) return; anyQuery += date; anyQuery = $.trim(anyQuery); if (anyQuery == "") { alert('请输入检索词！'); return false; }
-                window.location.href = "?f=narrow&n=10&q=" + encodeURIComponent(anyQuery) + "&userid=" + userid; } $(function () { addWaterMark(["textTitle", "标题", "textCreator",
-                "作者", "conferencename", "会议名称", "textAuthorSubject", "专业", "textSchool", "学校", "textTeacherName", "导师", "textKeyWords", "关键词", "textMagazine", "刊名",
-                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); /keypress $("#narrowContainer").keypress(function (e) {
-                if (e.which == 13) narrowSearch(); }); }); ]]> </script>
+
             <div class="sortby_div">
                 <div id="sortContainer" style="position:relative;">
-                    <span class="black_font">
-                        <t>排序</t>： </span>
+                    <span class="black_font"> <t>排序</t>： </span>
                     <span class="current_sort" title="相关度优先=论文关键词价值+其他相关因素 适用于高效查询所关注的领域">
                         <t>相关度优先</t>
                     </span>
@@ -43,7 +27,7 @@
                             <t>经典论文优先</t>
                         </a>
                     </span>
-                    <a class="sortexpand common_all" href="javascript:;">
+                    <a class="sortexpand common_all" >
                         <t>其他</t>
                         <small>▼</small>
                     </a>
@@ -65,9 +49,7 @@
                         </li>
                     </ul>
                 </div>
-                <script> <![CDATA[ $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); /注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
-                    (event) { if (event.target && ($(event.target).hasClass("sortexpand") || $(event.target).parent().hasClass("sortexpand"))) return; $("#otherlinklist").hide();
-                    }); }) ]]> </script>
+
                 <span>
                     <a class="common_all"
                         href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_XW&amp;f=all">
@@ -80,385 +62,296 @@
                     </a>
                     <a class="grouplight_all"
                         href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_XW&amp;f=ordered"
-                        title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu Berlin<t>已购全文</t></a>
+                        title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu
+                        Berlin<t>已购全文</t></a>
                 </span>
             </div>
             <div class="clear-float"/>
             <ul class="list_ul">
-                <li class="title_li">1 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1372452.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1372452.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1372452.aspx" target="_blank">OCR在<font color="red">民国</font>报刊<font
-                            color="red">数字化</font> 项目中的应用研究</a>
-                    <span>(<t>被引用</t> 4 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1372452&amp;Name=%e9%a2%9c%e4%bd%b3" target="_blank"
-                        >颜佳</a>， 2008 - 华东师范大学：情报学</li>
-                <li class="zi">作为历史文献的一个重要部分,<font color="red">民国</font>报刊无论从内容还是形式上来说都有其独特的地位,对于人们了解 <font color="red">民国</font>历史,进行爱国主义教育具有十分深刻的积极意义。如今,随着时代的变迁,很多<font
-                        color="red">民国 </font>报刊都面临着遗失或是损坏的危险,本着保...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：民国报刊   数字化制作   OCR识别系统<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/OCR%E5%9C%A8%E6%B0%91%E5%9B%BD%E6%8A%A5%E5%88%8A%E6%95%B0%E5%AD%97%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1372452"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1372452.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y1372452">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y1372452" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">1 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1372452.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1372452.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1372452.aspx"
+                    target="_blank">OCR在<font color="red">民国</font>报刊<font color="red">数字化</font>
+                    项目中的应用研究</a> <span>(<t>被引用</t> 4 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1372452&amp;Name=%e9%a2%9c%e4%bd%b3"
+                    target="_blank">颜佳</a>， 2008 - 华东师范大学：情报学</li>
+                <li class="zi">作为历史文献的一个重要部分,<font color="red"
+                    >民国</font>报刊无论从内容还是形式上来说都有其独特的地位,对于人们了解 <font color="red"
+                    >民国</font>历史,进行爱国主义教育具有十分深刻的积极意义。如今,随着时代的变迁,很多<font color="red">民国
+                    </font>报刊都面临着遗失或是损坏的危险,本着保...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：民国报刊 数字化制作 OCR识别系统<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/OCR%E5%9C%A8%E6%B0%91%E5%9B%BD%E6%8A%A5%E5%88%8A%E6%95%B0%E5%AD%97%E5%8C%96%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1372452"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1372452.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1372452"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1372452" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">2 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1215960.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1215960.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1215960.aspx" target="_blank">
-                        <font color="red">民国</font>农业文献<font color="red">数字化</font>整理及信息组织研究——兼论<font color="red">民国 </font>索引史 </a>
-                    <span>(<t>被引用</t> 5 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1215960&amp;Name=%e7%8e%8b%e9%9b%85%e6%88%88"
-                        target="_blank">王雅戈</a>， 2007 - 南京农业大学：科学技术史</li>
+                <li class="title_li">2 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1215960.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1215960.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1215960.aspx"
+                    target="_blank"> <font color="red">民国</font>农业文献<font color="red"
+                    >数字化</font>整理及信息组织研究——兼论<font color="red">民国 </font>索引史 </a> <span>(<t>被引用</t> 5
+                    <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1215960&amp;Name=%e7%8e%8b%e9%9b%85%e6%88%88"
+                    target="_blank">王雅戈</a>， 2007 - 南京农业大学：科学技术史</li>
+                <li class="zi"> <font color="red">民国</font>农业文献，通常是指中华<font color="red">民国</font>
+                    时期产生的与农村社会、农业经济、农业科技等内容相关的各类文献的总称，有时也泛指二十世纪上半叶的农业文献。狭义地说，<font color="red"
+                    >民国</font> 农业文献仅指1912年至1949年期间国内的农业文献，且不包括翻印或...<br/> <p class="greencolor"
+                    style=""> <t>关键词</t> ：民国农业文献 索引 电子图书 数据库 主题网关<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%86%9C%E4%B8%9A%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E6%95%B4%E7%90%86%E5%8F%8A%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87%E7%A0%94%E7%A9%B6%E2%80%94%E2%80%94%E5%85%BC%E8%AE%BA%E6%B0%91%E5%9B%BD%E7%B4%A2%E5%BC%95%E5%8F%B2.aspx?ID=Thesis_Y1215960"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1215960.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1215960"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1215960" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">3 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3066011.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3066011.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3066011.aspx"
+                    target="_blank">清朝、<font color="red">民国</font>时期《黄帝内经》古籍传本整理及数据库建设研究</a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3066011&amp;Name=%e5%88%98%e8%a1%a1"
+                    target="_blank">刘衡</a>， 2015 - 贵阳中医学院：中医基础理论</li>
+                <li class="zi">目的:系统整理清朝、<font color="red">民国</font>时期的《黄帝内经》传本及相关著作，把收集到的著作通过<font
+                    color="red">数字化 </font>，建立清朝、<font color="red">民国</font>
+                    时期《黄帝内经》古籍数据库。&lt;br&gt;　　方法:本研究通过史志考证、丛书类书考证、相关医学文献考证和国外典藏文献考证等研究方...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t> ：《黄帝内经》 整理工作 数据库建设 清朝 民国时期<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B8%85%E6%9C%9D%E3%80%81%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E3%80%8A%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E3%80%8B%E5%8F%A4%E7%B1%8D%E4%BC%A0%E6%9C%AC%E6%95%B4%E7%90%86%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%BB%BA%E8%AE%BE%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y3066011"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3066011.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y3066011"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y3066011" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">4 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1269679.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1269679.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1269679.aspx"
+                    target="_blank"> <font color="red">民国</font>初期河南省地形图的<font color="red"
+                    >数字化</font>保护与校正 </a> <span>(<t>被引用</t> 3 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1269679&amp;Name=%e5%8f%b2%e7%a3%8a"
+                    target="_blank">史磊</a>， 2008 - 河南大学：地图学与地理信息系统</li>
+                <li class="zi">中国在清末和<font color="red">民国</font>
+                    初期，开始引进西方测绘技术，对全国大部分地域进行了地形测绘。这些地形图大多作为文物被传统地收藏和鉴赏，而其科学价值并未得到有效的利用。以地理信息系统(GIS)为代表的信息技术的迅猛发展，给传统历史...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：民国初期地形图 数字化保护 空间数据库 地理信息系统<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%88%9D%E6%9C%9F%E6%B2%B3%E5%8D%97%E7%9C%81%E5%9C%B0%E5%BD%A2%E5%9B%BE%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E4%BF%9D%E6%8A%A4%E4%B8%8E%E6%A0%A1%E6%AD%A3.aspx?ID=Thesis_Y1269679"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1269679.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1269679"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1269679" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">5 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1031130.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1031130.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1031130.aspx"
+                    target="_blank"> <font color="red">民国</font>档案目录管理系统研发 </a> <span>(<t>被引用</t> 1
+                    <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1031130&amp;Name=%e6%9e%97%e5%91%a8%e4%bd%b3"
+                    target="_blank">林周佳</a>， 2007 - 河海大学：软件工程</li>
+                <li class="zi">本文研究了在Windows平台下开发档案管理系统的相关技术；给出了一个系统开发模型；介绍了<font color="red"
+                    >民国</font> 档案目录管理系统实现的关键技术和具体方法。<font color="red"
+                    >民国</font>档案目录管理系统的工程背景是用以管理、检索<font color="red">民国</font> 档案目录信息。 由于以往...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t>：档案管理 目录管理系统 民国档案<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E7%9B%AE%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%A0%94%E5%8F%91.aspx?ID=Thesis_Y1031130"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1031130.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1031130"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1031130" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">6 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D145167.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D145167.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D145167.aspx"
+                    target="_blank"> <font color="red">民国</font>初期河南省1:10万地图Web服务及利用研究 </a>
+                    <span>(<t>被引用</t> 2 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D145167&amp;Name=%e5%ae%89%e5%ad%a6%e9%94%8b"
+                    target="_blank">安学锋</a>， 2011 - 河南大学：地图制图学与地理信息工程</li>
+                <li class="zi">我国绘制地图的历史源远流长，古地图资源丰富。特别是清初西方科学制图法的传入之后，清代进行了大规模的地图测绘，完成了系列实测地图。<font
+                    color="red">民国 </font>时期，北洋政府与南京政府均重视地图测绘，完成了大量的1:2.5 至1:20 万等比例尺地...<br/> <p
+                    class="greencolor" style=""> <t>关键词</t> ：民国初期 河南省 1:10万地图 WebGIS技术 古地图利用<br/>
+                    </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%88%9D%E6%9C%9F%E6%B2%B3%E5%8D%97%E7%9C%81110%E4%B8%87%E5%9C%B0%E5%9B%BEWeb%E6%9C%8D%E5%8A%A1%E5%8F%8A%E5%88%A9%E7%94%A8%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_D145167"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D145167.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_D145167"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_D145167" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">7 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3189196.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3189196.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3189196.aspx"
+                    target="_blank"> <font color="red">民国</font>体育文献搜集研究 </a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3189196&amp;Name=%e5%91%a8%e9%98%b3"
+                    target="_blank">周阳</a>， 2016 - 南京体育学院：体育人文社会学</li>
+                <li class="zi"> <font color="red">民国</font>
+                    是我国由半封建半殖民地社会向社会主义新中国过渡的转型时期，期间社会动荡，政局跌宕，革命风潮此起彼伏，中西文化急剧碰撞，学术思想百家争鸣，新旧社会制度更替，错综复杂的历史语境，使得
+                    <font color="red">民国</font>文献具有鲜明的时代特征、...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：民国时期 体育文献 体育制度<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E4%BD%93%E8%82%B2%E6%96%87%E7%8C%AE%E6%90%9C%E9%9B%86%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y3189196"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3189196.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y3189196"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y3189196" target="_blank"> <t>引用通知</t> </a> </li>
+            </ul>
+            <ul class="list_ul">
+                <li class="title_li">8 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1760908.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1760908.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1760908.aspx"
+                    target="_blank">文物建筑数字博物馆元数据设计与应用研究</a> <span>(<t>被引用</t> 1 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1760908&amp;Name=%e5%8d%8e%e8%8b%8f%e6%b0%b8"
+                    target="_blank">华苏永</a>， 2010 - 东南大学：图书馆学</li>
                 <li class="zi">
-                    <font color="red">民国</font>农业文献，通常是指中华<font color="red">民国</font> 时期产生的与农村社会、农业经济、农业科技等内容相关的各类文献的总称，有时也泛指二十世纪上半叶的农业文献。狭义地说，<font color="red">民国</font> 农业文献仅指1912年至1949年期间国内的农业文献，且不包括翻印或...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国农业文献   索引   电子图书   数据库   主题网关<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%86%9C%E4%B8%9A%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E6%95%B4%E7%90%86%E5%8F%8A%E4%BF%A1%E6%81%AF%E7%BB%84%E7%BB%87%E7%A0%94%E7%A9%B6%E2%80%94%E2%80%94%E5%85%BC%E8%AE%BA%E6%B0%91%E5%9B%BD%E7%B4%A2%E5%BC%95%E5%8F%B2.aspx?ID=Thesis_Y1215960"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1215960.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y1215960">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y1215960" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                    作为文化遗产的重要组成部分，文物建筑与其他历史遗迹一样，正遭受着各种自然和人为因素的破坏。在难以实现对文物建筑本身的永久保存的情况下，通过信息技术对文物建筑进行
+                    <font color="red">数字化</font>加工，不仅可以实现文物建筑所承载的艺术、历...<br/> <p class="greencolor"
+                    style=""> <t>关键词</t> ：文物建筑 数字博物馆 元数据 馆藏资源<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%96%87%E7%89%A9%E5%BB%BA%E7%AD%91%E6%95%B0%E5%AD%97%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%83%E6%95%B0%E6%8D%AE%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1760908"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1760908.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1760908"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1760908" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">3 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3066011.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3066011.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3066011.aspx" target="_blank">清朝、<font color="red"
-                        >民国</font>时期《黄帝内经》古籍传本整理及数据库建设研究</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3066011&amp;Name=%e5%88%98%e8%a1%a1" target="_blank"
-                        >刘衡</a>， 2015 - 贵阳中医学院：中医基础理论</li>
-                <li class="zi">目的:系统整理清朝、<font color="red">民国</font>时期的《黄帝内经》传本及相关著作，把收集到的著作通过<font color="red">数字化 </font>，建立清朝、<font color="red">民国</font> 时期《黄帝内经》古籍数据库。&lt;br&gt;　　方法:本研究通过史志考证、丛书类书考证、相关医学文献考证和国外典藏文献考证等研究方...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：《黄帝内经》   整理工作   数据库建设   清朝   民国时期<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B8%85%E6%9C%9D%E3%80%81%E6%B0%91%E5%9B%BD%E6%97%B6%E6%9C%9F%E3%80%8A%E9%BB%84%E5%B8%9D%E5%86%85%E7%BB%8F%E3%80%8B%E5%8F%A4%E7%B1%8D%E4%BC%A0%E6%9C%AC%E6%95%B4%E7%90%86%E5%8F%8A%E6%95%B0%E6%8D%AE%E5%BA%93%E5%BB%BA%E8%AE%BE%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y3066011"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3066011.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y3066011">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y3066011" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">4 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1269679.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1269679.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1269679.aspx" target="_blank">
-                        <font color="red">民国</font>初期河南省地形图的<font color="red">数字化</font>保护与校正 </a>
-                    <span>(<t>被引用</t> 3 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1269679&amp;Name=%e5%8f%b2%e7%a3%8a" target="_blank"
-                        >史磊</a>， 2008 - 河南大学：地图学与地理信息系统</li>
-                <li class="zi">中国在清末和<font color="red">民国</font> 初期，开始引进西方测绘技术，对全国大部分地域进行了地形测绘。这些地形图大多作为文物被传统地收藏和鉴赏，而其科学价值并未得到有效的利用。以地理信息系统(GIS)为代表的信息技术的迅猛发展，给传统历史...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国初期地形图   数字化保护   空间数据库   地理信息系统<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%88%9D%E6%9C%9F%E6%B2%B3%E5%8D%97%E7%9C%81%E5%9C%B0%E5%BD%A2%E5%9B%BE%E7%9A%84%E6%95%B0%E5%AD%97%E5%8C%96%E4%BF%9D%E6%8A%A4%E4%B8%8E%E6%A0%A1%E6%AD%A3.aspx?ID=Thesis_Y1269679"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1269679.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y1269679">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y1269679" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">5 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1031130.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1031130.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1031130.aspx" target="_blank">
-                        <font color="red">民国</font>档案目录管理系统研发 </a>
-                    <span>(<t>被引用</t> 1 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1031130&amp;Name=%e6%9e%97%e5%91%a8%e4%bd%b3"
-                        target="_blank">林周佳</a>， 2007 - 河海大学：软件工程</li>
-                <li class="zi">本文研究了在Windows平台下开发档案管理系统的相关技术；给出了一个系统开发模型；介绍了<font color="red">民国</font> 档案目录管理系统实现的关键技术和具体方法。<font color="red">民国</font>档案目录管理系统的工程背景是用以管理、检索<font
-                        color="red">民国</font> 档案目录信息。 由于以往...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：档案管理   目录管理系统   民国档案<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E7%9B%AE%E5%BD%95%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E7%A0%94%E5%8F%91.aspx?ID=Thesis_Y1031130"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1031130.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y1031130">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y1031130" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">6 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D145167.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D145167.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D145167.aspx" target="_blank">
-                        <font color="red">民国</font>初期河南省1:10万地图Web服务及利用研究 </a>
-                    <span>(<t>被引用</t> 2 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D145167&amp;Name=%e5%ae%89%e5%ad%a6%e9%94%8b"
-                        target="_blank">安学锋</a>， 2011 - 河南大学：地图制图学与地理信息工程</li>
-                <li class="zi">我国绘制地图的历史源远流长，古地图资源丰富。特别是清初西方科学制图法的传入之后，清代进行了大规模的地图测绘，完成了系列实测地图。<font color="red">民国 </font>时期，北洋政府与南京政府均重视地图测绘，完成了大量的1:2.5 至1:20 万等比例尺地...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国初期   河南省   1:10万地图   WebGIS技术   古地图利用<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E5%88%9D%E6%9C%9F%E6%B2%B3%E5%8D%97%E7%9C%81110%E4%B8%87%E5%9C%B0%E5%9B%BEWeb%E6%9C%8D%E5%8A%A1%E5%8F%8A%E5%88%A9%E7%94%A8%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_D145167"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D145167.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_D145167">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_D145167" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">7 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3189196.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3189196.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y3189196.aspx" target="_blank">
-                        <font color="red">民国</font>体育文献搜集研究 </a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y3189196&amp;Name=%e5%91%a8%e9%98%b3" target="_blank"
-                        >周阳</a>， 2016 - 南京体育学院：体育人文社会学</li>
+                <li class="title_li">9 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1778741.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1778741.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1778741.aspx"
+                    target="_blank">中医药信息学学科发展战略研究</a> <span>(<t>被引用</t> 3 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1778741&amp;Name=%e5%b0%b9%e4%bb%81%e8%8a%b3"
+                    target="_blank">尹仁芳</a>， 2010 - 中国中医科学院：中医基础理论</li>
                 <li class="zi">
-                    <font color="red">民国</font> 是我国由半封建半殖民地社会向社会主义新中国过渡的转型时期，期间社会动荡，政局跌宕，革命风潮此起彼伏，中西文化急剧碰撞，学术思想百家争鸣，新旧社会制度更替，错综复杂的历史语境，使得 <font color="red">民国</font>文献具有鲜明的时代特征、...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：民国时期   体育文献   体育制度<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E4%BD%93%E8%82%B2%E6%96%87%E7%8C%AE%E6%90%9C%E9%9B%86%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y3189196"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y3189196.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y3189196">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y3189196" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                    近年来,随着学科在大学竞争中的地位和作用日益突现,学科建设对于大学的重要性已引起人们的广泛关注。现代随着计算机和网络的普及,中医药学与信息科学不断碰撞、交叉、乃至融合。共同的理论基础,相似的方法学使得两个学科在...<br/>
+                    <p class="greencolor" style="display:none"> <t>关键词</t>： </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E4%B8%AD%E5%8C%BB%E8%8D%AF%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%AD%A6%E7%A7%91%E5%8F%91%E5%B1%95%E6%88%98%E7%95%A5%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1778741"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1778741.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_Y1778741"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_Y1778741" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">8 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1760908.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1760908.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1760908.aspx" target="_blank">文物建筑数字博物馆元数据设计与应用研究</a>
-                    <span>(<t>被引用</t> 1 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1760908&amp;Name=%e5%8d%8e%e8%8b%8f%e6%b0%b8"
-                        target="_blank">华苏永</a>， 2010 - 东南大学：图书馆学</li>
-                <li class="zi"> 作为文化遗产的重要组成部分，文物建筑与其他历史遗迹一样，正遭受着各种自然和人为因素的破坏。在难以实现对文物建筑本身的永久保存的情况下，通过信息技术对文物建筑进行 <font color="red">数字化</font>加工，不仅可以实现文物建筑所承载的艺术、历...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：文物建筑   数字博物馆   元数据   馆藏资源<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%96%87%E7%89%A9%E5%BB%BA%E7%AD%91%E6%95%B0%E5%AD%97%E5%8D%9A%E7%89%A9%E9%A6%86%E5%85%83%E6%95%B0%E6%8D%AE%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%BA%94%E7%94%A8%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1760908"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1760908.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y1760908">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y1760908" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">9 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1778741.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1778741.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_Y1778741.aspx" target="_blank">中医药信息学学科发展战略研究</a>
-                    <span>(<t>被引用</t> 3 <t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=Y1778741&amp;Name=%e5%b0%b9%e4%bb%81%e8%8a%b3"
-                        target="_blank">尹仁芳</a>， 2010 - 中国中医科学院：中医基础理论</li>
-                <li class="zi"> 近年来,随着学科在大学竞争中的地位和作用日益突现,学科建设对于大学的重要性已引起人们的广泛关注。现代随着计算机和网络的普及,中医药学与信息科学不断碰撞、交叉、乃至融合。共同的理论基础,相似的方法学使得两个学科在...<br/>
-                    <p class="greencolor" style="display:none">
-                        <t>关键词</t>： </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E4%B8%AD%E5%8C%BB%E8%8D%AF%E4%BF%A1%E6%81%AF%E5%AD%A6%E5%AD%A6%E7%A7%91%E5%8F%91%E5%B1%95%E6%88%98%E7%95%A5%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_Y1778741"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_Y1778741.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_Y1778741">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_Y1778741" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list_ul">
-                <li class="title_li">10 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D835083.aspx" style=""
-                        target="_blank" title="全文"> </a><a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D835083.aspx"
-                        style="display:none" target="_blank" title="文摘"/>
-                    <a href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D835083.aspx" target="_blank">清代样式雷档案研究</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>学位论文</t>]  <a
-                        href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D835083&amp;Name=%e7%8e%8b%e7%8e%89%e8%89%af"
-                        target="_blank">王玉良</a>， 2016 - 上海师范大学：专门史</li>
-                <li class="zi"> 清代样式雷档案是指清代样式雷家族收集的建筑图样、烫样以及其他相关文件。现存的样式雷档案包括十八世纪中叶到二十世纪初，在北京、天津、河北、辽宁、山西等地修造的城市，宫殿，园林，陵墓，坛庙，官邸，现代化的工厂，和学校等皇...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：样式雷档案   建筑工程文件   清代时期<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B8%85%E4%BB%A3%E6%A0%B7%E5%BC%8F%E9%9B%B7%E6%A1%A3%E6%A1%88%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_D835083"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D835083.aspx" target="_blank"
-                            title="下载全文">
-                            <t>下载全文</t>
-                        </a>  -   </span>
-                    <a class="exportLink" href="#" id="Thesis_D835083">
-                        <t>导出</t>
-                    </a>
-                    <span>  -  </span>
-                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Thesis_D835083" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">10 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D835083.aspx"
+                    style="" target="_blank" title="全文"> </a><a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D835083.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Thesis_D835083.aspx"
+                    target="_blank">清代样式雷档案研究</a> <span/> </li>
+                <li class="greencolor">[<t>学位论文</t>] <a
+                    href="http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=D835083&amp;Name=%e7%8e%8b%e7%8e%89%e8%89%af"
+                    target="_blank">王玉良</a>， 2016 - 上海师范大学：专门史</li>
+                <li class="zi">
+                    清代样式雷档案是指清代样式雷家族收集的建筑图样、烫样以及其他相关文件。现存的样式雷档案包括十八世纪中叶到二十世纪初，在北京、天津、河北、辽宁、山西等地修造的城市，宫殿，园林，陵墓，坛庙，官邸，现代化的工厂，和学校等皇...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t>：样式雷档案 建筑工程文件 清代时期<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/view/%E6%B8%85%E4%BB%A3%E6%A0%B7%E5%BC%8F%E9%9B%B7%E6%A1%A3%E6%A1%88%E7%A0%94%E7%A9%B6.aspx?ID=Thesis_D835083"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/download/Thesis_D835083.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Thesis_D835083"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Thesis_D835083" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <p class="pager_space">
-                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1">
-                    <t>共</t> 3 <t>页</t>
-                </span>  <strong class="page-selected">1</strong><a class="page"
+                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1"> <t>共</t>
+                    3 <t>页</t> </span>
+                <strong class="page-selected">1</strong>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_XW&amp;f=ordered&amp;p=2"
-                    >2</a>  <a class="page"
+                    >2</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_XW&amp;f=ordered&amp;p=3"
-                    >3</a>  <a class="page"
+                    >3</a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_XW&amp;f=ordered&amp;p=2">
                     <t>下一页</t>
-                </a>  <a class="page"
+                </a>
+                <a class="page"
                     href="http:/s.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_XW&amp;f=ordered&amp;p=3">
                     <t>末页</t>
-                </a>  <input class="jump-text" id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text" value="1"/>
-                <t><input class="jump-button" onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var
-                        patrn=/^[0-9]{1,9}$/;if(!patrn.exec(pageindex) || pageindex == '0'){alert('请输入大于0的整数！');}else if(pageindex > 3){alert('不能大于总页数！');}else
-                        {document.location.href = '?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_XW&amp;f=ordered&amp;p={0}'.replace('{0}',pageindex);}" type="button"
-                        value="跳到"/>
+                </a>
+                
+                <t>
+                    
                 </t>
             </p>
-            <script> <![CDATA[ var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
-            ]]> </script>
+
         </div>
     </div>
-    <script> <![CDATA[ function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
-        (currentDatabase == "NSTL") currentDatabase = "(NSTL_QK OR NSTL_HY)"; return " DBID:" + currentDatabase; } return ""; } var userid = ''; $(function () { var loginUrl =
-        "http:/login.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a82ka07de.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_XW%26f%3dordered&needLoginAccountType=Person";
-        var citeUrl = "http:/citenotice.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
-        citeClick(this, loginUrl, citeUrl); }); var clickId = Cookie.getCookie("add2Cite"); if (clickId != "undefined" && clickId != "" && checkLogin()) { addNotice(loginUrl,
-        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http:/trend.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/', ["民国", "数字化"]);
-        showRelatedResearchers('relatedResearchers', 'http:/social.old.wanfangdata.com.cn.009a82ka07de.erf.sbb.spk-berlin.de/', ["民国", "数字化"], false); }) ]]> </script>
+
     <div class="search_cloud">
-        <script language="javascript" src="Wanfang%20theses%20%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20SB_files/bottomSearch-1.js" type="text/javascript"/>
+
         <p>
-            <input class="searchbox3" id="queryBox2" results="s" type="search" value="民国 数字化"/>
+            
             <t>
-                <input class="bottom_btn" id="searchButton2" type="button" value="检 索"/>
+                
             </t>
         </p>
-        <script> <![CDATA[ $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
-            return $("#searchButton2").click(); }); }) ]]> </script>
+
         <div id="relatedword"/>
     </div>
     <div class="clear-float"/>
     <div id="hudongwords"/>
-    <script> <![CDATA[ $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '民国；数字化' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) { if
-        (window.console != undefined) { console.log(stat); } } }); ]]> </script>
+
 </div>
