@@ -2,41 +2,41 @@
     <div>
         <div>
             <div id="narrowContainer">
-                <div>
-                    <input class="input_title watermark" id="textTitle" name="narrow_" value="标题"/>
-                    <input class="input_title4 watermark" id="textCreator" name="narrow_" value="作者"/>
-                    <input class="input_title4 watermark" id="textKeyWords" name="narrow_" value="关键词"/>
-                    <input class="input_title4 watermark" id="textMagazine" name="narrow_" value="刊名"/>
-                    <input class="watermark" id="textDateStart" maxlength="4" name="narrow_" value="起始年"/>-<input class="watermark" id="textDateEnd" maxlength="4" name="narrow_"
-                        value="结束年"/>
-                    <t><input id="narrowButton" type="button" value="在结果中检索"/></t>
-                </div>
+                <div> <input class="input_title watermark" id="textTitle" name="narrow_" value="标题"
+                    /> <input class="input_title4 watermark" id="textCreator" name="narrow_"
+                    value="作者"/> <input class="input_title4 watermark" id="textKeyWords"
+                    name="narrow_" value="关键词"/> <input class="input_title4 watermark"
+                    id="textMagazine" name="narrow_" value="刊名"/> <input class="watermark"
+                    id="textDateStart" maxlength="4" name="narrow_" value="起始年"/>-<input
+                    class="watermark" id="textDateEnd" maxlength="4" name="narrow_" value="结束年"/>
+                    <t><input id="narrowButton" type="button" value="在结果中检索"/></t> </div>
                 <input id="narrowQuery" type="hidden" value="民国 数字化 DBID:WF_QK"/>
             </div>
-            <script> function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
+            <script>
+                <![CDATA[ function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
                 "会议名称", "conferencename", "专业", "textAuthorSubject", "学校", "textSchool", "导师", "textTeacherName", "刊名", "textMagazine"]); var date = datePairQuery("日期",
                 "textDateStart", "textDateEnd"); if (date == null) return; anyQuery += date; anyQuery = $.trim(anyQuery); if (anyQuery == "") { alert('请输入检索词！'); return false; }
                 window.location.href = "?f=narrow&n=10&q=" + encodeURIComponent(anyQuery) + "&userid=" + userid; } $(function () { addWaterMark(["textTitle", "标题", "textCreator",
                 "作者", "conferencename", "会议名称", "textAuthorSubject", "专业", "textSchool", "学校", "textTeacherName", "导师", "textKeyWords", "关键词", "textMagazine", "刊名",
-                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); //keypress $("#narrowContainer").keypress(function (e) {
-                if (e.which == 13) narrowSearch(); }); }); </script>
+                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); /keypress $("#narrowContainer").keypress(function (e) {
+                if (e.which == 13) narrowSearch(); }); }); ]]>
+            </script>
             <div class="sortby_div">
                 <div id="sortContainer" style="position:relative;">
-                    <span class="black_font">
-                        <t>排序</t>： </span>
+                    <span class="black_font"> <t>排序</t>： </span>
                     <span class="current_sort" title="相关度优先=论文关键词价值+其他相关因素 适用于高效查询所关注的领域">
                         <t>相关度优先</t>
                     </span>
                     <span class="common_all">
                         <a
-                            href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
+                            href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
                             title="新论文优先=论文出版时间+其他相关因素 适用于追踪最新研究进展">
                             <t>新论文优先</t>
                         </a>
                     </span>
                     <span class="common_all">
                         <a
-                            href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
+                            href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
                             title="经典论文优先=论文质量+其他相关因素 适用于快速查找并获取研究与主题相关的高质量成果">
                             <t>经典论文优先</t>
                         </a>
@@ -48,486 +48,424 @@
                     <ul id="otherlinklist" style="display: none;">
                         <li>
                             <a
-                                href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+relevance"
+                                href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+relevance"
                                 title="仅以论文关键词价值作为排序依据">仅相关度</a>
                         </li>
                         <li>
                             <a
-                                href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+date"
+                                href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+date"
                                 title="仅以出版时间作为排序依据">仅出版时间</a>
                         </li>
                         <li>
                             <a
-                                href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount"
+                                href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount"
                                 title="仅以被引次数作为排序依据">仅被引次数</a>
                         </li>
                     </ul>
                 </div>
-                <script> $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); //注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
+                <script>
+                    <![CDATA[ $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); /注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
                     (event) { if (event.target && ($(event.target).hasClass("sortexpand") || $(event.target).parent().hasClass("sortexpand"))) return; $("#otherlinklist").hide();
-                    }); }) </script>
+                    }); }) ]]>
+                </script>
                 <span>
                     <a class="highlight_all"
-                        href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=all">
+                        href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=all">
                         <t>全部</t>
                     </a>
                     <a class="common_all"
-                        href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=onlyFull"
+                        href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=onlyFull"
                         n="">
                         <t>仅全文</t>
                     </a>
                     <a class="group_all"
-                        href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=ordered"
-                        title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu Berlin<t>已购全文</t></a>
+                        href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20DBID%3AWF_QK&amp;f=ordered"
+                        title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu
+                        Berlin<t>已购全文</t></a>
                 </span>
             </div>
             <div class="clear-float"/>
             <ul class="list_ul">
-                <li class="title_li">1 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tusg201304028.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tusg201304028.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tusg201304028.aspx" target="_blank">
-                        <font color="red">民国</font>文献的整理与开发问题研究 </a>
-                    <span>(<t>被引用</t>&nbsp;8&nbsp;<t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-tusg.aspx">《图书馆》</a>
-                    <span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                        <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/tusg/2013-4.aspx">2013年4期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tusg201304028&amp;Name=%e9%99%88%e6%99%93%e8%8e%89"
-                        target="_blank">陈晓莉</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tusg201304028&amp;Name=%e4%b8%a5%e5%90%91%e4%b8%9c"
-                        target="_blank">严向东</a><span class="space_1">Chen Xiaoli</span><span class="space_1">Yan Xiangdong</span>
-                </li>
-                <li class="zi"> 文章对<font color="red">民国</font>文献的总体情况、文献分布及特征作了简要介绍,从影印编订出版、书目和索引编制、<font color="red">数字化</font> 三个方面对目前<font color="red"
-                        >民国</font>文献的整理开发现状进行了梳理,对<font color="red">民国</font>文献的进一步整理开发提出了几点认识.<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国文献&nbsp;&nbsp;&nbsp;整理出版&nbsp;&nbsp;&nbsp;书目和索引编制&nbsp;&nbsp;&nbsp;数字化<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E7%9A%84%E6%95%B4%E7%90%86%E4%B8%8E%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_tusg201304028"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tusg201304028.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_tusg201304028">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_tusg201304028" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">1 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tusg201304028.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tusg201304028.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tusg201304028.aspx"
+                    target="_blank"> <font color="red">民国</font>文献的整理与开发问题研究 </a> <span>(<t>被引用</t>
+                    8 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-tusg.aspx"
+                    >《图书馆》</a> <span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> <span
+                    title="被南京大学《核心期刊目录》收录">CSSCI</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/tusg/2013-4.aspx"
+                    >2013年4期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tusg201304028&amp;Name=%e9%99%88%e6%99%93%e8%8e%89"
+                    target="_blank">陈晓莉</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tusg201304028&amp;Name=%e4%b8%a5%e5%90%91%e4%b8%9c"
+                    target="_blank">严向东</a><span class="space_1">Chen Xiaoli</span><span
+                    class="space_1">Yan Xiangdong</span> </li>
+                <li class="zi"> 文章对<font color="red"
+                    >民国</font>文献的总体情况、文献分布及特征作了简要介绍,从影印编订出版、书目和索引编制、<font color="red">数字化</font>
+                    三个方面对目前<font color="red">民国</font>文献的整理开发现状进行了梳理,对<font color="red"
+                    >民国</font>文献的进一步整理开发提出了几点认识.<br/> <p class="greencolor" style=""> <t>关键词</t>
+                    ：民国文献 整理出版 书目和索引编制 数字化<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E7%9A%84%E6%95%B4%E7%90%86%E4%B8%8E%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_tusg201304028"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tusg201304028.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_tusg201304028"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_tusg201304028" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">2 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb200804009.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb200804009.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb200804009.aspx" target="_blank">
-                        <font color="red">民国</font>文献<font color="red">数字化</font>建设——以重庆图书馆为例 </a>
-                    <span>(<t>被引用</t>&nbsp;7&nbsp;<t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sctsgxb.aspx">《四川图书馆学报》</a>
-                    <span>
-                        <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sctsgxb/2008-4.aspx">2008年4期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sctsgxb200804009&amp;Name=%e4%b8%87%e5%8d%8e%e8%8b%b1"
-                        target="_blank">万华英</a>
-                </li>
-                <li class="zi"> 以重庆图书馆馆藏<font color="red">民国</font>文献的全文<font color="red">数字化</font>实践为例,对<font color="red">民国 </font>文献<font color="red">数字化</font>的必要性、<font
-                        color="red">数字化 </font>后的优势作了阐述,并在此基础上提出了如何才能最有效地抢救与保护国内<font color="red">民国</font>文献的建议.<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国文献&nbsp;&nbsp;&nbsp;数字化&nbsp;&nbsp;&nbsp;必要性&nbsp;&nbsp;&nbsp;优势<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E5%BB%BA%E8%AE%BE%E2%80%94%E2%80%94%E4%BB%A5%E9%87%8D%E5%BA%86%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%BA%E4%BE%8B.aspx?ID=Periodical_sctsgxb200804009"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb200804009.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_sctsgxb200804009">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_sctsgxb200804009" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">2 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb200804009.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb200804009.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb200804009.aspx"
+                    target="_blank"> <font color="red">民国</font>文献<font color="red"
+                    >数字化</font>建设——以重庆图书馆为例 </a> <span>(<t>被引用</t> 7 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sctsgxb.aspx"
+                    >《四川图书馆学报》</a> <span> <span title="被南京大学《核心期刊目录》收录">CSSCI</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sctsgxb/2008-4.aspx"
+                    >2008年4期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sctsgxb200804009&amp;Name=%e4%b8%87%e5%8d%8e%e8%8b%b1"
+                    target="_blank">万华英</a> </li>
+                <li class="zi"> 以重庆图书馆馆藏<font color="red">民国</font>文献的全文<font color="red"
+                    >数字化</font>实践为例,对<font color="red">民国 </font>文献<font color="red"
+                    >数字化</font>的必要性、<font color="red">数字化
+                    </font>后的优势作了阐述,并在此基础上提出了如何才能最有效地抢救与保护国内<font color="red">民国</font>文献的建议.<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：民国文献 数字化 必要性 优势<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E5%BB%BA%E8%AE%BE%E2%80%94%E2%80%94%E4%BB%A5%E9%87%8D%E5%BA%86%E5%9B%BE%E4%B9%A6%E9%A6%86%E4%B8%BA%E4%BE%8B.aspx?ID=Periodical_sctsgxb200804009"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb200804009.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_sctsgxb200804009"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_sctsgxb200804009" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">3 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201106011.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201106011.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201106011.aspx" target="_blank">重庆图书馆<font color="red"
-                            >民国</font>文献<font color="red">数字化</font> 建设述评</a>
-                    <span>(<t>被引用</t>&nbsp;6&nbsp;<t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sctsgxb.aspx">《四川图书馆学报》</a>
-                    <span>
-                        <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sctsgxb/2011-6.aspx">2011年6期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sctsgxb201106011&amp;Name=%e4%b8%87%e5%8d%8e%e8%8b%b1"
-                        target="_blank">万华英</a><span class="space_1">WAN Hua-ying</span>
-                </li>
-                <li class="zi"> 介绍了重庆图书馆<font color="red">民国</font>文献<font color="red">数字化</font>建设的概况,分析了其<font color="red">数字化 </font>建设之成败,并在此基础上提出了对<font color="red"
-                        >民国</font>文献<font color="red">数字化</font>建设的建议.<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：重庆图书馆&nbsp;&nbsp;&nbsp;民国文献&nbsp;&nbsp;&nbsp;数字化&nbsp;&nbsp;&nbsp;述评<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E9%87%8D%E5%BA%86%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E5%BB%BA%E8%AE%BE%E8%BF%B0%E8%AF%84.aspx?ID=Periodical_sctsgxb201106011"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201106011.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_sctsgxb201106011">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_sctsgxb201106011" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">3 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201106011.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201106011.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201106011.aspx"
+                    target="_blank">重庆图书馆<font color="red">民国</font>文献<font color="red">数字化</font>
+                    建设述评</a> <span>(<t>被引用</t> 6 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sctsgxb.aspx"
+                    >《四川图书馆学报》</a> <span> <span title="被南京大学《核心期刊目录》收录">CSSCI</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sctsgxb/2011-6.aspx"
+                    >2011年6期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sctsgxb201106011&amp;Name=%e4%b8%87%e5%8d%8e%e8%8b%b1"
+                    target="_blank">万华英</a><span class="space_1">WAN Hua-ying</span> </li>
+                <li class="zi"> 介绍了重庆图书馆<font color="red">民国</font>文献<font color="red"
+                    >数字化</font>建设的概况,分析了其<font color="red">数字化 </font>建设之成败,并在此基础上提出了对<font
+                    color="red">民国</font>文献<font color="red">数字化</font>建设的建议.<br/> <p
+                    class="greencolor" style=""> <t>关键词</t> ：重庆图书馆 民国文献 数字化 述评<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E9%87%8D%E5%BA%86%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E5%BB%BA%E8%AE%BE%E8%BF%B0%E8%AF%84.aspx?ID=Periodical_sctsgxb201106011"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201106011.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_sctsgxb201106011"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_sctsgxb201106011" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">4 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201811011.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201811011.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201811011.aspx" target="_blank">众包模式应用于<font color="red"
-                            >民国</font>档案<font color="red">数字化</font> 工作的设想</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-ltsj.aspx">《兰台世界》</a>
-                    <span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/ltsj/2018-11.aspx">2018年11期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=ltsj201811011&amp;Name=%e5%be%90%e5%ae%b6%e6%88%90"
-                        target="_blank">徐家成</a><span class="space_1">Xu Jiacheng</span>
-                </li>
-                <li class="zi"> 由于历史和自身原因,<font color="red">民国</font>时期的档案文件<font color="red">数字化</font> 工作比建国后的档案文件面临更加复杂的情况,单单依靠少数的专业人员来进行<font color="red">数字化</font>
-                        工作,不仅事倍功半,而且耗费巨大.于是,文中提出基于众包模式的<font color="red">民国</font>档案的<font color="red">数字化 </font>处理方式,...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国档案&nbsp;&nbsp;&nbsp;数字化&nbsp;&nbsp;&nbsp;众包&nbsp;&nbsp;&nbsp;档案工作<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E4%BC%97%E5%8C%85%E6%A8%A1%E5%BC%8F%E5%BA%94%E7%94%A8%E4%BA%8E%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E6%95%B0%E5%AD%97%E5%8C%96%E5%B7%A5%E4%BD%9C%E7%9A%84%E8%AE%BE%E6%83%B3.aspx?ID=Periodical_ltsj201811011"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201811011.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_ltsj201811011">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_ltsj201811011" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">4 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201811011.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201811011.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201811011.aspx"
+                    target="_blank">众包模式应用于<font color="red">民国</font>档案<font color="red">数字化</font>
+                    工作的设想</a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-ltsj.aspx"
+                    >《兰台世界》</a> <span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/ltsj/2018-11.aspx"
+                    >2018年11期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=ltsj201811011&amp;Name=%e5%be%90%e5%ae%b6%e6%88%90"
+                    target="_blank">徐家成</a><span class="space_1">Xu Jiacheng</span> </li>
+                <li class="zi"> 由于历史和自身原因,<font color="red">民国</font>时期的档案文件<font color="red"
+                    >数字化</font> 工作比建国后的档案文件面临更加复杂的情况,单单依靠少数的专业人员来进行<font color="red">数字化</font>
+                    工作,不仅事倍功半,而且耗费巨大.于是,文中提出基于众包模式的<font color="red">民国</font>档案的<font color="red"
+                    >数字化 </font>处理方式,...<br/> <p class="greencolor" style=""> <t>关键词</t> ：民国档案 数字化
+                    众包 档案工作<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E4%BC%97%E5%8C%85%E6%A8%A1%E5%BC%8F%E5%BA%94%E7%94%A8%E4%BA%8E%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E6%95%B0%E5%AD%97%E5%8C%96%E5%B7%A5%E4%BD%9C%E7%9A%84%E8%AE%BE%E6%83%B3.aspx?ID=Periodical_ltsj201811011"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201811011.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_ltsj201811011"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_ltsj201811011" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">5 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sdtsgjk200801022.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sdtsgjk200801022.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sdtsgjk200801022.aspx" target="_blank">
-                        <font color="red">民国</font>文献<font color="red">数字化</font>建设现状分析研究 </a>
-                    <span>(<t>被引用</t>&nbsp;11&nbsp;<t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sdtsgjk.aspx">《山东图书馆季刊》</a> -<a
-                        href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sdtsgjk/2008-1.aspx">2008年1期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sdtsgjk200801022&amp;Name=%e5%ad%99%e7%90%b4"
-                        target="_blank">孙琴</a>
-                </li>
-                <li class="zi"> 本文对<font color="red">民国</font>文献<font color="red">数字化</font>建设现状进行了分析研究,以使<font color="red">民国 </font>文献得到更有效的保护与更广泛的利用.<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：民国文献&nbsp;&nbsp;&nbsp;数字化&nbsp;&nbsp;&nbsp;数据库<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E5%BB%BA%E8%AE%BE%E7%8E%B0%E7%8A%B6%E5%88%86%E6%9E%90%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_sdtsgjk200801022"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sdtsgjk200801022.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_sdtsgjk200801022">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_sdtsgjk200801022" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">5 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sdtsgjk200801022.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sdtsgjk200801022.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sdtsgjk200801022.aspx"
+                    target="_blank"> <font color="red">民国</font>文献<font color="red"
+                    >数字化</font>建设现状分析研究 </a> <span>(<t>被引用</t> 11 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sdtsgjk.aspx"
+                    >《山东图书馆季刊》</a> -<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sdtsgjk/2008-1.aspx"
+                    >2008年1期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sdtsgjk200801022&amp;Name=%e5%ad%99%e7%90%b4"
+                    target="_blank">孙琴</a> </li>
+                <li class="zi"> 本文对<font color="red">民国</font>文献<font color="red"
+                    >数字化</font>建设现状进行了分析研究,以使<font color="red">民国 </font>文献得到更有效的保护与更广泛的利用.<br/> <p
+                    class="greencolor" style=""> <t>关键词</t>：民国文献 数字化 数据库<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E6%95%B0%E5%AD%97%E5%8C%96%E5%BB%BA%E8%AE%BE%E7%8E%B0%E7%8A%B6%E5%88%86%E6%9E%90%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_sdtsgjk200801022"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sdtsgjk200801022.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_sdtsgjk200801022"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_sdtsgjk200801022" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">6 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201208020.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201208020.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201208020.aspx" target="_blank">基于<font color="red"
-                            >民国</font>文献的缩微与<font color="red">数字化</font> 管理研究</a>
-                    <span>(<t>被引用</t>&nbsp;3&nbsp;<t>次</t>)</span>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-ltsj.aspx">《兰台世界》</a>
-                    <span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/ltsj/2012-8.aspx">2012年8期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=ltsj201208020&amp;Name=%e9%bb%84%e6%b1%b6"
-                        target="_blank">黄汶</a>
-                </li>
-                <li class="zi">
-                    <font color="red">民国</font> 文献是国家的文化财富,对它的保护和利用十分重要,仅仅靠缩微技术是满足不了社会的需求的,只有用现代化的手段使缩微技术与数字技术相结合,才能更有效地发挥其自身的优势.<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：民国文献&nbsp;&nbsp;&nbsp;缩微技术&nbsp;&nbsp;&nbsp;数字化<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E7%9A%84%E7%BC%A9%E5%BE%AE%E4%B8%8E%E6%95%B0%E5%AD%97%E5%8C%96%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_ltsj201208020"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201208020.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_ltsj201208020">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_ltsj201208020" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">6 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201208020.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201208020.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ltsj201208020.aspx"
+                    target="_blank">基于<font color="red">民国</font>文献的缩微与<font color="red">数字化</font>
+                    管理研究</a> <span>(<t>被引用</t> 3 <t>次</t>)</span> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-ltsj.aspx"
+                    >《兰台世界》</a> <span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/ltsj/2012-8.aspx"
+                    >2012年8期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=ltsj201208020&amp;Name=%e9%bb%84%e6%b1%b6"
+                    target="_blank">黄汶</a> </li>
+                <li class="zi"> <font color="red">民国</font>
+                    文献是国家的文化财富,对它的保护和利用十分重要,仅仅靠缩微技术是满足不了社会的需求的,只有用现代化的手段使缩微技术与数字技术相结合,才能更有效地发挥其自身的优势.<br/>
+                    <p class="greencolor" style=""> <t>关键词</t>：民国文献 缩微技术 数字化<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%9F%BA%E4%BA%8E%E6%B0%91%E5%9B%BD%E6%96%87%E7%8C%AE%E7%9A%84%E7%BC%A9%E5%BE%AE%E4%B8%8E%E6%95%B0%E5%AD%97%E5%8C%96%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_ltsj201208020"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ltsj201208020.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_ltsj201208020"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_ltsj201208020" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">7 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_suowjs202002004.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_suowjs202002004.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_suowjs202002004.aspx" target="_blank">
-                        <font color="red">民国</font>期刊缩微胶片<font color="red">数字化</font>的分期 </a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-suowjs.aspx">《数字与缩微影像》</a> -<a
-                        href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/suowjs/2020-2.aspx">2020年2期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=suowjs202002004&amp;Name=%e6%9d%a8%e6%9f%b3%e9%9d%92"
-                        target="_blank">杨柳青</a>
-                </li>
-                <li class="zi"> 缩微胶片<font color="red">数字化</font>技术又称文献影像<font color="red">数字化</font> 的技术,是将传统缩微技术与数字技术结合在一起,实现缩微胶片转换数字资源的关键技术.作为一线工作者,笔者在实际的缩微胶片<font color="red"
-                        >数字化 </font>图像文献整理过程中,经常会遇到很多文献整理方面...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：缩微胶片数字化&nbsp;&nbsp;&nbsp;民国期刊&nbsp;&nbsp;&nbsp;分期<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%9C%9F%E5%88%8A%E7%BC%A9%E5%BE%AE%E8%83%B6%E7%89%87%E6%95%B0%E5%AD%97%E5%8C%96%E7%9A%84%E5%88%86%E6%9C%9F.aspx?ID=Periodical_suowjs202002004"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_suowjs202002004.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_suowjs202002004">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_suowjs202002004" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">7 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_suowjs202002004.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_suowjs202002004.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_suowjs202002004.aspx"
+                    target="_blank"> <font color="red">民国</font>期刊缩微胶片<font color="red"
+                    >数字化</font>的分期 </a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-suowjs.aspx"
+                    >《数字与缩微影像》</a> -<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/suowjs/2020-2.aspx"
+                    >2020年2期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=suowjs202002004&amp;Name=%e6%9d%a8%e6%9f%b3%e9%9d%92"
+                    target="_blank">杨柳青</a> </li>
+                <li class="zi"> 缩微胶片<font color="red">数字化</font>技术又称文献影像<font color="red">数字化</font>
+                    的技术,是将传统缩微技术与数字技术结合在一起,实现缩微胶片转换数字资源的关键技术.作为一线工作者,笔者在实际的缩微胶片<font color="red">数字化
+                    </font>图像文献整理过程中,经常会遇到很多文献整理方面...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：缩微胶片数字化 民国期刊 分期<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%9C%9F%E5%88%8A%E7%BC%A9%E5%BE%AE%E8%83%B6%E7%89%87%E6%95%B0%E5%AD%97%E5%8C%96%E7%9A%84%E5%88%86%E6%9C%9F.aspx?ID=Periodical_suowjs202002004"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_suowjs202002004.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_suowjs202002004"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_suowjs202002004" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">8 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_dayjs201604008.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dayjs201604008.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dayjs201604008.aspx" target="_blank">关于规范<font color="red">民国</font>档案<font
-                            color="red">数字化</font> 业务外包的思考——以<font color="red">民国</font>安徽邮电局档案为例</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-dayjs.aspx">《档案与建设》</a>
-                    <span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/dayjs/2016-4.aspx">2016年4期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=dayjs201604008&amp;Name=%e5%bc%a0%e5%a9%a7%e6%96%87"
-                        target="_blank">张婧文</a><span class="space_1">Zhang Jingwen</span>
-                </li>
-                <li class="zi"> 近年来,安徽省档案馆接收了近六万卷<font color="red">民国</font> 时期遗留下来的安徽邮电局历史档案.为了积极响应安徽省委省政府关于加快推进档案信息化建设的号召,同时为了保护中华民族的珍贵文化遗产,安徽省档案馆决定对这批<font color="red">民国 </font>档案进行规范...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：民国档案&nbsp;&nbsp;&nbsp;数字化&nbsp;&nbsp;&nbsp;外包服务&nbsp;&nbsp;&nbsp;邮电档案<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E6%95%B0%E5%AD%97%E5%8C%96%E4%B8%9A%E5%8A%A1%E5%A4%96%E5%8C%85%E7%9A%84%E6%80%9D%E8%80%83%E2%80%94%E2%80%94%E4%BB%A5%E6%B0%91%E5%9B%BD%E5%AE%89%E5%BE%BD%E9%82%AE%E7%94%B5%E5%B1%80%E6%A1%A3%E6%A1%88%E4%B8%BA%E4%BE%8B.aspx?ID=Periodical_dayjs201604008"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_dayjs201604008.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_dayjs201604008">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_dayjs201604008" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">8 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_dayjs201604008.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dayjs201604008.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dayjs201604008.aspx"
+                    target="_blank">关于规范<font color="red">民国</font>档案<font color="red">数字化</font>
+                    业务外包的思考——以<font color="red">民国</font>安徽邮电局档案为例</a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-dayjs.aspx"
+                    >《档案与建设》</a> <span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/dayjs/2016-4.aspx"
+                    >2016年4期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=dayjs201604008&amp;Name=%e5%bc%a0%e5%a9%a7%e6%96%87"
+                    target="_blank">张婧文</a><span class="space_1">Zhang Jingwen</span> </li>
+                <li class="zi"> 近年来,安徽省档案馆接收了近六万卷<font color="red">民国</font>
+                    时期遗留下来的安徽邮电局历史档案.为了积极响应安徽省委省政府关于加快推进档案信息化建设的号召,同时为了保护中华民族的珍贵文化遗产,安徽省档案馆决定对这批<font
+                    color="red">民国 </font>档案进行规范...<br/> <p class="greencolor" style=""> <t>关键词</t>
+                    ：民国档案 数字化 外包服务 邮电档案<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E6%95%B0%E5%AD%97%E5%8C%96%E4%B8%9A%E5%8A%A1%E5%A4%96%E5%8C%85%E7%9A%84%E6%80%9D%E8%80%83%E2%80%94%E2%80%94%E4%BB%A5%E6%B0%91%E5%9B%BD%E5%AE%89%E5%BE%BD%E9%82%AE%E7%94%B5%E5%B1%80%E6%A1%A3%E6%A1%88%E4%B8%BA%E4%BE%8B.aspx?ID=Periodical_dayjs201604008"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_dayjs201604008.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_dayjs201604008"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_dayjs201604008" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">9 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zjda201807024.aspx" style=""
-                        target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zjda201807024.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zjda201807024.aspx" target="_blank">
-                        <font color="red">民国</font>档案著录与<font color="red">数字化</font>工作实践探析 </a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zjda.aspx">《浙江档案》</a>
-                    <span>
-                        <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zjda/2018-7.aspx">2018年7期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zjda201807024&amp;Name=%e8%b5%b5%e9%9d%99"
-                        target="_blank">赵静</a><span class="space_1">Zhao Jing</span>
-                </li>
-                <li class="zi"> 要加强<font color="red">民国</font>档案保管工作,采取切实有效的工作方式.笔者所在的南京市城市建设档案馆积极开展<font color="red">民国</font>档案著录与 <font color="red">数字化</font>工作,最大程度地保护<font
-                        color="red">民国</font> 档案实体.在档案著录过程中,要求工作人员尽可能地改善知识结构,具备一定的汉语和...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t>：民国档案&nbsp;&nbsp;&nbsp;档案著录&nbsp;&nbsp;&nbsp;档案数字化<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E8%91%97%E5%BD%95%E4%B8%8E%E6%95%B0%E5%AD%97%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%AE%9E%E8%B7%B5%E6%8E%A2%E6%9E%90.aspx?ID=Periodical_zjda201807024"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zjda201807024.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_zjda201807024">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_zjda201807024" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">9 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zjda201807024.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zjda201807024.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zjda201807024.aspx"
+                    target="_blank"> <font color="red">民国</font>档案著录与<font color="red"
+                    >数字化</font>工作实践探析 </a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zjda.aspx"
+                    >《浙江档案》</a> <span> <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zjda/2018-7.aspx"
+                    >2018年7期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zjda201807024&amp;Name=%e8%b5%b5%e9%9d%99"
+                    target="_blank">赵静</a><span class="space_1">Zhao Jing</span> </li>
+                <li class="zi"> 要加强<font color="red"
+                    >民国</font>档案保管工作,采取切实有效的工作方式.笔者所在的南京市城市建设档案馆积极开展<font color="red">民国</font>档案著录与
+                    <font color="red">数字化</font>工作,最大程度地保护<font color="red">民国</font>
+                    档案实体.在档案著录过程中,要求工作人员尽可能地改善知识结构,具备一定的汉语和...<br/> <p class="greencolor" style="">
+                    <t>关键词</t>：民国档案 档案著录 档案数字化<br/> </p> <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%A1%A3%E6%A1%88%E8%91%97%E5%BD%95%E4%B8%8E%E6%95%B0%E5%AD%97%E5%8C%96%E5%B7%A5%E4%BD%9C%E5%AE%9E%E8%B7%B5%E6%8E%A2%E6%9E%90.aspx?ID=Periodical_zjda201807024"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zjda201807024.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_zjda201807024"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_zjda201807024" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">10 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201505012.aspx"
-                        style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201505012.aspx" style="display:none" target="_blank"
-                        title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201505012.aspx" target="_blank">试论馆藏<font color="red"
-                        >民国</font>期刊的开发</a>
-                    <span/>
-                </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sctsgxb.aspx">《四川图书馆学报》</a>
-                    <span>
-                        <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sctsgxb/2015-5.aspx">2015年5期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sctsgxb201505012&amp;Name=%e6%9e%97%e5%b2%ab"
-                        target="_blank">林岫</a><span class="space_1">LIN Xiu</span>
-                </li>
-                <li class="zi">
-                    <font color="red">民国</font>期刊作为演绎上世纪<font color="red">民国</font> 历史的最佳文本,极具史料价值.各类图书馆和出版机构采取<font color="red">数字化</font>方式和影印再版的方式对<font color="red"> 民国</font>期刊进行开发,但存在着缺乏权威机构协调、缺乏统一标准、开发内容不够深入等问题.建议以大型专题期刊...<br/>
-                    <p class="greencolor" style="">
-                        <t>关键词</t> ：图书馆&nbsp;&nbsp;&nbsp;民国期刊开发&nbsp;&nbsp;&nbsp;民国期刊数字化&nbsp;&nbsp;&nbsp;民国期刊再版<br/>
-                    </p>
-                    <span>
-                        <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E8%AF%95%E8%AE%BA%E9%A6%86%E8%97%8F%E6%B0%91%E5%9B%BD%E6%9C%9F%E5%88%8A%E7%9A%84%E5%BC%80%E5%8F%91.aspx?ID=Periodical_sctsgxb201505012"
-                            target="_blank">
-                            <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201505012.aspx"
-                            target="_blank" title="下载全文">
-                            <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
-                    <a class="exportLink" href="#" id="Periodical_sctsgxb201505012">
-                        <t>导出</t>
-                    </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_sctsgxb201505012" target="_blank">
-                        <t>引用通知</t>
-                    </a>
-                </li>
+                <li class="title_li">10 <a class="pdf_img"
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201505012.aspx"
+                    style="" target="_blank" title="全文"/> <a class="abs_img"
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201505012.aspx"
+                    style="display:none" target="_blank" title="文摘"/> <a
+                    href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_sctsgxb201505012.aspx"
+                    target="_blank">试论馆藏<font color="red">民国</font>期刊的开发</a> <span/> </li>
+                <li class="greencolor">[<t>期刊论文</t>] <a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-sctsgxb.aspx"
+                    >《四川图书馆学报》</a> <span> <span title="被南京大学《核心期刊目录》收录">CSSCI</span> </span>-<a
+                    href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/sctsgxb/2015-5.aspx"
+                    >2015年5期</a><a
+                    href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=sctsgxb201505012&amp;Name=%e6%9e%97%e5%b2%ab"
+                    target="_blank">林岫</a><span class="space_1">LIN Xiu</span> </li>
+                <li class="zi"> <font color="red">民国</font>期刊作为演绎上世纪<font color="red">民国</font>
+                    历史的最佳文本,极具史料价值.各类图书馆和出版机构采取<font color="red">数字化</font>方式和影印再版的方式对<font
+                    color="red"> 民国</font>期刊进行开发,但存在着缺乏权威机构协调、缺乏统一标准、开发内容不够深入等问题.建议以大型专题期刊...<br/>
+                    <p class="greencolor" style=""> <t>关键词</t> ：图书馆 民国期刊开发 民国期刊数字化 民国期刊再版<br/> </p>
+                    <span> <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E8%AF%95%E8%AE%BA%E9%A6%86%E8%97%8F%E6%B0%91%E5%9B%BD%E6%9C%9F%E5%88%8A%E7%9A%84%E5%BC%80%E5%8F%91.aspx?ID=Periodical_sctsgxb201505012"
+                    target="_blank"> <t>查看全文</t> </a> - <a
+                    href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_sctsgxb201505012.aspx"
+                    target="_blank" title="下载全文"> <t>下载全文</t> </a> - </span> <a class="exportLink"
+                    href="#" id="Periodical_sctsgxb201505012"> <t>导出</t> </a> <span> - </span> <a
+                    class="citenoticeLink"
+                    href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice"
+                    id="cite_Periodical_sctsgxb201505012" target="_blank"> <t>引用通知</t> </a> </li>
             </ul>
             <p class="pager_space">
-                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1">
-                    <t>共</t>&nbsp;20&nbsp;<t>页</t>
-                </span>&nbsp;&nbsp;<strong class="page-selected">1</strong><a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=2"
-                    >2</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=3"
-                    >3</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=4"
-                    >4</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=5"
-                    >5</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=6"
-                    >6</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=7"
-                    >7</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=8"
-                    >8</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=9"
-                    >9</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=10"
-                    >10</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=2">
+                <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1"> <t>共</t>
+                    20 <t>页</t> </span>
+                <strong class="page-selected">1</strong>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=2"
+                    >2</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=3"
+                    >3</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=4"
+                    >4</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=5"
+                    >5</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=6"
+                    >6</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=7"
+                    >7</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=8"
+                    >8</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=9"
+                    >9</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=10"
+                    >10</a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=2">
                     <t>下一页</t>
-                </a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=20">
+                </a>
+                <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p=20">
                     <t>末页</t>
-                </a>&nbsp;&nbsp;<input class="jump-text" id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text" value="1"/>
-                <t><input class="jump-button" onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var
+                </a>
+                <input class="jump-text"
+                    id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text"
+                    value="1"/>
+                <t>
+                    <input class="jump-button"
+                        onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var
                         patrn=/^[0-9]{1,9}$/;if(!patrn.exec(pageindex) || pageindex == '0'){alert('请输入大于0的整数！');}else if(pageindex > 20){alert('不能大于总页数！');}else
-                        {document.location.href = '?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p={0}'.replace('{0}',pageindex);}" type="button"
-                        value="跳到"/>
+                        {document.location.href = '?q=%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK&amp;f=top&amp;p={0}'.replace('{0}',pageindex);}"
+                        type="button" value="跳到"/>
                 </t>
             </p>
-            <script> var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
+            <script>
+                <![CDATA[ var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
+            ]]>
             </script>
         </div>
     </div>
-    <script> function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
+    <script>
+        <![CDATA[ function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
         (currentDatabase == "NSTL") currentDatabase = "(NSTL_QK OR NSTL_HY)"; return " DBID:" + currentDatabase; } return ""; } var userid = ''; $(function () { var loginUrl =
-        "http://login.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK%26f%3dtop&needLoginAccountType=Person";
-        var citeUrl = "http://citenotice.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
+        "http:/login.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd+%e6%95%b0%e5%ad%97%e5%8c%96+DBID%3aWF_QK%26f%3dtop&needLoginAccountType=Person";
+        var citeUrl = "http:/citenotice.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
         citeClick(this, loginUrl, citeUrl); }); var clickId = Cookie.getCookie("add2Cite"); if (clickId != "undefined" && clickId != "" && checkLogin()) { addNotice(loginUrl,
-        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http://trend.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "数字化"]);
-        showRelatedResearchers('relatedResearchers', 'http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "数字化"], false); }) </script>
+        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http:/trend.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "数字化"]);
+        showRelatedResearchers('relatedResearchers', 'http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "数字化"], false); }) ]]>
+    </script>
     <div class="search_cloud">
-        <script language="javascript" src="Wanfang%20journals%20%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20all_files/bottomSearch-1.js" type="text/javascript"/>
+        <script language="javascript"
+            src="Wanfang%20journals%20%E6%B0%91%E5%9B%BD%20%E6%95%B0%E5%AD%97%E5%8C%96%20all_files/bottomSearch-1.js"
+            type="text/javascript"/>
         <p>
             <input class="searchbox3" id="queryBox2" results="s" type="search" value="民国 数字化"/>
             <t>
                 <input class="bottom_btn" id="searchButton2" type="button" value="检 索"/>
             </t>
         </p>
-        <script> $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
-            return $("#searchButton2").click(); }); }) </script>
+        <script>
+            <![CDATA[ $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
+            return $("#searchButton2").click(); }); }) ]]>
+        </script>
         <div id="relatedword"/>
     </div>
     <div class="clear-float"/>
     <div id="hudongwords"/>
-    <script> $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '民国；数字化' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) { if
-        (window.console != undefined) { console.log(stat); } } }); </script>
+    <script>
+        <![CDATA[ $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '民国；数字化' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) { if
+        (window.console != undefined) { console.log(stat); } } }); ]]>
+    </script>
 </div>

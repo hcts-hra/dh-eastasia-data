@@ -13,13 +13,13 @@
                 </div>
                 <input id="narrowQuery" type="hidden" value="民国报纸 DBID:WF_QK"/>
             </div>
-            <script> function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
+            <script> <![CDATA[ function narrowSearch() { var anyQuery = $("#narrowQuery").val(); anyQuery += narrowQuery(["标题", "textTitle", "作者", "textCreator", "关键词", "textKeyWords",
                 "会议名称", "conferencename", "专业", "textAuthorSubject", "学校", "textSchool", "导师", "textTeacherName", "刊名", "textMagazine"]); var date = datePairQuery("日期",
                 "textDateStart", "textDateEnd"); if (date == null) return; anyQuery += date; anyQuery = $.trim(anyQuery); if (anyQuery == "") { alert('请输入检索词！'); return false; }
                 window.location.href = "?f=narrow&n=10&q=" + encodeURIComponent(anyQuery) + "&userid=" + userid; } $(function () { addWaterMark(["textTitle", "标题", "textCreator",
                 "作者", "conferencename", "会议名称", "textAuthorSubject", "专业", "textSchool", "学校", "textTeacherName", "导师", "textKeyWords", "关键词", "textMagazine", "刊名",
-                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); //keypress $("#narrowContainer").keypress(function (e) {
-                if (e.which == 13) narrowSearch(); }); }); </script>
+                "textDateStart", "起始年", "textDateEnd", "结束年"]); $("#narrowButton").click(function () { narrowSearch(); }); /keypress $("#narrowContainer").keypress(function (e) {
+                if (e.which == 13) narrowSearch(); }); }); ]]> </script>
             <div class="sortby_div">
                 <div id="sortContainer" style="position:relative;">
                     <span class="black_font">
@@ -29,14 +29,14 @@
                     </span>
                     <span class="common_all">
                         <a
-                            href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
+                            href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount+CoreRank+HasOriginalDoc+date%2fweight%3d5+relevance"
                             title="新论文优先=论文出版时间+其他相关因素 适用于追踪最新研究进展">
                             <t>新论文优先</t>
                         </a>
                     </span>
                     <span class="common_all">
                         <a
-                            href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
+                            href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount%2fweight%3d3+CoreRank+HasOriginalDoc+date+relevance%2fweight%3d5"
                             title="经典论文优先=论文质量+其他相关因素 适用于快速查找并获取研究与主题相关的高质量成果">
                             <t>经典论文优先</t>
                         </a>
@@ -48,165 +48,165 @@
                     <ul id="otherlinklist" style="display: none;">
                         <li>
                             <a
-                                href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+relevance"
+                                href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+relevance"
                                 title="仅以论文关键词价值作为排序依据">仅相关度</a>
                         </li>
                         <li>
                             <a
-                                href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+date"
+                                href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+date"
                                 title="仅以出版时间作为排序依据">仅出版时间</a>
                         </li>
                         <li>
                             <a
-                                href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount"
+                                href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=sort&amp;o=sortby+CitedCount"
                                 title="仅以被引次数作为排序依据">仅被引次数</a>
                         </li>
                     </ul>
                 </div>
-                <script> $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); //注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
+                <script> <![CDATA[ $(function () { $(".sortexpand").click(function () { $("#otherlinklist").toggle(); }); /注意sortexpand这个className 页面上不能再其他地方出现 $(document).click(function
                     (event) { if (event.target && ($(event.target).hasClass("sortexpand") || $(event.target).parent().hasClass("sortexpand"))) return; $("#otherlinklist").hide();
-                    }); }) </script>
+                    }); }) ]]> </script>
                 <span>
                     <a class="highlight_all"
-                        href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_QK&amp;f=all">
+                        href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_QK&amp;f=all">
                         <t>全部</t>
                     </a>
                     <a class="common_all"
-                        href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_QK&amp;f=onlyFull" n="">
+                        href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_QK&amp;f=onlyFull" n="">
                         <t>仅全文</t>
                     </a>
                     <a class="group_all"
-                        href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_QK&amp;f=ordered"
+                        href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%20DBID%3AWF_QK&amp;f=ordered"
                         title="Staatsbibliothek zu Berlin已购全文">Staatsbibliothek zu Berlin<t>已购全文</t></a>
                 </span>
             </div>
             <div class="clear-float"/>
             <ul class="list_ul">
-                <li class="title_li">1 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_dangddy200506004.aspx"
+                <li class="title_li">1 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_dangddy200506004.aspx"
                         style="display:none" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dangddy200506004.aspx" style="" target="_blank" title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dangddy200506004.aspx" target="_blank">
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dangddy200506004.aspx" style="" target="_blank" title="文摘"/>
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_dangddy200506004.aspx" target="_blank">
                         <font color="red">民国报纸</font>与中国早期电影的历史叙述 </a>
-                    <span>(<t>被引用</t>&nbsp;22&nbsp;<t>次</t>)</span>
+                    <span>(<t>被引用</t> 22 <t>次</t>)</span>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-dangddy.aspx">《当代电影》</a>
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-dangddy.aspx">《当代电影》</a>
                     <span>
                         <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
                         <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/dangddy/2005-6.aspx">2005年6期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=dangddy200506004&amp;Name=%e6%9d%8e%e9%81%93%e6%96%b0"
+                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/dangddy/2005-6.aspx">2005年6期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=dangddy200506004&amp;Name=%e6%9d%8e%e9%81%93%e6%96%b0"
                         target="_blank">李道新</a><span class="space_1">Li Daoxin</span>
                 </li>
                 <li class="zi">
                     <font color="red">民国报纸</font>不仅是研究<font color="red">民国</font> 政治史、军事史、经济史尤其社会生活史和日常风俗史的必由之路,而且是重写中国早期电影史的重要依据.<font color="red">民国报纸</font> 里的电影信息,包括电影新闻、电影论评和电影广告在内,为笔者反思中国早期电影的历史叙...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t> ：民国报纸&nbsp;&nbsp;&nbsp;中国早期电影&nbsp;&nbsp;&nbsp;历史叙述&nbsp;&nbsp;&nbsp;重写中国电影史<br/>
+                        <t>关键词</t> ：民国报纸   中国早期电影   历史叙述   重写中国电影史<br/>
                     </p>
                     <a class="exportLink" href="#" id="Periodical_dangddy200506004">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_dangddy200506004" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_dangddy200506004" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">2 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jianghlt200704027.aspx"
+                <li class="title_li">2 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jianghlt200704027.aspx"
                         style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jianghlt200704027.aspx" style="display:none"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jianghlt200704027.aspx" style="display:none"
                         target="_blank" title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jianghlt200704027.aspx" target="_blank">现代传媒与文学的完美结合——论<font color="red"
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jianghlt200704027.aspx" target="_blank">现代传媒与文学的完美结合——论<font color="red"
                             >民国报纸</font>文艺副刊</a>
-                    <span>(<t>被引用</t>&nbsp;6&nbsp;<t>次</t>)</span>
+                    <span>(<t>被引用</t> 6 <t>次</t>)</span>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jianghlt.aspx">《江淮论坛》</a>
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jianghlt.aspx">《江淮论坛》</a>
                     <span>
                         <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
                         <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jianghlt/2007-4.aspx">2007年4期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jianghlt200704027&amp;Name=%e9%83%ad%e6%ad%a6%e7%be%a4"
+                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jianghlt/2007-4.aspx">2007年4期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jianghlt200704027&amp;Name=%e9%83%ad%e6%ad%a6%e7%be%a4"
                         target="_blank">郭武群</a>
                 </li>
                 <li class="zi"> 现代传媒与文学联姻诞生了<font color="red">报纸</font>文艺副刊.<font color="red">民国报纸</font> 文艺副刊成为发表名家名作、开展文学论争、发现和培养新生代作家、产生文学流派、介绍外国文学、传播文学信息的重要阵地,毫不夸张地说它支撑起新文学的半壁河山.由于诸多知名...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t> ：现代传媒&nbsp;&nbsp;&nbsp;文艺副刊&nbsp;&nbsp;&nbsp;新文学&nbsp;&nbsp;&nbsp;文学观念&nbsp;&nbsp;&nbsp;文体<br/>
+                        <t>关键词</t> ：现代传媒   文艺副刊   新文学   文学观念   文体<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E7%8E%B0%E4%BB%A3%E4%BC%A0%E5%AA%92%E4%B8%8E%E6%96%87%E5%AD%A6%E7%9A%84%E5%AE%8C%E7%BE%8E%E7%BB%93%E5%90%88%E2%80%94%E2%80%94%E8%AE%BA%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E6%96%87%E8%89%BA%E5%89%AF%E5%88%8A.aspx?ID=Periodical_jianghlt200704027"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E7%8E%B0%E4%BB%A3%E4%BC%A0%E5%AA%92%E4%B8%8E%E6%96%87%E5%AD%A6%E7%9A%84%E5%AE%8C%E7%BE%8E%E7%BB%93%E5%90%88%E2%80%94%E2%80%94%E8%AE%BA%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E6%96%87%E8%89%BA%E5%89%AF%E5%88%8A.aspx?ID=Periodical_jianghlt200704027"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jianghlt200704027.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jianghlt200704027.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_jianghlt200704027">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_jianghlt200704027" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_jianghlt200704027" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">3 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_gxshkx200805030.aspx" style=""
+                <li class="title_li">3 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_gxshkx200805030.aspx" style=""
                         target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_gxshkx200805030.aspx" style="display:none" target="_blank"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_gxshkx200805030.aspx" style="display:none" target="_blank"
                         title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_gxshkx200805030.aspx" target="_blank">
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_gxshkx200805030.aspx" target="_blank">
                         <font color="red">民国报纸</font>文艺副刊的文学性 </a>
-                    <span>(<t>被引用</t>&nbsp;4&nbsp;<t>次</t>)</span>
+                    <span>(<t>被引用</t> 4 <t>次</t>)</span>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-gxshkx.aspx">《广西社会科学》</a>
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-gxshkx.aspx">《广西社会科学》</a>
                     <span>
                         <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
                         <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/gxshkx/2008-5.aspx">2008年5期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=gxshkx200805030&amp;Name=%e9%83%ad%e6%ad%a6%e7%be%a4"
+                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/gxshkx/2008-5.aspx">2008年5期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=gxshkx200805030&amp;Name=%e9%83%ad%e6%ad%a6%e7%be%a4"
                         target="_blank">郭武群</a>
                 </li>
                 <li class="zi"> 文学性是<font color="red">民国报纸</font> 文艺副刊与生俱来的一种属性.它不仅在繁荣新文学创作、培养和扶植文学新人、促进文体变革等方面作出了积极的贡献,同时还直接或间接地引导、支配、规范、制约着文学的发展.<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t> ：文艺副刊&nbsp;&nbsp;&nbsp;文学性&nbsp;&nbsp;&nbsp;文学现象&nbsp;&nbsp;&nbsp;文体<br/>
+                        <t>关键词</t> ：文艺副刊   文学性   文学现象   文体<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E6%96%87%E8%89%BA%E5%89%AF%E5%88%8A%E7%9A%84%E6%96%87%E5%AD%A6%E6%80%A7.aspx?ID=Periodical_gxshkx200805030"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E6%96%87%E8%89%BA%E5%89%AF%E5%88%8A%E7%9A%84%E6%96%87%E5%AD%A6%E6%80%A7.aspx?ID=Periodical_gxshkx200805030"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_gxshkx200805030.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_gxshkx200805030.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_gxshkx200805030">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_gxshkx200805030" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_gxshkx200805030" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">4 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_mgda200901018.aspx" style=""
+                <li class="title_li">4 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_mgda200901018.aspx" style=""
                         target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_mgda200901018.aspx" style="display:none" target="_blank"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_mgda200901018.aspx" style="display:none" target="_blank"
                         title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_mgda200901018.aspx" target="_blank">
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_mgda200901018.aspx" target="_blank">
                         <font color="red">民国报纸</font>酸度调查与分析 </a>
-                    <span>(<t>被引用</t>&nbsp;3&nbsp;<t>次</t>)</span>
+                    <span>(<t>被引用</t> 3 <t>次</t>)</span>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-mgda.aspx">《 <font color="red"
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-mgda.aspx">《 <font color="red"
                             >民国</font>档案》 </a>
                     <span>
                         <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
                         <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/mgda/2009-1.aspx">2009年1期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=mgda200901018&amp;Name=%e9%82%b5%e9%87%91%e8%80%80"
+                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/mgda/2009-1.aspx">2009年1期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=mgda200901018&amp;Name=%e9%82%b5%e9%87%91%e8%80%80"
                         target="_blank">邵金耀</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=mgda200901018&amp;Name=%e5%86%af%e5%ba%86"
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=mgda200901018&amp;Name=%e5%86%af%e5%ba%86"
                         target="_blank">冯庆</a>
                 </li>
                 <li class="zi"> 酸是影响纸张寿命的主要因素,对于<font color="red">民国</font>时期<font color="red">报纸</font> 的酸度情况,我们一直缺乏全面、定量的认识.过去,我们主要是从直观和零星的检测数据来判断<font color="red"
@@ -215,301 +215,301 @@
                         <t>关键词</t>： </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E9%85%B8%E5%BA%A6%E8%B0%83%E6%9F%A5%E4%B8%8E%E5%88%86%E6%9E%90.aspx?ID=Periodical_mgda200901018"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E9%85%B8%E5%BA%A6%E8%B0%83%E6%9F%A5%E4%B8%8E%E5%88%86%E6%9E%90.aspx?ID=Periodical_mgda200901018"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_mgda200901018.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_mgda200901018.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_mgda200901018">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_mgda200901018" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_mgda200901018" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">5 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xdcb201904011.aspx" style=""
+                <li class="title_li">5 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xdcb201904011.aspx" style=""
                         target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xdcb201904011.aspx" style="display:none" target="_blank"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xdcb201904011.aspx" style="display:none" target="_blank"
                         title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xdcb201904011.aspx" target="_blank">学习、交流与抗争:作为媒介的<font color="red"
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_xdcb201904011.aspx" target="_blank">学习、交流与抗争:作为媒介的<font color="red"
                             >民国报纸</font>展览研究</a>
                     <span/>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-xdcb.aspx">《现代传播》</a>
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-xdcb.aspx">《现代传播》</a>
                     <span>
                         <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
                         <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
                         <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/xdcb/2019-4.aspx">2019年4期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xdcb201904011&amp;Name=%e9%83%ad%e5%86%b2"
+                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/xdcb/2019-4.aspx">2019年4期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xdcb201904011&amp;Name=%e9%83%ad%e5%86%b2"
                         target="_blank">郭冲</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xdcb201904011&amp;Name=%e6%9c%b1%e8%87%b3%e5%88%9a"
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=xdcb201904011&amp;Name=%e6%9c%b1%e8%87%b3%e5%88%9a"
                         target="_blank">朱至刚</a>
                 </li>
                 <li class="zi"> 1920年代以来,“<font color="red">报纸</font> 展览会”作为“新知”逐渐见诸报端,进而被国人熟知、利用.在由“新知”到“旧闻”进而到“惯习”的转变过程中,报展经不断调适,逐渐生发出作为媒介的“交流”“学习”与“斗争”的丰富意涵.细究这一现象,笔者以为,报...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t>：民国报纸&nbsp;&nbsp;&nbsp;展览会&nbsp;&nbsp;&nbsp;新闻职业团体<br/>
+                        <t>关键词</t>：民国报纸   展览会   新闻职业团体<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%AD%A6%E4%B9%A0%E3%80%81%E4%BA%A4%E6%B5%81%E4%B8%8E%E6%8A%97%E4%BA%89%E4%BD%9C%E4%B8%BA%E5%AA%92%E4%BB%8B%E7%9A%84%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E5%B1%95%E8%A7%88%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_xdcb201904011"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%AD%A6%E4%B9%A0%E3%80%81%E4%BA%A4%E6%B5%81%E4%B8%8E%E6%8A%97%E4%BA%89%E4%BD%9C%E4%B8%BA%E5%AA%92%E4%BB%8B%E7%9A%84%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E5%B1%95%E8%A7%88%E7%A0%94%E7%A9%B6.aspx?ID=Periodical_xdcb201904011"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xdcb201904011.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_xdcb201904011.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_xdcb201904011">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_xdcb201904011" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_xdcb201904011" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">6 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgjngyj201602010.aspx" style=""
+                <li class="title_li">6 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgjngyj201602010.aspx" style=""
                         target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgjngyj201602010.aspx" style="display:none" target="_blank"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgjngyj201602010.aspx" style="display:none" target="_blank"
                         title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgjngyj201602010.aspx" target="_blank">
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_zgjngyj201602010.aspx" target="_blank">
                         <font color="red">民国报纸</font>中的南昌起义资料整理与研究价值探析 </a>
                     <span/>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zgjngyj.aspx">《中国纪念馆研究》</a> -<a
-                        href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zgjngyj/2016-2.aspx">2016年2期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgjngyj201602010&amp;Name=%e9%bd%90%e5%88%9a"
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-zgjngyj.aspx">《中国纪念馆研究》</a> -<a
+                        href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/zgjngyj/2016-2.aspx">2016年2期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgjngyj201602010&amp;Name=%e9%bd%90%e5%88%9a"
                         target="_blank">齐刚</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgjngyj201602010&amp;Name=%e5%88%98%e5%b0%8f%e8%8a%b1"
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=zgjngyj201602010&amp;Name=%e5%88%98%e5%b0%8f%e8%8a%b1"
                         target="_blank">刘小花</a>
                 </li>
                 <li class="zi"> 1927年8月1日爆发的南昌起义是一次重大事件,当时《申报》《大公报》《汉口<font color="red">民国</font>日报》等<font color="red">报纸</font> 都对这一事件进行了密集的关注和持续报道.搜集和整理与南昌起义有关的<font color="red"
                         >民国报纸 </font>资料,是一个非常有价值的基础性工作.对南昌起义的<font color="red">民国</font>...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t> ：民国报纸&nbsp;&nbsp;&nbsp;南昌起义&nbsp;&nbsp;&nbsp;文献资料&nbsp;&nbsp;&nbsp;整理研究<br/>
+                        <t>关键词</t> ：民国报纸   南昌起义   文献资料   整理研究<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%98%8C%E8%B5%B7%E4%B9%89%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E4%B8%8E%E7%A0%94%E7%A9%B6%E4%BB%B7%E5%80%BC%E6%8E%A2%E6%9E%90.aspx?ID=Periodical_zgjngyj201602010"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E4%B8%AD%E7%9A%84%E5%8D%97%E6%98%8C%E8%B5%B7%E4%B9%89%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%E4%B8%8E%E7%A0%94%E7%A9%B6%E4%BB%B7%E5%80%BC%E6%8E%A2%E6%9E%90.aspx?ID=Periodical_zgjngyj201602010"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgjngyj201602010.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_zgjngyj201602010.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_zgjngyj201602010">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_zgjngyj201602010" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_zgjngyj201602010" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">7 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ycxyxb201801020.aspx" style=""
+                <li class="title_li">7 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ycxyxb201801020.aspx" style=""
                         target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ycxyxb201801020.aspx" style="display:none" target="_blank"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ycxyxb201801020.aspx" style="display:none" target="_blank"
                         title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ycxyxb201801020.aspx" target="_blank">经典的再创作:<font color="red"
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_ycxyxb201801020.aspx" target="_blank">经典的再创作:<font color="red"
                         >民国报纸</font>视野下的拟作韩愈散文现象探析</a>
                     <span/>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-ycxyxb.aspx">《宜春学院学报》</a> -<a
-                        href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/ycxyxb/2018-1.aspx">2018年1期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=ycxyxb201801020&amp;Name=%e8%8e%ab%e7%90%bc"
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-ycxyxb.aspx">《宜春学院学报》</a> -<a
+                        href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/ycxyxb/2018-1.aspx">2018年1期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=ycxyxb201801020&amp;Name=%e8%8e%ab%e7%90%bc"
                         target="_blank">莫琼</a><span class="space_1">MO Qiong</span></li>
                 <li class="zi"> 受到韩文经典化的影响,同时为契合<font color="red">报纸</font>专栏性质的需要,在<font color="red">民国</font> 时期社会阅读韩文风气的影响下,拟韩文之作应运而生,<font color="red">民国报纸</font> 也多刊登拟韩文之作,其中尤以《申报》与《益世报》为著.这些拟作所拟对象以韩愈《送董邵南序》等十二篇...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t>：民国报纸&nbsp;&nbsp;&nbsp;韩愈&nbsp;&nbsp;&nbsp;拟作&nbsp;&nbsp;&nbsp;经典化<br/>
+                        <t>关键词</t>：民国报纸   韩愈   拟作   经典化<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E7%BB%8F%E5%85%B8%E7%9A%84%E5%86%8D%E5%88%9B%E4%BD%9C%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E6%8B%9F%E4%BD%9C%E9%9F%A9%E6%84%88%E6%95%A3%E6%96%87%E7%8E%B0%E8%B1%A1%E6%8E%A2%E6%9E%90.aspx?ID=Periodical_ycxyxb201801020"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E7%BB%8F%E5%85%B8%E7%9A%84%E5%86%8D%E5%88%9B%E4%BD%9C%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E8%A7%86%E9%87%8E%E4%B8%8B%E7%9A%84%E6%8B%9F%E4%BD%9C%E9%9F%A9%E6%84%88%E6%95%A3%E6%96%87%E7%8E%B0%E8%B1%A1%E6%8E%A2%E6%9E%90.aspx?ID=Periodical_ycxyxb201801020"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ycxyxb201801020.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_ycxyxb201801020.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_ycxyxb201801020">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_ycxyxb201801020" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_ycxyxb201801020" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">8 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jlgbdsdxxb201610023.aspx"
+                <li class="title_li">8 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jlgbdsdxxb201610023.aspx"
                         style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jlgbdsdxxb201610023.aspx" style="display:none"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jlgbdsdxxb201610023.aspx" style="display:none"
                         target="_blank" title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jlgbdsdxxb201610023.aspx" target="_blank">南昌起义的国内背景——以<font color="red"
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_jlgbdsdxxb201610023.aspx" target="_blank">南昌起义的国内背景——以<font color="red"
                             >民国报纸</font>为主线的历史考察</a>
                     <span/>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jlgbdsdxxb.aspx">《吉林广播电视大学学报》</a> -<a
-                        href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jlgbdsdxxb/2016-10.aspx">2016年10期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jlgbdsdxxb201610023&amp;Name=%e9%98%99%e4%bc%9f%e5%ba%b7"
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-jlgbdsdxxb.aspx">《吉林广播电视大学学报》</a> -<a
+                        href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/jlgbdsdxxb/2016-10.aspx">2016年10期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jlgbdsdxxb201610023&amp;Name=%e9%98%99%e4%bc%9f%e5%ba%b7"
                         target="_blank">阙伟康</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jlgbdsdxxb201610023&amp;Name=%e5%be%90%e4%b8%ba%e7%bb%93"
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=jlgbdsdxxb201610023&amp;Name=%e5%be%90%e4%b8%ba%e7%bb%93"
                         target="_blank">徐为结</a>
                 </li>
                 <li class="zi"> 目前,南昌起义研究缺乏对<font color="red">民国</font> 大背景的关注.1927年,南北对立、宁汉对峙,混乱的国内形势是南昌起义的国内背景.通过对一些<font color="red">报纸</font>资料分析中可以探究出 <font color="red"
                         >民国</font>史大背景下南昌起义的进程,将有助于南昌起义研究.<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t>：民国报纸&nbsp;&nbsp;&nbsp;南昌起义&nbsp;&nbsp;&nbsp;国内背景<br/>
+                        <t>关键词</t>：民国报纸   南昌起义   国内背景<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%8D%97%E6%98%8C%E8%B5%B7%E4%B9%89%E7%9A%84%E5%9B%BD%E5%86%85%E8%83%8C%E6%99%AF%E2%80%94%E2%80%94%E4%BB%A5%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E4%B8%BA%E4%B8%BB%E7%BA%BF%E7%9A%84%E5%8E%86%E5%8F%B2%E8%80%83%E5%AF%9F.aspx?ID=Periodical_jlgbdsdxxb201610023"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E5%8D%97%E6%98%8C%E8%B5%B7%E4%B9%89%E7%9A%84%E5%9B%BD%E5%86%85%E8%83%8C%E6%99%AF%E2%80%94%E2%80%94%E4%BB%A5%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E4%B8%BA%E4%B8%BB%E7%BA%BF%E7%9A%84%E5%8E%86%E5%8F%B2%E8%80%83%E5%AF%9F.aspx?ID=Periodical_jlgbdsdxxb201610023"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jlgbdsdxxb201610023.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_jlgbdsdxxb201610023.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_jlgbdsdxxb201610023">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_jlgbdsdxxb201610023" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_jlgbdsdxxb201610023" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">9 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsgxk201402014.aspx" style=""
+                <li class="title_li">9 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsgxk201402014.aspx" style=""
                         target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsgxk201402014.aspx" style="display:none" target="_blank"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsgxk201402014.aspx" style="display:none" target="_blank"
                         title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsgxk201402014.aspx" target="_blank">
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_tsgxk201402014.aspx" target="_blank">
                         <font color="red">民国报纸</font>的价值与保护对策 </a>
-                    <span>(<t>被引用</t>&nbsp;1&nbsp;<t>次</t>)</span>
+                    <span>(<t>被引用</t> 1 <t>次</t>)</span>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-tsgxk.aspx">《图书馆学刊》</a> -<a
-                        href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/tsgxk/2014-2.aspx">2014年2期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsgxk201402014&amp;Name=%e9%99%88%e6%a1%82%e9%a6%99"
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-tsgxk.aspx">《图书馆学刊》</a> -<a
+                        href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/tsgxk/2014-2.aspx">2014年2期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=tsgxk201402014&amp;Name=%e9%99%88%e6%a1%82%e9%a6%99"
                         target="_blank">陈桂香</a>
                 </li>
                 <li class="zi">
                     <font color="red">民国</font>时期,我国出版的<font color="red">报纸</font> 种数多、数量大、出版地广、版本众多,至今没有确切数据.<font color="red">民国报纸</font>
                         具有较高的历史文物价值、资料价值和艺术价值,极其珍贵.但现有的保护方法存在一定局限.在介绍重庆图书馆<font color="red">民国报纸</font> 保护现状的基础上,...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t>：民国报纸&nbsp;&nbsp;&nbsp;价值&nbsp;&nbsp;&nbsp;保护&nbsp;&nbsp;&nbsp;对策<br/>
+                        <t>关键词</t>：民国报纸   价值   保护   对策<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E7%9A%84%E4%BB%B7%E5%80%BC%E4%B8%8E%E4%BF%9D%E6%8A%A4%E5%AF%B9%E7%AD%96.aspx?ID=Periodical_tsgxk201402014"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E7%9A%84%E4%BB%B7%E5%80%BC%E4%B8%8E%E4%BF%9D%E6%8A%A4%E5%AF%B9%E7%AD%96.aspx?ID=Periodical_tsgxk201402014"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsgxk201402014.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_tsgxk201402014.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_tsgxk201402014">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_tsgxk201402014" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_tsgxk201402014" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <ul class="list_ul">
-                <li class="title_li">10 <a class="pdf_img" href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-zxsh201906016.aspx"
+                <li class="title_li">10 <a class="pdf_img" href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-zxsh201906016.aspx"
                         style="" target="_blank" title="全文"/>
-                    <a class="abs_img" href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-zxsh201906016.aspx" style="display:none"
+                    <a class="abs_img" href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-zxsh201906016.aspx" style="display:none"
                         target="_blank" title="文摘"/>
-                    <a href="http://d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-zxsh201906016.aspx" target="_blank">从<font color="red"
+                    <a href="http:/d.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical_scdxxb-zxsh201906016.aspx" target="_blank">从<font color="red"
                         >民国报纸</font>副刊探寻现代文学新的历史叙述</a>
                     <span/>
                 </li>
-                <li class="greencolor">[<t>期刊论文</t>]&nbsp;<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-scdxxb-zxsh.aspx"
+                <li class="greencolor">[<t>期刊论文</t>] <a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Periodical-scdxxb-zxsh.aspx"
                         >《四川大学学报（哲学社会科学版）》</a>
                     <span>
                         <span title="被中信所《中国科技期刊引证报告》收录">ISTIC</span>
                         <span title="被北京大学《中文核心期刊要目总览》收录">PKU</span>
                         <span title="被南京大学《核心期刊目录》收录">CSSCI</span>
-                    </span>-<a href="http://c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/scdxxb-zxsh/2019-6.aspx">2019年6期</a><a
-                        href="http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-zxsh201906016&amp;Name=%e5%bc%a0%e6%ad%a6%e5%86%9b"
+                    </span>-<a href="http:/c.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/periodical/scdxxb-zxsh/2019-6.aspx">2019年6期</a><a
+                        href="http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/Locate.ashx?ArticleId=scdxxb-zxsh201906016&amp;Name=%e5%bc%a0%e6%ad%a6%e5%86%9b"
                         target="_blank">张武军</a>
                 </li>
                 <li class="zi"> 近些年来, <font color="red">报纸</font>副刊作为重要的文献史料, 受到越来越多研究者的重视.不过, 研究者对于<font color="red">报纸</font> 副刊的研究整体呈现出模式化倾向, 一是集中于副刊的栏目介绍、作家作品搜集, 以及在此基础上的辑佚; 一是围绕"想象的共同体"和"...<br/>
                     <p class="greencolor" style="">
-                        <t>关键词</t> ：文献史料&nbsp;&nbsp;&nbsp;报纸副刊&nbsp;&nbsp;&nbsp;《中央日报》&nbsp;&nbsp;&nbsp;《民国日报》&nbsp;&nbsp;&nbsp;革命文学<br/>
+                        <t>关键词</t> ：文献史料   报纸副刊   《中央日报》   《民国日报》   革命文学<br/>
                     </p>
                     <span>
                         <a
-                            href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E4%BB%8E%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E5%89%AF%E5%88%8A%E6%8E%A2%E5%AF%BB%E7%8E%B0%E4%BB%A3%E6%96%87%E5%AD%A6%E6%96%B0%E7%9A%84%E5%8E%86%E5%8F%B2%E5%8F%99%E8%BF%B0.aspx?ID=Periodical_scdxxb-zxsh201906016"
+                            href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/view/%E4%BB%8E%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8%E5%89%AF%E5%88%8A%E6%8E%A2%E5%AF%BB%E7%8E%B0%E4%BB%A3%E6%96%87%E5%AD%A6%E6%96%B0%E7%9A%84%E5%8E%86%E5%8F%B2%E5%8F%99%E8%BF%B0.aspx?ID=Periodical_scdxxb-zxsh201906016"
                             target="_blank">
                             <t>查看全文</t>
-                        </a>&nbsp;&nbsp;-&nbsp;&nbsp; <a href="http://f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-zxsh201906016.aspx"
+                        </a>  -   <a href="http:/f.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/download/Periodical_scdxxb-zxsh201906016.aspx"
                             target="_blank" title="下载全文">
                             <t>下载全文</t>
-                        </a> &nbsp;&nbsp;-&nbsp;&nbsp; </span>
+                        </a>   -   </span>
                     <a class="exportLink" href="#" id="Periodical_scdxxb-zxsh201906016">
                         <t>导出</t>
                     </a>
-                    <span>&nbsp;&nbsp;-&nbsp;&nbsp;</span>
-                    <a class="citenoticeLink" href="http://g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_scdxxb-zxsh201906016" target="_blank">
+                    <span>  -  </span>
+                    <a class="citenoticeLink" href="http:/g.wanfangdata.com.hk/UserService.aspx?tab=citenotice" id="cite_Periodical_scdxxb-zxsh201906016" target="_blank">
                         <t>引用通知</t>
                     </a>
                 </li>
             </ul>
             <p class="pager_space">
                 <span class="page_link" id="ctl00_ContentPlaceHolder1_ctl06_PagerControl1">
-                    <t>共</t>&nbsp;55&nbsp;<t>页</t>
-                </span>&nbsp;&nbsp;<strong class="page-selected">1</strong><a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=2"
-                    >2</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=3"
-                    >3</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=4"
-                    >4</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=5"
-                    >5</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=6"
-                    >6</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=7"
-                    >7</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=8"
-                    >8</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=9"
-                    >9</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=10"
-                    >10</a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=2">
+                    <t>共</t> 55 <t>页</t>
+                </span>  <strong class="page-selected">1</strong><a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=2"
+                    >2</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=3"
+                    >3</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=4"
+                    >4</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=5"
+                    >5</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=6"
+                    >6</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=7"
+                    >7</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=8"
+                    >8</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=9"
+                    >9</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=10"
+                    >10</a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=2">
                     <t>下一页</t>
-                </a>&nbsp;&nbsp;<a class="page"
-                    href="http://s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=55">
+                </a>  <a class="page"
+                    href="http:/s.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/Paper.aspx?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p=55">
                     <t>末页</t>
-                </a>&nbsp;&nbsp;<input class="jump-text" id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text" value="1"/>
+                </a>  <input class="jump-text" id="JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1" type="text" value="1"/>
                 <t><input class="jump-button" onclick="javascript:var pageindex = document.getElementById('JumpTextBox_ctl00_ContentPlaceHolder1_ctl06_PagerControl1').value;var
                         patrn=/^[0-9]{1,9}$/;if(!patrn.exec(pageindex) || pageindex == '0'){alert('请输入大于0的整数！');}else if(pageindex > 55){alert('不能大于总页数！');}else
                         {document.location.href = '?q=%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK&amp;f=c.Periodical&amp;p={0}'.replace('{0}',pageindex);}" type="button"
                         value="跳到"/>
                 </t>
             </p>
-            <script> var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
-            </script>
+            <script> <![CDATA[ var exportLinkdomain = '.wanfangdata.com.hk'; $(function () { $(".exportLink").click(function () { return exportClick(this, exportLinkdomain); }); });
+            ]]> </script>
         </div>
     </div>
-    <script> function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
+    <script> <![CDATA[ function extraQueryForBottom() { if (currentDatabase == "WF_QK" || currentDatabase == "WF_XW" || currentDatabase == "WF_HY" || currentDatabase == "NSTL") { if
         (currentDatabase == "NSTL") currentDatabase = "(NSTL_QK OR NSTL_HY)"; return " DBID:" + currentDatabase; } return ""; } var userid = ''; $(function () { var loginUrl =
-        "http://login.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK%26f%3dc.Periodical&needLoginAccountType=Person";
-        var citeUrl = "http://citenotice.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
+        "http:/login.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de/login.aspx?ReturnUrl=http%3a%2f%2fs.g.wanfangdata.com.hk.009a81ka07d6.erf.sbb.spk-berlin.de%2fPaper.aspx%3fq%3d%e6%b0%91%e5%9b%bd%e6%8a%a5%e7%ba%b8+DBID%3aWF_QK%26f%3dc.Periodical&needLoginAccountType=Person";
+        var citeUrl = "http:/citenotice.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/CiteNoticeAdd.aspx?jsoncallback=?"; $(".citenoticeLink").click(function () { return
         citeClick(this, loginUrl, citeUrl); }); var clickId = Cookie.getCookie("add2Cite"); if (clickId != "undefined" && clickId != "" && checkLogin()) { addNotice(loginUrl,
-        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http://trend.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "报纸"]);
-        showRelatedResearchers('relatedResearchers', 'http://social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "报纸"], false); }) </script>
+        citeUrl); document.getElementById("citeForm").submit(); } showRelatedVeinChart('http:/trend.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "报纸"]);
+        showRelatedResearchers('relatedResearchers', 'http:/social.old.wanfangdata.com.cn.009a81ka07d6.erf.sbb.spk-berlin.de/', ["民国", "报纸"], false); }) ]]> </script>
     <div class="search_cloud">
         <script language="javascript" src="Wanfang%20%E6%B0%91%E5%9B%BD%E6%8A%A5%E7%BA%B8_files/bottomSearch-1.js" type="text/javascript"/>
         <p>
@@ -518,12 +518,12 @@
                 <input class="bottom_btn" id="searchButton2" type="button" value="检 索"/>
             </t>
         </p>
-        <script> $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
-            return $("#searchButton2").click(); }); }) </script>
+        <script> <![CDATA[ $(function () { $("#searchButton2").click(function (e) { bottomSearch(e, "bottom"); return false; }); $("#queryBox2").keypress(function (e) { if (e.which == 13)
+            return $("#searchButton2").click(); }); }) ]]> </script>
         <div id="relatedword"/>
     </div>
     <div class="clear-float"/>
     <div id="hudongwords"/>
-    <script> $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '民国；报纸' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) { if
-        (window.console != undefined) { console.log(stat); } } }); </script>
+    <script> <![CDATA[ $.ajax({ url: 'HuDongRelatedWord.aspx', type: 'POST', data: { word: '民国；报纸' }, success: function (data) { $('#hudongwords').html(data); }, error: function (stat) { if
+        (window.console != undefined) { console.log(stat); } } }); ]]> </script>
 </div>
