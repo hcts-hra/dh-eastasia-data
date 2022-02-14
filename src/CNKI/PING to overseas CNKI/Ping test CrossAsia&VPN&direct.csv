@@ -1,27 +1,29 @@
-,cmd lines
-"Academic VPN 
-","ping www-cnki-net-s.webvpn.zju.edu.cn
+version,,PING,TCPING
+Overseas,"Academic VPN (easyconnection)
+","ping oversea.cnki.net
 
-Pinging www-cnki-net-s.webvpn.zju.edu.cn [183.157.160.87] with 32 bytes of data:
-Request timed out.
-Request timed out.
-Request timed out.
-Request timed out.
+Pinging oversea.cnki.net [115.31.65.33] with 32 bytes of data:
+Reply from 115.31.65.33: bytes=32 time=247ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=247ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=247ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=247ms TTL=46
 
-Ping statistics for 183.157.160.87:
-    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),"
-direct connection,"ping oversea-1cnki-1net-10097d66o072c.erf.sbb.spk-berlin.de
+Ping statistics for 115.31.65.33:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 247ms, Maximum = 247ms, Average = 247ms","tcping oversea.cnki.net
 
-Pinging oversea-1cnki-1net-10097d66o072c.erf.sbb.spk-berlin.de [194.94.133.193] with 32 bytes of data:
-Request timed out.
-Request timed out.
-Request timed out.
-Request timed out.
+Probing 115.31.65.33:80/tcp - Port is open - time=1.689ms
+Probing 115.31.65.33:80/tcp - Port is open - time=2.248ms
+Probing 115.31.65.33:80/tcp - Port is open - time=1.298ms
+Probing 115.31.65.33:80/tcp - Port is open - time=2.931ms
 
-Ping statistics for 194.94.133.193:
-    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
-"
-CrossAsia,"ping oversea.cnki.net
+Ping statistics for 115.31.65.33:80
+     4 probes sent.
+     4 successful, 0 failed.  (0.00% fail)
+Approximate trip times in milli-seconds:
+     Minimum = 1.298ms, Maximum = 2.931ms, Average = 2.042ms"
+Overseas,direct connection,"ping oversea.cnki.net
 
 Pinging oversea.cnki.net [115.31.65.33] with 32 bytes of data:
 Reply from 115.31.65.33: bytes=32 time=253ms TTL=46
@@ -32,4 +34,37 @@ Reply from 115.31.65.33: bytes=32 time=255ms TTL=46
 Ping statistics for 115.31.65.33:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
 Approximate round trip times in milli-seconds:
-    Minimum = 253ms, Maximum = 255ms, Average = 254ms"
+    Minimum = 253ms, Maximum = 255ms, Average = 254ms","tcping oversea.cnki.net
+
+Probing 115.31.65.33:80/tcp - Port is open - time=241.451ms
+Probing 115.31.65.33:80/tcp – Port is open - time=243.602ms
+Probing 115.31.65.33:80/tcp - Port is open - time=248.007ms
+Probing 115.31.65.33:80/tcp - Port is open - time=246.104ms
+
+Ping statistics for 115.31.65.33:80
+     4 probes sent.
+     4 successful, 0 failed.  (0.00% fail)
+Approximate trip times in milli-seconds:
+     Minimum = 241.451ms, Maximum = 248.007ms, Average = 244.791ms"
+Overseas,CrossAsia,"ping oversea-1cnki-1net-10097d66o072c.erf.sbb.spk-berlin.de
+
+Pinging oversea-1cnki-1net-10097d66o072c.erf.sbb.spk-berlin.de [194.94.133.193] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 194.94.133.193:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+","tcping oversea-1cnki-1net-10097d66o07ab.erf.sbb.spk-berlin.de
+
+Probing 194.94.133.193:80/tcp - Port is open - time=21.234ms
+Probing 194.94.133.193:80/tcp - Port is open - time=21.630ms
+Probing 194.94.133.193:80/tcp - Port is open - time=22.403ms
+Probing 194.94.133.193:80/tcp - Port is open - time=21.836ms
+
+Ping statistics for 194.94.133.193:80
+     4 probes sent.
+     4 successful, 0 failed.  (0.00% fail)
+Approximate trip times in milli-seconds:
+     Minimum = 21.234ms, Maximum = 22.403ms, Average = 21.776ms"
