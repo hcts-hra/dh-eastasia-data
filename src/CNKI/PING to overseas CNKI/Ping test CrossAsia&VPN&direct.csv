@@ -13,16 +13,16 @@ Ping statistics for 115.31.65.33:
 Approximate round trip times in milli-seconds:
     Minimum = 247ms, Maximum = 247ms, Average = 247ms","tcping oversea.cnki.net
 
-Probing 115.31.65.33:80/tcp - Port is open - time=1.689ms
-Probing 115.31.65.33:80/tcp - Port is open - time=2.248ms
-Probing 115.31.65.33:80/tcp - Port is open - time=1.298ms
-Probing 115.31.65.33:80/tcp - Port is open - time=2.931ms
+Probing 115.31.65.33:80/tcp - Port is open - time=1.747ms
+Probing 115.31.65.33:80/tcp - Port is open - time=1.187ms
+Probing 115.31.65.33:80/tcp - Port is open - time=1.292ms
+Probing 115.31.65.33:80/tcp - Port is open - time=1.486ms
 
 Ping statistics for 115.31.65.33:80
      4 probes sent.
      4 successful, 0 failed.  (0.00% fail)
 Approximate trip times in milli-seconds:
-     Minimum = 1.298ms, Maximum = 2.931ms, Average = 2.042ms"
+     Minimum = 1.187ms, Maximum = 1.747ms, Average = 1.428ms"
 Overseas,direct connection,"ping oversea.cnki.net
 
 Pinging oversea.cnki.net [115.31.65.33] with 32 bytes of data:
