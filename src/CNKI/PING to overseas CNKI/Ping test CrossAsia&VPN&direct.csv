@@ -1,0 +1,37 @@
+,cmd lines
+"Academic VPN 
+","ping oversea.cnki.net
+
+Pinging oversea.cnki.net [115.31.65.33] with 32 bytes of data:
+Reply from 115.31.65.33: bytes=32 time=256ms TTL=46
+Request timed out.
+Reply from 115.31.65.33: bytes=32 time=255ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=257ms TTL=46
+
+Ping statistics for 115.31.65.33:
+Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+Minimum = 255ms, Maximum = 257ms, Average = 256ms"
+direct connection,"ping oversea-1cnki-1net-10097d66o072c.erf.sbb.spk-berlin.de
+
+Pinging oversea-1cnki-1net-10097d66o072c.erf.sbb.spk-berlin.de [194.94.133.193] with 32 bytes of data:
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 194.94.133.193:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),
+"
+CrossAsia,"ping oversea.cnki.net
+
+Pinging oversea.cnki.net [115.31.65.33] with 32 bytes of data:
+Reply from 115.31.65.33: bytes=32 time=253ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=255ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=253ms TTL=46
+Reply from 115.31.65.33: bytes=32 time=255ms TTL=46
+
+Ping statistics for 115.31.65.33:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 253ms, Maximum = 255ms, Average = 254ms"
