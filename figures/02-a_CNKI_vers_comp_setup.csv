@@ -1,0 +1,5 @@
+Run,institution,country,edition,GUI,provider,date,source
+run_000,南京体育学院,China,home,chi,Direct,2019-01-25,screenshots/article_Li-Fang-2019_fig01_2021-02-25_16-23-50.png
+run_001,Uni Heidelberg,Germany,overseas,eng,CrossAsia,2021-05-20,screenshots/CNKI_inter_comp_2021-05-20_17-45-39.png
+run_002,Uni Heidelberg,Germany,overseas,chi,CrossAsia,2021-05-20,screenshots/CNKI_inter_comp_2021-05-20_17-54-04.png
+run_003,Uni Heidelberg,Germany,home,chi,Direct,2021-05-20,screenshots/CNKI_inter_comp_2021-05-20_17-56-51.png

@@ -2,14 +2,1232 @@
   "profile": "data-package",
   "resources": [
     {
-      "name": "resource1",
+      "path": "dist/CrossAsia/CNKI-Wanfang-Airiti_search_comparison.csv",
+      "name": "cnki-wanfang-airiti_search_comparison",
       "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
       "schema": {
         "fields": [
           {
             "name": "field1",
-            "type": "string",
-            "format": "default"
+            "type": "string"
+          },
+          {
+            "name": "总库",
+            "type": "string"
+          },
+          {
+            "name": "Journal Articles",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "any"
+          },
+          {
+            "name": "Theses",
+            "type": "any"
+          },
+          {
+            "name": "field7",
+            "type": "any"
+          },
+          {
+            "name": "field8",
+            "type": "any"
+          },
+          {
+            "name": "field9",
+            "type": "any"
+          },
+          {
+            "name": "field10",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/CrossAsia/CNKI/response_times.csv",
+      "name": "response_times",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "searching from home page",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "string"
+          },
+          {
+            "name": "searching at result page",
+            "type": "string"
+          },
+          {
+            "name": "field7",
+            "type": "string"
+          },
+          {
+            "name": "field8",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/CrossAsia/CNKI/search_terms.csv",
+      "name": "search_terms",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Overseas CNKI (integrated CNKI database via CrossAsia)",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "string"
+          },
+          {
+            "name": "field6",
+            "type": "string"
+          },
+          {
+            "name": "field7",
+            "type": "string"
+          },
+          {
+            "name": "field8",
+            "type": "string"
+          },
+          {
+            "name": "field9",
+            "type": "string"
+          },
+          {
+            "name": "field10",
+            "type": "any"
+          },
+          {
+            "name": "field11",
+            "type": "string"
+          },
+          {
+            "name": "field12",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/CrossAsia/XAsia/db_names.csv",
+      "name": "db_names",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name of Crossasia Subscribed Databases",
+            "type": "any"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "any"
+          },
+          {
+            "name": "field5",
+            "type": "any"
+          },
+          {
+            "name": "field6",
+            "type": "any"
+          },
+          {
+            "name": "field7",
+            "type": "any"
+          },
+          {
+            "name": "field8",
+            "type": "any"
+          },
+          {
+            "name": "field9",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/CrossAsia/XAsia/db_numbers.csv",
+      "name": "db_numbers",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "CrossAsia",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "any"
+          },
+          {
+            "name": "field6",
+            "type": "any"
+          },
+          {
+            "name": "field7",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/lit_survey/csv/Cai_and_Xu_2018_tables.csv",
+      "name": "cai_and_xu_2018_tables",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "表1　海外图书馆民国时期文献收藏情况",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "any"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/lit_survey/csv/Databases_online.csv",
+      "name": "databases_online",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "institution",
+            "type": "string"
+          },
+          {
+            "name": "link",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "Wu-type",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "any"
+          },
+          {
+            "name": "full-text?",
+            "type": "string"
+          },
+          {
+            "name": "access",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/lit_survey/csv/Overview_progress.csv",
+      "name": "overview_progress",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "cp1252",
+      "schema": {
+        "fields": [
+          {
+            "name": "sigle",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Zotero",
+            "type": "string"
+          },
+          {
+            "name": "Gâ€™Translate",
+            "type": "string"
+          },
+          {
+            "name": "Fulltext-auto",
+            "type": "string"
+          },
+          {
+            "name": "Annotation",
+            "type": "string"
+          },
+          {
+            "name": "Note (GH)",
+            "type": "any"
+          },
+          {
+            "name": "Notes_all_papers",
+            "type": "any"
+          },
+          {
+            "name": "Biblio-check",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/lit_survey/csv/Xiao_2017_table01.csv",
+      "name": "xiao_2017_table01",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Number",
+            "type": "string"
+          },
+          {
+            "name": "Record-Nr.",
+            "type": "string"
+          },
+          {
+            "name": "Newspaper Name",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "Issues",
+            "type": "string"
+          },
+          {
+            "name": "Pages",
+            "type": "string"
+          },
+          {
+            "name": "Items",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/lit_survey/csv/Xiao_2017_table03.csv",
+      "name": "xiao_2017_table03",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Label name",
+            "type": "string"
+          },
+          {
+            "name": "Label meaning",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "any"
+          },
+          {
+            "name": "标签名称",
+            "type": "string"
+          },
+          {
+            "name": "标签含义",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "dist/lit_survey/csv/Xiao_2017_table04.csv",
+      "name": "xiao_2017_table04",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "表4 《京报》十大周刊",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "any"
+          },
+          {
+            "name": "field5",
+            "type": "string"
+          },
+          {
+            "name": "field6",
+            "type": "string"
+          },
+          {
+            "name": "field7",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "figures/01_C-W-A_comparsion.csv",
+      "name": "01_c-w-a_comparsion",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "key_word1",
+            "type": "string"
+          },
+          {
+            "name": "key_word2",
+            "type": "string"
+          },
+          {
+            "name": "translation1",
+            "type": "string"
+          },
+          {
+            "name": "translation2",
+            "type": "string"
+          },
+          {
+            "name": "CNKI",
+            "type": "integer"
+          },
+          {
+            "name": "wanfang",
+            "type": "integer"
+          },
+          {
+            "name": "airiti",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "path": "figures/02-a_CNKI_vers_comp_setup.csv",
+      "name": "02-a_cnki_vers_comp_setup",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Run",
+            "type": "string"
+          },
+          {
+            "name": "institution",
+            "type": "string"
+          },
+          {
+            "name": "country",
+            "type": "string"
+          },
+          {
+            "name": "edition",
+            "type": "string"
+          },
+          {
+            "name": "GUI",
+            "type": "string"
+          },
+          {
+            "name": "provider",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "date"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "figures/02-b_CNKI_vers_comp_data.csv",
+      "name": "02-b_cnki_vers_comp_data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "integer"
+          },
+          {
+            "name": "run_000",
+            "type": "any"
+          },
+          {
+            "name": "run_001",
+            "type": "integer"
+          },
+          {
+            "name": "run_002",
+            "type": "integer"
+          },
+          {
+            "name": "run_003",
+            "type": "integer"
+          },
+          {
+            "name": "average_all",
+            "type": "any"
+          },
+          {
+            "name": "average_us",
+            "type": "number"
+          },
+          {
+            "name": "stddev_all",
+            "type": "any"
+          },
+          {
+            "name": "stddev_us",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "figures/03_CNKI_vers_comp_us-them.csv",
+      "name": "03_cnki_vers_comp_us-them",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "any"
+          },
+          {
+            "name": "run_000",
+            "type": "any"
+          },
+          {
+            "name": "average_us",
+            "type": "string"
+          },
+          {
+            "name": "find_rate_%",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CNKI/fb-group-poll/民国-search_CNKI_Data-sheet.csv",
+      "name": "min-guo-search_cnki_data-sheet",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Your Institution",
+            "type": "any"
+          },
+          {
+            "name": "Country",
+            "type": "any"
+          },
+          {
+            "name": "Oversea ed. y/n",
+            "type": "any"
+          },
+          {
+            "name": "Interface chi/eng",
+            "type": "any"
+          },
+          {
+            "name": "CNKI Provider",
+            "type": "string"
+          },
+          {
+            "name": "1992",
+            "type": "number"
+          },
+          {
+            "name": "2000",
+            "type": "number"
+          },
+          {
+            "name": "2010",
+            "type": "number"
+          },
+          {
+            "name": "2011",
+            "type": "number"
+          },
+          {
+            "name": "2012",
+            "type": "number"
+          },
+          {
+            "name": "2013",
+            "type": "number"
+          },
+          {
+            "name": "2014",
+            "type": "number"
+          },
+          {
+            "name": "2015",
+            "type": "number"
+          },
+          {
+            "name": "2016",
+            "type": "number"
+          },
+          {
+            "name": "2017",
+            "type": "number"
+          },
+          {
+            "name": "2018",
+            "type": "number"
+          },
+          {
+            "name": "2019",
+            "type": "number"
+          },
+          {
+            "name": "2020",
+            "type": "any"
+          },
+          {
+            "name": "2021",
+            "type": "any"
+          },
+          {
+            "name": "uploaded screenshot (file name)",
+            "type": "any"
+          },
+          {
+            "name": "Your Name (optional)",
+            "type": "any"
+          },
+          {
+            "name": "Your comments (optional)",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CrossAsia/CNKI Response Time Test - CNKI.csv",
+      "name": "cnki-response-time-test-cnki",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "searching from home page",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "string"
+          },
+          {
+            "name": "searching at result page",
+            "type": "string"
+          },
+          {
+            "name": "field7",
+            "type": "string"
+          },
+          {
+            "name": "field8",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CrossAsia/CNKI search terms.csv",
+      "name": "cnki-search-terms",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Overseas CNKI (integrated CNKI database via CrossAsia)",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "string"
+          },
+          {
+            "name": "field6",
+            "type": "string"
+          },
+          {
+            "name": "field7",
+            "type": "string"
+          },
+          {
+            "name": "field8",
+            "type": "string"
+          },
+          {
+            "name": "field9",
+            "type": "string"
+          },
+          {
+            "name": "field10",
+            "type": "any"
+          },
+          {
+            "name": "field11",
+            "type": "string"
+          },
+          {
+            "name": "field12",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CrossAsia/CNKI-Wanfang-Airiti_Comparison of search terms and platforms.csv",
+      "name": "cnki-wanfang-airiti_comparison-of-search-terms-and-platforms",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "field1",
+            "type": "string"
+          },
+          {
+            "name": "总库",
+            "type": "string"
+          },
+          {
+            "name": "Journal Articles",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "any"
+          },
+          {
+            "name": "Theses",
+            "type": "any"
+          },
+          {
+            "name": "field7",
+            "type": "any"
+          },
+          {
+            "name": "field8",
+            "type": "any"
+          },
+          {
+            "name": "field9",
+            "type": "any"
+          },
+          {
+            "name": "field10",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CrossAsia/XAsia Names Subscribed Databases.csv",
+      "name": "xasia-names-subscribed-databases",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name of Crossasia Subscribed Databases",
+            "type": "any"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "any"
+          },
+          {
+            "name": "field5",
+            "type": "any"
+          },
+          {
+            "name": "field6",
+            "type": "any"
+          },
+          {
+            "name": "field7",
+            "type": "any"
+          },
+          {
+            "name": "field8",
+            "type": "any"
+          },
+          {
+            "name": "field9",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/CrossAsia/XAsia Numbers Subscribed Databases.csv",
+      "name": "xasia-numbers-subscribed-databases",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "CrossAsia",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "field5",
+            "type": "any"
+          },
+          {
+            "name": "field6",
+            "type": "any"
+          },
+          {
+            "name": "field7",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/Lit_survey/csv/Cai_and_Xu_2018_tables.csv",
+      "name": "cai_and_xu_2018_tables2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "表1　海外图书馆民国时期文献收藏情况",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "any"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/Lit_survey/csv/Databases_online.csv",
+      "name": "databases_online2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "institution",
+            "type": "string"
+          },
+          {
+            "name": "link",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "type": "string"
+          },
+          {
+            "name": "Wu-type",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "any"
+          },
+          {
+            "name": "full-text?",
+            "type": "string"
+          },
+          {
+            "name": "access",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/Lit_survey/csv/Overview_progress.csv",
+      "name": "overview_progress2",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "cp1252",
+      "schema": {
+        "fields": [
+          {
+            "name": "sigle",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "integer"
+          },
+          {
+            "name": "Zotero",
+            "type": "string"
+          },
+          {
+            "name": "Gâ€™Translate",
+            "type": "string"
+          },
+          {
+            "name": "Fulltext-auto",
+            "type": "string"
+          },
+          {
+            "name": "Annotation",
+            "type": "string"
+          },
+          {
+            "name": "Note (GH)",
+            "type": "any"
+          },
+          {
+            "name": "Notes_all_papers",
+            "type": "any"
+          },
+          {
+            "name": "Biblio-check",
+            "type": "any"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/Lit_survey/csv/Xiao_2017_table01.csv",
+      "name": "xiao_2017_table012",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Number",
+            "type": "string"
+          },
+          {
+            "name": "Record-Nr.",
+            "type": "string"
+          },
+          {
+            "name": "Newspaper Name",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "string"
+          },
+          {
+            "name": "Issues",
+            "type": "string"
+          },
+          {
+            "name": "Pages",
+            "type": "string"
+          },
+          {
+            "name": "Items",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/Lit_survey/csv/Xiao_2017_table03.csv",
+      "name": "xiao_2017_table032",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Label name",
+            "type": "string"
+          },
+          {
+            "name": "Label meaning",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "any"
+          },
+          {
+            "name": "标签名称",
+            "type": "string"
+          },
+          {
+            "name": "标签含义",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "path": "src/Lit_survey/csv/Xiao_2017_table04.csv",
+      "name": "xiao_2017_table042",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "表4 《京报》十大周刊",
+            "type": "string"
+          },
+          {
+            "name": "field2",
+            "type": "string"
+          },
+          {
+            "name": "field3",
+            "type": "string"
+          },
+          {
+            "name": "field4",
+            "type": "any"
+          },
+          {
+            "name": "field5",
+            "type": "string"
+          },
+          {
+            "name": "field6",
+            "type": "string"
+          },
+          {
+            "name": "field7",
+            "type": "string"
           }
         ]
       }
@@ -47,5 +1265,5 @@
       "role": "author"
     }
   ],
-  "created": "2021-05-26"
+  "created": "2021-05-26T01:01:01.001"
 }

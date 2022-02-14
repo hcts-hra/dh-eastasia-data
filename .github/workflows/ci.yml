@@ -1,0 +1,34 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1    
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.9
+      - name: Use pip Cache  
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-        
+      - name: Install Dependencies
+        run: | 
+          sudo apt-get install libxml2-utils 
+          pip install frictionless csvkit
+      - name: Validate CSV Files
+        run: frictionless validate datapackage.json
+      # DP: TODO 
+      # - name: Validate XML Files
+      #   run: | 
+      #     xmllint --noout --xinclude --relaxng xml/schema/tei_all.rng xml/tei_header.xml  
+      #     xmllint --noout --relaxng xml/schema/gexf.rng xml/rActs.gexf       
+  
