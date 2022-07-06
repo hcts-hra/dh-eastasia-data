@@ -1,4 +1,6 @@
 # Data for IJDH Article Procedural Challenges
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6801936.svg)](https://doi.org/10.5281/zenodo.6801936)
+
 
 This repo contains: 
 1.  All source files obtained in the cause of our experiments within `src/` or `screenshots/`
